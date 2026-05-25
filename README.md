@@ -5,7 +5,7 @@
 ## 目录结构
 
 `
-legal-cn-data/
+Codex-Claude-legal-CN-mcp-hub-database/
 ├── laws/              # 基本法律 (25 部)
 ├── interpretations/   # 司法解释 (27 部)
 ├── guidance/          # 司法指导文件 (4 部)
@@ -46,9 +46,10 @@ legal-cn-data/
 作为 Git submodule 引入：
 
 `ash
-git submodule add https://github.com/laubeing-droid/legal-cn-data.git skills/knowledge-base
+git submodule add https://github.com/laubeing-droid/Codex-Claude-legal-CN-mcp-hub-database.git skills/knowledge-base
 `
 
 ## 更新日志
 
 详见 CHANGELOG.md
+
