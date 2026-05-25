@@ -1,5 +1,6 @@
 ﻿# 中国法律知识库 · PRC Legal Knowledge Base
 
+> **⚠️ v0.1-alpha · 初步版本** — 覆盖尚不完整，持续补全中。详见 [INDEX.md](INDEX.md) 待补充清单。
 结构化 JSON 格式的中国法律、司法解释、指导意见数据集。
 
 ## 目录结构
@@ -52,5 +53,6 @@ git submodule add https://github.com/laubeing-droid/Codex-Claude-legal-CN-databa
 ## 更新日志
 
 详见 CHANGELOG.md
+
 
 
