@@ -56,3 +56,35 @@ git submodule add https://github.com/laubeing-droid/Codex-Claude-legal-CN-databa
 
 
 
+
+## 兼容性
+
+| 平台 | 支持 |
+|:--|:--|
+| **Codex (OpenAI)** | Git submodule / 直接引用 |
+| **Claude Code (Anthropic)** | Git submodule / 直接引用 |
+| **Windows** | PowerShell + Python |
+| **macOS / Linux** | Bash + Python |
+
+## Claude Code 使用
+
+```bash
+# 作为 submodule 引入
+git submodule add https://github.com/laubeing-droid/Codex-Claude-legal-CN-database.git knowledge-base
+
+# 在 .claude/settings.json 中配置知识库路径
+# 或直接在 prompt 中引用 INDEX.md 获取法律列表
+```
+
+## 脚本
+
+```bash
+# 生成索引（跨平台）
+python scripts/build_index.py --all
+
+# 按分类生成
+python scripts/build_index.py --laws
+
+# Shell 版本
+bash scripts/gen-knowledge-index.sh
+```
