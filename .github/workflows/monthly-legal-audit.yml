@@ -1,0 +1,201 @@
+﻿name: 月度法律断言全量验证 — 四仓交叉审计
+
+on:
+  schedule:
+    - cron: '0 4 1 * *'   # 每月1日 04:00 UTC
+  workflow_dispatch:        # 手动触发
+
+jobs:
+  audit-codices:
+    name: ① 法条完整性验证 (core-codices)
+    runs-on: ubuntu-latest
+    outputs:
+      total_laws: ${{ steps.audit.outputs.total_laws }}
+      issues: ${{ steps.audit.outputs.issues }}
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 全量法条审计
+        id: audit
+        run: |
+          python3 << 'PYEOF'
+          import json, os, sys
+          
+          REPO = os.getcwd()
+          expected = {
+              "constitution": 143, "civil_code": 1260, "civil_procedure_law": 306,
+              "criminal_law": 452, "criminal_procedure_law": 308,
+              "admin_litigation_law": 103, "admin_penalty_law": 86,
+              "company_law": 266, "trademark_law": 73, "patent_law": 82,
+              "copyright_law": 67, "labor_contract_law": 98,
+              "anti_unfair_competition_law": 41, "anti_telecom_fraud_law": 50,
+              "anti_money_laundering_law": 65, "data_security_law": 55,
+              "personal_information_protection_law": 74, "export_control_law": 49,
+              "anti_foreign_sanctions_law": 16, "foreign_investment_law": 42,
+              "ecommerce_law": 89, "arbitration_law": 96,
+              "public_security_law": 119, "social_insurance_law": 98,
+              "vat_law": 38,
+          }
+          
+          issues = 0
+          total = 0
+          for cat in ["laws", "interpretations", "guidance", "regulations"]:
+              d = os.path.join(REPO, cat)
+              if not os.path.isdir(d): continue
+              for f in os.listdir(d):
+                  if not f.endswith(".json"): continue
+                  total += 1
+                  path = os.path.join(d, f)
+                  j = json.load(open(path, "r", encoding="utf-8"))
+                  arts = j.get("articles", [])
+                  name = j.get("name", j.get("title", "?"))
+                  
+                  # Check empty
+                  if not arts:
+                      print(f"  EMPTY: [{cat}] {f}")
+                      issues += 1
+                      continue
+                  
+                  # Check duplicates
+                  ids = [a.get("id", a.get("article_id")) for a in arts]
+                  dupes = len(ids) - len(set(ids))
+                  if dupes > 0:
+                      print(f"  DUPES: [{cat}] {f} ({dupes} dupes)")
+                      issues += 1
+                  
+                  # Check expected count
+                  key = f.replace(".json", "")
+                  if key in expected and len(arts) != expected[key]:
+                      print(f"  COUNT: [{cat}] {f} ({len(arts)} vs expected {expected[key]})")
+                      issues += 1
+                  
+                  # Check version date
+                  g = j.get("effective", "")
+                  if g and g < "2010-01-01":
+                      print(f"  DATE: [{cat}] {f} ({g} looks outdated)")
+                      issues += 1
+          
+          print(f"\nTotal: {total} files, {issues} issues")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as out:
+              out.write(f"total_laws={total}\n")
+              out.write(f"issues={issues}\n")
+          
+          if issues > 0:
+              sys.exit(1)
+          PYEOF
+
+  audit-references:
+    name: ② 跨仓引用一致性
+    runs-on: ubuntu-latest
+    needs: audit-codices
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: laubeing-droid/codex-claude-legal-cn-main
+          path: main-repo
+      
+      - uses: actions/checkout@v4
+        with:
+          repository: laubeing-droid/codex-claude-legal-cn-mcp-hub
+          path: mcp-hub
+      
+      - uses: actions/checkout@v4
+        with:
+          repository: laubeing-droid/Codex-Legal-CN-Judgment-Predictor
+          path: jp
+      
+      - name: 验证所有 README 引用 core-codices
+        run: |
+          REPOS="main-repo mcp-hub jp"
+          ALL_OK=true
+          for repo in $REPOS; do
+            README="$repo/README.md"
+            if [ -f "$README" ]; then
+              if grep -q "core-codices" "$README"; then
+                echo "  [OK] $repo references core-codices"
+              else
+                echo "  [FAIL] $repo does NOT reference core-codices"
+                ALL_OK=false
+              fi
+              
+              # Check version number
+              if grep -q "162" "$README" || grep -q "v0.2" "$README"; then
+                echo "  [OK] $repo has updated law count"
+              else
+                echo "  [WARN] $repo may have outdated law count (check for '22部' or 'v0.1')"
+              fi
+            fi
+          done
+          
+          if [ "$ALL_OK" = "false" ]; then
+            exit 1
+          fi
+
+  audit-versions:
+    name: ③ 法律版本时效性
+    runs-on: ubuntu-latest
+    needs: audit-codices
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: 检查关键法律是否过时
+        run: |
+          python3 << 'PYEOF'
+          import json, os
+          
+          LATEST = {
+              "civil_code.json": "2021-01-01",
+              "criminal_law.json": "2024-03-01",
+              "company_law.json": "2024-07-01",
+              "civil_procedure_law.json": "2023-09-01",
+              "arbitration_law.json": "2025-09-12",
+              "admin_review_law.json": "2024-01-01",
+          }
+          
+          issues = 0
+          for fname, latest_date in LATEST.items():
+              for cat in ["laws"]:
+                  path = os.path.join(cat, fname)
+                  if os.path.exists(path):
+                      j = json.load(open(path, "r", encoding="utf-8"))
+                      eff = j.get("effective", "")
+                      name = j.get("name", "?")
+                      if eff != latest_date:
+                          print(f"  OUTDATED: {name} ({eff} vs latest {latest_date})")
+                          issues += 1
+                      else:
+                          print(f"  [OK] {name} ({eff})")
+          
+          if issues > 0:
+              print(f"\n{issues} laws may need updating")
+              exit(1)
+          else:
+              print("\nAll key laws up to date!")
+          PYEOF
+
+  summary:
+    name: ④ 生成审计报告
+    runs-on: ubuntu-latest
+    needs: [audit-codices, audit-references, audit-versions]
+    if: always()
+    steps:
+      - name: 汇总结果
+        run: |
+          echo "## 月度法律审计报告"
+          echo ""
+          echo "| 检查项 | 结果 |"
+          echo "|:--|:--|"
+          echo "| 法条完整性 (${{ needs.audit-codices.outputs.total_laws }}部) | ${{ needs.audit-codices.result }} |"
+          echo "| 跨仓引用一致性 | ${{ needs.audit-references.result }} |"
+          echo "| 版本时效性 | ${{ needs.audit-versions.result }} |"
+          
+          if [ "${{ needs.audit-codices.result }}" = "failure" ] || [ "${{ needs.audit-references.result }}" = "failure" ]; then
+            echo ""
+            echo "⚠️ 发现问题，请检查上方日志。"
+            exit 1
+          fi
