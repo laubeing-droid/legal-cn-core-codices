@@ -1,5 +1,5 @@
 {
-  "type": "regulation",
+  "type": "administrative_regulation",
   "title": "工伤保险条例",
   "short_name": "工伤保险条例",
   "issued_by": "国务院",
@@ -273,5 +273,9 @@
       "content": "第六十七条　本条例自2004年1月1日起施行。本条例施行前已受到事故伤害或者患职业病的职工尚未完成工伤认定的，按照本条例的规定执行。"
     }
   ],
-  "article_count": 67
+  "article_count": 67,
+  "name": "工伤保险条例",
+  "effective": "2011-01-01",
+  "promulgated": "2010-12-20",
+  "authority": "国务院"
 }
