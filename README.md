@@ -32,10 +32,10 @@ cd codex-claude-legal-cn-core-codices
 
 ```
 legal-cn-data/
-├── laws/               66 部（全国人大法律）
-├── interpretations/    68 部（司法解释）
-├── guidance/            4 部（量刑指导意见 + 九民会纪要）
-├── regulations/        24 部（行政法规/部门规章）
+├── laws/               laws/ 目录（全国人大法律，持续更新）
+├── interpretations/    interpretations/ 目录（司法解释，持续更新）
+├── guidance/            guidance/ 目录（量刑指导意见等，持续更新）
+├── regulations/        regulations/ 目录（行政法规/部门规章，持续更新）
 ├── INDEX.md            完整分类目录
 ├── README.md
 └── install.ps1
