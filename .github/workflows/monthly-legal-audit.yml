@@ -96,17 +96,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: laubeing-droid/codex-claude-legal-cn-main
+          repository: laubeing-droid/legal-cn-main
           path: main-repo
       
       - uses: actions/checkout@v4
         with:
-          repository: laubeing-droid/codex-claude-legal-cn-mcp-hub
+          repository: laubeing-droid/legal-cn-mcp-hub
           path: mcp-hub
       
       - uses: actions/checkout@v4
         with:
-          repository: laubeing-droid/Codex-Legal-CN-Judgment-Predictor
+          repository: laubeing-droid/legal-cn-judgment-predictor
           path: jp
       
       - name: 验证所有 README 引用 core-codices
