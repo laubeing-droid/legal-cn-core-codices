@@ -1,4 +1,4 @@
-﻿name: 月度法律断言全量验证 — 四仓交叉审计
+name: 月度法律断言全量验证 — 四仓交叉审计
 
 on:
   schedule:
@@ -127,7 +127,7 @@ jobs:
               if grep -q "162" "$README" || grep -q "v0.2" "$README"; then
                 echo "  [OK] $repo has updated law count"
               else
-                echo "  [WARN] $repo may have outdated law count (check for '22部' or 'v0.1')"
+                echo "  [WARN] $repo may have outdated law count (check for outdated counts or version strings)"
               fi
             fi
           done
