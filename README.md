@@ -1,6 +1,6 @@
-﻿# 中国法律知识库 · PRC Legal Knowledge Base
+﻿# 中国核心法律知识库 · PRC Legal Knowledge Base
 
-> Codex Desktop / Claude Code / WorkBuddy / Trae 四平台通用的中国法律结构化数据层
+> Codex Desktop / Claude Code / WorkBuddy / Trae 四平台通用的中国核心法律结构化数据层
 
 ## 内容
 
