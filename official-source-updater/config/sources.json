@@ -1,0 +1,341 @@
+{
+  "registry_scope": "全国性官方发布通道",
+  "verified_at": "2026-07-30",
+  "source_rule": "官方通道负责发现和回源；GitHub、第三方整理库只可作技术预警，不作为法源身份。",
+  "official_sources": [
+    {
+      "order": 1,
+      "id": "npc_flk",
+      "name": "国家法律法规数据库",
+      "publisher": "全国人大常委会办公厅",
+      "url": "https://flk.npc.gov.cn/",
+      "official_host": "flk.npc.gov.cn",
+      "update_mode": "ci_auto",
+      "authentication": "none",
+      "fulltext_capability": "index_only",
+      "scope": "宪法、法律、全国人大规范性文件、行政法规、监察法规、司法解释、地方性法规",
+      "content_scope": "法律法规索引、正文回源、版本和效力候选；当前适配器仅完成索引层",
+      "target_tables": [
+        "legal_documents.csv",
+        "legal_contents.csv",
+        "legal_relations.csv",
+        "legal_sources.csv"
+      ],
+      "target_dirs": [
+        "01_宪法",
+        "02_法律",
+        "03_行政法规",
+        "04_监察法规",
+        "05_地方立法",
+        "07_司法解释【独立规范类型】",
+        "08_其他规范性文件【非立法】/01_人大规范性文件"
+      ],
+      "update_role": "主索引、正文回源、版本和效力状态核对",
+      "adapter_status": "官方全量列表索引与正式区比对适配器已接入"
+    },
+    {
+      "order": 2,
+      "id": "moj_admin_regulations",
+      "name": "国家行政法规库",
+      "publisher": "国务院办公厅、司法部",
+      "url": "https://xzfg.moj.gov.cn/",
+      "official_host": "xzfg.moj.gov.cn",
+      "update_mode": "ci_auto",
+      "authentication": "none",
+      "fulltext_capability": "index_only",
+      "scope": "行政法规正式版本及历史沿革",
+      "content_scope": "行政法规索引、正文和历史版本候选；当前适配器仅完成索引层",
+      "target_tables": [
+        "legal_documents.csv",
+        "legal_contents.csv",
+        "legal_relations.csv",
+        "legal_sources.csv"
+      ],
+      "target_dirs": [
+        "03_行政法规"
+      ],
+      "update_role": "行政法规正文和历史版本主核验",
+      "adapter_status": "官方分页索引与正式区比对适配器已接入"
+    },
+    {
+      "order": 3,
+      "id": "national_rules_database",
+      "name": "国家规章库",
+      "publisher": "国务院办公厅",
+      "url": "https://www.gov.cn/zhengce/xxgk/gjgzk/index.htm",
+      "official_host": "www.gov.cn",
+      "update_mode": "ci_auto",
+      "authentication": "none",
+      "fulltext_capability": "index_only",
+      "scope": "国务院部门规章、地方政府规章",
+      "content_scope": "部门规章和地方政府规章索引、正文及效力候选；当前适配器仅完成索引层",
+      "target_tables": [
+        "legal_documents.csv",
+        "legal_contents.csv",
+        "legal_relations.csv",
+        "legal_sources.csv"
+      ],
+      "target_dirs": [
+        "06_规章"
+      ],
+      "update_role": "规章发现、版本和效力核对",
+      "adapter_status": "官方Athena接口分页索引与正式区比对适配器已接入"
+    },
+    {
+      "order": 4,
+      "id": "state_council_policy_database",
+      "name": "国务院政策文件库",
+      "publisher": "国务院办公厅",
+      "url": "https://sousuo.www.gov.cn/zcwjk/policyRetrieval",
+      "official_host": "sousuo.www.gov.cn",
+      "update_mode": "ci_auto",
+      "authentication": "none",
+      "fulltext_capability": "index_only",
+      "scope": "国务院、国务院办公厅公开政策文件及政策解读",
+      "content_scope": "行政规范性文件与政策解读分流候选；当前适配器仅完成索引层",
+      "target_tables": [
+        "legal_documents.csv",
+        "legal_contents.csv",
+        "legal_relations.csv",
+        "legal_sources.csv",
+        "practice_references.csv"
+      ],
+      "target_dirs": [
+        "08_其他规范性文件【非立法】/02_行政规范性文件"
+      ],
+      "update_role": "国家级公开行政文件和政策解读发现",
+      "adapter_status": "国务院政策库接口分页索引与正式区比对适配器已接入"
+    },
+    {
+      "order": 5,
+      "id": "state_council_gazette",
+      "name": "中华人民共和国国务院公报",
+      "publisher": "国务院办公厅",
+      "url": "https://www.gov.cn/gongbao/",
+      "official_host": "www.gov.cn",
+      "update_mode": "ci_auto",
+      "authentication": "none",
+      "fulltext_capability": "index_only",
+      "scope": "行政法规、国务院文件、国务院部门重要规章和文件",
+      "content_scope": "公报索引及标准文本回源候选；当前适配器仅完成索引层",
+      "target_tables": [
+        "legal_documents.csv",
+        "legal_contents.csv",
+        "legal_relations.csv",
+        "legal_sources.csv"
+      ],
+      "target_dirs": [
+        "03_行政法规",
+        "06_规章",
+        "08_其他规范性文件【非立法】/02_行政规范性文件"
+      ],
+      "update_role": "标准文本与公报版本交叉核验",
+      "adapter_status": "国务院政策库公报索引与正式区比对适配器已接入"
+    },
+    {
+      "order": 6,
+      "id": "central_ministry_websites",
+      "name": "国务院部门官方网站",
+      "publisher": "国务院各部门",
+      "url": "https://zfwzzc.www.gov.cn/check_web/databaseInfo/download",
+      "official_host": "zfwzzc.www.gov.cn",
+      "update_mode": "ci_auto",
+      "authentication": "none",
+      "fulltext_capability": "index_only",
+      "scope": "部门规章、部门规范性文件、政策解读、办事指南和公开答复",
+      "content_scope": "部委官网白名单和国务院政策库部门文件候选；不做57站无边界全文抓取",
+      "target_tables": [
+        "legal_documents.csv",
+        "legal_contents.csv",
+        "legal_relations.csv",
+        "legal_sources.csv",
+        "practice_references.csv"
+      ],
+      "target_dirs": [
+        "06_规章/01_部门规章",
+        "08_其他规范性文件【非立法】/02_行政规范性文件/03_国务院部门规范性文件"
+      ],
+      "update_role": "以政府网站基本信息库维护部门官网白名单，再按部门栏目更新",
+      "adapter_status": "政府网站基本信息库部委门户CSV白名单和国务院政策库部门文件索引已接入；不做57站泛爬"
+    },
+    {
+      "order": 7,
+      "id": "spc_website",
+      "name": "最高人民法院官网",
+      "publisher": "最高人民法院",
+      "url": "https://www.court.gov.cn/",
+      "official_host": "www.court.gov.cn",
+      "update_mode": "ci_auto",
+      "authentication": "none",
+      "fulltext_capability": "index_only",
+      "catalog_urls": [
+        "https://www.court.gov.cn/fabu/gengduo/16.html",
+        "https://www.court.gov.cn/fabu/gengduo/151.html",
+        "https://www.court.gov.cn/zixun/gengduo/104.html"
+      ],
+      "scope": "司法解释、指导性案例和典型案例",
+      "content_scope": "司法解释、指导性案例和典型案例栏目候选；当前适配器仅完成索引层",
+      "target_tables": [
+        "legal_documents.csv",
+        "legal_contents.csv",
+        "legal_relations.csv",
+        "legal_sources.csv",
+        "cases.csv",
+        "case_holdings.csv",
+        "case_legal_references.csv"
+      ],
+      "target_dirs": [
+        "07_司法解释【独立规范类型】/01_最高人民法院司法解释",
+        "81_最高人民法院公开案例【非规范性法源】/01_最高人民法院指导性案例",
+        "81_最高人民法院公开案例【非规范性法源】/02_最高人民法院典型案例",
+        "81_最高人民法院公开案例【非规范性法源】/04_多元解纷参考案例"
+      ],
+      "update_role": "最高法栏目发现和正文回源",
+      "adapter_status": "司法解释、指导性案例和典型案例栏目索引与正式区比对适配器已接入"
+    },
+    {
+      "order": 8,
+      "id": "people_court_case_database",
+      "name": "人民法院案例库",
+      "publisher": "最高人民法院",
+      "url": "https://rmfyalk.court.gov.cn/",
+      "official_host": "rmfyalk.court.gov.cn",
+      "update_mode": "local_manual",
+      "authentication": "local_token",
+      "fulltext_capability": "index_requires_local_token",
+      "scope": "最高人民法院指导性案例、入库参考案例",
+      "content_scope": "人民法院案例库案例索引与正文；仅限本地个人令牌人工更新",
+      "target_tables": [
+        "cases.csv",
+        "case_holdings.csv",
+        "case_legal_references.csv"
+      ],
+      "target_dirs": [
+        "89_人民法院案例库入库参考案例【本地人工更新】"
+      ],
+      "update_role": "案例编号、入库状态和正文更新",
+      "adapter_status": "索引适配器已有；完整索引需要本人登录令牌"
+    },
+    {
+      "order": 9,
+      "id": "spc_gazette",
+      "name": "中华人民共和国最高人民法院公报",
+      "publisher": "最高人民法院",
+      "url": "http://gongbao.court.gov.cn/",
+      "official_host": "gongbao.court.gov.cn",
+      "update_mode": "ci_auto",
+      "authentication": "none",
+      "fulltext_capability": "index_only",
+      "allow_http": true,
+      "catalog_urls": [
+        "http://gongbao.court.gov.cn/QueryArticle.html?serial_no=sfjs",
+        "http://gongbao.court.gov.cn/ArticleList.html?serial_no=al",
+        "http://gongbao.court.gov.cn/ArticleList.html?serial_no=cpwsxd"
+      ],
+      "scope": "最高人民法院公报司法解释、指导性案例和裁判文书选登",
+      "content_scope": "公报司法解释、指导性案例和裁判文书选登候选；当前适配器仅完成索引层",
+      "target_tables": [
+        "legal_documents.csv",
+        "legal_contents.csv",
+        "legal_relations.csv",
+        "legal_sources.csv",
+        "cases.csv",
+        "case_holdings.csv",
+        "case_legal_references.csv"
+      ],
+      "target_dirs": [
+        "07_司法解释【独立规范类型】/01_最高人民法院司法解释",
+        "81_最高人民法院公开案例【非规范性法源】/01_最高人民法院指导性案例",
+        "81_最高人民法院公开案例【非规范性法源】/03_最高人民法院公报裁判文书"
+      ],
+      "update_role": "公报期次和裁判文书选登回源",
+      "adapter_status": "公报栏目索引适配器已接入；拒绝访问时返回BLOCKED_ACCESS"
+    },
+    {
+      "order": 10,
+      "id": "spp_website",
+      "name": "最高人民检察院官网",
+      "publisher": "最高人民检察院",
+      "url": "https://www.spp.gov.cn/spp/index.shtml",
+      "official_host": "www.spp.gov.cn",
+      "update_mode": "ci_auto",
+      "authentication": "none",
+      "fulltext_capability": "index_only",
+      "catalog_urls": [
+        "https://www.spp.gov.cn/spp/sfjs/index.shtml",
+        "https://www.spp.gov.cn/spp/gfwj/index.shtml",
+        "https://www.spp.gov.cn/spp/jczdal/index.shtml",
+        "https://www.spp.gov.cn/spp/zgjdxal/"
+      ],
+      "scope": "司法解释及办案规则、检察规范性文件、业务指导和公开答疑、指导性案例、典型案例及其他官方案例",
+      "content_scope": "司法解释、规范文件、指导性案例和典型案例候选；当前适配器仅完成索引层",
+      "target_tables": [
+        "legal_documents.csv",
+        "legal_contents.csv",
+        "legal_relations.csv",
+        "legal_sources.csv",
+        "cases.csv",
+        "case_holdings.csv",
+        "case_legal_references.csv",
+        "practice_references.csv"
+      ],
+      "target_dirs": [
+        "07_司法解释【独立规范类型】/02_最高人民检察院司法解释",
+        "07_司法解释【独立规范类型】/03_两高联合司法解释",
+        "09_司法机关其他规范性文件【非司法解释】/02_人民检察院规范性文件",
+        "82_最高人民检察院公开案例【非规范性法源】/01_最高人民检察院指导性案例",
+        "82_最高人民检察院公开案例【非规范性法源】/02_最高人民检察院典型案例"
+      ],
+      "update_role": "最高检栏目发现和正文回源",
+      "adapter_status": "规范性文件、司法解释、指导性案例和典型案例栏目索引与正式区比对适配器已接入"
+    },
+    {
+      "order": 11,
+      "id": "moj_legal_service_case_database",
+      "name": "司法行政（法律服务）案例库",
+      "publisher": "司法部",
+      "url": "https://alk.12348.gov.cn/",
+      "official_host": "alk.12348.gov.cn",
+      "update_mode": "ci_auto_candidate",
+      "authentication": "none",
+      "fulltext_capability": "index_only",
+      "catalog_urls": [
+        "https://alk.12348.gov.cn/"
+      ],
+      "scope": "司法行政与法律服务案例；本项目只更新仲裁案例",
+      "content_scope": "司法部仲裁案例索引候选；GitHub Actions出口未实测，当前仅ci_auto_candidate",
+      "target_tables": [
+        "cases.csv",
+        "case_holdings.csv",
+        "case_legal_references.csv"
+      ],
+      "target_dirs": [
+        "80_司法部仲裁案例【参考性、非规范性法源】"
+      ],
+      "update_role": "仲裁案例发现、案例库编号和正文更新",
+      "adapter_status": "从稳定根入口动态发现当前LawSelect检索路由并完成真实单页抓取；低频增量运行，WAF明确拒绝时返回BLOCKED_ACCESS"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "id": "local_official_republication",
+      "name": "地方人大、政府、法院、检察院和司法行政机关官网",
+      "reason": "不纳入全站或栏目自动枚举；允许已登记单件URL用于法律、行政法规、司法解释等完整官方转载的定向全文核验",
+      "allowed_use": "registered_single_page_fulltext_verification",
+      "source_role": "OFFICIAL_REPUBLICATION",
+      "network_scope": "no_pagination_no_site_search"
+    },
+    {
+      "name": "中国裁判文书网",
+      "reason": "用户明确不纳入统一更新器"
+    },
+    {
+      "name": "各仲裁机构官网",
+      "reason": "用户明确不纳入统一更新器"
+    },
+    {
+      "name": "GitHub及第三方整理库",
+      "reason": "可作技术预警或实现参考，不属于官方法源通道"
+    }
+  ]
+}

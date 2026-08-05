@@ -1,0 +1,15 @@
+/workspace/
+/人工入库待审区/intake/
+/official-source-updater/runs/
+**/__pycache__/
+**/.pytest_cache/
+**/node_modules/
+**/*.py[cod]
+*.tmp
+*.log
+.env
+.env.*
+
+# 正式CSV由本地发布器或GitHub Release生成，不进入普通Git历史。
+/corpus/*.csv
+/corpus/SHA256SUMS

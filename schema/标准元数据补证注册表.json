@@ -1,0 +1,2669 @@
+{
+  "version": "2026-08-04",
+  "entries": [
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/河北/秦皇岛市“孔明灯”管理规定_2016-07-01_有效_ima-ca9e2ab9.md",
+      "values": {
+        "ZDJGMC": "秦皇岛市人民政府",
+        "ZDJGDM": "1303003000",
+        "GBRQ": "20160618",
+        "FWZH": "秦皇岛市人民政府令第2号",
+        "SXRQ": "20160701",
+        "_agency_name_source": "ARCHIVED_OFFICIAL_LOCAL_GOVERNMENT_PDF",
+        "_agency_code_source": "GBT2260+GBT47277_APPENDIX_B",
+        "_promulgation_source": "ARCHIVED_OFFICIAL_LOCAL_GOVERNMENT_PDF",
+        "_effective_date_source": "ARCHIVED_OFFICIAL_LOCAL_GOVERNMENT_PDF"
+      },
+      "evidence": {
+        "type": "ARCHIVED_OFFICIAL_LOCAL_GOVERNMENT_PDF",
+        "url": "https://web.archive.org/web/20260207193216id_/http://www.qhd.gov.cn/userfiles/files/163030___%E7%A7%A6%E7%9A%87%E5%B2%9B%E5%B8%82%E2%80%9C%E5%AD%94%E6%98%8E%E7%81%AF%E2%80%9D%E7%AE%A1%E7%90%86%E8%A7%84%E5%AE%9A.pdf",
+        "source_path": "official_registry/decision_order_evidence/qinhuangdao_2016_archived_official_evidence.md",
+        "source_sha256": "249B475DC3D8EB0A44C9ACBAA7679174632562EE7BA2743DF9E6EDC8E4F2C43D",
+        "note": "秦皇岛市政府原官网PDF的归档副本首页载明2016年6月18日秦皇岛市人民政府令第2号公布，自2016年7月1日起施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/山东/莱芜市既有多层住宅增设电梯规定_2017-12-01_有效_4028abcc612777930161281ea6616001.md",
+      "values": {
+        "ZDJGMC": "莱芜市人民代表大会常务委员会",
+        "ZDJGDM": "3712001001",
+        "_agency_name_source": "SOURCE_TITLE_NORMALIZED",
+        "_agency_code_source": "HISTORICAL_GBT2260+GBT47277_APPENDIX_B"
+      },
+      "evidence": {
+        "type": "OFFICIAL_HISTORICAL_AREA_CODE",
+        "url": "https://tjj.jl.gov.cn/tjsj/tjbz/200805/t20080520_5118059.html",
+        "note": "官方统计部门公开的GB/T 2260表列明莱芜市代码371200；人大常委会后四位按附录B取1001。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/四川/四川省绿化条例_0000-00-00_有效_ff808181927f127601930063dfb64209.md",
+      "values": {
+        "GBRQ": "20020330",
+        "SXRQ": "20020330",
+        "_promulgation_source": "OFFICIAL_LEGISLATIVE_HISTORY",
+        "_effective_date_source": "GBT47277_DEFAULT_TO_GBRQ"
+      },
+      "evidence": {
+        "type": "LEGISLATIVE_HISTORY",
+        "url": "https://www.scspc.gov.cn/",
+        "note": "本地法规正文沿革载明2002年3月30日第二次修正；公布日期缺失时按国标依次采用批准日期、通过日期。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/四川/四川省人民代表大会常务委员会关于加强同省人大代表联系的办法_0000-00-00_有效_4028abcc6127779301612825cef3683d.md",
+      "values": {
+        "GBRQ": "19860712",
+        "SXRQ": "19860712",
+        "_promulgation_source": "OFFICIAL_BODY_PASSAGE_DATE",
+        "_effective_date_source": "GBT47277_DEFAULT_TO_GBRQ"
+      },
+      "evidence": {
+        "type": "OFFICIAL_LEGISLATIVE_DATABASE_BODY",
+        "url": "https://www.scspc.gov.cn/flfgk/scfg/index_18.html",
+        "note": "四川人大法规库收录该办法；本地正文载明1986年7月12日通过，缺公布日时依国标采用通过日期。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/新疆/新疆维吾尔自治区人民代表大会常务委员会地区工作委员会工作条例_0000-00-00_有效_2c90e5ba6a291d8f016d71d00c1f6265.md",
+      "values": {
+        "GBRQ": "20070928",
+        "SXRQ": "20070928",
+        "_promulgation_source": "MOJ_OFFICIAL_LEGISLATIVE_INDEX",
+        "_effective_date_source": "GBT47277_DEFAULT_TO_GBRQ"
+      },
+      "evidence": {
+        "type": "OFFICIAL_LEGISLATIVE_INDEX",
+        "url": "https://www.moj.gov.cn/pub/sfbgw/fzgz/fzgzxzlf/fzgzbagz/200712/t20071214_373266.html",
+        "note": "司法部地方立法备案索引列明该条例修订日期为2007年9月28日。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/02_自治条例和单行条例/甘肃/甘南藏族自治州施行中华人民共和国婚姻法结婚年龄变通规定_0000-00-00_有效_4028abcc61277793016127fe060c3f1e.md",
+      "values": {
+        "GBRQ": "19890927",
+        "SXRQ": "19891001",
+        "_promulgation_source": "APPROVAL_DATE_FROM_LEGISLATIVE_CLEANUP_RECORD",
+        "_effective_date_source": "SOURCE_BODY_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "LEGISLATIVE_CLEANUP_RECORD",
+        "url": "https://www.110.com/fagui/law_345964.html",
+        "note": "法规清理目录载明1989年6月22日通过、1989年9月27日批准；正文载明1989年10月1日起施行。当前未找到可直接访问的甘肃人大历史页，证据等级为第三方转载的立法清理文本。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/北京/北京市城镇私有房屋翻建扩建规划管理若干规定_1994-01-17_有效_ima-4380d40d.md",
+      "values": {
+        "ZDJGMC": "北京市人民政府",
+        "ZDJGDM": "1100003000",
+        "GBRQ": "19940117",
+        "FWZH": "京政发〔1994〕5号",
+        "_agency_name_source": "OFFICIAL_LOCAL_GOVERNMENT_DECISION_AND_RULE_PAGE",
+        "_agency_code_source": "GBT2260+GBT47277_APPENDIX_B",
+        "_promulgation_source": "OFFICIAL_LOCAL_GOVERNMENT_DECISION"
+      },
+      "evidence": {
+        "type": "OFFICIAL_LOCAL_GOVERNMENT_DECISION_EXPRESSION_ORDER",
+        "url": "https://www.beijing.gov.cn/zhengce/zfwj/zfwj/szfwj/201905/t20190523_72415.html",
+        "source_path": "official_registry/decision_order_evidence/beijing_1994_jingzhengfa_5_expression_order_evidence.md",
+        "source_sha256": "D8568998DB7A3DB9163CC1B0AB2CDA2267BD416C76B0DBB1A4F461FA7061648E",
+        "note": "京政发〔1994〕5号正文首次表述顺序第4项；北京市政府规章页确认原文号为1989年第15号令。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/北京/北京市铁路干线两侧隔离带规划建设管理暂行规定_1994-01-17_有效_ima-a53778af.md",
+      "values": {
+        "ZDJGMC": "北京市人民政府",
+        "ZDJGDM": "1100003000",
+        "GBRQ": "19940117",
+        "FWZH": "京政发〔1994〕5号",
+        "_agency_name_source": "OFFICIAL_LOCAL_GOVERNMENT_DECISION_AND_RULE_PAGE",
+        "_agency_code_source": "GBT2260+GBT47277_APPENDIX_B",
+        "_promulgation_source": "OFFICIAL_LOCAL_GOVERNMENT_DECISION"
+      },
+      "evidence": {
+        "type": "OFFICIAL_LOCAL_GOVERNMENT_DECISION_EXPRESSION_ORDER",
+        "url": "https://www.beijing.gov.cn/zhengce/zfwj/zfwj/szfwj/201905/t20190523_72415.html",
+        "source_path": "official_registry/decision_order_evidence/beijing_1994_jingzhengfa_5_expression_order_evidence.md",
+        "source_sha256": "D8568998DB7A3DB9163CC1B0AB2CDA2267BD416C76B0DBB1A4F461FA7061648E",
+        "note": "京政发〔1994〕5号正文首次表述顺序第3项；北京市政府规章页确认原文号为1989年第7号令。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/北京/关于划定市区河道两侧隔离带的规定_1994-01-17_有效_ima-c9ae30e3.md",
+      "values": {
+        "ZDJGMC": "北京市人民政府",
+        "ZDJGDM": "1100003000",
+        "GBRQ": "19940117",
+        "FWZH": "京政发〔1994〕5号",
+        "_agency_name_source": "OFFICIAL_LOCAL_GOVERNMENT_PAGE",
+        "_agency_code_source": "GBT2260+GBT47277_APPENDIX_B",
+        "_promulgation_source": "OFFICIAL_LOCAL_GOVERNMENT_DECISION"
+      },
+      "evidence": {
+        "type": "OFFICIAL_LOCAL_GOVERNMENT_DECISION_EXPRESSION_ORDER",
+        "url": "https://www.beijing.gov.cn/zhengce/zfwj/zfwj/szfwj/201905/t20190523_72415.html",
+        "source_path": "official_registry/decision_order_evidence/beijing_1994_jingzhengfa_5_expression_order_evidence.md",
+        "source_sha256": "D8568998DB7A3DB9163CC1B0AB2CDA2267BD416C76B0DBB1A4F461FA7061648E",
+        "note": "京政发〔1994〕5号正文首次表述顺序第6项；北京市政府规章页确认原文号为京政发〔1984〕126号。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/广东/港珠澳大桥广东水域通航安全管理办法_2020-01-01_有效_ima-193b1f77.md",
+      "values": {
+        "ZDJGMC": "广东省人民政府",
+        "ZDJGDM": "4400003000",
+        "_agency_name_source": "OFFICIAL_LOCAL_GOVERNMENT_PDF",
+        "_agency_code_source": "GBT2260+GBT47277_APPENDIX_B"
+      },
+      "evidence": {
+        "type": "OFFICIAL_LOCAL_GOVERNMENT_PDF",
+        "url": "https://www.gd.gov.cn/attachment/0/476/476286/2700115.pdf"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/广东/琼州海峡轮渡运输管理规定_2017-06-01_有效_ima-b7818935.md",
+      "values": {
+        "ZDJGMC": "广东省人民政府",
+        "ZDJGDM": "4400003000",
+        "_agency_name_source": "OFFICIAL_LOCAL_GOVERNMENT_PDF",
+        "_agency_code_source": "GBT2260+GBT47277_APPENDIX_B"
+      },
+      "evidence": {
+        "type": "OFFICIAL_LOCAL_GOVERNMENT_PDF",
+        "url": "https://www.gd.gov.cn/attachment/0/476/476150/146008.pdf"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/海南/琼州海峡轮渡运输管理规定_2017-08-01_有效_ima-e906674d.md",
+      "values": {
+        "ZDJGMC": "海南省人民政府",
+        "ZDJGDM": "4600003000",
+        "_agency_name_source": "OFFICIAL_LOCAL_GOVERNMENT_PDF",
+        "_agency_code_source": "GBT2260+GBT47277_APPENDIX_B"
+      },
+      "evidence": {
+        "type": "OFFICIAL_LOCAL_GOVERNMENT_PDF",
+        "url": "https://www.hainan.gov.cn/hainan/xxyxzfgz/202111/11a3792ac69c47098a3df491b83662fe/files/8a5a4d9f2e4c4b3bbec3d05332ded08c.pdf"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/天津/中新天津生态城管理规定_2019-06-12_有效_ima-9d287586.md",
+      "values": {
+        "ZDJGMC": "天津市人民政府",
+        "ZDJGDM": "1200003000",
+        "_agency_name_source": "OFFICIAL_LOCAL_GOVERNMENT_PAGE",
+        "_agency_code_source": "GBT2260+GBT47277_APPENDIX_B"
+      },
+      "evidence": {
+        "type": "OFFICIAL_LOCAL_GOVERNMENT_PAGE",
+        "url": "https://mz.tj.gov.cn/XWZX289/MZXW1235/202503/t20250303_6871449.html"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/云南/中华人民共和国房产税暂行条例云南省实施细则_1986-10-01_有效_gov-rule-3bd08b15561a45706dd06f9b1a50fab9.md",
+      "values": {
+        "ZDJGMC": "云南省人民政府",
+        "ZDJGDM": "5300003000",
+        "_agency_name_source": "GOV_CN_OFFICIAL_PAGE",
+        "_agency_code_source": "GBT2260+GBT47277_APPENDIX_B"
+      },
+      "evidence": {
+        "type": "GOV_CN_OFFICIAL_PAGE",
+        "url": "http://www.gov.cn/zhengce/1986-10/30/content_5723020.htm"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/浙江/浙江舟山港综合保税区管理办法_2013-11-01_有效_ima-a3c99776.md",
+      "values": {
+        "ZDJGMC": "浙江省人民政府",
+        "ZDJGDM": "3300003000",
+        "GBRQ": "20130927",
+        "_agency_name_source": "OFFICIAL_LOCAL_GOVERNMENT_GAZETTE",
+        "_agency_code_source": "GBT2260+GBT47277_APPENDIX_B",
+        "_promulgation_source": "OFFICIAL_LOCAL_GOVERNMENT_GAZETTE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_LOCAL_GOVERNMENT_GAZETTE",
+        "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3096/site/attach/0/1310241004025765700.pdf",
+        "note": "省政府公报载明2013年9月27日公布；源文件元数据2021年12月22日不是该版本公布日。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/【法〔2004〕121号】最高人民法院关于在全国各高、中级人民法院开展减刑、假释工作专项大检查的通知_20040630_司法文件 [ima-pdf_32e7-83db2747] (1).md",
+      "values": {
+        "GBRQ": "20040630",
+        "SXRQ": "20040630",
+        "FWZH": "法〔2004〕121号",
+        "_promulgation_source": "SOURCE_BODY_ISSUE_DATE",
+        "_effective_date_source": "GBT47277_DEFAULT_TO_GBRQ"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_DOCUMENT_NUMBER_AND_ISSUE_DATE",
+        "note": "本地只读源正文载明法〔2004〕121号及2004年6月30日；文号签发机关为最高人民法院。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/【法发〔2003〕15号】最高人民法院关于本院各类案件诉讼费收交办法_20030827_司法文件 [ima-pdf_32e7-cf554428] (1).md",
+      "values": {
+        "GBRQ": "20030827",
+        "SXRQ": "20030827",
+        "FWZH": "法发〔2003〕15号",
+        "_promulgation_source": "SOURCE_BODY_ISSUE_DATE",
+        "_effective_date_source": "GBT47277_DEFAULT_TO_GBRQ"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_DOCUMENT_NUMBER_AND_ISSUE_DATE",
+        "note": "本地只读源正文载明法发〔2003〕15号及2003年8月27日。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/【法发〔2009〕43号】最高人民法院印发《关于进一步加强和规范执行工作的若干意见》的通知_20090717_司法文件 [ima-pdf_32e7-bf756152] (1).md",
+      "values": {
+        "GBRQ": "20090717",
+        "SXRQ": "20090717",
+        "FWZH": "法发〔2009〕43号",
+        "_promulgation_source": "SOURCE_BODY_ISSUE_DATE",
+        "_effective_date_source": "GBT47277_DEFAULT_TO_GBRQ"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_DOCUMENT_NUMBER_AND_ISSUE_DATE",
+        "note": "本地只读源正文载明法发〔2009〕43号及2009年7月17日。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/【法发〔2010〕24号】最高人民法院印发《关于进一步加强和推进人民陪审工作的若干意见》的通知_20100629_司法文件 [ima-pdf_32e7-2aa501f7] (1).md",
+      "values": {
+        "GBRQ": "20100629",
+        "SXRQ": "20100629",
+        "FWZH": "法发〔2010〕24号",
+        "_promulgation_source": "SOURCE_BODY_ISSUE_DATE",
+        "_effective_date_source": "GBT47277_DEFAULT_TO_GBRQ"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_DOCUMENT_NUMBER_AND_ISSUE_DATE",
+        "note": "本地只读源正文载明法发〔2010〕24号及2010年6月29日。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/【法发〔2013〕12号】最高人民法院最高人民检察院公安部司法部关于印发《关于办理性侵害未成年人刑事案件的意见》的通知高检发〔_20230601_司法文件 [ima-pdf_32e7-2143438f] (1).md",
+      "values": {
+        "ZDJGMC": "最高人民检察院",
+        "ZDJGDM": "0000001510",
+        "GBRQ": "20230524",
+        "SXRQ": "20230601",
+        "SXX": "01",
+        "FWZH": "高检发〔2023〕4号",
+        "_agency_name_source": "DOCUMENT_NUMBER_FIRST_ISSUER",
+        "_agency_code_source": "GBT47277_APPENDIX_B",
+        "_promulgation_source": "OFFICIAL_2023_JOINT_OPINION",
+        "_effective_date_source": "OFFICIAL_2023_JOINT_OPINION",
+        "_effect_source": "OFFICIAL_2023_JOINT_OPINION"
+      },
+      "evidence": {
+        "type": "OFFICIAL_2023_JOINT_OPINION",
+        "url": "https://www.court.gov.cn/shenpan/xiangqing/401012.html",
+        "note": "本地PDF正文实际为高检发〔2023〕4号：2023年5月24日印发，自2023年6月1日起施行；附则同时废止法发〔2013〕12号旧意见。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/法发〔2000〕24号法官培训条例_2000-10-20_有效_imp-32e7-d104ec43.md",
+      "values": {
+        "ZDJGMC": "最高人民法院",
+        "ZDJGDM": "0000001610",
+        "FWZH": "法发〔2000〕24号",
+        "_agency_name_source": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "_agency_code_source": "GBT47277_APPENDIX_B"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "note": "正文文号法发〔2000〕24号，依联合或省略机关场景的文号签发机关规则确定最高人民法院。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/法发〔2002〕15号人民法院执行工作纪律处分办法（试行）（2002年9月12日最高人民法院审判委员会第1243次会议通过_2002-09-25_有效_imp-32e7-14216869.md",
+      "values": {
+        "ZDJGMC": "最高人民法院",
+        "ZDJGDM": "0000001610",
+        "FWZH": "法发〔2002〕15号",
+        "_agency_name_source": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "_agency_code_source": "GBT47277_APPENDIX_B"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "note": "正文文号法发〔2002〕15号，签发机关为最高人民法院。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/法发〔2003〕18号中共中央组织部人事部最高人民法院关于印发人民法院书记员管理办法（试行）的通知_2003-10-20_有效_imp-32e7-1b2e19f2.md",
+      "values": {
+        "ZDJGMC": "最高人民法院",
+        "ZDJGDM": "0000001610",
+        "FWZH": "法发〔2003〕18号",
+        "_agency_name_source": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "_agency_code_source": "GBT47277_APPENDIX_B"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "note": "联合发文使用法发〔2003〕18号，依GB/T 47229.2附录A以文号签发机关确定最高人民法院。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/法发〔2005〕13号最高人民民法院关于转发中国民用航空总局等关于规范飞行人员流动管理保证民航飞行队伍稳定的意见的通知_2005-07-25_有效_imp-32e7-1a602e24.md",
+      "values": {
+        "ZDJGMC": "最高人民法院",
+        "ZDJGDM": "0000001610",
+        "FWZH": "法发〔2005〕13号",
+        "_agency_name_source": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "_agency_code_source": "GBT47277_APPENDIX_B"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "note": "正文文号法发〔2005〕13号，签发机关为最高人民法院。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/法发〔2010〕14号中共中央组织部最高人民法院最高人民检察院人力资源和社会保障部关于切实解决法官、检察官提前离岗、离职问_2010-05-12_有效_imp-32e7-05568192.md",
+      "values": {
+        "ZDJGMC": "最高人民法院",
+        "ZDJGDM": "0000001610",
+        "FWZH": "法发〔2010〕14号",
+        "_agency_name_source": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "_agency_code_source": "GBT47277_APPENDIX_B"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "note": "联合发文使用法发〔2010〕14号，依文号签发机关规则确定最高人民法院。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/法发〔2010〕15号中央纪律检查委员会中央组织部中央宣传部中央社会治安综合治理委员会办公室最高人民法院最高人民检察院国家_2010-07-07_有效_imp-32e7-b617a5d1.md",
+      "values": {
+        "ZDJGMC": "最高人民法院",
+        "ZDJGDM": "0000001610",
+        "FWZH": "法发〔2010〕15号",
+        "_agency_name_source": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "_agency_code_source": "GBT47277_APPENDIX_B"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "note": "联合发文使用法发〔2010〕15号，依文号签发机关规则确定最高人民法院。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/法发〔2018〕8号中央机构编制委员会办公室最高人民法院关于积极推进省以下人民法院内设机构改革工作的通知_2018-05-25_有效_imp-32e7-64c6d7e4.md",
+      "values": {
+        "ZDJGMC": "最高人民法院",
+        "ZDJGDM": "0000001610",
+        "FWZH": "法发〔2018〕8号",
+        "_agency_name_source": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "_agency_code_source": "GBT47277_APPENDIX_B"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "note": "联合发文使用法发〔2018〕8号，依文号签发机关规则确定最高人民法院。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/福建省高级人民法院关于在全省范围内进一步推进人身损害赔偿标准城乡统一试点工作的通知_闽高法〔2021〕97号.md",
+      "values": {
+        "ZDJGMC": "福建省高级人民法院",
+        "ZDJGDM": "3500001610",
+        "GBRQ": "20211031",
+        "SXRQ": "20211101",
+        "FWZH": "闽高法〔2021〕97号",
+        "_agency_name_source": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "_agency_code_source": "GBT2260+GBT47277_APPENDIX_B",
+        "_promulgation_source": "SOURCE_BODY_ISSUE_DATE",
+        "_effective_date_source": "SOURCE_BODY_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_DOCUMENT_NUMBER_AND_DATES",
+        "note": "正文载明闽高法〔2021〕97号、2021年10月31日公布并自2021年11月1日起施行；地方高院代码按福建行政区划350000加最高法后四位1610。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/公安部、中央政法委、最高人民法院、教育部、民政部、司法部、国家卫生健康委、全国妇联、国务院妇儿工委办_2025-01-01_有效_imp-32e7-85b0262c.md",
+      "values": {
+        "ZDJGMC": "中华人民共和国公安部",
+        "ZDJGDM": "0000003120",
+        "GBRQ": "20241206",
+        "SXRQ": "20250101",
+        "FWZH": "公通字〔2024〕34号",
+        "_agency_name_source": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "_agency_code_source": "GBT47277_APPENDIX_B",
+        "_promulgation_source": "SOURCE_BODY_ISSUE_DATE",
+        "_effective_date_source": "SOURCE_BODY_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_DOCUMENT_NUMBER_AND_DATES",
+        "note": "正文载明公通字〔2024〕34号、落款2024年12月6日并自2025年1月1日起施行；联合发文以文号签发机关公安部确定代码。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/人力资源社会保障部中央政法委最高人民法院工业和信息化部司法部财政部中华全国总工会中华全国工商业联合会_2022-10-13_有效_imp-32e7-3878d05e.md",
+      "values": {
+        "ZDJGMC": "中华人民共和国人力资源和社会保障部",
+        "ZDJGDM": "0000003561",
+        "FWZH": "人社部发〔2022〕71号",
+        "_agency_name_source": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "_agency_code_source": "GBT47277_APPENDIX_B"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "note": "联合发文使用人社部发〔2022〕71号，依文号签发机关规则确定人力资源和社会保障部。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/人民法院审判长选任办法（试行）_2000-01-01_有效_imp-32e7-ee8a0745.md",
+      "values": {
+        "ZDJGMC": "最高人民法院",
+        "ZDJGDM": "0000001610",
+        "GBRQ": "20000728",
+        "SXRQ": "20000728",
+        "FWZH": "法发〔2000〕16号",
+        "_agency_name_source": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "_agency_code_source": "GBT47277_APPENDIX_B",
+        "_promulgation_source": "SOURCE_BODY_ISSUE_DATE",
+        "_effective_date_source": "GBT47277_DEFAULT_TO_GBRQ"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_DOCUMENT_NUMBER_AND_ISSUE_DATE",
+        "note": "正文载明2000年7月11日通过、法发〔2000〕16号，末尾落款2000年7月28日；公布日期采用落款签发日，不采用通过日或文件名占位日。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/人民法院司法警察暂行条例_1997-05-04_有效_imp-32e7-29907e66.md",
+      "values": {
+        "ZDJGMC": "最高人民法院",
+        "ZDJGDM": "0000001610",
+        "_agency_name_source": "SOURCE_BODY_MASTHEAD",
+        "_agency_code_source": "GBT47277_APPENDIX_B"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_MASTHEAD_AND_ISSUE_DATE",
+        "note": "正文抬头和落款确定最高人民法院，落款1997年5月4日；无正式文号，内部顺序码按国标取0000。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/应急管理部公安部最高人民法院最高人民检察院关于印发安全生产行政执法与刑事司法衔接工作办法的通知_2019-01-01_有效_imp-32e7-c353f96f.md",
+      "values": {
+        "ZDJGMC": "中华人民共和国应急管理部",
+        "ZDJGDM": "0000003690",
+        "GBRQ": "20190416",
+        "SXRQ": "20190416",
+        "FWZH": "应急〔2019〕54号",
+        "_agency_name_source": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "_agency_code_source": "GBT47277_APPENDIX_B",
+        "_promulgation_source": "SOURCE_BODY_ISSUE_DATE",
+        "_effective_date_source": "GBT47277_DEFAULT_TO_GBRQ"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_DOCUMENT_NUMBER_AND_ISSUE_DATE",
+        "note": "正文载明应急〔2019〕54号及2019年4月16日；联合发文以文号签发机关应急管理部确定代码。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/中央社会治安综合治理委员会办公室最高人民法院最高人民检察院公安部司法部关于印发关于加强和规范监外执_2009-01-01_有效_imp-32e7-43038fe9.md",
+      "values": {
+        "ZDJGMC": "最高人民检察院",
+        "ZDJGDM": "0000001510",
+        "GBRQ": "20090625",
+        "SXRQ": "20090625",
+        "FWZH": "高检会〔2009〕3号",
+        "_agency_name_source": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "_agency_code_source": "GBT47277_APPENDIX_B",
+        "_promulgation_source": "SOURCE_BODY_ISSUE_DATE",
+        "_effective_date_source": "GBT47277_DEFAULT_TO_GBRQ"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_DOCUMENT_NUMBER_AND_ISSUE_DATE",
+        "note": "正文载明高检会〔2009〕3号及2009年6月25日；联合发文依文号签发机关确定最高人民检察院。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民检察院公安部国家安全部关于取保候审若干问题的规定_1999-01-01_有效_imp-32e7-bb48cb95.md",
+      "values": {
+        "ZDJGMC": "中华人民共和国公安部",
+        "ZDJGDM": "0000003120",
+        "GBRQ": "19990804",
+        "SXRQ": "19990804",
+        "FWZH": "公通字〔1999〕59号",
+        "_agency_name_source": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "_agency_code_source": "GBT47277_APPENDIX_B",
+        "_promulgation_source": "PUBLISHED_LEGAL_TEXT_ISSUE_DATE",
+        "_effective_date_source": "PUBLISHED_LEGAL_TEXT_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "DOCUMENT_NUMBER_PLUS_CROSS_SOURCE_DATE",
+        "url": "https://www.court.gov.cn/zixun/xiangqing/372491.html",
+        "note": "本地正文载明公通字〔1999〕59号；公开法条文本一致列明1999年8月4日发布施行，最高法2022年修订说明确认该规定于1999年印发。未把第三方转载当成全文核验。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民检察院最高人民法院公安部安全部司法部外交部关于对驻华使、领馆探视被羁押本国公民的安排机关进行_1993-01-01_有效_imp-32e7-a63ad44c.md",
+      "values": {
+        "ZDJGMC": "最高人民检察院",
+        "ZDJGDM": "0000001510",
+        "GBRQ": "19920826",
+        "SXRQ": "19920826",
+        "FWZH": "高检会〔1992〕25号",
+        "_agency_name_source": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "_agency_code_source": "GBT47277_APPENDIX_B",
+        "_promulgation_source": "SOURCE_BODY_ISSUE_DATE",
+        "_effective_date_source": "GBT47277_DEFAULT_TO_GBRQ"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_DOCUMENT_NUMBER_AND_ISSUE_DATE",
+        "note": "正文载明高检会〔1992〕25号及1992年8月26日；联合发文依文号签发机关确定最高人民检察院。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民检察院最高人民法院关于盗窃、贪污粮食数额如何计算问题的意见_1991-01-01_有效_imp-32e7-c7a35b29.md",
+      "values": {
+        "ZDJGMC": "最高人民检察院",
+        "ZDJGDM": "0000001510",
+        "GBRQ": "19910727",
+        "SXRQ": "19910727",
+        "FWZH": "高检会〔1991〕15号",
+        "_agency_name_source": "SOURCE_BODY_DOCUMENT_NUMBER",
+        "_agency_code_source": "GBT47277_APPENDIX_B",
+        "_promulgation_source": "SOURCE_BODY_ISSUE_DATE",
+        "_effective_date_source": "GBT47277_DEFAULT_TO_GBRQ"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_DOCUMENT_NUMBER_AND_ISSUE_DATE",
+        "note": "正文载明高检会〔1991〕15号及1991年7月27日；联合发文依文号签发机关确定最高人民检察院。"
+      }
+    },
+    {
+      "relative_path": "03_检察院系统/02_检察规范性文件/人民检察院审查案件听证工作规定_2020-01-01_有效.md",
+      "values": {
+        "ZDJGMC": "最高人民检察院",
+        "ZDJGDM": "0000001510",
+        "GBRQ": "20201020",
+        "SXRQ": "20201020",
+        "_agency_name_source": "OFFICIAL_SPP_PAGE",
+        "_agency_code_source": "GBT47277_APPENDIX_B",
+        "_promulgation_source": "OFFICIAL_SPP_PUBLICATION_DATE",
+        "_effective_date_source": "SOURCE_BODY_EFFECTIVE_UPON_PROMULGATION"
+      },
+      "evidence": {
+        "type": "OFFICIAL_SPP_FULLTEXT_PAGE",
+        "url": "https://www.spp.gov.cn/spp/xwfbh/wsfbh/202010/t20201020_482537.shtml",
+        "note": "最高检官方全文页发布时间为2020年10月20日，正文第二十三条规定自公布之日起施行；无正式文号，内部顺序码取0000。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/河南/人防建设与城市建设相结合实施办法_1989-08-14_有效_ima-952e2a0a.md",
+      "values": {
+        "ZDJGMC": "济南军区",
+        "FWZH": "〔1989〕济字第86号",
+        "_agency_name_source": "OFFICIAL_PAGE_DOCUMENT_NUMBER_AND_BODY"
+      },
+      "evidence": {
+        "type": "OFFICIAL_PAGE_DOCUMENT_NUMBER_AND_BODY",
+        "url": "https://www.gov.cn/zhengce/1989-08/14/content_5728324.htm",
+        "source_path": "official_registry/decision_order_evidence/jinan_joint_air_defense_carriers.md",
+        "source_sha256": "bf1744d3c634dc0bb4c1968bd981583565d166beb7b0fda5a3a5d0c034c83ec7",
+        "note": "中国政府网河南载体与山东载体正文、文号和公布日相同，正文第三十三条共同指向济南军区及山东、河南省人民防空委员会；据〔1989〕济字第86号及正文登记制定机关名称为济南军区。无权威历史机关代码证据，ZDJGDM继续留空阻断。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/山东/人防建设与城市建设相结合实施办法_1989-08-14_有效_ima-e4f8e892.md",
+      "values": {
+        "ZDJGMC": "济南军区",
+        "FWZH": "〔1989〕济字第86号",
+        "_agency_name_source": "OFFICIAL_PAGE_DOCUMENT_NUMBER_AND_BODY"
+      },
+      "evidence": {
+        "type": "OFFICIAL_PAGE_DOCUMENT_NUMBER_AND_BODY",
+        "url": "https://www.gov.cn/zhengce/1989-08/14/content_5714785.htm",
+        "source_path": "official_registry/decision_order_evidence/jinan_joint_air_defense_carriers.md",
+        "source_sha256": "bf1744d3c634dc0bb4c1968bd981583565d166beb7b0fda5a3a5d0c034c83ec7",
+        "note": "中国政府网山东载体与河南载体正文、文号和公布日相同，正文第三十三条共同指向济南军区及山东、河南省人民防空委员会；据〔1989〕济字第86号及正文登记制定机关名称为济南军区。无权威历史机关代码证据，ZDJGDM继续留空阻断。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/02_行政法规/国务院关于修改和废止部分行政法规的决定_2022-05-01_未知_ff808181804a1c5001805a8f14f1053b.md",
+      "values": {
+        "FWZH": "中华人民共和国国务院令第752号"
+      },
+      "evidence": {
+        "type": "GOV_CN_OFFICIAL_FULLTEXT_PAGE",
+        "url": "https://app.www.gov.cn/govdata/gov/202204/07/483696/article.html",
+        "note": "中国政府网官方全文载明中华人民共和国国务院令第752号、2022年3月29日公布；附件1逐项列明14部被修改行政法规的决定内顺序。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/安徽/安徽省城市房地产开发经营管理办法_2021-12-29_有效_ima-ed8cc3f9.md",
+      "values": {
+        "GBRQ": "20220113",
+        "FWZH": "安徽省人民政府令第307号",
+        "_promulgation_source": "OFFICIAL_PROMULGATION_ORDER"
+      },
+      "evidence": {
+        "type": "OFFICIAL_PROMULGATION_ORDER_AND_DECISION_BODY",
+        "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202305/t20230530_479824.html",
+        "source_path": "official_registry/decision_order_evidence/anhui_order_307_decision.html",
+        "source_sha256": "c1dd9227cc7a4843689c22e68a409389ee3a6512e371ae7c19dd854eb4cce4c7",
+        "order_number_url": "https://www.huangshan.gov.cn/zwgk/public/6615714/11074050.html",
+        "note": "司法部官方全文页列明2022年1月13日公布及决定内第1项；安徽地方政府官方政策解读明确该决定为省政府令第307号。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/安徽/安徽省实施中华人民共和国河道管理条例办法_2021-12-29_有效_ima-dbb294af.md",
+      "values": {
+        "GBRQ": "20220113",
+        "FWZH": "安徽省人民政府令第307号",
+        "_promulgation_source": "OFFICIAL_PROMULGATION_ORDER"
+      },
+      "evidence": {
+        "type": "OFFICIAL_PROMULGATION_ORDER_AND_DECISION_BODY",
+        "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202305/t20230530_479824.html",
+        "source_path": "official_registry/decision_order_evidence/anhui_order_307_decision.html",
+        "source_sha256": "c1dd9227cc7a4843689c22e68a409389ee3a6512e371ae7c19dd854eb4cce4c7",
+        "order_number_url": "https://www.huangshan.gov.cn/zwgk/public/6615714/11074050.html",
+        "note": "司法部官方全文页列明2022年1月13日公布及决定内第2项；安徽地方政府官方政策解读明确该决定为省政府令第307号。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/安徽/安徽省最低工资规定_2021-12-29_有效_ima-88d2fb59.md",
+      "values": {
+        "GBRQ": "20220113",
+        "FWZH": "安徽省人民政府令第307号",
+        "_promulgation_source": "OFFICIAL_PROMULGATION_ORDER"
+      },
+      "evidence": {
+        "type": "OFFICIAL_PROMULGATION_ORDER_AND_DECISION_BODY",
+        "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202305/t20230530_479824.html",
+        "source_path": "official_registry/decision_order_evidence/anhui_order_307_decision.html",
+        "source_sha256": "c1dd9227cc7a4843689c22e68a409389ee3a6512e371ae7c19dd854eb4cce4c7",
+        "order_number_url": "https://www.huangshan.gov.cn/zwgk/public/6615714/11074050.html",
+        "note": "司法部官方全文页列明2022年1月13日公布及决定内第3项；安徽地方政府官方政策解读明确该决定为省政府令第307号。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/安徽/安徽省药品和医疗器械使用监督管理办法_2022-03-01_有效_ima-7258738e.md",
+      "values": {
+        "GBRQ": "20220116",
+        "FWZH": "安徽省人民政府令第309号",
+        "_promulgation_source": "OFFICIAL_PROMULGATION_ORDER"
+      },
+      "evidence": {
+        "type": "OFFICIAL_PROMULGATION_ORDER_AND_FULLTEXT",
+        "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202305/t20230530_479850.html",
+        "source_path": "official_registry/decision_order_evidence/anhui_order_309_text.html",
+        "source_sha256": "b683db819e75ca4ceedae9abf601cc56394ea52e08de520c6ee3a67f776dfab4",
+        "order_number_url": "https://www.ningguo.gov.cn/OpennessContent/show/2386232.html",
+        "note": "司法部官方全文页发布时间为2022年1月16日；宁国市政府官方解读明确该次修订以安徽省人民政府令第309号公布。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/安徽/安徽省建设工程勘察设计管理办法_2022-03-01_有效_ima-d9588193.md",
+      "values": {
+        "GBRQ": "20220122",
+        "FWZH": "安徽省人民政府令第310号",
+        "_promulgation_source": "OFFICIAL_PROMULGATION_ORDER"
+      },
+      "evidence": {
+        "type": "OFFICIAL_PROMULGATION_ORDER_AND_FULLTEXT",
+        "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202305/t20230530_479810.html",
+        "source_path": "official_registry/decision_order_evidence/anhui_order_310_text.html",
+        "source_sha256": "cd87687e4373683b134141714239aa140a1fd7f3468b7a86d0e22f57e6657970",
+        "order_number_url": "https://www.ahlx.gov.cn/OpennessContent/show/2346832.html",
+        "note": "司法部官方全文页发布时间为2022年1月22日；郎溪县政府官方页面明确该规章为省政府令第310号。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/国家市场监督管理总局规章/网络安全审查办法_2020-06-01_有效_ima-501d755d.md",
+      "values": {
+        "ZDJGMC": "国家互联网信息办公室",
+        "ZDJGDM": "0000006350",
+        "GBRQ": "20200413",
+        "SXRQ": "20200601",
+        "SHXRQ": "20220215",
+        "SXX": "04",
+        "FWZH": "国家互联网信息办公室、国家发展和改革委员会、工业和信息化部、公安部、国家安全部、财政部、商务部、中国人民银行、国家市场监督管理总局、国家广播电视总局、国家保密局、国家密码管理局令第6号",
+        "_agency_name_source": "OFFICIAL_JOINT_ORDER_FIRST_ISSUER",
+        "_agency_code_source": "GBT47277_APPENDIX_B",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE",
+        "_effective_date_source": "OFFICIAL_BODY_EFFECTIVE_DATE",
+        "_effect_source": "OFFICIAL_REPEAL_CLAUSE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_JOINT_ORDER_AND_REPEAL_CLAUSE",
+        "url": "https://www.gov.cn/zhengce/2020-04/27/content_5712380.htm",
+        "source_path": "wjbs_gate_audit_20260804/raw_pages_v35/gov_cn_cybersecurity_review_2020.html",
+        "source_sha256": "7b15784c4540aed8635412ce99027e3125738e7017d00c179fa1456fe65a6673",
+        "repeal_url": "https://www.gov.cn/zhengce/2022-01/04/content_5728942.htm",
+        "note": "2020年联合令正文载明第一签发机关、2020年4月13日公布和2020年6月1日起施行；2022年修订版第二十三条明确旧版自2022年2月15日起同时废止。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/国家市场监督管理总局规章/商务部关于外国投资者并购境内企业的规定_2021-06-28_有效_ima-ae7447e0.md",
+      "values": {
+        "ZDJGMC": "商务部",
+        "ZDJGDM": "0000003660",
+        "GBRQ": "20090622",
+        "SXRQ": "20090622",
+        "SXX": "01",
+        "FWZH": "中华人民共和国商务部令2009年第6号",
+        "_agency_name_source": "OFFICIAL_MODIFICATION_ORDER",
+        "_agency_code_source": "GBT47277_APPENDIX_B",
+        "_promulgation_source": "OFFICIAL_MODIFICATION_ORDER_DATE",
+        "_effective_date_source": "OFFICIAL_ORDER_EFFECTIVE_DATE",
+        "_effect_source": "OFFICIAL_CURRENT_RULES_COLLECTION"
+      },
+      "evidence": {
+        "type": "OFFICIAL_MODIFICATION_ORDER_AND_REPUBLISHED_TEXT",
+        "url": "https://www.gov.cn/zhengce/2009-06/22/content_5712432.htm",
+        "source_path": "wjbs_gate_audit_20260804/raw_pages_v35/gov_cn_foreign_acquisition_2009.html",
+        "source_sha256": "821f007c1aee350f837ba3db119b1e16e2e699e3f6dc89041e3a3ea2bc84ad82",
+        "note": "官方页面及商务部令第6号载明2009年6月22日修改并重新公布；第三方页面2021年6月28日仅为转载日期，不得进入WJBS。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/国家市场监督管理总局规章/外商投资创业投资企业管理规定_2003-03-01_有效_ima-f26a4551.md",
+      "values": {
+        "ZDJGMC": "商务部",
+        "ZDJGDM": "0000003660",
+        "GBRQ": "20151028",
+        "SXRQ": "20151028",
+        "SXX": "01",
+        "FWZH": "中华人民共和国商务部令2015年第2号",
+        "_agency_name_source": "OFFICIAL_MODIFICATION_ORDER",
+        "_agency_code_source": "GBT47277_APPENDIX_B",
+        "_promulgation_source": "OFFICIAL_MODIFICATION_ORDER_DATE",
+        "_effective_date_source": "OFFICIAL_ORDER_EFFECTIVE_DATE",
+        "_effect_source": "OFFICIAL_CURRENT_RULES_COLLECTION"
+      },
+      "evidence": {
+        "type": "OFFICIAL_MODIFICATION_ORDER_AND_CURRENT_TEXT",
+        "url": "https://www.mofcom.gov.cn/zfxxgk/gkml/art/2021/art_f8c714c7bd594e1e828933b6b48d6e8d.html",
+        "source_path": "official_registry/decision_order_evidence/mofcom_order_2015_2.html",
+        "source_sha256": "4f61bf3f140c9c71b760232544b165683003c42ba67fad85b3644bc06039e4de",
+        "current_text_url": "https://www.safe.gov.cn/safe/2022/0818/21327.html",
+        "note": "本地正文已删除商务部令2015年第2号第六项指定删除的内容，属于2015修订文本；第三方页面2021年6月28日不是公布日期。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/国家市场监督管理总局规章/外商投资企业合并与分立规定_2021-06-28_有效_ima-20a47cb3.md",
+      "values": {
+        "ZDJGMC": "对外贸易经济合作部",
+        "ZDJGDM": "0000003221",
+        "GBRQ": "20011122",
+        "SXRQ": "20011122",
+        "SXX": "03",
+        "FWZH": "对外贸易经济合作部、国家工商行政管理总局令2001年第8号",
+        "_agency_name_source": "OFFICIAL_MODIFICATION_ORDER_FIRST_ISSUER",
+        "_agency_code_source": "GBT47277_APPENDIX_B",
+        "_promulgation_source": "OFFICIAL_MODIFICATION_ORDER_DATE",
+        "_effective_date_source": "OFFICIAL_ORDER_EFFECTIVE_DATE",
+        "_effect_source": "OFFICIAL_LATER_MODIFICATION_DECISION"
+      },
+      "evidence": {
+        "type": "OFFICIAL_HISTORICAL_VERSION_AND_LATER_MODIFICATION",
+        "url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=9203",
+        "source_path": "official_registry/decision_order_evidence/mofcom_order_2001_8.html",
+        "source_sha256": "84400ac0a883881596120c91ed27036e394dbb6b7fc553551a098e090145fb36",
+        "later_modification_url": "https://www.mofcom.gov.cn/zfxxgk/gkml/art/2021/art_f8c714c7bd594e1e828933b6b48d6e8d.html",
+        "note": "本地正文仍含2015年决定删除的第九条及第二十条、第二十三条相关项，故是2001修订历史版本；2021年6月28日仅为转载日期，效力应标已修改。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/财政部规章/代理记账管理办法_2005-03-01_有效_ima-2cf31e8f.md",
+      "values": {
+        "ZDJGMC": "财政部",
+        "ZDJGDM": "0000003180",
+        "GBRQ": "20050122",
+        "FWZH": "中华人民共和国财政部令第27号",
+        "_agency_name_source": "OFFICIAL_ORDER",
+        "_agency_code_source": "GBT47277_APPENDIX_B",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_ORDER_AND_LATER_REPEAL_CLAUSE",
+        "url": "https://tfs.mof.gov.cn/caizhengbuling/200806/t20080602_44443.htm",
+        "source_path": "official_registry/decision_order_evidence/mof_order_2005_27.html",
+        "source_sha256": "e2ba1bbd4a3dd0023a29fab9639413271eed44f624355f79257a05fc793aeb4d",
+        "date_confirmation_url": "https://www.mof.gov.cn/gp/xxgkml/hjs/201602/t20160224_2512738.htm",
+        "note": "财政部原始规章页锁定第27号；财政部令第80号第三十条明确原规章于2005年1月22日发布。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/财政部规章/会计从业资格管理办法_2005-03-01_有效_ima-91325348.md",
+      "values": {
+        "ZDJGMC": "财政部",
+        "ZDJGDM": "0000003180",
+        "GBRQ": "20050122",
+        "FWZH": "中华人民共和国财政部令第26号",
+        "_agency_name_source": "OFFICIAL_ORDER",
+        "_agency_code_source": "GBT47277_APPENDIX_B",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_ORDER_AND_LATER_REPEAL_CLAUSE",
+        "url": "https://tfs.mof.gov.cn/caizhengbuling/200806/t20080602_44445.htm",
+        "source_path": "official_registry/decision_order_evidence/mof_order_2005_26.html",
+        "source_sha256": "088aa516052964b1e0c4da277ab7ddbf19fbbe118c49c51b0c377086a71436a9",
+        "date_confirmation_url": "https://www.mof.gov.cn/gkml/bulinggonggao/czbl/201401/t20140102_1032257.htm",
+        "note": "财政部原始规章页锁定第26号；财政部令第73号第三十七条明确原规章于2005年1月22日发布。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/财政部规章/注册会计师注册办法_2005-03-01_有效_ima-c31537ab.md",
+      "values": {
+        "ZDJGMC": "财政部",
+        "ZDJGDM": "0000003180",
+        "GBRQ": "20050122",
+        "FWZH": "中华人民共和国财政部令第25号",
+        "_agency_name_source": "OFFICIAL_ORDER",
+        "_agency_code_source": "GBT47277_APPENDIX_B",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_ORDER_AND_LATER_MODIFICATION_CLAUSE",
+        "url": "https://tfs.mof.gov.cn/caizhengbuling/200806/t20080602_44444.htm",
+        "source_path": "official_registry/decision_order_evidence/mof_order_2005_25.html",
+        "source_sha256": "80de3e6f431fd5c9ba6f28f066f263d40601ad4ca7b2ff8190387e1fbe0f8c22",
+        "date_confirmation_url": "https://m.mof.gov.cn/czxw/201903/t20190318_3195088.htm",
+        "note": "财政部原始规章页锁定第25号；财政部令第99号重新公布文本明确原规章于2005年1月22日公布。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/工业和信息化部规章/电器电子产品有害物质限制使用管理办法_2016-07-01_有效_ima-cab29aeb.md",
+      "values": {
+        "ZDJGMC": "工业和信息化部",
+        "ZDJGDM": "0000003392",
+        "GBRQ": "20160106",
+        "FWZH": "工业和信息化部、国家发展和改革委员会、科学技术部、财政部、环境保护部、商务部、海关总署、国家质量监督检验检疫总局令第32号",
+        "_agency_name_source": "OFFICIAL_JOINT_ORDER_FIRST_ISSUER",
+        "_agency_code_source": "GBT47277_APPENDIX_B",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_JOINT_ORDER",
+        "url": "http://www.gov.cn/zhengce/2021-06/28/content_5723608.htm",
+        "source_path": "official_registry/decision_order_evidence/gov_electronic_harmful_2016.html",
+        "source_sha256": "95d677afb61bab8fd6b4a090e3fc82cc3b7da3370bedbed5c80ace4ae050ae89",
+        "note": "中国政府网页正文括注明确2016年1月6日由工业和信息化部等八部门以第32号联合令公布；工业和信息化部为第一签发机关。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/工业和信息化部规章/电子招标投标办法_2013-05-01_有效_ima-9632e8ba.md",
+      "values": {
+        "ZDJGMC": "国家发展和改革委员会",
+        "ZDJGDM": "0000003032",
+        "GBRQ": "20130204",
+        "FWZH": "国家发展和改革委员会、工业和信息化部、监察部、住房和城乡建设部、交通运输部、铁道部、水利部、商务部令第20号",
+        "_agency_name_source": "OFFICIAL_JOINT_ORDER_FIRST_ISSUER",
+        "_agency_code_source": "GBT47277_APPENDIX_B",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_JOINT_ORDER",
+        "url": "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=18458",
+        "source_path": "official_registry/decision_order_evidence/ndrc_electronic_tender_2013.html",
+        "source_sha256": "ea71835753a9625f437d2ec13b039475391c317d13e1a5698b95706476f5b226",
+        "note": "国家发展改革委官方正文明确2013年2月4日以八部门第20号联合令公布；国家发展改革委为第一签发机关。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/工业和信息化部规章/中华人民共和国监控化学品管理条例实施细则_2019-01-01_有效_ima-d35e42cd.md",
+      "values": {
+        "ZDJGMC": "工业和信息化部",
+        "ZDJGDM": "0000003392",
+        "GBRQ": "20180702",
+        "FWZH": "中华人民共和国工业和信息化部令第48号",
+        "_agency_name_source": "OFFICIAL_ORDER",
+        "_agency_code_source": "GBT47277_APPENDIX_B",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_ORDER",
+        "url": "https://www.miit.gov.cn/jgsj/aqs/zcfgbz/art/2020/art_3d7869f15036422599186297789cacb3.html",
+        "source_path": "official_registry/decision_order_evidence/miit_monitored_chemicals_2018.html",
+        "source_sha256": "a8df12938df1569e212326e3f3f5c5a198bf7d32727aafadfddd1f1920b747cd",
+        "note": "工业和信息化部官方正文明确2018年7月2日以第48号令公布，自2019年1月1日起施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/人力资源和社会保障部规章/人才市场管理规定_2019-12-31_有效_ima-3cbe6786.md",
+      "values": {
+        "GBRQ": "20191231",
+        "FWZH": "中华人民共和国人力资源和社会保障部令第43号",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_MODIFICATION_ORDER",
+        "url": "https://www.gov.cn/gbgl/f5482d40ed58499b952660d1ae7ce493/files/d2b04320928a49d1bb4fd7e388560c4e.pdf",
+        "source_path": "official_registry/decision_order_evidence/hrss_order_2019_43_gov_pdf.pdf",
+        "source_sha256": "656fdad7abc4d1c0148add286a7bb0ccf8b0ab3158611d2d33e6cab563387fca",
+        "note": "中国政府网公报PDF锁定第43号令、2019年12月31日公布及决定内第1项。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/人力资源和社会保障部规章/外商投资人才中介机构管理暂行规定_2019-12-31_有效_ima-f8d232d2.md",
+      "values": {
+        "GBRQ": "20191231",
+        "FWZH": "中华人民共和国人力资源和社会保障部令第43号",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_MODIFICATION_ORDER_AND_TITLE_RENAME",
+        "url": "https://www.gov.cn/gbgl/f5482d40ed58499b952660d1ae7ce493/files/d2b04320928a49d1bb4fd7e388560c4e.pdf",
+        "source_path": "official_registry/decision_order_evidence/hrss_order_2019_43_gov_pdf.pdf",
+        "source_sha256": "656fdad7abc4d1c0148add286a7bb0ccf8b0ab3158611d2d33e6cab563387fca",
+        "note": "第43号令把原题名修改为现题名，锁定2019年12月31日公布及决定内第2项。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/人力资源和社会保障部规章/企业年金基金管理办法_2015-04-30_有效_ima-41f8651e.md",
+      "values": {
+        "GBRQ": "20150430",
+        "FWZH": "中华人民共和国人力资源和社会保障部令第24号",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_MODIFICATION_ORDER",
+        "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/201506/t20150624_145554.html",
+        "source_path": "official_registry/decision_order_evidence/hrss_order_2015_24_moj.html",
+        "source_sha256": "27cc2e13f47fd84000747db2dd5bb7de7633975bbf669e40a02dbf60f2a11ef7",
+        "note": "司法部官方法规页锁定第24号令、2015年4月30日公布及决定内第7项。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/人力资源和社会保障部规章/企业年金基金管理机构资格认定暂行办法_2015-04-30_有效_ima-9e2b1a80.md",
+      "values": {
+        "GBRQ": "20150430",
+        "FWZH": "中华人民共和国人力资源和社会保障部令第24号",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_MODIFICATION_ORDER",
+        "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/201506/t20150624_145554.html",
+        "source_path": "official_registry/decision_order_evidence/hrss_order_2015_24_moj.html",
+        "source_sha256": "27cc2e13f47fd84000747db2dd5bb7de7633975bbf669e40a02dbf60f2a11ef7",
+        "note": "司法部官方法规页锁定第24号令、2015年4月30日公布及决定内第6项。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/农业农村部规章/农业转基因生物进口安全管理办法_2017-11-30_有效_ima-0709a2d8.md",
+      "values": {
+        "ZDJGMC": "农业部",
+        "ZDJGDM": "0000003260",
+        "GBRQ": "20171130",
+        "FWZH": "中华人民共和国农业部令2017年第8号",
+        "_agency_name_source": "OFFICIAL_HISTORICAL_ORDER",
+        "_agency_code_source": "GBT47277_APPENDIX_B_HISTORICAL",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_HISTORICAL_MODIFICATION_ORDER",
+        "url": "https://www.moa.gov.cn/nybgb/link/201801/P020180114334911200736.pdf",
+        "source_path": "official_registry/decision_order_evidence/mara_order_2017_8.pdf",
+        "source_sha256": "db2527e3ade1325ca30d42771ed6ab6bdaf8b9efec2fafb42d6cae3afe31322c",
+        "note": "农业部第8号令锁定历史签发机关代码3260、2017年11月30日及规章清单第3项。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/农业农村部规章/农业转基因生物标识管理办法_2017-11-30_有效_ima-290a76b4.md",
+      "values": {
+        "ZDJGMC": "农业部",
+        "ZDJGDM": "0000003260",
+        "GBRQ": "20171130",
+        "FWZH": "中华人民共和国农业部令2017年第8号",
+        "_agency_name_source": "OFFICIAL_HISTORICAL_ORDER",
+        "_agency_code_source": "GBT47277_APPENDIX_B_HISTORICAL",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_HISTORICAL_MODIFICATION_ORDER",
+        "url": "https://www.moa.gov.cn/nybgb/link/201801/P020180114334911200736.pdf",
+        "source_path": "official_registry/decision_order_evidence/mara_order_2017_8.pdf",
+        "source_sha256": "db2527e3ade1325ca30d42771ed6ab6bdaf8b9efec2fafb42d6cae3afe31322c",
+        "note": "农业部第8号令锁定历史签发机关代码3260、2017年11月30日及规章清单第4项。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/自然资源部规章/矿山地质环境保护规定_2019-07-16_有效_ima-5b01383b.md",
+      "values": {
+        "GBRQ": "20190724",
+        "SXRQ": "20190724",
+        "FWZH": "中华人民共和国自然资源部令第5号",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE",
+        "_effective_date_source": "OFFICIAL_ORDER_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "LOCAL_GOVERNMENT_OFFICIAL_REPOST_OF_CENTRAL_ORDER",
+        "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/zcfg/gz/201912/t20191213_1167047.html",
+        "source_path": "official_registry/decision_order_evidence/natural_resources_order_2019_5_beijing.html",
+        "source_sha256": "12b9ca65ac0c7b2abdae91fc327393bfc3e0397dddd1afbab9775afe260e4a06",
+        "note": "北京市规划自然资源委官方转载全文锁定2019年7月24日公布、自公布施行；计入前8件被废止规章后为第17项。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/自然资源部规章/古生物化石保护条例实施办法_2019-07-16_有效_ima-077c8e63.md",
+      "values": {
+        "GBRQ": "20190724",
+        "SXRQ": "20190724",
+        "FWZH": "中华人民共和国自然资源部令第5号",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE",
+        "_effective_date_source": "OFFICIAL_ORDER_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "LOCAL_GOVERNMENT_OFFICIAL_REPOST_OF_CENTRAL_ORDER",
+        "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/zcfg/gz/201912/t20191213_1167047.html",
+        "source_path": "official_registry/decision_order_evidence/natural_resources_order_2019_5_beijing.html",
+        "source_sha256": "12b9ca65ac0c7b2abdae91fc327393bfc3e0397dddd1afbab9775afe260e4a06",
+        "note": "北京市规划自然资源委官方转载全文锁定2019年7月24日公布、自公布施行；计入前8件被废止规章后为第19项。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/国家发展和改革委员会规章/工程咨询行业管理办法_2023-03-23_有效_ima-daed0888.md",
+      "values": {
+        "GBRQ": "20230323",
+        "SXRQ": "20230501",
+        "FWZH": "中华人民共和国国家发展和改革委员会令第1号",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE",
+        "_effective_date_source": "OFFICIAL_ORDER_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_MODIFICATION_ORDER",
+        "url": "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20223",
+        "source_path": "official_registry/decision_order_evidence/ndrc_order_2023_1_investment_rules.html",
+        "source_sha256": "6c8a9a9c5224df4427eddab23e1ba4d285d3e0292d93344cabe07d118386325e",
+        "note": "国家发展改革委第1号令锁定2023年3月23日公布、2023年5月1日施行及规章清单第5项。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/国家发展和改革委员会规章/企业投资项目核准和备案管理办法_2023-03-23_有效_ima-2cb8631f.md",
+      "values": {
+        "GBRQ": "20230323",
+        "SXRQ": "20230501",
+        "FWZH": "中华人民共和国国家发展和改革委员会令第1号",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE",
+        "_effective_date_source": "OFFICIAL_ORDER_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_MODIFICATION_ORDER",
+        "url": "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20223",
+        "source_path": "official_registry/decision_order_evidence/ndrc_order_2023_1_investment_rules.html",
+        "source_sha256": "6c8a9a9c5224df4427eddab23e1ba4d285d3e0292d93344cabe07d118386325e",
+        "note": "国家发展改革委第1号令锁定2023年3月23日公布、2023年5月1日施行及规章清单第6项。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/工业和信息化部规章/国际通信设施建设管理规定_2002-08-01_有效_ima-51e4fa12.md",
+      "values": {
+        "ZDJGMC": "信息产业部",
+        "ZDJGDM": "0000003391",
+        "GBRQ": "20020626",
+        "FWZH": "中华人民共和国信息产业部令第22号",
+        "_agency_name_source": "OFFICIAL_HISTORICAL_ORDER",
+        "_agency_code_source": "GBT47277_APPENDIX_B_HISTORICAL",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "LOCAL_GOVERNMENT_OFFICIAL_REPOST_OF_HISTORICAL_ORDER",
+        "url": "https://www.hengqin.gov.cn/lab/flfg/bmgz/content/post_3734087.html",
+        "source_path": "official_registry/decision_order_evidence/miit_order_2002_22_hengqin.html",
+        "source_sha256": "8176d28dc266bae2adfc948c6b65c0bb0b13230c246920825c33c6037cbcdb5e",
+        "note": "横琴粤澳深度合作区官方页锁定信息产业部第22号令及页面中第1件规章。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/工业和信息化部规章/国际通信出入口局管理办法_2002-10-01_有效_ima-ec752fda.md",
+      "values": {
+        "ZDJGMC": "信息产业部",
+        "ZDJGDM": "0000003391",
+        "GBRQ": "20020626",
+        "FWZH": "中华人民共和国信息产业部令第22号",
+        "_agency_name_source": "OFFICIAL_HISTORICAL_ORDER",
+        "_agency_code_source": "GBT47277_APPENDIX_B_HISTORICAL",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "LOCAL_GOVERNMENT_OFFICIAL_REPOST_OF_HISTORICAL_ORDER",
+        "url": "https://www.hengqin.gov.cn/lab/flfg/bmgz/content/post_3734087.html",
+        "source_path": "official_registry/decision_order_evidence/miit_order_2002_22_hengqin.html",
+        "source_sha256": "8176d28dc266bae2adfc948c6b65c0bb0b13230c246920825c33c6037cbcdb5e",
+        "note": "横琴粤澳深度合作区官方页锁定信息产业部第22号令及页面中第2件规章。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/文化和旅游部规章/文物认定管理暂行办法_2009-10-01_有效_ima-b854ba78.md",
+      "values": {
+        "ZDJGMC": "文化部",
+        "ZDJGDM": "0000003570",
+        "GBRQ": "20090810",
+        "FWZH": "中华人民共和国文化部令第46号",
+        "_agency_name_source": "OFFICIAL_HISTORICAL_ORDER",
+        "_agency_code_source": "GBT47277_APPENDIX_B_HISTORICAL",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_HISTORICAL_ORDER",
+        "url": "https://zwgk.mct.gov.cn/zfxxgkml/zcfg/bmgz/202012/P020220218658365622849.pdf",
+        "source_path": "official_registry/decision_order_evidence/mct_relic_recognition_order46.pdf",
+        "source_sha256": "903045dd0aa448c7870f8330ef2259125f9012daf94b8ddbd1de572d91182247",
+        "note": "文化和旅游部官方PDF保存文化部第46号令，锁定历史机关代码3570及2009年8月10日。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/文化和旅游部规章/乡镇综合文化站管理办法_2009-10-01_有效_ima-d7a8182b.md",
+      "values": {
+        "ZDJGMC": "文化部",
+        "ZDJGDM": "0000003570",
+        "GBRQ": "20090915",
+        "FWZH": "中华人民共和国文化部令第48号",
+        "_agency_name_source": "OFFICIAL_HISTORICAL_ORDER",
+        "_agency_code_source": "GBT47277_APPENDIX_B_HISTORICAL",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_HISTORICAL_ORDER",
+        "url": "https://zwgk.mct.gov.cn/zfxxgkml/zcfg/bmgz/202012/P020220218667553103557.pdf",
+        "source_path": "official_registry/decision_order_evidence/mct_town_culture_station_order48.pdf",
+        "source_sha256": "b8ff453214a3117fa481a776a79f1ba8e66d8ffa3866b2367a1d15e8e29593e2",
+        "note": "文化和旅游部官方PDF保存文化部第48号令，锁定历史机关代码3570及2009年9月15日。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/国家市场监督管理总局规章/纤维制品质量监督管理办法_2016-03-31_有效_ima-c79ae2f8.md",
+      "values": {
+        "ZDJGMC": "国家质量监督检验检疫总局",
+        "ZDJGDM": "0000004240",
+        "GBRQ": "20160223",
+        "FWZH": "国家质量监督检验检疫总局令第178号",
+        "_agency_name_source": "OFFICIAL_HISTORICAL_ORDER",
+        "_agency_code_source": "GBT47277_APPENDIX_B_HISTORICAL",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_HISTORICAL_ORDER",
+        "url": "https://www.samr.gov.cn/cms_files/filemanager/samr/www/samrnew/samrgkml/nsjg/bgt/202106/W020211118526233899939.pdf",
+        "source_path": "official_registry/decision_order_evidence/samr_fiber_order178.pdf",
+        "source_sha256": "4b933ee0560b04af25dc74618511bec3902454b8820bf3f1de0741569777c794",
+        "note": "市场监管总局官方存档PDF锁定原质检总局第178号令、历史机关代码4240及2016年2月23日。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/财政部规章/国家蓄滞洪区运用财政补偿资金管理规定_２００２-01-01_有效_ima-ad513303.md",
+      "values": {
+        "GBRQ": "20011231",
+        "FWZH": "中华人民共和国财政部令第13号",
+        "_promulgation_source": "OFFICIAL_LATER_REPEAL_CLAUSE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_LATER_REPEAL_CLAUSE",
+        "url": "https://tfs.mof.gov.cn/caizhengbuling/200806/t20080603_44572.htm",
+        "source_path": "official_registry/decision_order_evidence/mof_order_2001_13.html",
+        "source_sha256": "13bd06443fb7c6c027833f222e6df6dc4482b0e114b34018a11cf640bdb3cc37",
+        "note": "文件名为工程证据名；页面实际为财政部令第37号，其废止条款明确原规定于2001年12月31日以第13号令发布。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/财政部规章/国有资产评估违法行为处罚办法_2002-01-01_有效_ima-0aaf9ffb.md",
+      "values": {
+        "GBRQ": "20011231",
+        "FWZH": "中华人民共和国财政部令第15号",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_HISTORICAL_ORDER",
+        "url": "https://tfs.mof.gov.cn/caizhengbuling/200806/t20080603_44595.htm",
+        "source_path": "official_registry/decision_order_evidence/mof_order_2001_15.html",
+        "source_sha256": "2c731f98fd844c34a1bbebf4acf3b36f6f67bddc6f98fb878f21d72709f6decf",
+        "note": "财政部官方页锁定2001年12月31日第15号令。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/国家广播电视总局规章/广播电台电视台审批管理办法_2004-09-20_有效_ima-10786942.md",
+      "values": {
+        "ZDJGMC": "国家广播电影电视总局",
+        "ZDJGDM": "0000004250",
+        "GBRQ": "20040818",
+        "FWZH": "国家广播电影电视总局令第37号",
+        "_agency_name_source": "OFFICIAL_HISTORICAL_ORDER",
+        "_agency_code_source": "GBT47277_APPENDIX_B_HISTORICAL",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_HISTORICAL_ORDER",
+        "url": "https://www.nrta.gov.cn/module/download/downfile.jsp?filename=54f3b41ee5ce4a378a750a568dfef152.pdf&classid=0&showname=%E5%B9%BF%E6%92%AD%E7%94%B5%E5%8F%B0%E7%94%B5%E8%A7%86%E5%8F%B0%E5%AE%A1%E6%89%B9%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95.pdf",
+        "source_path": "official_registry/decision_order_evidence/nrta_broadcast_station_order37.pdf",
+        "source_sha256": "2fd535733294666e9610b0fbbd8d070ebae8a30c528464214b42394a33b3c49f",
+        "note": "广电总局官方PDF锁定原国家广播电影电视总局第37号令、历史机关代码4250及2004年8月18日。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/国家广播电视总局规章/境外机构设立驻华广播电视办事机构管理规定_2004-08-01_有效_ima-c5129892.md",
+      "values": {
+        "ZDJGMC": "国家广播电影电视总局",
+        "ZDJGDM": "0000004250",
+        "GBRQ": "20040618",
+        "FWZH": "国家广播电影电视总局令第28号",
+        "_agency_name_source": "OFFICIAL_HISTORICAL_ORDER",
+        "_agency_code_source": "GBT47277_APPENDIX_B_HISTORICAL",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_HISTORICAL_ORDER",
+        "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/200503/t20050316_143789.html",
+        "source_path": "official_registry/decision_order_evidence/moj_overseas_broadcast_office_order28.html",
+        "source_sha256": "016bbd78e6ed6ca0d0d53105f3cfdda512f6db245d6711e4d251b986ff432d29",
+        "note": "司法部官方法规页锁定原国家广播电影电视总局第28号令、历史机关代码4250及2004年6月18日。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/国家国防科技工业局规章/国防科学技术工业委员会行政处罚实施办法（试行）_2007-03-01_有效_ima-7bd648b6.md",
+      "values": {
+        "ZDJGMC": "国防科学技术工业委员会",
+        "ZDJGDM": "0000003070",
+        "GBRQ": "20061225",
+        "FWZH": "中华人民共和国国防科学技术工业委员会令第20号",
+        "_agency_name_source": "OFFICIAL_HISTORICAL_ORDER",
+        "_agency_code_source": "GBT47277_APPENDIX_B_HISTORICAL",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_HISTORICAL_ORDER",
+        "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/200704/t20070423_144364.html",
+        "source_path": "official_registry/decision_order_evidence/moj_defense_penalty_order20.html",
+        "source_sha256": "9f9a582e596b1461201b3fd1cb5ab90679f7335dd0a37898234b5e4a05cd0bf4",
+        "note": "司法部官方法规页锁定国防科学技术工业委员会第20号令、历史机关代码3070及2006年12月25日。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/国家市场监督管理总局规章/家用视听商品修理更换退货责任规定_2002-09-01_有效_ima-92eab393.md",
+      "values": {
+        "ZDJGMC": "国家质量监督检验检疫总局",
+        "ZDJGDM": "0000004240",
+        "GBRQ": "20020723",
+        "SXRQ": "20020901",
+        "FWZH": "国家质量监督检验检疫总局、信息产业部令第24号",
+        "_agency_name_source": "OFFICIAL_HISTORICAL_JOINT_ORDER",
+        "_agency_code_source": "GBT47277_APPENDIX_B_HISTORICAL",
+        "_promulgation_source": "OFFICIAL_JOINT_ORDER_DATE",
+        "_effective_date_source": "OFFICIAL_JOINT_ORDER_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_HISTORICAL_JOINT_ORDER",
+        "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/zlfzs/art/2023/art_223c377d6d4041388ae60413b9213783.html",
+        "source_path": "official_registry/decision_order_evidence/samr_home_av_order24.html",
+        "source_sha256": "ef37b68fdeb5766911973dc7de840b76217d4c46adc1080e56b97b4fd6b8b775",
+        "note": "市场监管总局官方存档正文锁定2002年7月23日原质检总局、信息产业部联合第24号令及2002年9月1日施行；单页不证明同令文件内部顺序。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/国家市场监督管理总局规章/微型计算机商品修理更换退货责任规定_2002-09-01_有效_ima-e07e0164.md",
+      "values": {
+        "ZDJGMC": "国家质量监督检验检疫总局",
+        "ZDJGDM": "0000004240",
+        "GBRQ": "20020723",
+        "SXRQ": "20020901",
+        "FWZH": "国家质量监督检验检疫总局、信息产业部令第24号",
+        "_agency_name_source": "OFFICIAL_HISTORICAL_JOINT_ORDER",
+        "_agency_code_source": "GBT47277_APPENDIX_B_HISTORICAL",
+        "_promulgation_source": "OFFICIAL_JOINT_ORDER_DATE",
+        "_effective_date_source": "OFFICIAL_JOINT_ORDER_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_HISTORICAL_JOINT_ORDER",
+        "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/zlfzs/art/2023/art_c9589427b6c84652ab2ed362caa8b875.html",
+        "source_path": "official_registry/decision_order_evidence/samr_microcomputer_order24.html",
+        "source_sha256": "4f324ac0cbce5bce181c6279528a50279109df330040b44511f10f6e7e7836bf",
+        "note": "市场监管总局官方存档正文锁定2002年7月23日原质检总局、信息产业部联合第24号令及2002年9月1日施行；单页不证明同令文件内部顺序。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/农业农村部规章/农村土地承包经营纠纷仲裁规则_2010-01-01_有效_ima-b8f6dbe4.md",
+      "values": {
+        "ZDJGMC": "农业部",
+        "ZDJGDM": "0000003260",
+        "GBRQ": "20091229",
+        "SXRQ": "20100101",
+        "FWZH": "中华人民共和国农业部、国家林业局令2010年第1号",
+        "_agency_name_source": "OFFICIAL_HISTORICAL_JOINT_ORDER",
+        "_agency_code_source": "GBT47277_APPENDIX_B_HISTORICAL",
+        "_promulgation_source": "OFFICIAL_CURRENT_RULES_CATALOG",
+        "_effective_date_source": "SOURCE_BODY_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_CURRENT_RULES_CATALOG",
+        "url": "https://fgs.moa.gov.cn/gzdt/202509/t20250925_6477751.htm",
+        "source_path": "official_registry/decision_order_evidence/mara_current_rules_2025_950.html",
+        "source_sha256": "c89ace8aebb1a9b73c1f1247ae001469da9b15956855b53f646136642a2c0768",
+        "note": "农业农村部现行有效规章目录锁定该规则于2009年12月29日以农业部、国家林业局令2010年第1号公布。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/国家林业和草原局规章/农村土地承包经营纠纷仲裁规则_2010-01-01_有效_ima-f0d466d0.md",
+      "values": {
+        "ZDJGMC": "农业部",
+        "ZDJGDM": "0000003260",
+        "GBRQ": "20091229",
+        "SXRQ": "20100101",
+        "FWZH": "中华人民共和国农业部、国家林业局令2010年第1号",
+        "_agency_name_source": "OFFICIAL_HISTORICAL_JOINT_ORDER",
+        "_agency_code_source": "GBT47277_APPENDIX_B_HISTORICAL",
+        "_promulgation_source": "OFFICIAL_CURRENT_RULES_CATALOG",
+        "_effective_date_source": "SOURCE_BODY_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_CURRENT_RULES_CATALOG",
+        "url": "https://fgs.moa.gov.cn/gzdt/202509/t20250925_6477751.htm",
+        "source_path": "official_registry/decision_order_evidence/mara_current_rules_2025_950.html",
+        "source_sha256": "c89ace8aebb1a9b73c1f1247ae001469da9b15956855b53f646136642a2c0768",
+        "note": "同一规则的林草目录载体；按联合令首列机关农业部及其历史代码编码，正文身份由规范化哈希去除末尾来源链接后合并。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/国家林业和草原局规章/农村土地承包仲裁委员会示范章程_2009-12-29_有效_ima-6b420699.md",
+      "values": {
+        "ZDJGMC": "农业部",
+        "ZDJGDM": "0000003260",
+        "GBRQ": "20091229",
+        "FWZH": "中华人民共和国农业部、国家林业局令2010年第2号",
+        "_agency_name_source": "OFFICIAL_HISTORICAL_JOINT_ORDER",
+        "_agency_code_source": "GBT47277_APPENDIX_B_HISTORICAL",
+        "_promulgation_source": "OFFICIAL_CURRENT_RULES_CATALOG"
+      },
+      "evidence": {
+        "type": "OFFICIAL_CURRENT_RULES_CATALOG",
+        "url": "https://fgs.moa.gov.cn/gzdt/202509/t20250925_6477751.htm",
+        "source_path": "official_registry/decision_order_evidence/mara_current_rules_2025_950.html",
+        "source_sha256": "c89ace8aebb1a9b73c1f1247ae001469da9b15956855b53f646136642a2c0768",
+        "note": "农业农村部现行有效规章目录锁定该章程于2009年12月29日以农业部、国家林业局令2010年第2号公布。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/国家国防科技工业局规章/国防科学技术工业委员会听证规则_2007-03-01_有效_ima-55e5b384.md",
+      "values": {
+        "ZDJGMC": "国防科学技术工业委员会",
+        "ZDJGDM": "0000003070",
+        "GBRQ": "20061225",
+        "SXRQ": "20070301",
+        "FWZH": "中华人民共和国国防科学技术工业委员会令第21号",
+        "_agency_name_source": "OFFICIAL_HISTORICAL_ORDER",
+        "_agency_code_source": "GBT47277_APPENDIX_B_HISTORICAL",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE",
+        "_effective_date_source": "OFFICIAL_ORDER_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_HISTORICAL_ORDER",
+        "url": "https://www.miit.gov.cn/api-gateway/jpaas-web-server/front/document/file-download?fileName=9f8649190ef1444c999fbae7c4389724.pdf&fileUrl=%2Fcms_files%2Ffilemanager%2F1226211233%2Fattach%2F202112%2F9f8649190ef1444c999fbae7c4389724.pdf",
+        "source_path": "official_registry/decision_order_evidence/miit_costind_hearing_order21.pdf",
+        "source_sha256": "7ae5741e4ed85669d00d8facfece224f09daef12501ee585b84ed11b604118b3",
+        "note": "工业和信息化部官方PDF锁定原国防科工委第21号令、2006年12月25日公布及2007年3月1日施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/中国证券监督管理委员会规章/首次公开发行股票注册管理办法 [source-rule-dd93be3a4784fc11]_2023-02-17_有效.md",
+      "values": {
+        "GBRQ": "20230217",
+        "SXRQ": "20230217",
+        "FWZH": "中国证券监督管理委员会令第205号",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE",
+        "_effective_date_source": "OFFICIAL_ORDER_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_ORDER_PAGE",
+        "url": "https://www.csrc.gov.cn/csrc/c101953/c7121923/content.shtml",
+        "source_path": "official_registry/decision_order_evidence/csrc_order205_ipo.html",
+        "source_sha256": "241c42795a50c92332cb4ad52dfac0a6c0cb362a89c300b20b3c913fd1916cc8",
+        "note": "证监会官方第205号令页面锁定公布日、令号及自公布之日起施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/中国证券监督管理委员会规章/北京证券交易所向不特定合格投资者公开发行股票注册管理办法 [source-rule-c9b51b7abdf93134]_2023-02-17_有效.md",
+      "values": {
+        "GBRQ": "20230217",
+        "SXRQ": "20230217",
+        "FWZH": "中国证券监督管理委员会令第210号",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE",
+        "_effective_date_source": "OFFICIAL_ORDER_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_ORDER_PAGE",
+        "url": "https://www.csrc.gov.cn/csrc/c101953/c7121884/content.shtml",
+        "source_path": "official_registry/decision_order_evidence/csrc_order210_bse_ipo.html",
+        "source_sha256": "2f2b41007491b419996de1037dfe3d63c6129f79752b9fa95daa271bc3392ef9",
+        "note": "证监会官方第210号令页面锁定公布日、令号及自公布之日起施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/中国证券监督管理委员会规章/证券期货市场监督管理措施实施办法 [source-rule-7b06b79f743fe3bb]_2025-12-31_有效.md",
+      "values": {
+        "GBRQ": "20251231",
+        "SXRQ": "20260630",
+        "FWZH": "中国证券监督管理委员会令第231号",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE",
+        "_effective_date_source": "OFFICIAL_ORDER_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_ORDER_PAGE",
+        "url": "https://www.csrc.gov.cn/csrc/c101953/c7606054/content.shtml",
+        "source_path": "official_registry/decision_order_evidence/csrc_order231_supervision.html",
+        "source_sha256": "036459093a2c780b7eed2996714b66e2b4151290c7a6f5dd444df188df9bf6d1",
+        "note": "证监会官方第231号令页面锁定2025年12月31日公布、2026年6月30日施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/中国证券监督管理委员会规章/证券期货行政执法当事人承诺制度实施规定 [source-rule-817c68fe657fa674]_2025-12-31_有效.md",
+      "values": {
+        "GBRQ": "20251231",
+        "SXRQ": "20260201",
+        "FWZH": "中国证券监督管理委员会令第232号",
+        "_promulgation_source": "OFFICIAL_MODIFICATION_ORDER_DATE",
+        "_effective_date_source": "OFFICIAL_MODIFICATION_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_MODIFICATION_ORDER",
+        "url": "https://www.csrc.gov.cn/csrc/c101953/c7606204/content.shtml",
+        "source_path": "official_registry/decision_order_evidence/csrc_order232_commitment.html",
+        "source_sha256": "a6f3061c78ba4b634acd2147c1a9ea6d244d3ca6c906a294a6bb4775e847e2aa",
+        "note": "证监会官方第232号令页面锁定修改决定及2026年2月1日施行；被修改规章内部顺序由决定注册表赋001。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/国家知识产权局规章/集体商标、证明商标注册和管理规定 [source-rule-062b27b7fb993d57]_2023-12-29_有效.md",
+      "values": {
+        "GBRQ": "20231229",
+        "SXRQ": "20240201",
+        "FWZH": "国家知识产权局令第79号",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE",
+        "_effective_date_source": "OFFICIAL_ORDER_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_ORDER_PAGE",
+        "url": "https://www.cnipa.gov.cn/art/2024/1/2/art_3323_189480.html",
+        "source_path": "official_registry/decision_order_evidence/cnipa_order79_collective_marks.html",
+        "source_sha256": "872c089194324c9af6f4ec2fdeef8463be7731bf1b0c5657b8c77c663f76c8d2",
+        "note": "国家知识产权局官方第79号令页面锁定2023年12月29日公布、2024年2月1日施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/01_部门规章/国家知识产权局规章/地理标志产品保护办法 [source-rule-76abe45c1b310a86]_2023-12-29_有效.md",
+      "values": {
+        "GBRQ": "20231229",
+        "SXRQ": "20240201",
+        "FWZH": "国家知识产权局令第80号",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE",
+        "_effective_date_source": "OFFICIAL_ORDER_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_ORDER_PAGE",
+        "url": "https://www.cnipa.gov.cn/art/2024/1/2/art_3324_189481.html",
+        "source_path": "official_registry/decision_order_evidence/cnipa_order80_gi_products.html",
+        "source_sha256": "f079f500e5b675dc8d197cf3c19fbcf7560c3d5dc05ec877f83b80696751ad76",
+        "note": "国家知识产权局官方第80号令页面锁定2023年12月29日公布、2024年2月1日施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/北京/北京市劳动就业服务企业管理实施办法_2014-07-09_有效_ima-c397ec14.md",
+      "values": {
+        "GBRQ": "20140709",
+        "FWZH": "北京市人民政府令第259号",
+        "_promulgation_source": "OFFICIAL_MODIFICATION_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_MODIFICATION_ORDER",
+        "url": "https://www.beijing.gov.cn/zhengce/zfwj/zfwj2016/szfl/201905/t20190522_58077.html",
+        "source_path": "official_registry/decision_order_evidence/beijing_order_2014_259.html",
+        "source_sha256": "23cd24b94754c4a324b0b6bd739441c755f00b75552067f27cfc98693f752cec",
+        "note": "首都之窗官方第259号令正文锁定该规章为决定第2项。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/北京/北京市森林资源保护管理条例实施办法_2014-07-09_有效_ima-e721d889.md",
+      "values": {
+        "GBRQ": "20140709",
+        "FWZH": "北京市人民政府令第259号",
+        "_promulgation_source": "OFFICIAL_MODIFICATION_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_MODIFICATION_ORDER",
+        "url": "https://www.beijing.gov.cn/zhengce/zfwj/zfwj2016/szfl/201905/t20190522_58077.html",
+        "source_path": "official_registry/decision_order_evidence/beijing_order_2014_259.html",
+        "source_sha256": "23cd24b94754c4a324b0b6bd739441c755f00b75552067f27cfc98693f752cec",
+        "note": "首都之窗官方第259号令正文锁定该规章为决定第13项。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/北京/北京市住宅区及住宅安全防范设施建设和使用管理办法_2014-07-09_有效_ima-5701582d.md",
+      "values": {
+        "GBRQ": "20140709",
+        "FWZH": "北京市人民政府令第259号",
+        "_promulgation_source": "OFFICIAL_MODIFICATION_ORDER_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_MODIFICATION_ORDER",
+        "url": "https://www.beijing.gov.cn/zhengce/zfwj/zfwj2016/szfl/201905/t20190522_58077.html",
+        "source_path": "official_registry/decision_order_evidence/beijing_order_2014_259.html",
+        "source_sha256": "23cd24b94754c4a324b0b6bd739441c755f00b75552067f27cfc98693f752cec",
+        "note": "首都之窗官方第259号令正文锁定该规章为决定第9项。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/山东/济南市消防安全宣传教育规定_2023-11-01_有效_ima-d5e98c9a.md",
+      "values": {
+        "GBRQ": "20230913",
+        "SXRQ": "20231101",
+        "FWZH": "济南市人民政府令第282号",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE",
+        "_effective_date_source": "OFFICIAL_ORDER_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_ORDER_PDF",
+        "url": "https://www.jinan.gov.cn/attach/0/0aa42f03d65c4bc1be2de45f58aeb4a3.pdf",
+        "source_path": "official_registry/decision_order_evidence/jinan_order_2023_282.pdf",
+        "source_sha256": "6befda2e69a94d502e2a0a61f7abbf9fd7c252a62c3e61502b12d1e9916d3e7f",
+        "note": "济南市政府官方PDF锁定第282号令及施行日期。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/山东/济南市绿化条例实施细则_2023-11-01_有效_ima-4fee4853.md",
+      "values": {
+        "GBRQ": "20230913",
+        "SXRQ": "20231101",
+        "FWZH": "济南市人民政府令第283号",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE",
+        "_effective_date_source": "OFFICIAL_ORDER_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_ORDER_PDF",
+        "url": "https://www.jinan.gov.cn/attach/0/1b3521cdd9a94853b4a17fed049bd67f.pdf",
+        "source_path": "official_registry/decision_order_evidence/jinan_order_2023_283.pdf",
+        "source_sha256": "130fd4ac19ca9f432479cb50b7dcf963823a73b4c4a2de43afaa83a078108697",
+        "note": "济南市政府官方PDF锁定第283号令及施行日期。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/山东/济南市城市绿线管理办法_2023-11-01_有效_ima-2c594ae6.md",
+      "values": {
+        "GBRQ": "20230913",
+        "SXRQ": "20231101",
+        "FWZH": "济南市人民政府令第284号",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE",
+        "_effective_date_source": "OFFICIAL_ORDER_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_ORDER_PAGE",
+        "url": "https://www.jinan.gov.cn/col85285/art/2023/art_85285_308.html",
+        "source_path": "official_registry/decision_order_evidence/jinan_order_2023_284.html",
+        "source_sha256": "fb42194190238998ddb5d833a3d8f8c7f02c5d4ada15971c631d05c6fb43947a",
+        "note": "济南市政府官方规章页锁定第284号令及施行日期。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/河北/河北省政府规章制定办法_2020-02-01_有效_ima-5bf2901b.md",
+      "values": {
+        "GBRQ": "20191215",
+        "SXRQ": "20200201",
+        "FWZH": "河北省人民政府令〔2019〕第10号",
+        "_promulgation_source": "OFFICIAL_MOJ_FILING_DATE",
+        "_effective_date_source": "OFFICIAL_ORDER_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_ORDER_AND_FILING_PAGES",
+        "url": "https://www.gov.cn/zhengce/2020-02/01/content_5716236.htm",
+        "source_path": "official_registry/decision_order_evidence/hebei_orders_2019_10_12_official_evidence.md",
+        "source_sha256": "9be5289d24fbb3d8a50ee22f26983391645d7906f002857d43c2eec187e87804",
+        "note": "中国政府网锁定第10号令及施行日期；司法部备案目录锁定2019年12月15日公布日期。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/河北/河北省重大行政决策程序暂行办法_2020-02-01_有效_ima-63991626.md",
+      "values": {
+        "GBRQ": "20191231",
+        "SXRQ": "20200201",
+        "FWZH": "河北省人民政府令〔2019〕第12号",
+        "_promulgation_source": "OFFICIAL_MOJ_FILING_DATE",
+        "_effective_date_source": "OFFICIAL_ORDER_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_ORDER_AND_FILING_PAGES",
+        "url": "https://www.gov.cn/zhengce/2020-02/01/content_5716235.htm",
+        "source_path": "official_registry/decision_order_evidence/hebei_orders_2019_10_12_official_evidence.md",
+        "source_sha256": "9be5289d24fbb3d8a50ee22f26983391645d7906f002857d43c2eec187e87804",
+        "note": "中国政府网锁定第12号令及施行日期；司法部备案目录锁定2019年12月31日公布日期。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/河北/沧州市重大行政决策程序规定_2026-02-10_有效_ima-7f5056c6.md",
+      "values": {
+        "GBRQ": "20251231",
+        "SXRQ": "20260210",
+        "FWZH": "沧州市人民政府令〔2025〕第4号",
+        "_promulgation_source": "OFFICIAL_FILING_DATE",
+        "_effective_date_source": "OFFICIAL_ORDER_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_ORDER_AND_FILING_PAGES",
+        "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202605/t20260513_534872.html",
+        "source_path": "official_registry/decision_order_evidence/cangzhou_orders_2025_4_5_official_evidence.md",
+        "source_sha256": "bf53d23fff376d3655d98aff94fe9df71d0dd9a4cac05aa3df5354e80f5cfbb6",
+        "note": "河北省司法厅备案目录锁定第4号令及公布日期；司法部正文锁定施行日期。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/河北/沧州市人民政府拟定地方性法规草案和制定政府规章程序规定_2026-02-10_有效_ima-e8f7ff6a.md",
+      "values": {
+        "GBRQ": "20251231",
+        "SXRQ": "20260210",
+        "FWZH": "沧州市人民政府令〔2025〕第5号",
+        "_promulgation_source": "OFFICIAL_FILING_DATE",
+        "_effective_date_source": "OFFICIAL_ORDER_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_ORDER_AND_FILING_PAGES",
+        "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202605/t20260513_534873.html",
+        "source_path": "official_registry/decision_order_evidence/cangzhou_orders_2025_4_5_official_evidence.md",
+        "source_sha256": "bf53d23fff376d3655d98aff94fe9df71d0dd9a4cac05aa3df5354e80f5cfbb6",
+        "note": "河北省司法厅备案目录锁定第5号令及公布日期；司法部正文锁定施行日期。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/河北/河北省社会保险基金监督办法_2018-07-01_有效_ima-2b91e1c7.md",
+      "values": {
+        "GBRQ": "20180521",
+        "SXRQ": "20180701",
+        "FWZH": "河北省人民政府令〔2018〕第1号",
+        "_promulgation_source": "OFFICIAL_FILING_DATE",
+        "_effective_date_source": "OFFICIAL_GOVERNMENT_PAGE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_ORDER_AND_FILING_PAGES",
+        "url": "https://www.xiongan.gov.cn/2018-06/28/c_129902611.htm",
+        "source_path": "official_registry/decision_order_evidence/hebei_distinct_orders_2018_2024_official_evidence.md",
+        "source_sha256": "3abbed775bc9204e7edb114c7ef6890b64741eedcd1d523586163674f9f86b77",
+        "note": "司法部备案目录锁定公布日期；中国雄安官网锁定第1号令及施行日期。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/河北/河北省安全生产风险管控与隐患治理规定_2018-07-01_有效_ima-27d775f5.md",
+      "values": {
+        "GBRQ": "20180521",
+        "SXRQ": "20180701",
+        "FWZH": "河北省人民政府令〔2018〕第2号",
+        "_promulgation_source": "OFFICIAL_FILING_DATE",
+        "_effective_date_source": "OFFICIAL_GOVERNMENT_PAGE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_ORDER_AND_FILING_PAGES",
+        "url": "https://www.chengde.gov.cn/art/2018/7/23/art_406_84179.html",
+        "source_path": "official_registry/decision_order_evidence/hebei_distinct_orders_2018_2024_official_evidence.md",
+        "source_sha256": "3abbed775bc9204e7edb114c7ef6890b64741eedcd1d523586163674f9f86b77",
+        "note": "司法部备案目录锁定公布日期；承德市政府锁定第2号令及施行日期。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/河北/河北省军事设施保护管理规定_2025-01-01_有效_ima-b17ee4a7.md",
+      "values": {
+        "GBRQ": "20241116",
+        "SXRQ": "20250101",
+        "FWZH": "河北省人民政府令〔2024〕第5号",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE",
+        "_effective_date_source": "OFFICIAL_ORDER_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_GOVERNMENT_PAGE",
+        "url": "https://www.baoding.gov.cn/content-1647-503271.html",
+        "source_path": "official_registry/decision_order_evidence/hebei_distinct_orders_2018_2024_official_evidence.md",
+        "source_sha256": "3abbed775bc9204e7edb114c7ef6890b64741eedcd1d523586163674f9f86b77",
+        "note": "保定市政府页面锁定河北省第5号令、公布日期和施行日期。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/河北/河北省排污许可管理办法_2025-01-01_有效_ima-d1c63a0f.md",
+      "values": {
+        "GBRQ": "20241116",
+        "SXRQ": "20250101",
+        "FWZH": "河北省人民政府令〔2024〕第6号",
+        "_promulgation_source": "OFFICIAL_ORDER_DATE",
+        "_effective_date_source": "OFFICIAL_ORDER_EFFECTIVE_DATE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_GOVERNMENT_PAGE",
+        "url": "https://hbepb.hebei.gov.cn/hbhjt/zwgk/zc/101732791175830.html",
+        "source_path": "official_registry/decision_order_evidence/hebei_distinct_orders_2018_2024_official_evidence.md",
+        "source_sha256": "3abbed775bc9204e7edb114c7ef6890b64741eedcd1d523586163674f9f86b77",
+        "note": "河北省生态环境厅页面锁定河北省第6号令、公布日期和施行日期。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院关于加强和规范人民法院国家司法救助工作的意见_2026-01-06_有效_imp-32e7-22ac912e.md",
+      "values": {
+        "GBRQ": "20160701",
+        "FWZH": "法发〔2016〕16号",
+        "_promulgation_source": "SOURCE_BODY_ISSUE_DATE"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_AND_OFFICIAL_SPC_PAGE",
+        "url": "https://www.court.gov.cn/fabu/xiangqing/23171.html",
+        "source_sha256": "1d6ab0d18f954eac43b5e911ab0946e107909374cb6989e667575f1f2a93305d",
+        "note": "本地PDF正文载明法发〔2016〕16号和2016年7月1日；最高法权威发布页核对题名、文号及全文。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院关于深化执行改革健全解决执行难长效机制的意见——人民法院执行工作纲要（2019—2023_2026-01-06_有效_imp-32e7-b872f377.md",
+      "values": {
+        "GBRQ": "20190603",
+        "FWZH": "法发〔2019〕16号",
+        "_promulgation_source": "SOURCE_BODY_ISSUE_DATE"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_AND_OFFICIAL_SPC_PAGE",
+        "url": "https://www.court.gov.cn/fabu/xiangqing/163022.html",
+        "source_sha256": "7193baa92841d860a937a5825e8c403c7234da806b9e1850fd832aa7f53faff6",
+        "note": "本地PDF正文载明法发〔2019〕16号和2019年6月3日；最高法权威发布页核对题名、文号及全文。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/法发〔2019〕25号最高人民法院关于依法妥善审理高空抛物、坠物案件的意见_2026-01-06_有效_imp-32e7-2d77017c.md",
+      "values": {
+        "GBRQ": "20191021",
+        "FWZH": "法发〔2019〕25号",
+        "_promulgation_source": "SOURCE_BODY_ISSUE_DATE"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_AND_OFFICIAL_SPC_PAGE",
+        "url": "https://www.court.gov.cn/zixun/xiangqing/199531.html",
+        "source_sha256": "46fda37a731d660c3645943223769ebe5831c7042ecaff7ec83a58c169b5d833",
+        "note": "本地PDF正文载明法发〔2019〕25号和2019年10月21日；最高法全文页及公报页核对题名与正文。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院关于为长江经济带发展提供司法服务和保障的意见_2026-01-06_有效_imp-32e7-7b66e24f.md",
+      "values": {
+        "GBRQ": "20160224",
+        "FWZH": "法发〔2016〕8号",
+        "_promulgation_source": "SOURCE_BODY_ISSUE_DATE"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_AND_OFFICIAL_SPC_PAGE",
+        "url": "https://www.court.gov.cn/fabu/xiangqing/17402.html",
+        "source_sha256": "15be33df2dc80aa8ed76e7dff738dd20a3511c1334699886b4352caeb36a99da",
+        "note": "本地PDF正文载明法发〔2016〕8号和2016年2月24日；最高法权威发布页核对题名、文号及全文。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院印发关于依法妥善处理历史形成的产权案件工作实施意见的通知_2026-01-06_有效_imp-32e7-6de20471.md",
+      "values": {
+        "GBRQ": "20161128",
+        "FWZH": "法发〔2016〕28号",
+        "_promulgation_source": "SOURCE_BODY_ISSUE_DATE"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_AND_OFFICIAL_SPC_PAGE",
+        "url": "https://www.court.gov.cn/fabu/xiangqing/31781.html",
+        "source_sha256": "5dff5851d49b4da7f595f11c73b7dfd7f4f38a635a3f5a73e22a2e6ce050da90",
+        "note": "本地PDF正文载明法发〔2016〕28号和2016年11月28日；最高法权威发布页核对题名、文号及全文。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院公安部印发关于开展司法拘留社会矛盾化解工作的意见的通知_2026-01-06_有效_imp-32e7-294c8b6c.md",
+      "values": {
+        "GBRQ": "20161116",
+        "FWZH": "法发〔2016〕25号",
+        "_promulgation_source": "SOURCE_BODY_ISSUE_DATE"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_METADATA",
+        "source_path": "official_registry/decision_order_evidence/spc_legacy_files_issue_and_repeal_evidence.md",
+        "source_sha256": "6cd872d68ea618e55312188ac851137f986a4f209b17f0e085184c39d1fc8d2c",
+        "note": "原PDF正文载明法发〔2016〕25号和2016年11月16日；仅纠正污染日期并补文号。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院关于加强经济审判工作的通知_2026-01-06_有效_imp-32e7-e27fd6d2.md",
+      "values": {
+        "GBRQ": "19851209",
+        "FWZH": "法（研）发〔1985〕28号",
+        "SXX": "04",
+        "SHXRQ": "20130118",
+        "_promulgation_source": "SOURCE_BODY_AND_OFFICIAL_REPEAL_LIST",
+        "_effect_source": "OFFICIAL_SPC_REPEAL_DECISION"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_AND_OFFICIAL_SPC_REPEAL_LIST",
+        "url": "https://gongbao.court.gov.cn/Details/eb5157122c0099a073dcd040690f3f.html",
+        "source_path": "official_registry/decision_order_evidence/spc_legacy_files_issue_and_repeal_evidence.md",
+        "source_sha256": "6cd872d68ea618e55312188ac851137f986a4f209b17f0e085184c39d1fc8d2c",
+        "note": "本地PDF锁定文号；最高法公报第九批废止目录锁定发布日期和自2013年1月18日起废止。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院最高人民检察院公安部司法部关于抓紧从严打击制造、贩卖假药、毒品和有毒食品等严重危害人民生_1985-01-01_有效_imp-32e7-7c273179.md",
+      "values": {
+        "GBRQ": "19850712",
+        "FWZH": "法（研）发〔1985〕15号",
+        "SXX": "04",
+        "SHXRQ": "20130118",
+        "_promulgation_source": "OFFICIAL_REPEAL_LIST",
+        "_effect_source": "OFFICIAL_SPC_SPP_REPEAL_DECISION"
+      },
+      "evidence": {
+        "type": "OFFICIAL_SPC_SPP_REPEAL_LIST",
+        "url": "https://www.court.gov.cn/fabu/xiangqing/5029.html",
+        "source_path": "official_registry/decision_order_evidence/spc_legacy_files_issue_and_repeal_evidence.md",
+        "source_sha256": "6cd872d68ea618e55312188ac851137f986a4f209b17f0e085184c39d1fc8d2c",
+        "note": "最高法、最高检联合废止目录第17项锁定发布日期、文号和自2013年1月18日起废止。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院最高人民检察院关于当前办理盗窃案件中适用法律问题的补充通知_2026-01-06_有效_imp-32e7-06580c68.md",
+      "values": {
+        "GBRQ": "19860917",
+        "FWZH": "法（研）发〔1986〕26号",
+        "SXX": "04",
+        "SHXRQ": "20130118",
+        "_promulgation_source": "SOURCE_BODY_AND_OFFICIAL_REPEAL_LIST",
+        "_effect_source": "OFFICIAL_SPC_SPP_REPEAL_DECISION"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_AND_OFFICIAL_SPC_SPP_REPEAL_LIST",
+        "url": "https://www.court.gov.cn/fabu/xiangqing/5029.html",
+        "source_path": "official_registry/decision_order_evidence/spc_legacy_files_issue_and_repeal_evidence.md",
+        "source_sha256": "6cd872d68ea618e55312188ac851137f986a4f209b17f0e085184c39d1fc8d2c",
+        "note": "本地PDF及最高法、最高检联合废止目录第22项锁定发布日期、文号和自2013年1月18日起废止。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院、最高人民检察院、公安部、司法部印发关于办理“套路贷”刑事案件若干问题的意见的通知_2019-01-01_有效_imp-32e7-b79ac925.md",
+      "values": {
+        "GBRQ": "20190228",
+        "SXRQ": "20190409",
+        "FWZH": "法发〔2019〕11号",
+        "_promulgation_source": "SOURCE_BODY_ISSUE_DATE",
+        "_effective_date_source": "OFFICIAL_SPC_PAGE"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_AND_OFFICIAL_SPC_PAGE",
+        "url": "https://www.court.gov.cn/fabu/xiangqing/150192.html",
+        "source_path": "official_registry/decision_order_evidence/spc_targeted_legacy_batch2_evidence.md",
+        "source_sha256": "ad9587addbcca6bea595ef54245e73b98234061626bb8200b77ee081a52e00f2",
+        "note": "原PDF锁定2019年2月28日签发及法发〔2019〕11号；最高法页面锁定2019年4月9日起施行。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院关于各级人民法院处理民事和经济纠纷案件申诉的暂行规定_1989-01-01_有效_imp-32e7-cbc50c26.md",
+      "values": {
+        "GBRQ": "19890721",
+        "FWZH": "法（申）发〔1989〕17号",
+        "SXX": "04",
+        "SHXRQ": "20130118",
+        "_promulgation_source": "OFFICIAL_REPEAL_LIST",
+        "_effect_source": "OFFICIAL_SPC_REPEAL_DECISION"
+      },
+      "evidence": {
+        "type": "OFFICIAL_SPC_REPEAL_LIST",
+        "url": "https://www.court.gov.cn/fabu/xiangqing/5030.html",
+        "source_path": "official_registry/decision_order_evidence/spc_targeted_legacy_batch2_evidence.md",
+        "source_sha256": "ad9587addbcca6bea595ef54245e73b98234061626bb8200b77ee081a52e00f2",
+        "note": "最高法第九批废止目录第167项锁定发布日期、文号和自2013年1月18日起废止。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院全国工商联印发关于发挥商会调解优势推进民营经济领域纠纷多元化解机制建设的意见的通知_2019-01-01_有效_imp-32e7-b0ac9d2b.md",
+      "values": {
+        "GBRQ": "20190114",
+        "FWZH": "法〔2019〕11号",
+        "_promulgation_source": "SOURCE_BODY_AND_OFFICIAL_SPC_PAGE"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_AND_OFFICIAL_SPC_PAGE",
+        "url": "https://www.court.gov.cn/fabu/xiangqing/141031.html",
+        "source_path": "official_registry/decision_order_evidence/spc_targeted_legacy_batch2_evidence.md",
+        "source_sha256": "ad9587addbcca6bea595ef54245e73b98234061626bb8200b77ee081a52e00f2",
+        "note": "原PDF及最高法发布页锁定2019年1月14日和法〔2019〕11号。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院最高人民检察院公安部国家安全部司法部全国人大常委会法制工作委员会关于刑事诉讼法实施中若干_1998-01-01_有效_imp-32e7-29206f42.md",
+      "values": {
+        "GBRQ": "19980119",
+        "SXX": "04",
+        "SHXRQ": "20130101",
+        "_promulgation_source": "OFFICIAL_SUCCESSOR_RULE",
+        "_effect_source": "OFFICIAL_SUCCESSOR_RULE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_SUCCESSOR_RULE",
+        "url": "https://gongbao.court.gov.cn/Details/58b406a59cf0172bb23d811d2a6374.html",
+        "source_path": "official_registry/decision_order_evidence/spc_targeted_legacy_batch2_evidence.md",
+        "source_sha256": "ad9587addbcca6bea595ef54245e73b98234061626bb8200b77ee081a52e00f2",
+        "note": "2012年六部门新规定明确1998年1月19日旧规定自2013年1月1日起同时废止。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院最高人民检察院公安部国家工商行政管理局关于印发关于依法查处盗窃、抢劫机动车案件的规定_1998-01-01_有效_imp-32e7-1f969821.md",
+      "values": {
+        "GBRQ": "19980508",
+        "FWZH": "公通字〔1998〕31号",
+        "_promulgation_source": "SOURCE_BODY_ISSUE_DATE"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_AND_OFFICIAL_REPUBLICATION",
+        "url": "https://www.taicang.gov.cn/taicang/tcgaj05/200803/fcf5cff62e6148a18d3bad5455a22087.shtml",
+        "source_path": "official_registry/decision_order_evidence/spc_targeted_legacy_batch2_evidence.md",
+        "source_sha256": "ad9587addbcca6bea595ef54245e73b98234061626bb8200b77ee081a52e00f2",
+        "note": "原PDF锁定1998年5月8日和公通字〔1998〕31号；地方政府官网全文及最高检后续适用文章交叉核题名。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院最高人民检察院公安部司法部卫生部关于精神疾病司法鉴定暂行规定_1989-01-01_有效_imp-32e7-22680f29.md",
+      "values": {
+        "GBRQ": "19890711",
+        "SXRQ": "19890801",
+        "FWZH": "卫医字〔1989〕第17号",
+        "_promulgation_source": "OFFICIAL_HEALTH_RULE_CATALOG",
+        "_effective_date_source": "OFFICIAL_HEALTH_RULE_CATALOG"
+      },
+      "evidence": {
+        "type": "OFFICIAL_HEALTH_RULE_CATALOG",
+        "url": "https://wjw.wuxi.gov.cn/doc/2023/02/11/3880743.shtml",
+        "source_path": "official_registry/decision_order_evidence/spc_targeted_legacy_batch2_evidence.md",
+        "source_sha256": "ad9587addbcca6bea595ef54245e73b98234061626bb8200b77ee081a52e00f2",
+        "note": "国家卫生计生委2016年第1号公告所附目录锁定公布日和施行日；文号由原PDF补足。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院最高人民检察院印发关于办理盗窃、盗掘、非法经营和走私文物的案件具体应用法律的若干问题的_1987-01-01_有效_imp-32e7-58ef5b88.md",
+      "values": {
+        "GBRQ": "19871127",
+        "FWZH": "法（研）发〔1987〕32号",
+        "SXX": "04",
+        "SHXRQ": "20160101",
+        "_promulgation_source": "SOURCE_BODY_AND_OFFICIAL_SUCCESSOR_RULE",
+        "_effect_source": "OFFICIAL_SUCCESSOR_RULE"
+      },
+      "evidence": {
+        "type": "SOURCE_BODY_AND_OFFICIAL_SUCCESSOR_RULE",
+        "url": "https://www.court.gov.cn/fabu/xiangqing/16405.html",
+        "source_path": "official_registry/decision_order_evidence/spc_targeted_legacy_batch2_evidence.md",
+        "source_sha256": "ad9587addbcca6bea595ef54245e73b98234061626bb8200b77ee081a52e00f2",
+        "note": "原PDF锁定发布日期和文号；2015年新解释明确旧解释自2016年1月1日起同时废止。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院关于涉外海事诉讼管辖的具体规定_2026-01-06_有效_imp-32e7-71709096.md",
+      "values": {
+        "GBRQ": "19860131",
+        "SXX": "04",
+        "SHXRQ": "20130118",
+        "_promulgation_source": "OFFICIAL_REPEAL_LIST",
+        "_effect_source": "OFFICIAL_SPC_REPEAL_DECISION"
+      },
+      "evidence": {
+        "type": "OFFICIAL_SPC_REPEAL_LIST",
+        "url": "https://www.court.gov.cn/fabu/xiangqing/5030.html",
+        "source_path": "official_registry/decision_order_evidence/spc_targeted_legacy_batch2_evidence.md",
+        "source_sha256": "ad9587addbcca6bea595ef54245e73b98234061626bb8200b77ee081a52e00f2",
+        "note": "最高法第九批废止目录第67项锁定1986年1月31日和自2013年1月18日起废止。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/湖北/湖北省公共安全视频图像信息系统管理办法_2013-07-08_有效_gov-rule-a31bb0b0d1734c6e4a30223879a063fb.md",
+      "values": {
+        "GBRQ": "20260606",
+        "FWZH": "湖北省人民政府令第440号",
+        "SXRQ": "20260801",
+        "_promulgation_source": "OFFICIAL_VERSION_EVENT",
+        "_effective_date_source": "OFFICIAL_VERSION_EVENT"
+      },
+      "evidence": {
+        "type": "OFFICIAL_VERSION_EVENT",
+        "url": "https://www.gov.cn/zhengce/202606/content_7072128.htm",
+        "source_path": "official_registry/decision_order_evidence/same_title_version_event_evidence.md",
+        "source_sha256": "dfb21be512e01ff16b45889cfd054aa7ea2e948d7ad4a787e53d5ee4c612113f",
+        "note": "中国政府网修订版载明2026年6月6日湖北省人民政府令第440号修订；正文第三十条载明2026年8月1日起施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/湖南/张家界市人民政府起草地方性法规草案和制定政府规章程序规定_2025-01-10_有效_ima-fe86a918.md",
+      "values": {
+        "GBRQ": "20250110",
+        "FWZH": "张家界市人民政府令第46号",
+        "SXRQ": "20250210",
+        "_promulgation_source": "OFFICIAL_VERSION_EVENT",
+        "_effective_date_source": "OFFICIAL_VERSION_EVENT"
+      },
+      "evidence": {
+        "type": "OFFICIAL_VERSION_EVENT",
+        "url": "http://www.zjj.gov.cn/c10781/20250114/i957537.html",
+        "source_path": "official_registry/decision_order_evidence/same_title_version_event_evidence.md",
+        "source_sha256": "dfb21be512e01ff16b45889cfd054aa7ea2e948d7ad4a787e53d5ee4c612113f",
+        "note": "张家界市政府修订版页面载明2025年1月10日第46号令公布，自2025年2月10日起施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/上海/上海市市标制作使用管理暂行规定_1991-02-09_有效_gov-rule-9841cdf0c17036b624ec17b36a5cb5bd.md",
+      "values": {
+        "GBRQ": "19971219",
+        "FWZH": "上海市人民政府令第54号",
+        "SXRQ": "19980101",
+        "_promulgation_source": "OFFICIAL_VERSION_EVENT",
+        "_effective_date_source": "OFFICIAL_VERSION_EVENT"
+      },
+      "evidence": {
+        "type": "OFFICIAL_VERSION_EVENT_CROSS_VALIDATED_EFFECTIVE_DATE",
+        "url": "https://www.shanghai.gov.cn/nw26170/20200820/0001-26170_27236.html",
+        "source_path": "official_registry/decision_order_evidence/same_title_version_event_evidence.md",
+        "source_sha256": "dfb21be512e01ff16b45889cfd054aa7ea2e948d7ad4a787e53d5ee4c612113f",
+        "note": "上海市政府官方版本页确认1997年12月19日第54号令修正并重新发布；商务部法规载体交叉确认该令自1998年1月1日起施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/上海/上海市市标制作使用管理暂行规定_1991-02-09_有效_gov-rule-8f538a8291b6b478fa3f39f98fc7fe30.md",
+      "values": {
+        "GBRQ": "20240402",
+        "FWZH": "上海市人民政府令第13号",
+        "SXRQ": "20240515",
+        "_promulgation_source": "OFFICIAL_VERSION_EVENT",
+        "_effective_date_source": "OFFICIAL_VERSION_EVENT"
+      },
+      "evidence": {
+        "type": "OFFICIAL_VERSION_EVENT",
+        "url": "https://www.shanghai.gov.cn/nw12344/20240430/e1b60274a39d40f591802f890e7ce385.html",
+        "source_path": "official_registry/decision_order_evidence/same_title_version_event_evidence.md",
+        "source_sha256": "dfb21be512e01ff16b45889cfd054aa7ea2e948d7ad4a787e53d5ee4c612113f",
+        "note": "上海市政府第13号令决定页载明2024年4月2日公布、自2024年5月15日起施行，并在修改清单中列明本规定。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/安徽/安徽省公共安全技术防范管理规定_2004-08-10_有效_ima-4fb34b0d.md",
+      "values": {
+        "GBRQ": "20040810",
+        "FWZH": "安徽省人民政府令第175号",
+        "_promulgation_source": "OFFICIAL_PROMULGATION_DECISION"
+      },
+      "evidence": {
+        "type": "OFFICIAL_DECISION_BODY_EXACT_POSITION",
+        "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/200506/t20050602_135600.html",
+        "source_path": "official_registry/decision_order_evidence/anhui_legacy_targeted_decision_evidence.md",
+        "source_sha256": "9ebc3e3d3645c3309518d6419f08753f97a126b97c56c756595cf0af1e1487e9",
+        "note": "司法部官方决定正文载明2004年8月10日安徽省人民政府令第175号公布；本规章为决定第36项。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/安徽/安徽省饮用天然矿泉水资源管理办法_2004-08-10_有效_ima-3bf4df19.md",
+      "values": {
+        "GBRQ": "20040810",
+        "FWZH": "安徽省人民政府令第175号",
+        "_promulgation_source": "OFFICIAL_PROMULGATION_DECISION"
+      },
+      "evidence": {
+        "type": "OFFICIAL_DECISION_BODY_EXACT_POSITION",
+        "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/200506/t20050602_135600.html",
+        "source_path": "official_registry/decision_order_evidence/anhui_legacy_targeted_decision_evidence.md",
+        "source_sha256": "9ebc3e3d3645c3309518d6419f08753f97a126b97c56c756595cf0af1e1487e9",
+        "note": "司法部官方决定正文载明2004年8月10日安徽省人民政府令第175号公布；本办法为决定第20项。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/安徽/安徽省森林和野生动物类型自然保护区管理办法_2010-12-23_有效_ima-6423aa03.md",
+      "values": {
+        "GBRQ": "20101223",
+        "FWZH": "安徽省人民政府令第230号",
+        "_promulgation_source": "OFFICIAL_PROMULGATION_DECISION"
+      },
+      "evidence": {
+        "type": "OFFICIAL_DECISION_BODY_EXACT_POSITION",
+        "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/201105/t20110519_138800.html",
+        "source_path": "official_registry/decision_order_evidence/anhui_legacy_targeted_decision_evidence.md",
+        "source_sha256": "9ebc3e3d3645c3309518d6419f08753f97a126b97c56c756595cf0af1e1487e9",
+        "note": "司法部官方决定正文载明2010年12月23日安徽省人民政府令第230号公布；本办法为决定第1项。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/安徽/安徽省鼓励台湾同胞投资的规定_2010-12-23_有效_ima-5d23ebac.md",
+      "values": {
+        "GBRQ": "20101223",
+        "FWZH": "安徽省人民政府令第230号",
+        "_promulgation_source": "OFFICIAL_PROMULGATION_DECISION"
+      },
+      "evidence": {
+        "type": "OFFICIAL_DECISION_BODY_EXACT_POSITION",
+        "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/201105/t20110519_138800.html",
+        "source_path": "official_registry/decision_order_evidence/anhui_legacy_targeted_decision_evidence.md",
+        "source_sha256": "9ebc3e3d3645c3309518d6419f08753f97a126b97c56c756595cf0af1e1487e9",
+        "note": "司法部官方决定正文载明2010年12月23日安徽省人民政府令第230号公布；本规定为决定第26项。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/安徽/安徽省体育设施管理办法_2014-12-16_有效_ima-b3888d44.md",
+      "values": {
+        "GBRQ": "20141216",
+        "FWZH": "安徽省人民政府令第258号",
+        "_promulgation_source": "CROSS_VALIDATED_PROMULGATION_DECISION"
+      },
+      "evidence": {
+        "type": "CROSS_VALIDATED_NON_OFFICIAL_DECISION_ORDER",
+        "url": "https://zh.wikisource.org/zh-hans/安徽省人民政府令第258号",
+        "source_path": "official_registry/decision_order_evidence/anhui_legacy_targeted_decision_evidence.md",
+        "source_sha256": "9ebc3e3d3645c3309518d6419f08753f97a126b97c56c756595cf0af1e1487e9",
+        "note": "第258号决定全文载体列本办法为第3项；决定号、日期及修正事件另与司法部官方历史页交叉核对。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/安徽/安徽省查处非法生产卷烟规定_2014-12-16_有效_ima-01d02bc3.md",
+      "values": {
+        "GBRQ": "20141216",
+        "FWZH": "安徽省人民政府令第258号",
+        "_promulgation_source": "CROSS_VALIDATED_PROMULGATION_DECISION"
+      },
+      "evidence": {
+        "type": "CROSS_VALIDATED_NON_OFFICIAL_DECISION_ORDER",
+        "url": "https://zh.wikisource.org/zh-hans/安徽省人民政府令第258号",
+        "source_path": "official_registry/decision_order_evidence/anhui_legacy_targeted_decision_evidence.md",
+        "source_sha256": "9ebc3e3d3645c3309518d6419f08753f97a126b97c56c756595cf0af1e1487e9",
+        "note": "第258号决定全文载体列本规定为第5项；决定号、日期及修正事件另与司法部官方历史页交叉核对。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/安徽/安徽省城市污水处理费管理暂行办法_2014-12-16_有效_ima-633f64ef.md",
+      "values": {
+        "GBRQ": "20141216",
+        "FWZH": "安徽省人民政府令第258号",
+        "_promulgation_source": "CROSS_VALIDATED_PROMULGATION_DECISION"
+      },
+      "evidence": {
+        "type": "CROSS_VALIDATED_NON_OFFICIAL_DECISION_ORDER",
+        "url": "https://zh.wikisource.org/zh-hans/安徽省人民政府令第258号",
+        "source_path": "official_registry/decision_order_evidence/anhui_legacy_targeted_decision_evidence.md",
+        "source_sha256": "9ebc3e3d3645c3309518d6419f08753f97a126b97c56c756595cf0af1e1487e9",
+        "note": "第258号决定全文载体列本办法为第8项；决定号、日期及修正事件另与司法部官方历史页交叉核对。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/安徽/安徽省实施军人抚恤优待条例办法_2014-12-16_有效_ima-c5eee6b1.md",
+      "values": {
+        "GBRQ": "20141216",
+        "FWZH": "安徽省人民政府令第258号",
+        "_promulgation_source": "CROSS_VALIDATED_PROMULGATION_DECISION"
+      },
+      "evidence": {
+        "type": "CROSS_VALIDATED_NON_OFFICIAL_DECISION_ORDER",
+        "url": "https://zh.wikisource.org/zh-hans/安徽省人民政府令第258号",
+        "source_path": "official_registry/decision_order_evidence/anhui_legacy_targeted_decision_evidence.md",
+        "source_sha256": "9ebc3e3d3645c3309518d6419f08753f97a126b97c56c756595cf0af1e1487e9",
+        "note": "第258号决定全文载体列本办法为第11项；决定号、日期及修正事件另与司法部官方历史页交叉核对。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/安徽/合肥市户外广告和招牌设置管理办法_2019-12-31_有效_ima-47c24b6c.md",
+      "values": {
+        "GBRQ": "20191231",
+        "FWZH": "合肥市人民政府令第206号",
+        "SXRQ": "20200301",
+        "_promulgation_source": "OFFICIAL_PROMULGATION_DECISION",
+        "_effective_date_source": "OFFICIAL_PROMULGATION_DECISION"
+      },
+      "evidence": {
+        "type": "OFFICIAL_DECISION_BODY_EXACT_POSITION",
+        "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202009/t20200922_143021.html",
+        "source_path": "official_registry/decision_order_evidence/hefei_order_206_official_evidence.md",
+        "source_sha256": "08c5d3b072070442e781c20ace0198dfd91041750f4eca68669338e24f0f0b83",
+        "note": "司法部官方决定正文列本办法为第1项，并载明决定自2020年3月1日起施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/安徽/合肥市机动车排气污染防治办法_2019-12-31_有效_ima-968c8fad.md",
+      "values": {
+        "GBRQ": "20191231",
+        "FWZH": "合肥市人民政府令第206号",
+        "SXRQ": "20200301",
+        "_promulgation_source": "OFFICIAL_PROMULGATION_DECISION",
+        "_effective_date_source": "OFFICIAL_PROMULGATION_DECISION"
+      },
+      "evidence": {
+        "type": "OFFICIAL_DECISION_BODY_EXACT_POSITION",
+        "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202009/t20200922_143021.html",
+        "source_path": "official_registry/decision_order_evidence/hefei_order_206_official_evidence.md",
+        "source_sha256": "08c5d3b072070442e781c20ace0198dfd91041750f4eca68669338e24f0f0b83",
+        "note": "司法部官方决定正文列本办法为第3项，并载明决定自2020年3月1日起施行。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院关于贯彻执行〈经济合同法若干问题的意见_1985-01-01_有效_imp-32e7-915bb6a0.md",
+      "values": {
+        "GBRQ": "19840917",
+        "FWZH": "(1984)法办字第128号",
+        "_promulgation_source": "CROSS_VALIDATED_ORIGINAL_CARRIER"
+      },
+      "evidence": {
+        "type": "ORIGINAL_CARRIER_PLUS_CROSS_VALIDATION",
+        "url": "https://www.haolvshi.com.cn/flfgk/109226.html",
+        "source_path": "official_registry/decision_order_evidence/spc_targeted_legacy_batch3_evidence.md",
+        "source_sha256": "964ae3ec14206ed2e830b7356157f659c17d6d42ab9de34d2b76f3b5f85e7ca7",
+        "note": "原PDF正文锁定日期；公开法规载体与最高法废止目录转录交叉核对文号。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院关于贯彻执行民事诉讼法（试行）若干问题的意见_1985-01-01_有效_imp-32e7-aab4e959.md",
+      "values": {
+        "GBRQ": "19840908",
+        "FWZH": "〔84〕法办字第112号",
+        "_promulgation_source": "CROSS_VALIDATED_ORIGINAL_CARRIER"
+      },
+      "evidence": {
+        "type": "OFFICIAL_GAZETTE_TRANSCRIPTION_PLUS_ORIGINAL_CARRIER",
+        "url": "https://zh.wikisource.org/wiki/关于贯彻执行〈民事诉讼法（试行）〉若干问题的意见",
+        "source_path": "official_registry/decision_order_evidence/spc_targeted_legacy_batch3_evidence.md",
+        "source_sha256": "964ae3ec14206ed2e830b7356157f659c17d6d42ab9de34d2b76f3b5f85e7ca7",
+        "note": "原PDF锁定通过日；最高法公报转录及公开法规载体锁定正式印发日和文号。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院关于在经济审判工作中贯彻执行民事诉讼法（试行）若干问题的意见_1985-01-01_有效_imp-32e7-8faafca6.md",
+      "values": {
+        "GBRQ": "19841010",
+        "FWZH": "〔84〕法办字第128号",
+        "_promulgation_source": "CROSS_VALIDATED_ORIGINAL_CARRIER"
+      },
+      "evidence": {
+        "type": "OFFICIAL_GAZETTE_TRANSCRIPTION_PLUS_ORIGINAL_CARRIER",
+        "url": "https://zh.wikisource.org/wiki/最高人民法院关于在经济审判工作中贯彻执行《民事诉讼法（试行）》若干问题的意见",
+        "source_path": "official_registry/decision_order_evidence/spc_targeted_legacy_batch3_evidence.md",
+        "source_sha256": "964ae3ec14206ed2e830b7356157f659c17d6d42ab9de34d2b76f3b5f85e7ca7",
+        "note": "原PDF锁定通过日；最高法1985年通知的公开转录锁定正式印发日和文号。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院关于开展专利审判工作的几个问题的通知_2026-01-06_有效_imp-32e7-5359a5c9.md",
+      "values": {
+        "GBRQ": "19850216",
+        "FWZH": "法（经）〔1985〕3号",
+        "_promulgation_source": "CROSS_VALIDATED_ORIGINAL_CARRIER"
+      },
+      "evidence": {
+        "type": "OFFICIAL_AGENCY_AND_LOCAL_COURT_CROSS_VALIDATION",
+        "url": "https://www.cnipa.gov.cn/art/2013/10/23/art_74_28120.html",
+        "source_path": "official_registry/decision_order_evidence/spc_targeted_legacy_batch3_evidence.md",
+        "source_sha256": "964ae3ec14206ed2e830b7356157f659c17d6d42ab9de34d2b76f3b5f85e7ca7",
+        "note": "原PDF、国家知识产权局和广州海事法院公开目录交叉锁定日期与文号。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院关于审理农村承包合同纠纷案件若干问题的意见_1986-01-01_有效_imp-32e7-398f824f.md",
+      "values": {
+        "GBRQ": "19860414",
+        "FWZH": "法（经）发〔1986〕13号",
+        "_promulgation_source": "CROSS_VALIDATED_ORIGINAL_CARRIER"
+      },
+      "evidence": {
+        "type": "ORIGINAL_CARRIER_WITH_RECORDED_OFFICIAL_DATE_CONFLICT",
+        "url": "https://gongbao.court.gov.cn/Details/f9f1aec4aef2a72877ded28d9836c7.html",
+        "source_path": "official_registry/decision_order_evidence/spc_targeted_legacy_batch3_evidence.md",
+        "source_sha256": "964ae3ec14206ed2e830b7356157f659c17d6d42ab9de34d2b76f3b5f85e7ca7",
+        "note": "原PDF载明1986年4月14日；最高法后续文件回溯写4月12日印发，冲突已保留，编码采用原始正文日期。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院关于诉讼前扣押船舶的具体规定_2026-01-06_有效_imp-32e7-68cbef2f.md",
+      "values": {
+        "GBRQ": "19860131",
+        "_promulgation_source": "CROSS_VALIDATED_ORIGINAL_CARRIER"
+      },
+      "evidence": {
+        "type": "ORIGINAL_CARRIER_APPROVAL_DATE_FALLBACK",
+        "url": "https://www.gzhsfy.gov.cn/hsmh/web/content?gid=21547&lmdm=1055",
+        "source_path": "official_registry/decision_order_evidence/spc_targeted_legacy_batch3_evidence.md",
+        "source_sha256": "964ae3ec14206ed2e830b7356157f659c17d6d42ab9de34d2b76f3b5f85e7ca7",
+        "note": "原PDF仅载审委会通过日，按标准日期递补采用1986年1月31日；公报刊载日差异已记录。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院最高人民检察院司法部公安部关于印发人体重伤鉴定标准（试行）的通知_1986-01-01_有效_imp-32e7-cb3a9a91.md",
+      "values": {
+        "GBRQ": "19860815",
+        "FWZH": "（86）司发研字第249号",
+        "ZDJGMC": "中华人民共和国司法部",
+        "ZDJGDM": "0000003150",
+        "_promulgation_source": "CROSS_VALIDATED_ORIGINAL_CARRIER",
+        "_agency_name_source": "JOINT_DOCUMENT_NUMBER_ISSUER",
+        "_agency_code_source": "GBT47277_APPENDIX_B"
+      },
+      "evidence": {
+        "type": "ORIGINAL_CARRIER_PLUS_OFFICIAL_REPLACEMENT_PAGE",
+        "url": "https://www.xsbncaw.gov.cn/552.news.detail.dhtml?news_id=316",
+        "source_path": "official_registry/decision_order_evidence/spc_targeted_legacy_batch3_evidence.md",
+        "source_sha256": "964ae3ec14206ed2e830b7356157f659c17d6d42ab9de34d2b76f3b5f85e7ca7",
+        "note": "原PDF锁定日期与文号；联合发文按司发研字号确定司法部为制定机关。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/宁夏/宁夏回族自治区中小学教师继续教育规定_2021-08-20_有效_ima-4c9206da.md",
+      "values": {
+        "GBRQ": "20210820",
+        "SXRQ": "20210820",
+        "FWZH": "宁夏回族自治区人民政府令第117号",
+        "ZDJGMC": "宁夏回族自治区人民政府",
+        "ZDJGDM": "6400003000",
+        "_promulgation_source": "OFFICIAL_MODIFICATION_DECISION",
+        "_agency_name_source": "OFFICIAL_MODIFICATION_DECISION",
+        "_agency_code_source": "GBT47277_APPENDIX_B"
+      },
+      "evidence": {
+        "type": "OFFICIAL_MODIFICATION_DECISION",
+        "url": "https://www.nx.gov.cn/zwgk/qzfwj/202108/t20210830_2996708.html",
+        "source_path": "official_registry/decision_order_evidence/ningxia_order_117_official_evidence.md",
+        "source_sha256": "d843c602e3b642b866bd00f4033f00ec3186644a56fb9fec6084edeb6c3f1e1a",
+        "note": "自治区政府第117号令正文列为修改规章第2项。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/宁夏/宁夏回族自治区城镇国有土地使用权出让和转让办法_2021-08-20_有效_ima-048bc1e0.md",
+      "values": {
+        "GBRQ": "20210820",
+        "SXRQ": "20210820",
+        "FWZH": "宁夏回族自治区人民政府令第117号",
+        "ZDJGMC": "宁夏回族自治区人民政府",
+        "ZDJGDM": "6400003000",
+        "_promulgation_source": "OFFICIAL_MODIFICATION_DECISION",
+        "_agency_name_source": "OFFICIAL_MODIFICATION_DECISION",
+        "_agency_code_source": "GBT47277_APPENDIX_B"
+      },
+      "evidence": {
+        "type": "OFFICIAL_MODIFICATION_DECISION",
+        "url": "https://www.nx.gov.cn/zwgk/qzfwj/202108/t20210830_2996708.html",
+        "source_path": "official_registry/decision_order_evidence/ningxia_order_117_official_evidence.md",
+        "source_sha256": "d843c602e3b642b866bd00f4033f00ec3186644a56fb9fec6084edeb6c3f1e1a",
+        "note": "自治区政府第117号令正文列为修改规章第6项。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/宁夏/宁夏回族自治区地方预算执行情况审计监督办法_2010-11-04_有效_ima-74a1eaed.md",
+      "values": {
+        "GBRQ": "20101104",
+        "SXRQ": "20101104",
+        "SHXRQ": "20251111",
+        "SXX": "04",
+        "FWZH": "宁夏回族自治区人民政府令第28号",
+        "ZDJGMC": "宁夏回族自治区人民政府",
+        "ZDJGDM": "6400003000",
+        "_promulgation_source": "OFFICIAL_MODIFICATION_DECISION",
+        "_effective_date_source": "OFFICIAL_MODIFICATION_DECISION",
+        "_effect_source": "OFFICIAL_REPEAL_DECISION",
+        "_agency_name_source": "OFFICIAL_MODIFICATION_DECISION",
+        "_agency_code_source": "GBT47277_APPENDIX_B"
+      },
+      "evidence": {
+        "type": "OFFICIAL_MODIFICATION_AND_REPEAL_DECISIONS",
+        "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/201105/t20110519_138728.html",
+        "source_path": "official_registry/decision_order_evidence/ningxia_order_28_unresolved_order_evidence.md",
+        "source_sha256": "991f2654cb27d015214808873effac18577abc767f0c5b3907d7ecc35ea217d5",
+        "note": "第28号令补足修改事件文号；第137号令确认2025年11月11日废止。第28号令正文未逐件排列本目标，内部顺序仍由制定机关确定。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/宁夏/宁夏回族自治区地震灾情上报规定_2010-11-04_有效_ima-835b5fa9.md",
+      "values": {
+        "GBRQ": "20101104",
+        "SXRQ": "20101104",
+        "FWZH": "宁夏回族自治区人民政府令第28号",
+        "ZDJGMC": "宁夏回族自治区人民政府",
+        "ZDJGDM": "6400003000",
+        "_promulgation_source": "OFFICIAL_MODIFICATION_DECISION",
+        "_effective_date_source": "OFFICIAL_MODIFICATION_DECISION",
+        "_agency_name_source": "OFFICIAL_MODIFICATION_DECISION",
+        "_agency_code_source": "GBT47277_APPENDIX_B"
+      },
+      "evidence": {
+        "type": "OFFICIAL_MODIFICATION_DECISION_WITH_UNRESOLVED_ITEM_ORDER",
+        "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/201105/t20110519_138728.html",
+        "source_path": "official_registry/decision_order_evidence/ningxia_order_28_unresolved_order_evidence.md",
+        "source_sha256": "991f2654cb27d015214808873effac18577abc767f0c5b3907d7ecc35ea217d5",
+        "note": "第28号令补足修改事件文号；决定正文未逐件排列本目标，内部顺序仍由制定机关确定。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/宁夏/宁夏回族自治区国有企业档案工作规定_2010-11-04_有效_ima-0cabe67a.md",
+      "values": {
+        "GBRQ": "20101104",
+        "SXRQ": "20101104",
+        "FWZH": "宁夏回族自治区人民政府令第28号",
+        "ZDJGMC": "宁夏回族自治区人民政府",
+        "ZDJGDM": "6400003000",
+        "_promulgation_source": "OFFICIAL_MODIFICATION_DECISION",
+        "_effective_date_source": "OFFICIAL_MODIFICATION_DECISION",
+        "_agency_name_source": "OFFICIAL_MODIFICATION_DECISION",
+        "_agency_code_source": "GBT47277_APPENDIX_B"
+      },
+      "evidence": {
+        "type": "OFFICIAL_MODIFICATION_DECISION_WITH_UNRESOLVED_ITEM_ORDER",
+        "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/201105/t20110519_138728.html",
+        "source_path": "official_registry/decision_order_evidence/ningxia_order_28_unresolved_order_evidence.md",
+        "source_sha256": "991f2654cb27d015214808873effac18577abc767f0c5b3907d7ecc35ea217d5",
+        "note": "第28号令补足修改事件文号；决定正文未逐件排列本目标，内部顺序仍由制定机关确定。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/宁夏/宁夏回族自治区科学技术保密细则_2010-11-04_有效_ima-a9f6eac0.md",
+      "values": {
+        "GBRQ": "20101104",
+        "SXRQ": "20101104",
+        "FWZH": "宁夏回族自治区人民政府令第28号",
+        "ZDJGMC": "宁夏回族自治区人民政府",
+        "ZDJGDM": "6400003000",
+        "_promulgation_source": "OFFICIAL_MODIFICATION_DECISION",
+        "_effective_date_source": "OFFICIAL_MODIFICATION_DECISION",
+        "_agency_name_source": "OFFICIAL_MODIFICATION_DECISION",
+        "_agency_code_source": "GBT47277_APPENDIX_B"
+      },
+      "evidence": {
+        "type": "OFFICIAL_MODIFICATION_DECISION_WITH_UNRESOLVED_ITEM_ORDER",
+        "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/201105/t20110519_138728.html",
+        "source_path": "official_registry/decision_order_evidence/ningxia_order_28_unresolved_order_evidence.md",
+        "source_sha256": "991f2654cb27d015214808873effac18577abc767f0c5b3907d7ecc35ea217d5",
+        "note": "第28号令补足修改事件文号；决定正文未逐件排列本目标，内部顺序仍由制定机关确定。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/04_规章/02_地方政府规章/宁夏/宁夏回族自治区民兵预备役部队训练基地（中心）管理规定_2010-11-04_有效_ima-9d81e240.md",
+      "values": {
+        "GBRQ": "20101104",
+        "SXRQ": "20101104",
+        "FWZH": "宁夏回族自治区人民政府令第28号",
+        "ZDJGMC": "宁夏回族自治区人民政府",
+        "ZDJGDM": "6400003000",
+        "_promulgation_source": "OFFICIAL_MODIFICATION_DECISION",
+        "_effective_date_source": "OFFICIAL_MODIFICATION_DECISION",
+        "_agency_name_source": "OFFICIAL_MODIFICATION_DECISION",
+        "_agency_code_source": "GBT47277_APPENDIX_B"
+      },
+      "evidence": {
+        "type": "OFFICIAL_MODIFICATION_DECISION_WITH_UNRESOLVED_ITEM_ORDER",
+        "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/201105/t20110519_138728.html",
+        "source_path": "official_registry/decision_order_evidence/ningxia_order_28_unresolved_order_evidence.md",
+        "source_sha256": "991f2654cb27d015214808873effac18577abc767f0c5b3907d7ecc35ea217d5",
+        "note": "第28号令补足修改事件文号；决定正文未逐件排列本目标，内部顺序仍由制定机关确定。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/02_行政法规/国务院关于修改部分行政法规和国务院决定的决定_2024-01-13_未知_3a2e6b45dfac4d298b596153ea861083.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "OFFICIAL_EFFECTIVE_CLAUSE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_EFFECTIVE_DECISION_CLAUSE",
+        "url": "https://www.mee.gov.cn/zcwj/gwywj/202401/t20240122_1064384.shtml",
+        "note": "国务院令第771号公布语明确本决定自公布之日起施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/02_行政法规/国务院关于修改和废止部分行政法规的决定_2024-05-01_未知_555de6bedd9b45f3b43684e0465ee193.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "OFFICIAL_EFFECTIVE_CLAUSE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_EFFECTIVE_DECISION_CLAUSE",
+        "url": "https://app.www.gov.cn/govdata/gov/202403/15/513018/article.html",
+        "note": "国务院令第777号正文明确本决定自2024年5月1日起施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/安徽/安徽省人民代表大会常务委员会关于修改和废止部分地方性法规的决定_2021-03-29_未知_ff8081817a9ec324017aa8646edd085c.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "OFFICIAL_EFFECTIVE_CLAUSE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_EFFECTIVE_DECISION_CLAUSE",
+        "url": "https://flk.npc.gov.cn/detail?id=ff8081817a9ec324017aa8646edd085c",
+        "note": "国家法律法规数据库所载决定正文明确本决定自公布之日起施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/河北/河北省人民代表大会常务委员会关于废止河北省民办教育条例等三部法规的决定_2021-09-29_未知_ff8081817d124368017d27c24a7c1928.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "OFFICIAL_EFFECTIVE_CLAUSE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_EFFECTIVE_DECISION_CLAUSE",
+        "url": "https://flk.npc.gov.cn/detail?id=ff8081817d124368017d27c24a7c1928",
+        "note": "国家法律法规数据库所载决定正文明确本决定自公布之日起施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/河北/河北省人民代表大会常务委员会关于修改河北省技术市场条例等十四部法规的决定_2021-09-29_未知_ff8081817f48d8de017f6362681d0c0d.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "OFFICIAL_EFFECTIVE_CLAUSE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_EFFECTIVE_DECISION_CLAUSE",
+        "url": "https://flk.npc.gov.cn/detail?id=ff8081817f48d8de017f6362681d0c0d",
+        "note": "国家法律法规数据库所载决定正文明确本决定自公布之日起施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/河北/河北省人民代表大会常务委员会关于修改河北省技术市场条例等十四部法规的决定_2021-09-29_未知_ff80818184cc7b200184f15ed6a5080a.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "OFFICIAL_EFFECTIVE_CLAUSE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_EFFECTIVE_DECISION_CLAUSE",
+        "url": "https://flk.npc.gov.cn/detail?id=ff80818184cc7b200184f15ed6a5080a",
+        "note": "同一决定的重复载体正文明确本决定自公布之日起施行；规范对象仍由正文哈希归并。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/湖北/湖北省人民代表大会常务委员会关于废止湖北省实施〈中华人民共和国预算法〉办法的决定_2021-09-29_未知_ff8081817ceadf53017cff16caa8151c.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "OFFICIAL_EFFECTIVE_CLAUSE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_EFFECTIVE_DECISION_CLAUSE",
+        "url": "https://flk.npc.gov.cn/detail?id=ff8081817ceadf53017cff16caa8151c",
+        "note": "国家法律法规数据库所载决定正文明确本决定自公布之日起施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/湖北/湖北省人民代表大会常务委员会关于集中修改、废止涉及取消证明事项的部分省本级地方性法规的决定_2020-06-03_未知_ff808181818ea4040181dc321c48210c.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "OFFICIAL_EFFECTIVE_CLAUSE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_EFFECTIVE_DECISION_CLAUSE",
+        "url": "https://flk.npc.gov.cn/detail?id=ff808181818ea4040181dc321c48210c",
+        "note": "国家法律法规数据库所载决定正文明确本决定自公布之日起施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/湖北/湖北省人民代表大会常务委员会关于集中修改涉及长江保护法省本级地方性法规的决定_2021-09-29_未知_ff80818181a8104b0181dc45cafb1a14.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "OFFICIAL_EFFECTIVE_CLAUSE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_EFFECTIVE_DECISION_CLAUSE",
+        "url": "https://flk.npc.gov.cn/detail?id=ff80818181a8104b0181dc45cafb1a14",
+        "note": "国家法律法规数据库所载决定正文明确本决定自公布之日起施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/江苏/徐州市人民代表大会常务委员会关于修改徐州市村集体经济组织财务管理条例等六件地方性法规的决定_2022-03-01_未知_ff8081817f48d8de017f636440e50c3b.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "OFFICIAL_EFFECTIVE_CLAUSE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_EFFECTIVE_DECISION_CLAUSE",
+        "url": "https://flk.npc.gov.cn/detail?id=ff8081817f48d8de017f636440e50c3b",
+        "note": "国家法律法规数据库所载决定正文明确本决定自2022年3月1日起施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/辽宁/辽宁省人民代表大会常务委员会关于修改辽宁省城镇房地产交易管理条例等12件地方性法规的决定_2021-01-01_未知_ff808181826bc2d001826d77360e0165.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "OFFICIAL_EFFECTIVE_CLAUSE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_EFFECTIVE_DECISION_CLAUSE",
+        "url": "https://flk.npc.gov.cn/detail?id=ff808181826bc2d001826d77360e0165",
+        "note": "国家法律法规数据库所载决定正文明确本决定自2021年1月1日起施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/山东/山东省人民代表大会常务委员会关于修改山东省黄河河道管理条例山东省黄河防汛条例山东省电力设施和电能保护条例的决定_2024-05-30_未知_a9b7dd7fe49649ff8802eaf217fa6798.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "OFFICIAL_EFFECTIVE_CLAUSE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_EFFECTIVE_DECISION_CLAUSE",
+        "url": "https://flk.npc.gov.cn/detail?id=a9b7dd7fe49649ff8802eaf217fa6798",
+        "note": "国家法律法规数据库所载决定正文明确本决定自公布之日起施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/山东/山东省人民代表大会常务委员会关于修改山东省涉案物品价格鉴证条例的决定_2024-05-30_未知_ac25553936d54318923211b43c6e5b42.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "OFFICIAL_EFFECTIVE_CLAUSE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_EFFECTIVE_DECISION_CLAUSE",
+        "url": "https://flk.npc.gov.cn/detail?id=ac25553936d54318923211b43c6e5b42",
+        "note": "国家法律法规数据库所载决定正文明确本决定自公布之日起施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/上海/上海市人民代表大会常务委员会关于废止上海市机动车道路交通事故赔偿责任若干规定的决定_2021-01-01_未知_ff8081817a9d9766017a9df7136200ad.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "OFFICIAL_EFFECTIVE_CLAUSE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_EFFECTIVE_DECISION_CLAUSE",
+        "url": "https://flk.npc.gov.cn/detail?id=ff8081817a9d9766017a9df7136200ad",
+        "note": "国家法律法规数据库所载决定正文明确本决定自2021年1月1日起施行。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/上海/上海市人民代表大会常务委员会关于修改本市部分地方性法规的决定_2021-01-01_未知_ff8081817b4e92cc017b572bfc4f01b1.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "OFFICIAL_EFFECTIVE_CLAUSE"
+      },
+      "evidence": {
+        "type": "OFFICIAL_EFFECTIVE_DECISION_CLAUSE",
+        "url": "https://flk.npc.gov.cn/detail?id=ff8081817b4e92cc017b572bfc4f01b1",
+        "note": "国家法律法规数据库所载决定正文明确本决定自2021年1月1日起施行。"
+      }
+    }
+  ]
+}

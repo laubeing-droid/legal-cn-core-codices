@@ -1,0 +1,19 @@
+﻿{
+    "source_id":  "national_rules_database",
+    "fetched_at":  "2026-08-03T15:13:23+08:00",
+    "row_count":  10570,
+    "complete":  true,
+    "registry_type":  "UNION_OF_COMPLETE_SNAPSHOTS",
+    "snapshots":  [
+                      {
+                          "name":  "national_rules_database_20260730_full",
+                          "row_count":  10269,
+                          "sha256":  "e97177b6ebc906f17487cc4a2ad96eb4749b092af72b1584951a3755b84d2000"
+                      },
+                      {
+                          "name":  "national_rules_database_20260803_full",
+                          "row_count":  10272,
+                          "sha256":  "862829738469cb5cc861f39c5a3d38fa042c6f14c0eab589358aec5d29f1b826"
+                      }
+                  ]
+}

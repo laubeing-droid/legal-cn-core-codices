@@ -1,0 +1,296 @@
+{
+  "version": "2.3.0",
+  "baseline_date": "2026-07-31",
+  "encoding": "UTF-8-BOM",
+  "delimiter": ",",
+  "constraints": {
+    "patterns": {
+      "WJBS": "^1\\.2\\.156\\.3005\\.6-\\d{31}$",
+      "DE_01001": "^\\d{31}$",
+      "DE_02001": "^\\d{18}$",
+      "legal_provision_code": "^\\d{49}$",
+      "sha256": "^[0-9a-f]{64}$",
+      "standard_date": "^\\d{8}$",
+      "relative_path": "^(?![A-Za-z]:[\\\\/])(?![\\\\/]).+"
+    },
+    "allowed_values": {
+      "SXX": ["01", "02", "03", "04", "05"],
+      "DE_01018": ["01", "02", "03", "04", "05"],
+      "boolean": ["true", "false"],
+      "WJBS_source_type": ["AUTHORITY_ISSUED", "STANDARD_DERIVED_LOCAL"],
+      "verification_status": [
+        "STANDARD_CONFORMANT_ORIGINAL",
+        "OFFICIAL_CONTENT_VERIFIED_DERIVED",
+        "OFFICIAL_INDEX_METADATA_VERIFIED",
+        "METADATA_ONLY",
+        "SOURCE_CONFLICT",
+        "BLOCKED_ACCESS",
+        "UNOFFICIAL_CANDIDATE",
+        "UNMATCHED_OFFICIAL_INDEX",
+        "UNVERIFIED_LOCAL",
+        "OFFICIAL_FULLTEXT_VERIFIED"
+      ]
+    },
+    "primary_keys": {
+      "legal_documents.csv": ["WJBS"],
+      "legal_contents.csv": ["DE_01001", "DE_02001"],
+      "legal_relations.csv": ["DE_03001", "DE_03002", "DE_03003"],
+      "legal_sources.csv": ["DE_01001", "DE_04002", "DE_04003"],
+      "cases.csv": ["relative_path"],
+      "case_holdings.csv": ["relative_path", "holding_type", "holding_ordinal"],
+      "case_legal_references.csv": ["relative_path", "reference_ordinal"],
+      "practice_references.csv": ["relative_path"],
+      "source_records.csv": ["relative_path"],
+      "ingest_queue.csv": ["relative_path"],
+      "verification_results.csv": ["relative_path"]
+    },
+    "foreign_keys": [
+      {
+        "table": "legal_contents.csv",
+        "columns": ["DE_01001"],
+        "references": "legal_documents.csv",
+        "reference_columns": ["DE_01001"]
+      },
+      {
+        "table": "legal_sources.csv",
+        "columns": ["DE_01001"],
+        "references": "legal_documents.csv",
+        "reference_columns": ["DE_01001"]
+      },
+      {
+        "table": "case_holdings.csv",
+        "columns": ["relative_path"],
+        "references": "cases.csv",
+        "reference_columns": ["relative_path"]
+      },
+      {
+        "table": "case_legal_references.csv",
+        "columns": ["relative_path"],
+        "references": "cases.csv",
+        "reference_columns": ["relative_path"]
+      }
+    ],
+    "publish_gates": {
+      "legal_documents_min_rows": 1,
+      "unresolved_formal_conflicts": 0,
+      "formal_absolute_paths": 0,
+      "formal_pollution_hits": 0,
+      "deprecated_path_exists": false
+    }
+  },
+  "tables": {
+    "legal_documents.csv": {
+      "area": "正式数据",
+      "columns": [
+        "WJBS",
+        "FLFGDZWJFLDM",
+        "FLBMFLDM",
+        "BT",
+        "TZ",
+        "ZDJGDM",
+        "ZDJGMC",
+        "FWJGSM",
+        "SXX",
+        "TGJGDM",
+        "TGJGMC",
+        "PZJGDM",
+        "PZJGMC",
+        "FWZH",
+        "TGRQ",
+        "PZRQ",
+        "GBRQ",
+        "SXRQ",
+        "SHXRQ",
+        "CWRQ",
+        "FBRQ",
+        "DE_01001",
+        "DE_01002",
+        "DE_01003",
+        "DE_01004",
+        "DE_01005",
+        "DE_01006",
+        "DE_01007",
+        "DE_01010",
+        "DE_01011",
+        "DE_01012",
+        "DE_01013",
+        "DE_01014",
+        "DE_01015",
+        "DE_01016",
+        "DE_01017",
+        "DE_01018",
+        "DE_01019",
+        "DE_01020",
+        "DE_01021"
+      ],
+      "required": ["WJBS", "FLFGDZWJFLDM", "BT", "ZDJGDM", "SXX", "SXRQ"]
+    },
+    "legal_contents.csv": {
+      "area": "正式数据",
+      "columns": [
+        "DE_01001",
+        "DE_02001",
+        "DE_02002",
+        "DE_02003",
+        "DE_02004",
+        "DE_02005"
+      ],
+      "required": ["DE_01001", "DE_02001", "DE_02003"]
+    },
+    "legal_relations.csv": {
+      "area": "正式数据",
+      "columns": ["DE_03001", "DE_03002", "DE_03003", "DE_03004"],
+      "required": ["DE_03001", "DE_03002", "DE_03003"]
+    },
+    "legal_sources.csv": {
+      "area": "正式数据",
+      "columns": [
+        "DE_01001",
+        "DE_04001",
+        "DE_04002",
+        "DE_04003"
+      ],
+      "required": ["DE_01001", "DE_04001", "DE_04002", "DE_04003"]
+    },
+    "cases.csv": {
+      "area": "正式数据",
+      "columns": [
+        "official_case_id",
+        "title",
+        "case_type",
+        "issuing_body",
+        "publication_date",
+        "decision_date",
+        "docket_number",
+        "keywords",
+        "source_url",
+        "relative_path",
+        "content_sha256",
+        "has_fulltext"
+      ],
+      "required": ["title", "case_type", "relative_path", "content_sha256"]
+    },
+    "case_holdings.csv": {
+      "area": "正式数据",
+      "columns": [
+        "official_case_id",
+        "title",
+        "holding_type",
+        "holding_ordinal",
+        "holding_text",
+        "source_heading",
+        "relative_path"
+      ],
+      "required": ["title", "holding_type", "holding_text", "relative_path"]
+    },
+    "case_legal_references.csv": {
+      "area": "正式数据",
+      "columns": [
+        "official_case_id",
+        "title",
+        "reference_section",
+        "reference_ordinal",
+        "reference_text",
+        "relative_path"
+      ],
+      "required": ["title", "reference_section", "reference_text", "relative_path"]
+    },
+    "practice_references.csv": {
+      "area": "正式数据",
+      "columns": [
+        "title",
+        "material_type",
+        "issuing_body",
+        "publication_date",
+        "source_url",
+        "relative_path",
+        "content_sha256",
+        "default_legal_search"
+      ],
+      "required": ["title", "material_type", "relative_path", "content_sha256"]
+    },
+    "source_records.csv": {
+      "area": "工程记录",
+      "columns": [
+        "relative_path",
+        "scope",
+        "object_type",
+        "file_size",
+        "last_write_time",
+        "source_sha256",
+        "utf8_valid",
+        "frontmatter_present",
+        "legacy_id",
+        "title",
+        "publication_date",
+        "effective_date",
+        "legacy_status",
+        "source_url",
+        "absolute_path_present"
+      ],
+      "required": ["relative_path", "scope", "object_type", "file_size", "source_sha256"]
+    },
+    "ingest_queue.csv": {
+      "area": "工程记录",
+      "columns": [
+        "relative_path",
+        "object_type",
+        "ingest_status",
+        "blocking_reason",
+        "target_table",
+        "target_relative_path",
+        "review_note"
+      ],
+      "required": ["relative_path", "object_type", "ingest_status", "target_table"]
+    },
+    "verification_results.csv": {
+      "area": "工程记录",
+      "columns": [
+        "relative_path",
+        "WJBS",
+        "WJBS_source_type",
+        "WJBS_verified",
+        "WJBS_component_evidence",
+        "verification_status",
+        "official_source_url",
+        "official_wjbs_source",
+        "official_wjbs_verified",
+        "identity_verified",
+        "fulltext_verified",
+        "attachments_verified",
+        "effect_verified",
+        "carrier_sha256",
+        "normalized_text_sha256",
+        "verified_at",
+        "note"
+      ],
+      "required": ["relative_path", "verification_status"]
+    },
+    "conflicts.csv": {
+      "area": "工程记录",
+      "columns": [
+        "relative_path",
+        "conflict_type",
+        "field_name",
+        "local_value",
+        "other_value",
+        "evidence",
+        "disposition"
+      ],
+      "required": ["relative_path", "conflict_type", "field_name"]
+    },
+    "validation_errors.csv": {
+      "area": "工程记录",
+      "columns": [
+        "relative_path",
+        "table_name",
+        "row_locator",
+        "error_code",
+        "severity",
+        "field_name",
+        "message"
+      ],
+      "required": ["relative_path", "table_name", "error_code", "severity", "message"]
+    }
+  }
+}

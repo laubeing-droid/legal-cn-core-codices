@@ -1,0 +1,46 @@
+[
+  {
+    "standard_id": "GBT47229.1-2026",
+    "title": "法律法规电子文件 第1部分：页面格式",
+    "published_date": "20260227",
+    "effective_date": "20260901",
+    "implementation_status": "已发布、尚未实施；本库内部提前采用",
+    "source_filename": "GBT47229.1-2026_法律法规电子文件第1部分页面格式_20260227_20260901 [ima-pdf_12dd-5db6571b].pdf",
+    "source_filename_incorrect": false,
+    "source_sha256": "BDBF4526675A39BE701656D0690F8B40BD077DCF50175790E07F8469D0A852EF",
+    "extracted_text": "47229-1.txt"
+  },
+  {
+    "standard_id": "GBT47229.2-2026",
+    "title": "法律法规电子文件 第2部分：技术要求",
+    "published_date": "20260227",
+    "effective_date": "20260901",
+    "implementation_status": "已发布、尚未实施；本库内部提前采用",
+    "source_filename": "GBT47229.2-2026_法律法规电子文件第2部分技术要求_20260227_20260901 [ima-pdf_12dd-61d2249c].pdf",
+    "source_filename_incorrect": false,
+    "source_sha256": "75175502606DA1E898A4B6CA3942CFA3456BE04B5B05216E89DA6436C1BF628E",
+    "extracted_text": "47229-2.txt"
+  },
+  {
+    "standard_id": "GBT47229.3-2026",
+    "title": "法律法规电子文件 第3部分：交换接口",
+    "published_date": "20260227",
+    "effective_date": "20260901",
+    "implementation_status": "已发布、尚未实施；本库内部提前采用",
+    "source_filename": "GBT47229.1-2026_法律法规电子文件第3部分数据接口_20260227_20260901 [ima-pdf_12dd-0993d3f7].pdf",
+    "source_filename_incorrect": true,
+    "source_sha256": "2BBEDB026EEED44627C72B3DEB732D6553A09BF0653E05BD8ED75CDC6CEA18AD",
+    "extracted_text": "47229-3.txt"
+  },
+  {
+    "standard_id": "GBT47277-2026",
+    "title": "数字化法律法规库 编码规则及数据元",
+    "published_date": "20260331",
+    "effective_date": "20261001",
+    "implementation_status": "已发布、尚未实施；本库内部提前采用",
+    "source_filename": "GBT47277-2026_数字化法律法规库编码规则及数据元_20260331_20261001 [ima-pdf_12dd-fff81305].pdf",
+    "source_filename_incorrect": false,
+    "source_sha256": "373C8B6CFA0EDEE740E1FF8864F6495006C23A07E35C58F4F8EA7DD85D2D058F",
+    "extracted_text": "47277.txt"
+  }
+]

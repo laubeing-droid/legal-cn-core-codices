@@ -1,0 +1,16 @@
+{
+  "source_name": "中国·国家地名信息库 行政区划代码",
+  "source_url": "https://dmfw.mca.gov.cn/XzqhVersionPublish.html",
+  "page_title": "行政区划代码",
+  "data_cutoff": "2025-12-31",
+  "retrieved_at": "2026-07-30T10:22:28.514Z",
+  "record_count": 3213,
+  "level_counts": {
+    "province": 34,
+    "prefecture": 333,
+    "county": 2846
+  },
+  "sha256": "0eafb5c8c61d86d947691ddc4b7f6d3587a2798f7185cb1f31ad17d18d919b7b",
+  "extraction_rule": "Read rendered official layui tree; pad 2-digit province ids with 0000 and 4-digit prefecture ids with 00, retain 6-digit county ids.",
+  "excluded": "Taiwan code marked unavailable by source page."
+}

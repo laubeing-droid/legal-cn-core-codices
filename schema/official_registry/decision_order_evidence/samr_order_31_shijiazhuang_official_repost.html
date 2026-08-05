@@ -1,0 +1,473 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="renderer" content="webkit">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>国家市场监督管理总局关于修改部分规章的决定（国家市场监督管理总局令第31号）</title>
+<link href="https://scjg.sjz.gov.cn/templates/d3e06c99-93ff-4873-99ab-6f0413926fbf/202507/03/images/xxgk.css" rel="stylesheet" type="text/css">
+<script typet="text/javascript" src="https://scjg.sjz.gov.cn/templates/d3e06c99-93ff-4873-99ab-6f0413926fbf/202507/03/images/jqurey.min.js"></script>
+<script type="text/javascript" src="https://scjg.sjz.gov.cn/templates/d3e06c99-93ff-4873-99ab-6f0413926fbf/202507/03/images/set.js"></script>
+	<script type="text/javascript">
+				$(function(){  
+    // 假设你的 .subNav 是可以获取焦点的，或者它们包含可以获取焦点的元素  
+    $(".subNavBox>.subNav").on("click", function(e){  
+        // 点击事件的处理函数  
+        function handleClick() {  
+            // 你的原始点击事件处理代码...  
+            var index = $(".subNavBox>.subNav").index($(this));
+				var subIndex = $(".subNavBox>.subNav div[class^='tb_']").index($(".subNavBox>.subNav div[class^='tb_'][style]"));
+				$(".main_r>div").eq(index).stop(true).show().siblings().stop(true).hide();
+				
+				if(index != subIndex){
+					$(".subNavBox>.subNav div[class^='tb_']").removeAttr('style');
+					switch(index){
+						case 0:
+							$(this).find("div[class^='tb_']").attr("style","background-image: url(http://www.sjz.gov.cn/zfxxgk/atm/1583996329686/20200312145940562.png);");
+							break;
+						case 1:
+							$(this).find("div[class^='tb_']").attr("style","background-image: url(http://www.sjz.gov.cn/zfxxgk/atm/1583996329686/20200312145940430.png);");
+							break;
+						case 2:
+							$(this).find("div[class^='tb_']").attr("style","background-image: url(http://www.sjz.gov.cn/zfxxgk/atm/1583996329686/20200312145940120.png);");
+							break;
+						case 3:
+							$(this).find("div[class^='tb_']").attr("style","background-image: url(http://www.sjz.gov.cn/zfxxgk/atm/1583996329686/20200312145940221.png);");
+							break;
+						case 4:
+							$(this).find("div[class^='tb_']").attr("style","background-image: url(http://www.sjz.gov.cn/zfxxgk/atm/1583996329686/20200312145940381.png);");
+							break;
+						case 5:
+							$(this).find("div[class^='tb_']").attr("style","background-image: url(http://www.sjz.gov.cn/zfxxgk/atm/1583996329686/20200312145940289.png);");
+							break;
+						case 6:
+							$(this).find("div[class^='tb_']").attr("style","background-image: url(http://www.sjz.gov.cn/zfxxgk/atm/1583996329686/20200312145940490.png);");
+							break;
+						default:
+							break;
+					}
+					$(this).toggleClass("currentDd").siblings(".subNav").removeClass("currentDd")
+				}
+				
+				$(this).toggleClass("currentDt").siblings(".subNav").removeClass("currentDt")
+				
+				if($(this).next("ul.navContent").length == 0){
+					$(".subNavBox ul.navContent").css("display","none");
+				}else{
+					// 修改数字控制速度， slideUp(500)控制卷起速度
+					$(this).next("ul.navContent").slideToggle(500).siblings(".navContent").slideUp(500);
+				}
+				if(index == 3 && index != subIndex){
+					$("#zfxx_gknb>li").removeClass("on_active");
+					$("#zfxx_gknb>li").eq(0).addClass("on_active");
+				}
+				if(index == 2){
+					$("#fdzd_gknr>li[id^='gknr_']").removeClass("on_active");				
+					$("#fdzd_gknr>li[id^='gknr_']").eq(0).addClass("on_active");				
+				} 
+        }  
+  
+        // 调用点击事件的处理函数  
+        handleClick.call(this, e); // 使用 call 来确保 this 指向正确的元素  
+    });  
+  
+    // 监听键盘事件  
+    $(document).on("keydown", function(e) {  
+        if (e.which === 13) { // 如果按下了 Enter 键  
+			
+            // 找到当前聚焦的 .subNav 元素（或者它的子元素）  
+            var focusedSubNav = $(".subNavBox>.subNav:focus, .subNavBox>.subNav *:focus");  
+            // 如果找到了聚焦的元素，并且它是 .subNav 的直接子元素  
+            // （或者它的子元素但我们可以只处理直接子元素）  	
+                // 触发点击事件的处理函数  
+                var subNav = focusedSubNav.closest(".subNavBox>.subNav"); // 获取最外层的 .subNav  
+				console.log(subNav,11);
+                handleClick.call(subNav); // 使用 call 来模拟点击并传递正确的 this 上下文  
+            // 阻止默认的 Enter 键行为（如果需要的话）  
+            e.preventDefault();  
+        }  
+    });  
+});
+	</script>
+<meta name='SiteName' content='石家庄市市场监督管理局'/>
+<meta name='SiteDomain' content='scjg.sjz.gov.cn'/>
+<meta name='SiteIDCode' content='1301000039'/>
+<meta name='ColumnName' content='其他'/>
+<meta name='ColumnType' content='其他'/>
+<meta name='ColumnKeywords' content='其他'/>
+<meta name='ColumnDescription' content='其他'/>
+<meta name='ArticleTitle' content='国家市场监督管理总局关于修改部分规章的决定（国家市场监督管理总局令第31号）'/>
+<meta name='PubDate' content='2020-11-04 11:06:21'/>
+<meta name='ContentSource' content='国家市场监督管理总局关于修改部分规章的决定（国家市场监督管理总局令第31号）'/>
+<meta name='Keywords' content='国家市场监督管理总局关于修改部分规章的决定（国家市场监督管理总局令第31号）'/>
+<link rel='stylesheet' href='https://scjg.sjz.gov.cn/utils/css/jquery-ui.min.css'></link>
+<script src='https://scjg.sjz.gov.cn/utils/js/jquery.min.js'></script>
+<script src='https://scjg.sjz.gov.cn/utils/js/jquery-ui.min.js'></script>
+<script src='https://scjg.sjz.gov.cn/utils/js/jquery-ui-timepicker-addon.js'></script>
+<script src='https://scjg.sjz.gov.cn/utils/js/jquery.cookie.js'></script>
+<script src='https://scjg.sjz.gov.cn/utils/js/common.js'></script>
+<script src='https://scjg.sjz.gov.cn/utils/js/pv.js'></script>
+</head>
+<body>
+<div><div class="csww"><img src="https://scjg.sjz.gov.cn/atm/84e82721-9f15-4782-ad70-53d4600ba95e/%E6%97%A0%E9%9A%9C%E7%A2%8Dlogo20250703190727830.jpg" style="width:.2rem;" /><a href="javascript:void(0);" id="toolbarSwitch">无障碍</a> <img src="https://scjg.sjz.gov.cn/atm/84e82721-9f15-4782-ad70-53d4600ba95e/%E9%80%82%E8%80%81%E5%8C%96logo20250703190727843.jpg" style="width:.2rem;padding-left:.2rem" /><a href="javascript:void(0);" id="olderSwitch" onclick="setOlder()">长者模式</a></div>
+<style type="text/css">.csww{line-height: 0.4rem;width: 11rem;margin: 0 auto;display: flex;justify-content: flex-end; /* 确保内容从右向左排列 */align-items: center;gap: .05rem; /* 替代margin-left，更现代的间距控制方式 */}
+.csww a{color: #fff;font-size: 0.14rem; margin-left:0.1%}
+@media (max-width: 800px) {
+.csww{width:100%;line-height:0.7rem;}
+.csww a{font-size: 0.28rem;margin: auto 1%;}
+
+}
+</style>
+</div>
+<div class="tou">
+<div><div class="tbsdq"><a href="http://scjg.sjz.gov.cn/" target="_blank"><img alt="" border="0" src="http://www.sjz.gov.cn/zfxxgk/atm/1583996329686/20200410183202333.png" /></a></div>
+<div class="tbsddsx"><a href="http://scjg.sjz.gov.cn/" target="_blank">石家庄市市场监督管理局</a></div>
+<div style="clear: both; line-height: 0px">&nbsp;</div>
+<style type="text/css">.tbsdq{float: left}
+.tbsdq img{width:0.9rem}
+.tbsddsx{float: left;}
+.tbsddsx a{font-size: 0.4rem; color: #fff;line-height: 1.37rem}
+@media (max-width: 800px) {
+.tbsdq img{width:0.6rem}
+.tbsddsx a{font-size: 0.34rem;line-height: 0.9rem;}
+}
+</style>
+</div>
+<div><div class="tbmctps"><img alt="" border="0" src="http://www.sjz.gov.cn/zfxxgk/atm/1583996329686/20200312154946354.png" /></div>
+<style type="text/css">.tbmctps{margin-bottom: 0.8rem; margin-top: 0.7rem; text-align: center}
+.tbmctps img{width:6.22rem}
+@media (max-width: 800px) {
+.tbmctps{margin-bottom:7%; margin-top:7%; }
+.tbmctps img{width:70%}
+}
+</style>
+</div>
+</div>
+  <!--信息公开box-->
+    <div class="wrap1">
+    	<div class="main">
+              <div><script language="javascript">
+    function checkForm(){
+        var temp = searchForm.temp.value;
+        var str = Math.round(Math.random()*10000);
+        if(temp==null || temp==""|| temp=="请输入搜索关键字"){
+            alert("请输入搜索条件");
+        }
+        else{
+            var url='http://scjg.sjz.gov.cn/so/s?&tab=zfxxgk&siteCode=1301000039&qt='+encodeURIComponent(temp);
+            window.open(url);
+        }
+    }
+
+</script>
+<div class="zfwwgkss">
+<form action="" method="post" name="searchForm" onsubmit="return false" target="_blank">
+<table border="0" cellpadding="0" cellspacing="0" style="margin: 0px auto">
+<tbody>
+	<tr>
+	<td valign="top"><input id="temp" maxlength="25" name="temp" onblur="if(value=='') {value='请输入关键字搜索'}" onfocus="if(value=='请输入关键字搜索') {value=''}" style="font-size: 0.14rem; border-top: medium none; height: 0.5rem; font-family: 'Microsoft YaHei' !important; border-right: medium none; width: 4.34rem; background: url(http://www.sjz.gov.cn/zfxxgk/atm/1583996329686/20200317105840559.png) no-repeat left top; background-size: 100%; border-bottom: medium none; color: #b2b2b2; padding-left: 0.1rem; border-left: medium none; line-height: 0.5rem" type="text" value="请输入关键字搜索" /></td>
+	<td valign="top"><input id="searchButton" onclick="checkForm();" src="http://www.sjz.gov.cn/zfxxgk/atm/1583996329686/20200317105840475.png" style="height: 0.5rem; width: 0.64rem" type="image" value="搜索" /></td></tr>
+</tbody>
+</table></form>
+</div>
+<style type="text/css">.zfwwgkss{margin-bottom: 0.7rem; width: 10.30rem; background: url(http://www.sjz.gov.cn/zfxxgk/atm/1583996329686/20200404150446576.png) no-repeat; background-size: 100%; margin-top: 0.8rem; text-align: right}
+
+@media (max-width: 800px){
+.zfwwgkss{width:100%;background:none;margin: 3% 0;}
+
+}
+</style>
+</div>
+               <div ><div style="padding:0.2rem; border: 1px solid #ccc;margin-bottom: 0.2rem;background-color: #F7F7F7;">
+
+<div id="wzybfgsdd">国家市场监督管理总局关于修改部分规章的决定（国家市场监督管理总局令第31号）</div>
+
+<div class="wzyfbsj">
+<div style="float:left; margin-right:10px;">发布时间：2020-11-04</div>
+<div style="float:left; margin-right:10px; display:none">来源：</div>
+<div class="fsznsd">【字体：<a href="#" onclick="changeFontSize(document.getElementById('conN'),this.style.fontSize);return false;" style="font-size: 0.2rem;color:#666666; text-decoration:none"><span style="font-size:14px;">大</span></a> 
+<a href="#" onclick="changeFontSize(document.getElementById('conN'),this.style.fontSize);return false;" style="font-size: 0.16rem;color:#666666;text-decoration:none"><span style="font-size:14px;">中</span></a> 
+<a href="#" onclick="changeFontSize(document.getElementById('conN'),this.style.fontSize);return false;" style="font-size: 0.14rem;color:#666666;text-decoration:none">小</a> 】
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.gc.gov.cn/atm/4/20180718154545784.png" /><a  href="javascript:printme()" target="_self" style="color:#666666;text-decoration:none">打印</a>
+</div>
+<div class="clearfloat"></div>
+</div>
+<script language="javascript"> 
+function changeFontSize(pucl,size) 
+{ 
+if(pucl.style) 
+pucl.style.fontSize=size; 
+for(var i=0;i<pucl.childNodes.length;i++) 
+{ 
+changeFontSize(pucl.childNodes[i],size) 
+} 
+} 
+</script> 
+
+<div id="conN" style="padding-top:10px;"><div>
+<div style="text-align: center">国家市场监督管理总局令</div>
+<div style="text-align: center">第31号</div>
+<div>《国家市场监督管理总局关于修改部分规章的决定》已于2020年10月20日经国家市场监督管理总局2020年第9次局务会议审议通过，现予公布，自公布之日起施行。</div>
+<div style="text-align: right">局长：张工　　　　　</div>
+<div style="text-align: right">2020年10月23日　　　</div>
+<div style="text-align: center">国家市场监督管理总局关于修改部分规章的决定</div>
+<div style="text-align: center">（2020年10月23日国家市场监督管理总局令第31号公布）</div>
+<div>为了全面落实党的十九届三中全会审议通过的《中共中央关于深化党和国家机构改革的决定》《深化党和国家机构改革方案》和十三届全国人大一次会议批准的《国务院机构改革方案》，确保行政机关依法履行职责，进一步推进简政放权、放管结合、优化服务改革，市场监管总局决定对30件部门规章的部分条款予以修改。</div>
+<div>一、对《侵害消费者权益行为处罚办法》（2015年1月5日国家工商行政管理总局令第73号公布）作出修改</div>
+<div>（一）将第二条、第三条、第七条、第十四条、第十五条、第十七条、第十八条、第十九条第一款、第二十条、第二十一条中的&ldquo;工商行政管理&rdquo;修改为&ldquo;市场监督管理&rdquo;。</div>
+<div>（二）将第九条修改为：&ldquo;经营者采用网络、电视、电话、邮购等方式销售商品，应当依照法律规定承担无理由退货义务，不得故意拖延或者无理拒绝。经营者有下列情形之一的，视为故意拖延或者无理拒绝：</div>
+<div>&ldquo;（一）对于适用无理由退货的商品，自收到消费者退货要求之日起超过十五日未办理退货手续，或者未向消费者提供真实、准确的退货地址、退货联系人等有效联系信息，致使消费者无法办理退货手续；</div>
+<div>&ldquo;（二）未经消费者确认，以自行规定该商品不适用无理由退货为由拒绝退货；</div>
+<div>&ldquo;（三）以消费者已拆封、查验影响商品完好为由拒绝退货；</div>
+<div>&ldquo;（四）自收到退回商品之日起无正当理由超过十五日未向消费者返还已支付的商品价款。&rdquo;</div>
+<div>二、对《关于禁止滥用知识产权排除、限制竞争行为的规定》（2015年4月7日国家工商行政管理总局令第74号公布）作出修改</div>
+<div>（一）删去第三条第一款中的&ldquo;（价格垄断行为除外）&rdquo;。</div>
+<div>（二）将第十二条第三款第六项、第十八条中的&ldquo;国家工商行政管理总局&rdquo;修改为&ldquo;国家市场监督管理总局&rdquo;。</div>
+<div>将第十四条、第十七条中的&ldquo;工商行政管理机关&rdquo;修改为&ldquo;反垄断执法机构&rdquo;。</div>
+<div>（三）将第十四条中的&ldquo;《工商行政管理机关查处垄断协议、滥用市场支配地位案件程序规定》&rdquo;修改为&ldquo;《禁止垄断协议暂行规定》、《禁止滥用市场支配地位行为暂行规定》&rdquo;。</div>
+<div>在第十四条中增加一款，作为第二款：&ldquo;本规定所称反垄断执法机构包括国家市场监督管理总局和各省、自治区、直辖市市场监督管理部门。&rdquo;</div>
+<div>三、对《拍卖监督管理办法》（2001年1月15日国家工商行政管理局令第101号公布）作出修改</div>
+<div>（一）将第三条第一款、第四条、第十一条、第十二条、第十三条、第十四条中的&ldquo;工商行政管理部门&rdquo;修改为&ldquo;市场监督管理部门&rdquo;。</div>
+<div>（二）删去第三条第二款。</div>
+<div>四、对《网络购买商品七日无理由退货暂行办法》（2017年1月6日国家工商行政管理总局令第90号公布）作出修改</div>
+<div>（一）将第二十三条、第二十六条、第二十七条、第二十八条、第二十九条、第三十四条中的&ldquo;工商行政管理部门&rdquo;修改为&ldquo;市场监督管理部门&rdquo;。</div>
+<div>将第三十八条中的&ldquo;国家工商行政管理总局&rdquo;修改为&ldquo;国家市场监督管理总局&rdquo;。</div>
+<div>（二）将第二十二条修改为：&ldquo;网络交易平台提供者应当依法建立、完善其平台七日无理由退货规则以及配套的消费者权益保护有关制度，在其首页显著位置持续公示，并保证消费者能够便利、完整地阅览和下载。&rdquo;</div>
+<div>（三）将第三十二条修改为：&ldquo;网络交易平台提供者违反本办法第二十二条规定的，依照《中华人民共和国电子商务法》第八十一条第一款第（一）项规定予以处罚。&rdquo;</div>
+<div>（四）删去第三十五条。</div>
+<div>五、对《中华人民共和国企业法人登记管理条例施行细则》（1988年11月3日国家工商行政管理局令第1号公布）作出修改</div>
+<div>（一）将第二条中的&ldquo;具备企业法人条件的全民所有制企业、集体所有制企业、联营企业、在中国境内设立的外商投资企业（包括中外合资经营企业、中外合作经营企业、外资企业）和其他企业，应当根据国家法律、法规及本细则有关规定，申请企业法人登记&rdquo;修改为&ldquo;具备企业法人条件的全民所有制企业、集体所有制企业、联营企业、在中国境内设立的外商投资企业和其他企业，应当根据国家法律、法规及本细则有关规定，申请企业法人登记&rdquo;。</div>
+<div>（二）删去第十条、第十六条第三款、第十八条、第十九条、第二十四条、第二十七条、第三十条、第三十二条、第四十一条、第四十三条、第四十六条、第四十八条、第六十六条。</div>
+<div>六、对《外国（地区）企业在中国境内从事生产经营活动登记管理办法》（1992年8月15日国家工商行政管理局令第10号公布）作出修改</div>
+<div>（一）将第二条中的&ldquo;工商行政管理部门&rdquo;修改为&ldquo;市场监督管理部门&rdquo;。</div>
+<div>（二）将第十八条中的&ldquo;国家工商行政管理局&rdquo;修改为&ldquo;国家市场监督管理总局&rdquo;。</div>
+<div>七、对《农药广告审查发布标准》（2015年12月24日国家工商行政管理总局令第81号公布）作出修改</div>
+<div>（一）将规章名称修改为《农药广告审查发布规定》。</div>
+<div>（二）将第一条、第十二条、第十三条、第十四条中的&ldquo;本标准&rdquo;修改为&ldquo;本规定&rdquo;。</div>
+<div>八、对《兽药广告审查发布标准》（2015年12月24日国家工商行政管理总局令第82号公布）作出修改</div>
+<div>（一）规章名称修改为《兽药广告审查发布规定》。</div>
+<div>（二）将第一条、第十一条、第十二条、第十三条中的&ldquo;本标准&rdquo;修改为&ldquo;本规定&rdquo;。</div>
+<div>九、对《关于在香港特别行政区知识产权署提出的首次申请的优先权的规定》（1999年12月15日国家知识产权局令第10号公布）作出修改</div>
+<div>将其中的&ldquo;国家知识产权局专利局&rdquo;修改为&ldquo;国家知识产权局&rdquo;。</div>
+<div>十、对《商标印制管理办法》（2004年8月19日国家工商行政管理总局令第15号公布）作出修改</div>
+<div>（一）将第十一条、第十二条、第十四条中的&ldquo;工商行政管理局&rdquo;修改为&ldquo;市场监督管理部门&rdquo;。</div>
+<div>（二）将第十五条中的&ldquo;国家工商行政管理总局商标局&rdquo;修改为&ldquo;国家知识产权局&rdquo;。</div>
+<div>（三）将第四条修改为：&ldquo;商标印制委托人委托印制注册商标的，应当出示《商标注册证》，并另行提供一份复印件。</div>
+<div>&ldquo;签订商标使用许可合同使用他人注册商标，被许可人需印制商标的，还应当出示商标使用许可合同文本并提供一份复印件；商标注册人单独授权被许可人印制商标的，还应当出示授权书并提供一份复印件。&rdquo;</div>
+<div>（四）将第十三条修改为：&ldquo;商标印制单位违反第七条规定承接印制业务，且印制的商标与他人注册商标相同或者近似的，属于《商标法实施条例》第七十五条所述的商标侵权行为，由所在地或者行为地市场监督管理部门依《中华人民共和国商标法》的有关规定予以处理。&rdquo;</div>
+<div>十一、对《缺陷汽车产品召回管理条例实施办法》（2015年11月27日国家质量监督检验检疫总局令第176号公布）作出修改</div>
+<div>（一）将第四条修改为：&ldquo;国家市场监督管理总局（以下简称市场监管总局）负责全国缺陷汽车产品召回的监督管理工作。&rdquo;</div>
+<div>（二）将第五条第一款修改为：&ldquo;市场监管总局根据工作需要，可以委托省级市场监督管理部门在本行政区域内负责缺陷汽车产品召回监督管理的部分工作。&rdquo;</div>
+<div>（三）将第五条第二款、第七条、第十一条、第十三条、第十四条、第十五条、第十六条、第十七条、第十八条、第二十条、第二十一条、第二十二条、第二十三条、第二十四条、第二十八条、第三十条、第三十四条、第四十一条、第四十二条中的&ldquo;质检总局&rdquo;修改为&ldquo;市场监管总局&rdquo;。</div>
+<div>将第十八条、第二十条、第三十四条中的&ldquo;质检部门&rdquo;修改为&ldquo;市场监督管理部门&rdquo;。</div>
+<div>（四）将第六条、第八条、第三十九条中的&ldquo;产品质量监督部门和出入境检验检疫机构&rdquo;、&ldquo;地方产品质量监督部门和各地出入境检验检疫机构&rdquo;修改为&ldquo;市场监督管理部门&rdquo;。</div>
+<div>十二、对《茧丝质量监督管理办法》（2003年1月14日国家质量监督检验检疫总局令第43号公布）作出修改</div>
+<div>（一）将第三条修改为：&ldquo;国家市场监督管理总局（以下简称市场监管总局）主管全国茧丝质量监督工作，其所属的中国纤维质量监测中心承担茧丝质量监督检查的技术支撑相关工作、茧丝质量公证检验的组织实施工作，并对公证检验实施监督抽验。</div>
+<div>&ldquo;省、自治区、直辖市市场监督管理部门（以下简称省级市场监管部门）负责本行政区域内茧丝质量监督工作。地方市场监督管理部门和承担棉花等纤维质量监督职责的专业纤维检验机构统称纤维质量监督机构。地方专业纤维检验机构承担茧丝质量公证检验工作。&rdquo;</div>
+<div>（二）删去第四条、第五条、第六条、第七条。</div>
+<div>（三）第八条改为第四条，删去第四款，将第五款中的&ldquo;中国纤维检验局&rdquo;修改为&ldquo;中国纤维质量监测中心&rdquo;。</div>
+<div>（四）第九条改为第五条，删去其中的&ldquo;除茧丝经营者从事桑蚕鲜茧收购、桑蚕干茧加工活动是否具备规定的质量保证条件外，还&rdquo;。</div>
+<div>（五）第十二条改为第八条，将其中的&ldquo;中国纤维检验局&rdquo;修改为&ldquo;中国纤维质量监测中心&rdquo;，将&ldquo;复验&rdquo;修改为&ldquo;复检&rdquo;。</div>
+<div>（六）第十三条改为第九条，删去第一项。第二十一条改为第十七条，将其中的&ldquo;第十三条第（一）项、第（二）项、第（三）项、第（四）项、第（五）项、第（七）项中任何一项规定的&rdquo;修改为&ldquo;第九条第（一）项、第（二）项、第（三）项、第（四）项、第（六）项中任何一项规定的&rdquo;。</div>
+<div>（七）第十四条改为第十条，删去第一款第一项、第二项。</div>
+<div>（八）第十九条改为第十五条，删去其中的&ldquo;质量保证条件审核意见书&rdquo;。</div>
+<div>（九）第二十五条改为第十四条，删去其中的&ldquo;第十三条第（六）项&rdquo;，将&ldquo;建议工商行政管理机关&rdquo;修改为&ldquo;依法&rdquo;。第二十六条改为第二十四条，将其中的&ldquo;建议工商行政管理机关&rdquo;修改为&ldquo;依法&rdquo;。</div>
+<div>（十）第二十九条改为第二十五条，将其中的&ldquo;国家质检总局或者地方质量技术监督部门&rdquo;修改为&ldquo;市场监管总局或者地方市场监督管理部门&rdquo;。第三十五条改为第三十一条，将其中的&ldquo;国家质检总局&rdquo;修改为&ldquo;市场监管总局&rdquo;。</div>
+<div>十三、对《毛绒纤维质量监督管理办法》（2003年7月18日国家质量监督检验检疫总局令第49号公布）作出修改</div>
+<div>（一）将第三条修改为：&ldquo;国家市场监督管理总局（以下简称市场监管总局）主管全国毛绒纤维质量监督工作，其所属的中国纤维质量监测中心承担毛绒纤维质量监督检查的技术支撑相关工作、毛绒纤维质量公证检验的组织实施工作，并对公证检验实施监督抽验。</div>
+<div>&ldquo;省、自治区、直辖市市场监督管理部门负责本行政区域内毛绒纤维质量监督工作。地方市场监督管理部门和承担棉花等纤维质量监督职责的专业纤维检验机构统称纤维质量监督机构。地方专业纤维检验机构承担毛绒纤维质量公证检验工作。&rdquo;</div>
+<div>（二）将第六条第四款修改为：&ldquo;毛绒纤维质量公证检验办法由中国纤维质量监测中心制定。&rdquo;</div>
+<div>（三）将第七条、第三十条中的&ldquo;国家质量监督检验检疫总局&rdquo;修改为&ldquo;市场监管总局&rdquo;。</div>
+<div>将第二十六条、第二十七条中的&ldquo;国务院质量监督检验检疫部门&rdquo;修改为&ldquo;市场监管总局&rdquo;。</div>
+<div>将第七条、第二十六条、第二十七条中的&ldquo;质量监督部门&rdquo;修改为&ldquo;市场监督管理部门&rdquo;。</div>
+<div>（四）将第十二条中的&ldquo;中国纤维检验局&rdquo;修改为&ldquo;中国纤维质量监测中心&rdquo;。</div>
+<div>（五）将第十九条、第二十四条中的&ldquo;建议工商行政管理机关&rdquo;修改为&ldquo;依法&rdquo;。</div>
+<div>十四、对《麻类纤维质量监督管理办法》（2005年4月22日国家质量监督检验检疫总局令第73号公布）作出修改</div>
+<div>（一）将第三条修改为：&ldquo;国家市场监督管理总局（以下简称市场监管总局）主管全国麻类纤维质量监督工作，其所属的中国纤维质量监测中心承担麻类纤维质量监督检查的技术支撑相关工作、麻类纤维质量公证检验的组织实施工作，并对公证检验实施监督抽验。</div>
+<div>&ldquo;省、自治区、直辖市市场监督管理部门负责本行政区域内麻类纤维质量监督工作。地方市场监督管理部门和承担棉花等纤维质量监督职责的专业纤维检验机构统称纤维质量监督机构。地方专业纤维检验机构承担麻类纤维质量公证检验工作。&rdquo;</div>
+<div>（二）将第六条第四款修改为：&ldquo;麻类纤维质量公证检验办法由中国纤维质量监测中心制定。&rdquo;</div>
+<div>（三）将第七条、第二十五条、第二十六条、第二十九条中的&ldquo;国家质检总局&rdquo;修改为&ldquo;市场监管总局&rdquo;。</div>
+<div>将第七条、第二十五条、第二十六条中的&ldquo;质量技术监督部门&rdquo;、&ldquo;质量监督部门&rdquo;修改为&ldquo;市场监督管理部门&rdquo;。</div>
+<div>（四）将第十条中的&ldquo;中国纤维检验局&rdquo;修改为&ldquo;中国纤维质量监测中心&rdquo;。</div>
+<div>（五）将第十九条、第二十三条中的&ldquo;建议工商行政管理机关&rdquo;修改为&ldquo;依法&rdquo;。</div>
+<div>十五、对《计量基准管理办法》（2007年6月6日国家质量监督检验检疫总局令第94号公布）作出修改</div>
+<div>（一）将第二条中的&ldquo;国家质量监督检验检疫总局（以下简称国家质检总局）&rdquo;修改为&ldquo;国家市场监督管理总局（以下简称市场监管总局）&rdquo;。</div>
+<div>（二）将第四条、第五条、第七条、第八条、第九条、第十一条、第十二条、第十三条、第十四条、第十五条、第十六条、第十七条、第十八条、第十九条、第二十一条中的&ldquo;国家质检总局&rdquo;修改为&ldquo;市场监管总局&rdquo;。</div>
+<div>十六、对《全国专业标准化技术委员会管理办法》（2017年10月30日国家质量监督检验检疫总局令第191号公布）作出修改</div>
+<div>（一）将第三条中的&ldquo;国家质量监督检验检疫总局（以下简称质检总局）负责技术委员会的统一管理。国家标准化管理委员会（以下简称国家标准委）负责技术委员会的规划、协调、组建和管理&rdquo;修改为&ldquo;国务院标准化行政主管部门统一管理技术委员会工作，负责技术委员会的规划、协调、组建和管理&rdquo;。</div>
+<div>（二）将第四条、第五条、第六条、第十二条、第十五条、第二十六条、第二十七条、第二十八条、第二十九条、第三十一条、第三十二条、第三十三条、第三十四条、第三十五条、第三十六条、第三十七条、第三十八条、第三十九条、第四十二条、第四十三条、第四十四条、第四十六条、第四十七条、第四十八条、第四十九条、第五十条、第五十一条中的&ldquo;国家标准委&rdquo;修改为&ldquo;国务院标准化行政主管部门&rdquo;。</div>
+<div>将第五十五条中的&ldquo;国家质检总局&rdquo;修改为&ldquo;国务院标准化行政主管部门&rdquo;。</div>
+<div>（三）将第四十五条中的&ldquo;技术委员会应当按照《标准档案管理办法》的要求管理标准档案&rdquo;修改为&ldquo;技术委员会应当按照国家档案管理的相关要求管理标准档案&rdquo;。</div>
+<div>（四）将第五十六条中的&ldquo;本办法施行后，国家质检总局、国家标准委以前发布的规章、规范性文件与本办法规定不一致的，适用本办法&rdquo;修改为&ldquo;国务院标准化行政主管部门以前发布的部门规章与本办法规定不一致的，适用本办法&rdquo;。</div>
+<div>十七、对《认证机构管理办法》（2017年11月14日国家质量监督检验检疫总局令第193号公布）作出修改</div>
+<div>（一）将第四条修改为：&ldquo;国务院认证认可监督管理部门主管认证机构的资质审批及监督管理工作。</div>
+<div>&ldquo;县级以上地方认证监督管理部门依照本办法的规定，负责所辖区域内认证机构从事认证活动的监督管理。&rdquo;</div>
+<div>（二）将第七条、第九条、第十条、第十一条、第十二条、第十五条、第二十三条、第二十四条、第二十五条、第二十六条、第二十七条、第二十八条、第二十九条、第三十条、第三十一条、第三十二条、第三十三条、第三十四条、第三十五条、第三十六条、第三十七条、第四十二条、第四十三条中的&ldquo;国家认监委&rdquo;修改为&ldquo;国务院认证认可监督管理部门&rdquo;。</div>
+<div>将第四十五条中的&ldquo;国家质检总局&rdquo;修改为&ldquo;国务院认证认可监督管理部门&rdquo;。</div>
+<div>（三）删去第八条第三款。</div>
+<div>（四）将第十条第二款中的&ldquo;国家认监委尚未制定认证规则的&rdquo;修改为&ldquo;属于认证新领域，国务院认证认可监督管理部门尚未制定认证规则的&rdquo;。</div>
+<div>（五）将第十七条第一款第三项中的&ldquo;国家信用信息严重失信主体相关名录&rdquo;修改为&ldquo;严重违法失信名单&rdquo;。</div>
+<div>（六）将第二十七条中的&ldquo;失信名录&rdquo;修改为&ldquo;严重违法失信名单&rdquo;。</div>
+<div>（七）将第二十八条第一款第五项中的&ldquo;失信名录以及失信信息&rdquo;修改为&ldquo;严重违法失信名单&rdquo;，删去第二款。</div>
+<div>（八）将第二十九条第一款中的&ldquo;国家信用信息失信主体名录&rdquo;和第二款中的&ldquo;国家信用信息失信主体名录或者国家认监委公布的失信名录&rdquo;修改为&ldquo;严重违法失信名单&rdquo;。</div>
+<div>十八、对《高耗能特种设备节能监督管理办法》（2009年7月3日国家质量监督检验检疫总局令第116号公布）作出修改</div>
+<div>（一）将第一条中的&ldquo;根据《中华人民共和国节约能源法》、《特种设备安全监察条例》等法律、行政法规的规定&rdquo;修改为&ldquo;根据《中华人民共和国特种设备安全法》、《中华人民共和国节约能源法》、《特种设备安全监察条例》等法律、行政法规的规定&rdquo;。</div>
+<div>（二）删去第二条中的&ldquo;电梯&rdquo;。</div>
+<div>（三）将第三条、第十三条、第十五条、第十六条中的&ldquo;维修&rdquo;修改为&ldquo;修理&rdquo;。</div>
+<div>（四）将第四条修改为：&ldquo;国家市场监督管理总局（以下简称市场监管总局）负责综合管理全国高耗能特种设备的节能监督工作。</div>
+<div>&ldquo;地方各级市场监督管理部门负责本行政区域内高耗能特种设备的节能监督管理工作。&rdquo;</div>
+<div>（五）将第六条、第三十条、第三十五条中的&ldquo;国家质检总局&rdquo;修改为&ldquo;市场监管总局&rdquo;。</div>
+<div>将第六条、第二十八条、第二十九条、第三十条中的&ldquo;质量技术监督部门&rdquo;修改为&ldquo;市场监督管理部门&rdquo;。</div>
+<div>（六）删去第十一条中的&ldquo;电梯产品在安全性能型式试验时进行能效测试&rdquo;。</div>
+<div>（七）删去第十三条中的&ldquo;影响设备或者系统能效的项目&rdquo;。</div>
+<div>（八）删去第十四条中的&ldquo;设备经济运行文件&rdquo;。</div>
+<div>（九）将第十九条中的&ldquo;对国家明令淘汰的高耗能特种设备，不予办理使用登记&rdquo;修改为&ldquo;对国家明令淘汰或者不符合能效指标要求的高耗能特种设备，不予办理使用登记。&rdquo;</div>
+<div>（十）将第二十八条中的&ldquo;应当以书面形式责令有关单位予以改正&rdquo;修改为&ldquo;应当依法予以处理&rdquo;。</div>
+<div>十九、对《客运索道安全监督管理规定》（2016年2月25日国家质量监督检验检疫总局令第179号公布）作出修改</div>
+<div>（一）将第三条中的&ldquo;国家质量监督检验检疫总局（以下简称质检总局）负责全国客运索道安全监督管理工作的统一管理&rdquo;修改为&ldquo;国家市场监督管理总局（以下简称市场监管总局）负责综合管理全国客运索道安全监督管理工作&rdquo;。</div>
+<div>（二）将第十条、第三十八条中的&ldquo;质检总局&rdquo;修改为&ldquo;市场监管总局&rdquo;。</div>
+<div>（三）删去第十四条中的&ldquo;和安全&rdquo;。</div>
+<div>（四）将第三十二条中的&ldquo;设计、制造、安装、改造、修理、使用、检验、检测&rdquo;修改为&ldquo;生产、使用单位和检验、检测机构&rdquo;。</div>
+<div>二十、对《商品量计量违法行为处罚规定》（1999年3月12日国家质量技术监督局令第3号公布）作出修改</div>
+<div>（一）将第一条、第三条、第八条中的&ldquo;质量技术监督部门&rdquo;修改为&ldquo;市场监督管理部门&rdquo;。</div>
+<div>将第九条中的&ldquo;国家质量技术监督局&rdquo;修改为&ldquo;国家市场监督管理总局&rdquo;。</div>
+<div>（二）将第四条修改为：&ldquo;生产者生产定量包装商品，其实际量与标注量不相符，计量偏差超过《定量包装商品计量监督管理办法》或者国家其他有关规定的，市场监督管理部门责令改正，并处30000元以下罚款。&rdquo;</div>
+<div>（三）将第五条修改为：&ldquo;销售者销售的定量包装商品或者零售商品，其实际量与标注量或者实际量与贸易结算量不相符，计量偏差超过《定量包装商品计量监督管理办法》《零售商品称重计量监督管理办法》或者国家其他有关规定的，市场监督管理部门责令改正，并处30000元以下罚款。&rdquo;</div>
+<div>（四）将第六条修改为：&ldquo;销售者销售国家对计量偏差没有规定的商品，其实际量与贸易结算量之差，超过国家规定使用的计量器具极限误差的，市场监督管理部门责令改正，并处20000元以下罚款。&rdquo;</div>
+<div>（五）将第七条修改为：&ldquo;收购者收购商品，其实际量与贸易结算量之差，超过国家规定使用的计量器具极限误差的，市场监督管理部门责令改正，并处20000元以下罚款。&rdquo;</div>
+<div>（六）将第八条中的&ldquo;《技术监督行政案件办理程序的规定》和《技术监督行政案件现场处罚规定》&rdquo;修改为&ldquo;国家市场监督管理总局关于行政案件办理程序的有关规定&rdquo;。</div>
+<div>二十一、对《中华人民共和国进口计量器具监督管理办法实施细则》（1996年6月24日国家技术监督局令第44号公布）作出修改</div>
+<div>（一）将第三条、第六条中的&ldquo;《中华人民共和国进口计量器具型式审查目录》内&rdquo;修改为&ldquo;《实施强制管理的计量器具目录》内监管方式为型式批准&rdquo;。</div>
+<div>（二）删去第三章。</div>
+<div>（三）第三十条改为第二十五条，将其中的&ldquo;违反本实施细则规定，进口或者销售非法定计量单位的计量器具或者国务院禁止使用的其它计量器具的&rdquo;修改为&ldquo;违反规定进口或者销售非法定计量单位的计量器具的&rdquo;。</div>
+<div>（四）删去第三十六条。</div>
+<div>（五）第三十七条改为第三十一条，将其中的&ldquo;国家技术监督局&rdquo;修改为&ldquo;国家市场监督管理总局&rdquo;。</div>
+<div>二十二、对《集贸市场计量监督管理办法》（2002年4月19日国家质量监督检验检疫总局令第17号公布）作出修改</div>
+<div>（一）删去第一条中的&ldquo;及《国务院办公厅关于开展集贸市场专项整治工作的通知》（国办发〔2002〕15号）&rdquo;。</div>
+<div>（二）将第三条、第十四条、第十五条中的&ldquo;国家质量监督检验检疫总局&rdquo;修改为&ldquo;国家市场监督管理总局&rdquo;。</div>
+<div>将第三条、第五条、第六条、第八条、第十四条中的&ldquo;质量技术监督部门&rdquo;修改为&ldquo;市场监督管理部门&rdquo;。</div>
+<div>（三）将第六条中的&ldquo;《定量包装商品计量监督规定》&rdquo;修改为&ldquo;《定量包装商品计量监督管理办法》&rdquo;。</div>
+<div>将第十二条第五款中的&ldquo;《定量包装商品计量监督规定》第十五条、第十六条的规定&rdquo;修改为&ldquo;《定量包装商品计量监督管理办法》有关规定&rdquo;。</div>
+<div>（四）删去第十一条第二款中的&ldquo;情节严重的，由当地工商行政管理部门吊销集市主办者营业执照&rdquo;。</div>
+<div>（五）将第十二条第一款中的&ldquo;限期改正，逾期不改的，没收计量器具，并处1000元以下的罚款&rdquo;修改为&ldquo;责令其停止使用，可并处1000元以下的罚款&rdquo;。第二款中的&ldquo;并处2000元以下的罚款&rdquo;修改为&ldquo;可并处2000元以下的罚款&rdquo;。删去第三款中的&ldquo;给予现场处罚，并&rdquo;。删去第四款。</div>
+<div>二十三、对《加油站计量监督管理办法》（2002年12月31日国家质量监督检验检疫总局令第35号公布）作出修改</div>
+<div>（一）将第一条、第三条、第十三条、第十六条、第十七条中的&ldquo;国家质量监督检验检疫总局&rdquo;修改为&ldquo;国家市场监督管理总局&rdquo;。</div>
+<div>将第三条、第五条、第六条、第七条、第八条、第九条、第十三条中的&ldquo;质量技术监督部门&rdquo;修改为&ldquo;市场监督管理部门&rdquo;。</div>
+<div>（二）删去第五条第四项中的&ldquo;制造计量器具许可证标志、编号和&rdquo;。第六项中的&ldquo;不得使用国务院规定废除的非法定计量单位的计量器具&rdquo;修改为&ldquo;不得违反规定使用非法定计量单位的计量器具&rdquo;。</div>
+<div>（三）将第六条第三项修改为：&ldquo;引导加油站加强计量保证能力，完善计量检测体系&rdquo;。</div>
+<div>（四）删去第九条第一项中的&ldquo;计量器具许可证标志、编号和&rdquo;。删去第三项。</div>
+<div>二十四、对《零售商品称重计量监督管理办法》（2004年8月10日国家质量监督检验检疫总局、国家工商行政管理总局令第66号公布）作出修改</div>
+<div>（一）将第九条、第十条、第十一条中的&ldquo;质量技术监督部门或者工商行政管理部门&rdquo;修改为&ldquo;市场监督管理部门&rdquo;。</div>
+<div>将第十一条第二款中的&ldquo;国家质量监督检验检疫总局或者国家工商行政管理总局按照职责分工&rdquo;修改为&ldquo;国家市场监督管理总局&rdquo;。</div>
+<div>将第十三条中的&ldquo;国家质量监督检验检疫总局、国家工商行政管理总局&rdquo;修改为&ldquo;国家市场监督管理总局&rdquo;。</div>
+<div>（二）将第二条中的&ldquo;《定量包装商品计量监督规定》&rdquo;修改为&ldquo;《定量包装商品计量监督管理办法》&rdquo;。</div>
+<div>二十五、对《计量标准考核办法》（2005年1月14日国家质量监督检验检疫总局令第72号公布）作出修改</div>
+<div>（一）将第三条中的&ldquo;国家质量监督检验检疫总局及地方各级质量技术监督部门（以下简称质量技术监督部门）&rdquo;修改为&ldquo;市场监督管理部门&rdquo;。</div>
+<div>将第四条中的&ldquo;国家质量监督检验检疫总局（以下简称国家质检总局）&rdquo;修改为&ldquo;国家市场监督管理总局&rdquo;。</div>
+<div>将第五条、第十二条、第二十一条、第二十二条中的&ldquo;国家质检总局&rdquo;修改为&ldquo;国家市场监督管理总局&rdquo;。</div>
+<div>将第四条、第五条、第八条、第九条、第十条、第十一条、第十二条、第十四条、第十五条、第十六条、第十七条、第十九条、第二十条中的&ldquo;质量技术监督部门&rdquo;修改为&ldquo;市场监督管理部门&rdquo;。</div>
+<div>（二）将第五条第三款中的&ldquo;工商注册地&rdquo;修改为&ldquo;登记注册地&rdquo;。</div>
+<div>（三）将第六条第五项中的&ldquo;周期检定制度，检定记录及检定证书核验制度&rdquo;修改为&ldquo;量值溯源制度，原始记录及证书核验制度&rdquo;。</div>
+<div>（四）删去第八条第三项。</div>
+<div>（五）将第九条第三项中的&ldquo;《计量标准封存（或注销）申请表》（如果适用）&rdquo;修改为&ldquo;计量标准封存、注销、更换等相关申请材料（如果适用）&rdquo;。删去第四项。</div>
+<div>（六）将第十六条中的&ldquo;计量标准考核证书的有效期为4年&rdquo;修改为&ldquo;计量标准考核证书的有效期为5年&rdquo;。</div>
+<div>（七）将第十八条修改为：&ldquo;主持考核的市场监督管理部门应当加强对计量标准考核工作的管理，可以采用计量比对、盲样检测和现场试验等方式，对计量标准考核证书有效期内的计量标准进行监督管理&rdquo;。</div>
+<div>二十六、对《能源计量监督管理办法》（2010年9月17日国家质量监督检验检疫总局令第132号公布）作出修改</div>
+<div>（一）将第三条、第二十二条中的&ldquo;国家质量监督检验检疫总局&rdquo;修改为&ldquo;国家市场监督管理总局&rdquo;。</div>
+<div>将第三条、第四条、第十六条、第十七条、第十八条、第十九条、第二十条中的&ldquo;质量技术监督部门&rdquo;修改为&ldquo;市场监督管理部门&rdquo;。</div>
+<div>（二）将第十三条中的&ldquo;具备法定资质的社会公正行（站）&rdquo;修改为&ldquo;有关计量技术机构&rdquo;。</div>
+<div>二十七、对《眼镜制配计量监督管理办法》（2003年10月15日国家质量监督检验检疫总局令第54号公布）作出修改</div>
+<div>（一）将第一条、第三条、第十五条、第十八条中的&ldquo;国家质量监督检验检疫总局&rdquo;修改为&ldquo;国家市场监督管理总局&rdquo;。</div>
+<div>将第三条、第四条、第七条、第十五条中的&ldquo;质量技术监督部门&rdquo;修改为&ldquo;市场监督管理部门&rdquo;。</div>
+<div>（二）将第二条第四款中的&ldquo;验光单&rdquo;修改为&ldquo;相关数据&rdquo;。</div>
+<div>（三）删去第四条第二项中的&ldquo;遵守职业人员市场准入制度规定&rdquo;和&ldquo;取得相应职业资格&rdquo;。第五项修改为：&ldquo;不得违反规定使用非法定计量单位。&rdquo;</div>
+<div>（四）删去第七条第三项中的&ldquo;和对有条件的眼镜制配制配者开展&lsquo;价格、计量信得过&rsquo;活动&rdquo;。</div>
+<div>（五）删去第八条第一项中的&ldquo;在规定期限内&rdquo;。</div>
+<div>（六）删去第九条第二项中的&ldquo;使用国务院规定废除的非法定计量单位的计量器具和国务院禁止使用的其他计量器具的，责令停止使用，可以并处2000元以下罚款&rdquo;。</div>
+<div>（七）删去第十条第一项、第十一条第二项中的&ldquo;拒不改正，情节严重的，建议工商主管部门吊销其营业执照&rdquo;。</div>
+<div>二十八、对《食品召回管理办法》（2015年3月11日国家食品药品监督管理总局令第12号公布）作出修改</div>
+<div>（一）将第四条、第六条、第十七条中的&ldquo;国家食品药品监督管理总局&rdquo;修改为&ldquo;国家市场监督管理总局&rdquo;。</div>
+<div>（二）将第四条、第五条、第六条、第八条、第十二条、第十三条、第十四条、第十七条、第十八条、第二十三条、第二十四条、第二十九条、第三十条、第三十一条、第三十二条、第三十三条、第三十四条、第三十五条、第三十六条、第三十八条、第三十九条、第四十条、第四十一条、第四十二条、第四十四条中的&ldquo;食品药品监督管理部门&rdquo;修改为&ldquo;市场监督管理部门&rdquo;。</div>
+<div>二十九、对《网络餐饮服务食品安全监督管理办法》（2017年11月6日国家食品药品监督管理总局令第36号公布）作出修改</div>
+<div>（一）将第三条、第二十一条中的&ldquo;国家食品药品监督管理总局&rdquo;修改为&ldquo;国家市场监督管理总局&rdquo;。</div>
+<div>（二）将第三条、第五条、第十六条、第二十一条、第二十二条、第二十三条、第二十四条、第二十五条、第二十六条、第二十七条、第二十八条、第二十九条、第三十条、第三十一条、第三十二条、第三十三条、第三十四条、第三十五条、第三十六条、第三十七条、第三十八条、第三十九条、第四十条、第四十一条、第四十二条中的&ldquo;食品药品监督管理部门&rdquo;修改为&ldquo;市场监督管理部门&rdquo;。</div>
+<div>三十、对《保健食品注册与备案管理办法》（2016年2月26日国家食品药品监督管理总局令第22号公布）作出修改</div>
+<div>（一）将第五条、第六条、第十四条、第十六条、第二十三条、第二十五条、第二十六条、第二十八条、第二十九条、第三十条、第四十四条、第六十一条、第六十六条、第六十七条、第七十条、第七十一条中的&ldquo;国家食品药品监督管理总局&rdquo;修改为&ldquo;国家市场监督管理总局&rdquo;。</div>
+<div>（二）将第三条、第五条、第六条、第七条、第八条、第三十四条、第三十八条、第四十四条、第五十条、第五十一条、第五十二条、第六十四条、第六十五条、第六十八条、第七十二条、第七十三条中的&ldquo;食品药品监督管理部门&rdquo;修改为&ldquo;市场监督管理部门&rdquo;。</div>
+<div>本决定自公布之日起施行。</div>
+<div>《侵害消费者权益行为处罚办法》《关于禁止滥用知识产权排除、限制竞争行为的规定》《拍卖监督管理办法》《网络购买商品七日无理由退货暂行办法》《中华人民共和国企业法人登记管理条例施行细则》《外国（地区）企业在中国境内从事生产经营活动登记管理办法》《农药广告审查发布标准》《兽药广告审查发布标准》《关于在香港特别行政区知识产权署提出的首次申请的优先权的规定》《商标印制管理办法》《缺陷汽车产品召回管理条例实施办法》《茧丝质量监督管理办法》《毛绒纤维质量监督管理办法》《麻类纤维质量监督管理办法》《计量基准管理办法》《全国专业标准化技术委员会管理办法》《认证机构管理办法》《高耗能特种设备节能监督管理办法》《客运索道安全监督管理规定》《商品量计量违法行为处罚规定》《中华人民共和国进口计量器具监督管理办法实施细则》《集贸市场计量监督管理办法》《加油站计量监督管理办法》《零售商品称重计量监督管理办法》《计量标准考核办法》《能源计量监督管理办法》《眼镜制配计量监督管理办法》《食品召回管理办法》《网络餐饮服务食品安全监督管理办法》《保健食品注册与备案管理办法》根据本决定作相应修改，重新公布。</div>
+</div></div>
+<div style="text-align:right; line-height:250%; font-size:16px;"></div>
+
+<div style="display:none">
+<div style="width: 86px;text-align: center;color: rgb(5, 117, 174);font-size: 20px;border-bottom: 2px solid #0575ae;font-weight: bold;line-height: 40px;">相关文件</div>
+<div><a style="font-size: 17px;line-height: 35px;color: #000;" href="" target="_blank"></a></div>
+</div>
+
+
+
+</div>
+
+<style>
+#wzybfgsdd{text-align: center;line-height: 160%;font-size: 0.32rem; }
+.wzyfbsj{font-size:0.14rem;padding-top:0.25rem;padding-bottom:0.15rem;border-bottom:0.01rem #dcdcdc solid;color:#666666;font-size:0.14rem;overflow:hidden; line-height:0.35rem; height:0.35rem; margin-bottom:0.15rem;}
+.fsznsd{float:right;}
+#conN,#conN div,#conN p{line-height:200%; text-indent:2em;font-size:0.16rem; margin-bottom:0.2rem;}
+#conN td div,#conN td,#conN td p{text-indent:0em; text-align:left;}
+#conN table{width: 90% !important;text-align: center;margin: 0 auto !important;}
+#conN video, #conN div video,#conN p video,#conN span video,#conN div span video{width:80%; margin:0 auto;}
+#conN img{max-width: 8rem !important; text-align:center; height: auto!important; width:expression(this.width > 800? "800px" : this.width)!important;}
+#conN div img{max-width: 8rem !important; text-align:center; height: auto!important; width:expression(this.width > 800? "800px" : this.width)!important;}
+@media (max-width: 800px) {
+.wzybfgsdd{font-size: 0.35rem; }
+#conN,#conN div,#conN p{font-size:0.28rem;}
+.fsznsd{display:none;}
+.wzyfbsj div{font-size:0.2rem;}
+#conN div img{width: 80% !important; margin:0 auto}
+}
+</style>
+
+
+
+<script language="javascript">
+function printme()
+{
+document.body.innerHTML=document.getElementById('wzybfgsdd').innerHTML+'<br/>'+document.getElementById('conN').innerHTML;
+window.print();
+}
+</script></div>	
+    		<div></div>	
+                <div></div>	
+                <div></div>
+                <div></div>
+
+          <div style="clear:both"></div>
+    	</div>
+    </div>
+    <!--信息公开box-end-->
+     <div><div class="ccsedwe">
+<iframe frameborder="0" scrolling="no" src="/columns/4a111386-ff21-465f-8fb1-ce40322553be/index.html"></iframe></div>
+<style type="text/css">.ccsedwe iframe {width:100%;height:2.2rem}
+.ccsedwe{background:#CC0000;}
+@media (max-width: 800px) {
+.ccsedwe{background:#CC0000;}
+.ccsedwe iframe {height:6rem}
+
+}
+</style>
+</div>
+<script id="initwzaTools" src="https://www.sjz.gov.cn:9791/resource/site/1301000039/wza/wza.js"></script>
+<script id="initolderTools" src="https://www.sjz.gov.cn:9791/resource/site/1301000039/wza/older.js"></script>
+<input type='hidden' id='pagingBlockSids' value=''>
+<link rel='stylesheet' href='https://scjg.sjz.gov.cn/utils/css/paging.css'></link>
+<script src='https://scjg.sjz.gov.cn/utils/js/paging.js'></script>
+<script>countPV('https://scjg.sjz.gov.cn/pv/ECX@L@AY@EFY@AGYMFYGDBAGMX@FCLYGY@CMYMLADYLMBBMMGGX');</script>
+</body>
+</html>
+
+<!-- ©2025 石家庄市人民政府 / WebIMS (v8.0.2.RELEASE) 2021.07.07~2025.07.03@11:27 / 数字政府新一代信息技术平台 / 20250717093425923 -->

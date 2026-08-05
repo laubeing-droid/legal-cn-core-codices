@@ -1,0 +1,52 @@
+name: Official index update
+
+on:
+  schedule:
+    - cron: "30 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        source:
+          - npc_flk
+          - moj_admin_regulations
+          - national_rules_database
+          - state_council_policy_database
+          - state_council_gazette
+          - central_ministry_websites
+          - spc_website
+          - spc_gazette
+          - spp_website
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: official-source-updater/requirements.txt
+      - name: Install dependencies
+        run: python -m pip install -r official-source-updater/requirements.txt
+      - name: Validate source registry
+        run: python official-source-updater/updater.py validate --database-root corpus
+      - name: Fetch official index candidate
+        run: >-
+          python official-source-updater/updater.py run
+          --database-root corpus
+          --source "${{ matrix.source }}"
+      - name: Upload candidate evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: official-index-${{ matrix.source }}-${{ github.run_id }}
+          path: official-source-updater/runs/
+          if-no-files-found: warn
+          retention-days: 30

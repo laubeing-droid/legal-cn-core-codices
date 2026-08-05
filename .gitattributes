@@ -1,0 +1,20 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.csv text eol=lf
+*.ps1 text eol=crlf
+*.pdf binary
+*.ofd binary
+*.doc binary
+*.docx binary
+*.xls binary
+*.xlsx binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+/corpus/** -text
+/schema/official_registry/decision_order_evidence/** -text

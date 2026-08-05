@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>全球法规网-中国商务法规</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="your keywords">
+    <meta name="description" content="your description">
+    <meta name="author" content="hl,haolei@ec.com.cn">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="css/style.css" />
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+    <!--[if IE]>
+    	<script src="js/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="laws">
+	<header class="header">
+		<nav class="nav blank clearfix">
+	<!--div class="u-logo1"><img src="img/logo1.png" alt=""></div-->
+	
+	<ul class="nav01_ul">
+		<li>
+			<a href="/claw/index.shtml">中国法规</a>|
+			<ul class="nav02_ul">
+				<li><a href="/claw/index.shtml">商务法规</a></li>
+				<li><a href="/pact/index.shtml">中外条约</a></li>
+			</ul>
+		</li>
+		<li><a href="/page/list/nations.html">各国法规</a>|
+			<ul class="nav02_ul">
+				<li><a href="/page/list/nations.html">境外法规</a></li>
+				<li><a href="/page/list/organizations.html">国际条约</a></li>
+			</ul>
+		</li>
+		<li><a href="/jwfg/index.shtml">境外法规检索</a>|
+		</li>
+		<li><a href="http://www.mofcom.gov.cn/article/ckzn/index.shtml">出口指南</a><!-- | -->
+		</li>
+<!-- 		<li><a href="/tsfy/index.shtml">图说方圆</a></li> -->
+		<li class="last"><a href="/">首页</a></li>
+	</ul>
+</nav>
+
+<!-- Matomo -->
+<script type="text/javascript">
+//If used is logged-in then call 'setUserId'
+//$userId variable must be set by the server when the user has successfully authenticated to your app.
+var _paq = window._paq || [];
+	
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  _paq.push(['enableHeartBeatTimer']);
+  (function() { 
+    var u="https://analysis.mofcom.gov.cn/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '137']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+	</header>
+	
+
+
+
+
+
+<script type="text/javascript">
+$(function(){
+	setReviseToolBar();
+	setAssociateToolbar();
+});
+function setReviseToolBar(){
+	$.ajax({
+		url:"/nflaw/front/www/claw/reviseCount?id=9478",
+		type:"get",
+		success:function(result){
+			if(!!result&&result>0){
+				$("#reviseToolbar").show();
+			}
+		}
+	});
+}
+
+function setAssociateToolbar(){
+	$.ajax({
+		url:"/nflaw/front/www/claw/associateCount?id=9478",
+		type:"get",
+		success:function(result){
+			if(!!result&&result>0){
+				$("#associateToolbar").show();
+			}
+		}
+	});
+}
+/* function doSubmitReviseForm(){
+	$("#clawForm").attr("action","/claw/clawRevise.shtml");
+	$("#clawForm").submit();
+}
+function doSubmitAssociateForm(){
+	$("#clawForm").attr("action","/claw/clawAssociate.shtml");
+	$("#clawForm").submit();
+} */
+function doSubmitKeySearch(){
+	if($("#keyword").val()==''){
+		alert("请输入关键字！");
+		$("#keyword").focus();
+		return false;
+	}else if($("#keyword").val().length>100){
+		alert("关键字 不能超过100位字符！");
+		$("#keyword").focus();
+		return false;
+	}else{
+		$("#keySearchForm").submit();
+	}
+}
+</script>
+<section class="search blank">
+	<div class="mt20 mb30 clearfix">
+		<div class="logo fl">
+			<img src="img/logo.png" alt="" />
+		</div>
+		<div class="search_box fr">
+			<div class="clearfix">
+				<form id="keySearchForm" name="keySearchForm" method="get" action="/claw/keySearchList.shtml">
+					<span class="btn_search_show fl">中国商务法规</span>
+					<input class="txt_search fl" type="text" name="keyword" id="keyword">
+					<input class="btn_search fl" type="button" value="搜索" onclick="doSubmitKeySearch()">
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+<nav class="navMain blank">
+	<a class="a1" href="http://policy.mofcom.gov.cn/">首页</a>&gt;<a href="/claw/index.shtml"><i>中国商务法规</i></a>&gt;<span class="s1">法规详情</span>
+</nav>
+<section class="main blank">
+	<div class="content mt18 posr">
+		<div class="conBox_01">
+			<h2 class="tit_08">微型计算机商品修理更换退货责任规定</h2>
+			<section class="con">
+				<h3 class="tit_09">
+					【信息来源：<em>
+					
+					   
+					   
+					   	北大法宝
+					   
+					
+					</em>】
+				</h3>
+				<div class="tableBox">
+					<table class="table_01" width="100%">
+						<tr>
+							<td width="50%"><span>【发布部门】</span>国家质量监督检验检疫总局;信息产业部(含邮电部)(已撤销)</td>
+							<td width="50%"><span>【发布文号】</span>国家质量监督检验检疫总局、信息产业部令第24号</td>
+						</tr>
+						<tr>
+							<td><span>【效力级别】</span>部门规章</td>
+							<td><span>【时效状态】</span>
+								现行有效
+								
+								
+								
+								
+							</td>
+						</tr>
+						<tr>
+							<td><span>【发布日期】</span>
+								
+									2002-07-23
+								
+							</td>
+							<td><span>【实施日期】</span>
+								
+									2002-09-01
+								
+							</td>
+						</tr>
+						<tr>
+							<td><span>【法律话题】</span>
+								
+									
+									质量消保
+								
+							</td>
+							<td><span>【产业领域】</span>
+								
+								
+									居民服务
+								
+							</td>
+						</tr>
+							
+					</table>
+				</div>
+				<div class="article">
+					<div class="law_bt0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;国家质量监督检验检疫总局、信息产业部</div><p><br /></p><div class="law_bt1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（第24号）</div><p style="text-align:left;"><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;《微型计算机商品修理更换退货责任规定》、《家用视听商品修理更换退货责任规定》已经2002年3月27日国家质量监督检验检疫总局局务会议、2002年6月27日信息产业部第10次部务会议审议通过，现予公布，自2002年9月1日起施行。</p><p style="text-align:right;"><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;国家质量监督检验检疫总局局长<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信息产业部<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;二○○二年七月二十三日<br /></p><div class="law_bt2"><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;微型计算机商品修理更换退货责任规定<br /><br /></div><p><br /><br />&nbsp;&nbsp;第一条&nbsp;&nbsp;为了保护消费者合法权益，明确微型计算机商品销售者、修理者和生产者的修理、更换、退货（以下简称三包）责任和义务，根据《中华人民共和国产品质量法》、《中华人民共和国消费者权益保护法》等法律的有关规定制定本规定。<br /><br />&nbsp;&nbsp;第二条&nbsp;&nbsp;本规定适用于在中华人民共和国境内销售的列入本规定《实施三包的微型计算机商品目录》（见附件1）的微型计算机主机、外部设备、选购件及软件（以下简称微型计算机商品）。<br /><br />&nbsp;&nbsp;第三条&nbsp;&nbsp;微型计算机商品实行谁销售谁负责三包的原则。销售者与生产者、销售者与供货者、销售者与修理者之间订立的合同，不得免除本规定的三包责任和义务。<br /><br />&nbsp;&nbsp;第四条&nbsp;&nbsp;本规定是微型计算机商品实行三包的最基本要求。国家鼓励销售者、生产者制定更有利于维护消费者合法权益的严于本规定的三包承诺。承诺作为明示担保，应当依法履行，否则应当依法承担责任。<br /><br />&nbsp;&nbsp;第五条&nbsp;&nbsp;销售者应当承担以下责任和义务：<br />&nbsp;&nbsp;&nbsp;&nbsp;（一）应当严格执行本规定；<br />&nbsp;&nbsp;&nbsp;&nbsp;（二）执行进货检查验收制度;<br />&nbsp;&nbsp;&nbsp;&nbsp;（三）采取有效措施，保持销售商品的质量;<br />&nbsp;&nbsp;&nbsp;&nbsp;（四）销售时，应当符合以下要求：<br />&nbsp;&nbsp;&nbsp;&nbsp;1.&nbsp;应当说明微型计算机商品的配置，开箱检验，正确调试，保证商品符合产品使用说明明示的配置和产品质量状况，当面向消费者交验商品；<br />&nbsp;&nbsp;&nbsp;&nbsp;2.&nbsp;核对商品商标、型号和编号；<br />&nbsp;&nbsp;&nbsp;&nbsp;3.&nbsp;介绍产品的使用、维护和保养方法以及三包方式和修理者；<br />&nbsp;&nbsp;&nbsp;&nbsp;4.&nbsp;明示三包有效期，提供三包凭证、有效发货票、产品合格证和产品使用说明；三包凭证应当按本规定《微型计算机商品三包凭证》（见附件2）的要求准确完整地填写，并加盖销售者印章；有效发货票应当注明商品商标及型号、销售日期、销售者印章、金额等内容；<br />&nbsp;&nbsp;&nbsp;&nbsp;（五）不得销售不符合法定标识要求的，不符合产品使用说明所述的性能及功能的，或者不合格的微型计算机商品；<br />&nbsp;&nbsp;&nbsp;&nbsp;（六）随销售的微型计算机商品一起赠送的微型计算机商品，应当负责三包；<br />&nbsp;&nbsp;&nbsp;&nbsp;（七）预装软件、随机销售和随机赠送的软件应当明示软件名称、版本、使用有效期、生产者名称；不得销售盗版软件；不得赠送盗版软件；<br />&nbsp;&nbsp;&nbsp;&nbsp;（八）销售软件时，应当验证软件介质的完好性；<br />&nbsp;&nbsp;&nbsp;&nbsp;（九）应当积极主动地与生产者、修理者加强联系，建立用户档案，做好三包服务工作；<br />&nbsp;&nbsp;&nbsp;&nbsp;（十）妥善处理消费者的查询、投诉，并提供服务。<br /><br />&nbsp;&nbsp;第六条&nbsp;&nbsp;修理者应当承担以下责任和义务：<br />&nbsp;&nbsp;&nbsp;&nbsp;（一）修理者应当具有维修资质证书，维修人员应当具有执业资格，持证上岗；<br />&nbsp;&nbsp;&nbsp;&nbsp;（二）承担三包有效期内的免费修理、软件维护业务和三包有效期外的收费修理业务；<br />&nbsp;&nbsp;&nbsp;&nbsp;（三）维护销售者、生产者的信誉，应使用新的、符合产品技术要求和质量标准要求的部件和元器件；<br />&nbsp;&nbsp;&nbsp;&nbsp;（四）按有关修理代理合同或者协议的约定，保证修理费用和修理用部件和元器件全部用于修理；<br />&nbsp;&nbsp;&nbsp;&nbsp;（五）接受生产者、销售者的监督和检查；<br />&nbsp;&nbsp;&nbsp;&nbsp;（六）保持常用维修部件和元器件的储备量，确保维修工作正常进行，避免因维修部件和元器件缺少延误维修时间；<br />&nbsp;&nbsp;&nbsp;&nbsp;（七）认真、如实、完整地填写维修记录，记录故障、修理情况和修理后的质量状况，向消费者当面交验修理好的微型计算机商品和维修记录；<br />&nbsp;&nbsp;&nbsp;&nbsp;（八）承担因自身修理失误造成的责任和损失；<br />&nbsp;&nbsp;&nbsp;&nbsp;（九）妥善处理消费者的投诉，接受消费者有关商品修理质量的查询。<br /><br />&nbsp;&nbsp;第七条&nbsp;&nbsp;生产者（微型计算机商品的供货者和进口者视同生产者）应当承担以下责任和义务：<br />&nbsp;&nbsp;&nbsp;&nbsp;（一）微型计算机商品应当随机配有产品的中文使用说明、产品合格证和三包凭证；产品使用说明应按照国家标准GB5296.1《消费品使用说明》和GB5296.2《家用和类似用途电器的使用说明》的规定编写；产品使用说明应当明确微型计算机商品硬件、软件的配置和兼容性，明示基本功能的操作程序；三包凭证应当符合本规定《微型计算机商品三包凭证》的要求；<br />&nbsp;&nbsp;&nbsp;&nbsp;（二）应当自行设置或者指定具有维修资质的修理单位负责三包有效期内的修理，并提供修理者单位的名称、地址、联系电话等；修理者名称、地址、联系电话撤销或者变更的，应当及时告知消费者；<br />&nbsp;&nbsp;&nbsp;&nbsp;（三）按有关修理代理合同或者协议的约定，提供合格的、足够的修理配件，满足维修的需求；<br />&nbsp;&nbsp;&nbsp;&nbsp;（四）按有关修理代理合同或者协议的约定，提供三包有效期内发生的修理费用；维修费用在产品流通的各个环节不得截留,应当全部支付给修理者；<br />&nbsp;&nbsp;&nbsp;&nbsp;（五）按有关修理代理合同或者协议的约定，提供技术资料，技术培训等技术支持；<br />&nbsp;&nbsp;&nbsp;&nbsp;（六）妥善处理消费者的投诉、查询，并及时提供咨询服务。<br /><br />&nbsp;&nbsp;第八条&nbsp;&nbsp;微型计算机商品的三包有效期分为整机三包有效期、主要部件三包有效期。三包有效期见本规定《实施三包的微型计算机商品目录》。三包有效期自开具发货票之日起计算，扣除因修理占用、无零配件待修延误的时间。三包有效期的最后一天为法定休假日的，以休假日的次日为三包有效期的最后一天。<br /><br />&nbsp;&nbsp;第九条&nbsp;&nbsp;在三包有效期内，消费者凭发货票和三包凭证办理修理、换货、退货。如果消费者丢失发货票和三包凭证，但能够证明该微型计算机商品在三包有效期内，销售者、修理者、生产者应当按照本规定负责修理、更换。<br /><br />&nbsp;&nbsp;第十条&nbsp;&nbsp;在整机三包有效期内，微型计算机商品出现质量问题，应当由修理者负责免费维护、修理，并保证修理后的商品能够正常使用30日以上。<br />&nbsp;&nbsp;&nbsp;&nbsp;在主要部件三包有效期内，主要部件出现故障，应当由修理者负责免费修理或者免费更换新的主要部件（包括工时费和材料费）。<br /><br />&nbsp;&nbsp;第十一条&nbsp;&nbsp;自售出之日起7日内，微型计算机主机、外设商品出现本规定《微型计算机商品性能故障表》（见附件3）所列性能故障时，消费者可以选择退货、换货或者修理。消费者要求退货时，销售者应当负责免费为消费者退货，并按发货票价格一次退清货款。<br /><br />&nbsp;&nbsp;第十二条&nbsp;&nbsp;售出后第8日至第15日内，微型计算机主机、外设商品出现本规定《微型计算机商品性能故障表》所列性能故障时，消费者可选择换货或者修理。消费者要求换货时，销售者应当负责为消费者调换同型号同规格的商品；同型号同规格的产品停止生产时，应当调换不低于原产品性能的同品牌商品。<br /><br />&nbsp;&nbsp;第十三条&nbsp;&nbsp;在整机三包有效期内，微型计算机主机、外设商品出现本规定《微型计算机商品性能故障表》所列性能故障，经两次修理，仍不能正常使用的，凭修理者提供的修理记录，由销售者负责免费为消费者调换同型号同规格的商品；同型号同规格产品停产的，应当调换不低于原产品性能的同品牌商品。<br /><br />&nbsp;&nbsp;第十四条&nbsp;&nbsp;在整机三包有效期内，符合第十三条规定的换货条件的，销售者既无同型号同规格的商品，也无不低于原产品性能的同品牌商品，消费者要求退货的，销售者应当负责免费为消费者退货，并按发货票价格一次退清货款。<br /><br />&nbsp;&nbsp;第十五条&nbsp;&nbsp;在整机三包有效期内，符合第十三条规定的换货条件的，销售者有同型号同规格的商品或者不低于原产品性能的同品牌商品，消费者不愿意换货而要求退货的，销售者应当予以退货，并按本规定《实施三包的微型计算机商品目录》规定的折旧率收取折旧费。<br />&nbsp;&nbsp;&nbsp;&nbsp;折旧费的计算日期自开具发货票之日起，至退货之日止，其中应当扣除修理占用和待修的时间。<br /><br />&nbsp;&nbsp;第十六条&nbsp;&nbsp;微型计算机主机商品符合退货条件时，销售者应当负责为消费者将与主机同时销售的显示器、键盘、鼠标器等商品一并退货。<br /><br />&nbsp;&nbsp;第十七条&nbsp;&nbsp;在三包有效期内，选购件出现本规定《微型计算机商品性能故障表》所列性能故障，销售者应当负责为消费者免费调换新的选购件。选购件更换两次后仍不能正常使用的，销售者应当负责免费为消费者退货，并按发货票价格一次退清货款。<br /><br />&nbsp;&nbsp;第十八条&nbsp;&nbsp;在三包有效期内，软件出现本规定《微型计算机商品性能故障表》所列性能故障，销售者应当为消费者免费更换新的同样软件。更换后仍不能正常使用的，应当由销售者负责免费为消费者退货，并按发货票价格一次退清货款。<br /><br />&nbsp;&nbsp;第十九条&nbsp;&nbsp;性能故障的判断，应当按商品销售时的配置，并在产品使用说明规定的状态下进行。<br /><br />&nbsp;&nbsp;第二十条&nbsp;&nbsp;&nbsp;整机换货时，应当提供新的商品。<br /><br />&nbsp;&nbsp;第二十一条&nbsp;&nbsp;整机换货后的三包有效期自换货之日起重新计算。由销售者在发货票背面加盖印章，并提供新的三包凭证。<br /><br />&nbsp;&nbsp;第二十二条&nbsp;&nbsp;更换主要部件时，应当使用新的主要部件。更换后的主要部件三包有效期自更换之日起重新计算，记录在维修记录的维修情况一栏中。<br /><br />&nbsp;&nbsp;第二十三条&nbsp;&nbsp;因修理者自身原因使修理期超过30日的，凭发货票和修理记录，由销售者负责为消费者调换同规格同型号商品；销售者无原规格型号商品的，应当调换不低于原商品性能的同品牌商品。<br /><br />&nbsp;&nbsp;第二十四条&nbsp;&nbsp;在三包有效期内，因生产者未供应零配件，自送修之日起超过60日未修好的，修理者应当在修理状况中注明，凭发货票和修理者提供的修理记录由销售者负责为消费者调换同规格同型号商品；销售者无原规格型号产品的，应当调换不低于原商品性能的同品牌商品。<br /><br />&nbsp;&nbsp;第二十五条&nbsp;&nbsp;销售者按本规定为消费者退货、换货后，属于生产者、供货者责任的，依法向负有责任的生产者、供货者追偿，或者按购销合同办理；属于修理者责任的，依法向修理者追偿，或者按修理代理合同或者协议办理。生产者、供货者赔偿后，属于修理者责任的，依法向修理者追偿，或者按修理代理合同或者协议办理。<br /><br />&nbsp;&nbsp;第二十六条&nbsp;&nbsp;生产者、销售者、修理者破产、兼并、分立的，其三包责任按国家有关法律、法规执行。<br /><br />&nbsp;&nbsp;第二十七条&nbsp;&nbsp;生产者提供三包有效期内发生的修理费用，各个流通环节均不得截留，最终应当全部支付给修理者。<br /><br />&nbsp;&nbsp;第二十八条&nbsp;&nbsp;属下列情况之一的微型计算机商品，不实行三包：<br />&nbsp;&nbsp;&nbsp;&nbsp;（一）超过三包有效期的；<br />&nbsp;&nbsp;&nbsp;&nbsp;（二）未按产品使用说明的要求使用、维护、保管而造成损坏的；<br />&nbsp;&nbsp;&nbsp;&nbsp;（三）非承担三包的修理者拆动造成损坏的；<br />&nbsp;&nbsp;&nbsp;&nbsp;（四）无有效三包凭证及有效发货票的（能够证明该商品在三包有效期内的除外）；<br />&nbsp;&nbsp;&nbsp;&nbsp;（五）擅自涂改三包凭证的；<br />&nbsp;&nbsp;&nbsp;&nbsp;（六）三包凭证上的产品型号或编号与商品实物不相符合的；<br />&nbsp;&nbsp;&nbsp;&nbsp;（七）使用盗版软件造成损坏的；<br />&nbsp;&nbsp;&nbsp;&nbsp;（八）使用过程中感染病毒造成损坏的；<br />&nbsp;&nbsp;&nbsp;&nbsp;（九）无厂名、厂址、生产日期、产品合格证的；<br />&nbsp;&nbsp;&nbsp;&nbsp;（十）因不可抗力造成损坏的。<br /><br />&nbsp;&nbsp;第二十九条&nbsp;&nbsp;消费者因三包问题与销售者、修理者、生产者发生纠纷时，可以向消费者协会和其它消费者组织申请调解，有关组织应当积极受理。<br /><br />&nbsp;&nbsp;第三十条&nbsp;&nbsp;销售者、修理者、生产者未按本规定执行三包的，消费者可以向产品质量监督管理部门申诉机构申诉，由产品质量监督管理部门责令其按三包规定办理。<br />&nbsp;&nbsp;&nbsp;&nbsp;销售者、修理者、生产者对消费者提出的修理、更换、退货的要求故意拖延或者无理拒绝的，由产品质量监督管理部门予以处罚，并予以公告。<br /><br />&nbsp;&nbsp;第三十一条&nbsp;&nbsp;销售者、修理者、生产者未按本规定执行三包的，消费者也可以依照《仲裁法》的规定，与销售者、修理者或者生产者达成仲裁协议，向国家设立的仲裁机构申请裁决，或者直接向人民法院起诉。<br /><br />&nbsp;&nbsp;第三十二条&nbsp;&nbsp;需要进行商品质量检验或者鉴定的，可以委托依法设置并被授权的产品质量检验机构或者省级以上质量技术监督部门指定的鉴定组织单位，进行产品质量检验或者鉴定。<br /><br />&nbsp;&nbsp;第三十三条&nbsp;&nbsp;有关维修资质管理办法，由国家质量监督检验检疫总局和信息产业部另行制定。<br /><br />&nbsp;&nbsp;第三十四条&nbsp;&nbsp;本规定由国家质量监督检验检疫总局、信息产业部按职能分工负责解释。<br /><br />&nbsp;&nbsp;第三十五条&nbsp;&nbsp;本规定自2002年9月1日起实行。<br /><br />&nbsp;&nbsp;附件1：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;实施三包的微型计算机商品目录<br /></p><pre><br />┏━━━━━━━━━━┯━━━━━━┯━━━━━━━━━━━┯━━━━┯━━━━━━┓<br />┃名  称              │三包有效期  │主要部件名称          │折旧率  │备 注       ┃<br />┃                    │（年）      │                      │（日）% │            ┃<br />┃                    │            │                      │        │            ┃<br />┠──────────┼───┬──┼───────────┼────┼──────┨<br />┃                    │整机  │主要│                      │        │            ┃<br />┃                    │      │部件│                      │        │            ┃<br />┠──┬───────┼───┼──┼───────────┼────┼──────┨<br />┃主  │台式微型机主机│1     │2   │主板、CPU、内存、硬盘 │0.25    │            ┃<br />┃    │              │      │    │驱动器、电源、显示卡  │        │            ┃<br />┃机  │              │      │    │                      │        │            ┃<br />┠──┼───────┼───┼──┼───────────┼────┼──────┨<br />┃    │笔记本微型机  │1     │2   │主板、CPU、内存、显示 │0.25    │            ┃<br />┃    │              │      │    │屏、硬盘驱动器、键盘、│        │            ┃<br />┃    │              │      │    │电源适配器            │        │            ┃<br />┠──┼───────┼───┼──┼───────────┼────┼──────┨<br />┃    │手持式个人数字│1     │    │                      │0.25    │含掌上电脑、┃<br />┃    │信息处理设备  │      │    │                      │        │电子记事簿、┃<br />┃    │              │      │    │                      │        │电子词典等  ┃<br />┃    │              │      │    │                      │        │            ┃<br />┃    │              │      │    │                      │        │            ┃<br />┠──┼───────┼───┼──┼─┬─────────┼────┼──────┨<br />┃外  │显示器        │1     │    │  │                  │0.25    │含液晶显示器┃<br />┃    │              │      │    │  │                  │        │            ┃<br />┃    │              │      │    │  │                  │        │            ┃<br />┃    │              │      │    │  │                  │        │            ┃<br />┃    │              │      │    │  │                  │        │            ┃<br />┃设  │              │      │    │  │                  │        │            ┃<br />┠──┼───────┼───┼──┼─┼─────────┼────┼──────┨<br />┃    │扫描仪        │1     │    │  │                  │0.25    │            ┃<br />┠──┼───────┼───┼──┼─┼─────────┼────┼──────┨<br />┃    │针式打印机    │1     │    │  │                  │0.25    │            ┃<br />┠──┼───────┼───┼──┼─┼─────────┼────┼──────┨<br />┃    │喷墨打印机    │1     │    │  │                  │0.25    │            ┃<br />┠──┼───────┼───┼──┼─┼─────────┼────┼──────┨<br />┃    │激光打印机    │1     │    │  │                  │0.25    │            ┃<br />┠──┼───────┼───┼──┼─┼─────────┼────┼──────┨<br />┃    │UPS电源       │1     │    │  │                  │0.25    │含电池      ┃<br />┠──┼───────┼───┼──┼─┼─────────┼────┼──────┨<br />┃    │调制解调器    │1     │    │  │                  │0.25    │            ┃<br />┠──┼───────┼───┼──┼─┼─────────┼────┼──────┨<br />┃    │光盘刻录机    │1     │    │  │                  │0.25    │            ┃<br />┠──┼───────┼───┼──┼─┼─────────┼────┼──────┨<br />┃    │数码相机      │1     │1   │  │专用充电池、存储卡│0.25    │无微型计算  ┃<br />┃    │              │      │    │  │                  │        │机接口功能  ┃<br />┃    │              │      │    │  │                  │        │的除外      ┃<br />┃    │              │      │    │  │                  │        │            ┃<br />┠──┼───────┼───┼──┼─┼─────────┼────┼──────┨<br />┃    │投影机        │2     │0.5 │  │灯泡              │0.25    │            ┃<br />┠──┼───────┼───┼──┼─┼─────────┼────┼──────┨<br />┃    │鼠标器        │1     │    │  │                  │0.25    │            ┃<br />┠──┼───────┼───┼──┼─┼─────────┼────┼──────┨<br />┃    │键盘          │1     │    │  │                  │0.25    │            ┃<br />┠──┼───────┼───┼──┼─┴─────────┼────┼──────┨<br />┃    │软盘驱动器    │1     │    │                      │0.25    │            ┃<br />┠──┼───────┼───┼──┼───────────┼────┼──────┨<br />┃    │硬盘驱动器    │1     │    │                      │0.25    │            ┃<br />┠──┼───────┼───┼──┼───────────┼────┼──────┨<br />┃    │手写板        │1     │    │                      │0.25    │            ┃<br />┠──┼───────┼───┼──┼───────────┼────┼──────┨<br />┃    │电源          │1     │    │                      │0.25    │            ┃<br />┠──┼───────┼───┼──┼───────────┼────┼──────┨<br />┃    │光盘驱动器    │1     │    │                      │0.25    │            ┃<br />┠──┼───────┼───┼──┼─┬─────────┼────┼──────┨<br />┃    │内存条        │1     │    │  │                  │        │            ┃<br />┃选  │              │      │    │  │                  │        │            ┃<br />┃    │              │      │    │  │                  │        │            ┃<br />┃购  │              │      │    │  │                  │        │            ┃<br />┃    │              │      │    │  │                  │        │            ┃<br />┃件  │              │      │    │  │                  │        │            ┃<br />┠──┼───────┼───┼──┼─┼─────────┼────┼──────┨<br />┃    │主板          │1     │    │  │                  │        │            ┃<br />┠──┼───────┼───┼──┼─┼─────────┼────┼──────┨<br />┃    │CPU           │1     │    │  │                  │        │            ┃<br />┠──┼───────┼───┼──┼─┼─────────┼────┼──────┨<br />┃    │声卡          │1     │    │  │                  │        │            ┃<br />┠──┼───────┼───┼──┼─┼─────────┼────┼──────┨<br />┃    │显示卡        │1     │    │  │                  │        │            ┃<br />┠──┼───────┼───┼──┼─┼─────────┼────┼──────┨<br />┃    │盘控卡        │1     │    │  │                  │        │            ┃<br />┠──┼───────┼───┼──┼─┼─────────┼────┼──────┨<br />┃    │网卡          │1     │    │  │                  │        │            ┃<br />┠──┼───────┼───┼──┼─┼─────────┼────┼──────┨<br />┃    │其他功能扩展卡│1     │    │  │                  │        │            ┃<br />┠──┼───────┼───┼──┼─┼─────────┼────┼──────┨<br />┃软  │软件          │三个月│    │  │                  │        │            ┃<br />┃    │              │      │    │  │                  │        │            ┃<br />┃件  │              │      │    │  │                  │        │            ┃<br />┠──┼───────┼───┼──┼─┼─────────┼────┼──────┨<br />┃    │预装软件      │1     │    │  │                  │        │            ┃<br />┠──┼───────┼───┼──┼─┼─────────┼────┼──────┨<br />┃    │随机软件      │三个月│    │  │                  │        │含赠送软件  ┃<br />┗━━┷━━━━━━━┷━━━┷━━┷━┷━━━━━━━━━┷━━━━┷━━━━━━┛<br /></pre><p><br /><br />&nbsp;&nbsp;附件2：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;微型计算机商品三包凭证<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;微型计算机商品三包凭证是消费者享受三包权利的凭证。三包凭证应当包括下列内容，并由销售者负责填写：<br />&nbsp;&nbsp;&nbsp;&nbsp;（1）微型计算机商品名称、商标、型号；<br />&nbsp;&nbsp;&nbsp;&nbsp;（2）微型计算机商品出厂编号或批号；<br />&nbsp;&nbsp;&nbsp;&nbsp;（3）商品产地;<br />&nbsp;&nbsp;&nbsp;&nbsp;（4）销售单位名称、地址、邮政编码、联系电话；<br />&nbsp;&nbsp;&nbsp;&nbsp;（5）销售者印章;<br />&nbsp;&nbsp;&nbsp;&nbsp;（6）发货票号码；<br />&nbsp;&nbsp;&nbsp;&nbsp;（7）销售日期；<br />&nbsp;&nbsp;&nbsp;&nbsp;（8）安装调试日期;<br />&nbsp;&nbsp;&nbsp;&nbsp;（9）消费者姓名、地址、邮政编码、联系电话；<br />&nbsp;&nbsp;&nbsp;&nbsp;（10）修理单位名称、地址、电话及邮政编码；<br />&nbsp;&nbsp;&nbsp;&nbsp;（11）维修记录。<br />&nbsp;&nbsp;&nbsp;&nbsp;维修记录项目：送修日期、送修次数、送修故障情况、故障原因、故障处理情况、交验日期、维修人员签字。<br /><br />&nbsp;&nbsp;附件3：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;微型计算机商品性能故障表<br /></p><pre><br />┏━━━┯━━━━━━━━┯━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓<br />┃ 序号 │    商品名称    │                        性 能 故 障                         ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  1   │台式微型机主机  │在产品使用说明书规定状态下，经维护不能正常启动、死机。      ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  2   │笔记本微型机    │在产品使用说明书规定状态下，经维护不能正常启动、死机。      ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  3   │手持式个人信息处│在产品使用说明规定状态下，经维护不能正常启动，死机，显示屏白┃<br />┃      │理设备          │斑、花斑。                                                  ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  4   │显示器          │1.正常加电，电源指示灯亮后无显示图像。                      ┃<br />┃      │                │2.显示器图像不能同步，画面扭曲、摆动、撕裂。                ┃<br />┃      │                │3.显示器图像亮度不可调。                                    ┃<br />┃      │                │4.显示器图像缺色。                                          ┃<br />┃      │                │5.显示屏白斑、花斑。                                        ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  5   │扫描仪          │1.开机电源不通，工作时灯管不亮或闪烁。                      ┃<br />┃      │                │2.扫描白纸出现明显条纹或者全黑；                            ┃<br />┃      │                │3.经维护，机械系统不归位。                                  ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  6   │针式打印机      │1.走纸异常。                                                ┃<br />┃      │                │2.印字漏点，连点。                                          ┃<br />┃      │                │3.打不上字。                                                ┃<br />┃      │                │4.不能正常回车、归位。                                      ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  7   │喷墨打印机      │1.打印机不上纸。                                            ┃<br />┃      │                │2.喷头不能定位、归位。                                      ┃<br />┃      │                │3.由非消耗品引起的断线、漏字、缺色。                        ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  8   │激光打印机      │1.墨粉不能固化在纸上。                                      ┃<br />┃      │                │2.打印机不上纸、卡纸。                                      ┃<br />┃      │                │3.由非消耗品引起的断线、漏字、缺色。                        ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  9   │UPS电源         │持续供电时间、响应时间达不到产品使用说明明示的技术指标要求。┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  10  │调制解调器      │不能正常联机通讯。                                          ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  11  │光盘刻录机      │ 不能刻录产品使用说明规定的光盘。                           ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  12  │投影机          │1.无法加电。                                                ┃<br />┃      │                │2.照明系统失效。                                            ┃<br />┃      │                │3.功能键失效                                                ┃<br />┃      │                │4.接口故障。                                                ┃<br />┃      │                │5.显示画面有固定暗点、亮点、色点。                          ┃<br />┃      │                │6.在规定使用条件下，显示亮度、对比度达不到使用说明书明示指标┃<br />┃      │                │的要求。                                                    ┃<br />┃      │                │7.在使用说明书明示的环境条件下，投影中断。                  ┃<br />┃      │                │8.在使用说明书规定的距离内，投影图象模糊。                  ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  13  │数码相机        │1.显示屏无显示。                                            ┃<br />┃      │                │2.功能键失效。                                              ┃<br />┃      │                │3.专用电池容量低于标称容量的80%。                           ┃<br />┃      │                │4.接口故障。                                                ┃<br />┃      │                │5.照片缺色、偏色、色斑、色阶。                              ┃<br />┃      │                │6.存储容量达不到标称值。                                    ┃<br />┃      │                │7.重现的死机。                                              ┃<br />┃      │                │8.拍不上照片。                                              ┃<br />┃      │                │9.机械故障。                                                ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  14  │鼠标器          │不能正常使用。                                              ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  15  │键盘            │不能正常使用。                                              ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  16  │内存条          │不能正常工作。                                              ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  17  │硬盘驱动器      │不能正常格式化。                                            ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  18  │光盘驱动器      │不能读符合产品使用说明要求的光盘。                          ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  19  │软盘驱动器      │不能正常存取数据。                                          ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  20  │手写板          │不能正常工作。                                              ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  21  │电源            │电源输出电压、电流达不到产品使用说明规定的指标要求。        ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  22  │主板            │在产品使用说明规定状态下，不能启动。                        ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  23  │CPU             │不能正常工作。                                              ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  24  │其他功能扩展卡  │不能正常工作。                                              ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  25  │声卡            │ 安装后无声。                                               ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  26  │显示卡          │1.安装后不能正常显示图象。                                  ┃<br />┃      │                │2.图像色彩分辨率达不到产品使用说明明示的技术指标要求。      ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  27  │盘控卡          │不能正常工作。                                              ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  28  │网卡            │网络联接不能正常通讯。                                      ┃<br />┠───┼────────┼──────────────────────────────┨<br />┃  29  │软件产品        │1.硬件系统标准配置情况下不能工作。                          ┃<br />┃      │                │ 2.不支持产品使用说明明示支持的产品及系统。                 ┃<br />┃      │                │3.不支持产品使用说明明示的软件功能。                        ┃<br />┗━━━┷━━━━━━━━┷━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛<br /></pre> 
+						
+						<br/>
+						<font color="#B22222">免责声明：本网站提供的法规来源于数据提供单位或网络，网站不对法规内容的准确性负责，请务必与正式文本核对后使用。网站访问者因使用或无法使用本网站提供的法规所造成的直接或间接损失，本网站不承担任何责任。</font>
+						</div>
+				</div>
+			</section>
+		
+		</div>
+	</div>
+</section>
+<form action="" method="get" id="clawForm">
+	<input type="hidden" name="id" value="9478"/>
+	<input type="hidden" name="title" value="微型计算机商品修理更换退货责任规定"/>
+	<input type="hidden" name="clawUrl" value="https://picpolicy.mofcom.gov.cn/claw/201610/chl_40836.doc"/>
+</form>
+<div id="global-toolbar">
+  <div class="toolbar-wrap wrap">
+	<div class="toolbar">
+	  <div class="toolbar-tabs tab">
+		<!-- div class="toolbar-tab tbar-tab-word" onclick=""><i class="tab-ico"></i><em class="tab-text">修订对照<br />下载</em></div 
+		
+			<div class="toolbar-tab tbar-tab-word" onclick="window.open('https://picpolicy.mofcom.gov.cn/claw/201610/chl_40836.doc')"><i class="tab-ico"></i><em class="tab-text">WORD<br />版本下载</em></div>
+	 	-->
+	  </div>
+	  <div class="toolbar-footer">
+		<div class="toolbar-tab tbar-tab-top">
+			<a href="#"><i class="tab-ico"></i><em class="footer-tab-text">顶部</em></a>
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+	<footer class="footer mt30">
+				<section class="blank clearfix">
+			<dl class="nav_03 clearfix">
+				<dd>主办单位：中华人民共和国商务部</dd>
+				<dd>技术支持：中国国际电子商务中心</dd>
+				<dd>邮箱：global-law@ec.com.cn</dd>
+				<dd>客户服务：010-67801039</dd>
+				
+			</dl>
+			<dl class="nav_03 clearfix">
+				<dd>网站管理：商务部电子商务和信息化司</dd>
+			
+					<dd>网站标识码bm22000001</dd>
+					<dd><a href="https://beian.miit.gov.cn/" target="_blank"  onclick="if(confirm('您访问的链接即将离开“中华人民共和国商务部”政府网站，是否继续？')==false)return false;">京ICP备05004093号-1</a><br><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11040102700091" target="_blank"  onclick="if(confirm('您访问的链接即将离开“中华人民共和国商务部”政府网站，是否继续？')==false)return false;"><img src="/law/img/footer-img03.png">京公网安备11040102700091号</a></dd>
+					
+			</dl>
+			<dl class="nav_03 cur clearfix">
+			
+				<dd style="width:200px">
+					<span id="_span_jiucuo" style="display: inline-block; margin-top: 13px;">
+						<!-- <script id="_jiucuo_" sitecode='bm22000001' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script> -->
+					<a class="ft-jiucuo-link ediAssetsTextCon" href="https://zfwzgl.www.gov.cn/exposure/jiucuo.html?site_code=bm22000001&amp;url=http%3A%2F%2Fwww.mofcom.gov.cn/" target="_blank"><img style="margin: 0px; border: 0px currentColor; border-image: none; cursor: pointer;" src="https://zfwzgl.www.gov.cn/exposure/images/jiucuo.png?v=bm22000001"></a>
+					</span>
+					<a href="//bszs.conac.cn/sitename?method=show&id=0726B28348831856E053012819AC9312" target="_blank" onclick="if(confirm('您访问的链接即将离开“中华人民共和国商务部”政府网站，是否继续？')==false)return false;">
+						<img src="http://dcs.conac.cn/image/red.png">
+					</a>
+				</dd>
+			</dl>
+			
+		</section>
+	</footer>
+	<script type="text/javascript">
+	
+	$(function(){
+		var article = $(".article").html();
+		if(null==article||''==article||article.length<20){
+			window.location.href="/index.shtml"
+		}
+	})
+	
+		/** scroll 浮层
+		$(window).scroll(function(){
+			var ht = $(this).scrollTop();
+			if(ht>210){
+				boxLeft();
+				$(".conBox_01,#toolbar_box").addClass("cur");
+			}else{
+				$(".conBox_01,#toolbar_box").removeClass("cur").removeAttr("style");
+			}
+		});***/
+	</script>
+</body>
+</html>

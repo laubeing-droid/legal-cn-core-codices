@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>全球法规网-中国商务法规</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="your keywords">
+    <meta name="description" content="your description">
+    <meta name="author" content="hl,haolei@ec.com.cn">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="css/style.css" />
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+    <!--[if IE]>
+    	<script src="js/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="laws">
+	<header class="header">
+		<nav class="nav blank clearfix">
+	<!--div class="u-logo1"><img src="img/logo1.png" alt=""></div-->
+	
+	<ul class="nav01_ul">
+		<li>
+			<a href="/claw/index.shtml">中国法规</a>|
+			<ul class="nav02_ul">
+				<li><a href="/claw/index.shtml">商务法规</a></li>
+				<li><a href="/pact/index.shtml">中外条约</a></li>
+			</ul>
+		</li>
+		<li><a href="/page/list/nations.html">各国法规</a>|
+			<ul class="nav02_ul">
+				<li><a href="/page/list/nations.html">境外法规</a></li>
+				<li><a href="/page/list/organizations.html">国际条约</a></li>
+			</ul>
+		</li>
+		<li><a href="/jwfg/index.shtml">境外法规检索</a>|
+		</li>
+		<li><a href="http://www.mofcom.gov.cn/article/ckzn/index.shtml">出口指南</a><!-- | -->
+		</li>
+<!-- 		<li><a href="/tsfy/index.shtml">图说方圆</a></li> -->
+		<li class="last"><a href="/">首页</a></li>
+	</ul>
+</nav>
+
+<!-- Matomo -->
+<script type="text/javascript">
+//If used is logged-in then call 'setUserId'
+//$userId variable must be set by the server when the user has successfully authenticated to your app.
+var _paq = window._paq || [];
+	
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  _paq.push(['enableHeartBeatTimer']);
+  (function() { 
+    var u="https://analysis.mofcom.gov.cn/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '137']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+	</header>
+	
+
+
+
+
+
+<script type="text/javascript">
+$(function(){
+	setReviseToolBar();
+	setAssociateToolbar();
+});
+function setReviseToolBar(){
+	$.ajax({
+		url:"/nflaw/front/www/claw/reviseCount?id=9203",
+		type:"get",
+		success:function(result){
+			if(!!result&&result>0){
+				$("#reviseToolbar").show();
+			}
+		}
+	});
+}
+
+function setAssociateToolbar(){
+	$.ajax({
+		url:"/nflaw/front/www/claw/associateCount?id=9203",
+		type:"get",
+		success:function(result){
+			if(!!result&&result>0){
+				$("#associateToolbar").show();
+			}
+		}
+	});
+}
+/* function doSubmitReviseForm(){
+	$("#clawForm").attr("action","/claw/clawRevise.shtml");
+	$("#clawForm").submit();
+}
+function doSubmitAssociateForm(){
+	$("#clawForm").attr("action","/claw/clawAssociate.shtml");
+	$("#clawForm").submit();
+} */
+function doSubmitKeySearch(){
+	if($("#keyword").val()==''){
+		alert("请输入关键字！");
+		$("#keyword").focus();
+		return false;
+	}else if($("#keyword").val().length>100){
+		alert("关键字 不能超过100位字符！");
+		$("#keyword").focus();
+		return false;
+	}else{
+		$("#keySearchForm").submit();
+	}
+}
+</script>
+<section class="search blank">
+	<div class="mt20 mb30 clearfix">
+		<div class="logo fl">
+			<img src="img/logo.png" alt="" />
+		</div>
+		<div class="search_box fr">
+			<div class="clearfix">
+				<form id="keySearchForm" name="keySearchForm" method="get" action="/claw/keySearchList.shtml">
+					<span class="btn_search_show fl">中国商务法规</span>
+					<input class="txt_search fl" type="text" name="keyword" id="keyword">
+					<input class="btn_search fl" type="button" value="搜索" onclick="doSubmitKeySearch()">
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+<nav class="navMain blank">
+	<a class="a1" href="http://policy.mofcom.gov.cn/">首页</a>&gt;<a href="/claw/index.shtml"><i>中国商务法规</i></a>&gt;<span class="s1">法规详情</span>
+</nav>
+<section class="main blank">
+	<div class="content mt18 posr">
+		<div class="conBox_01">
+			<h2 class="tit_08">对外贸易经济合作部和国家工商行政管理总局关于修改《关于外商投资企业合并与分立的规定》的决定</h2>
+			<section class="con">
+				<h3 class="tit_09">
+					【信息来源：<em>
+					
+					   
+					   
+					   	北大法宝
+					   
+					
+					</em>】
+				</h3>
+				<div class="tableBox">
+					<table class="table_01" width="100%">
+						<tr>
+							<td width="50%"><span>【发布部门】</span>对外贸易与经济合作部(含原对外经济贸易部)(已变更);国家工商行政管理总局</td>
+							<td width="50%"><span>【发布文号】</span>外经贸部、国家工商行政管理局令第8号</td>
+						</tr>
+						<tr>
+							<td><span>【效力级别】</span>部门规章</td>
+							<td><span>【时效状态】</span>
+								现行有效
+								
+								
+								
+								
+							</td>
+						</tr>
+						<tr>
+							<td><span>【发布日期】</span>
+								
+									2001-11-22
+								
+							</td>
+							<td><span>【实施日期】</span>
+								
+									2001-11-22
+								
+							</td>
+						</tr>
+						<tr>
+							<td><span>【法律话题】</span>
+								
+									
+									企业公司
+								
+									;
+									外资
+								
+							</td>
+							<td><span>【产业领域】</span>
+								
+								
+									公共管理
+								
+							</td>
+						</tr>
+							
+					</table>
+				</div>
+				<div class="article">
+					<div class="law_bt0" style="text-align:justify;"><p style="text-align:center;">对外贸易经济合作部、国家工商行政管理总局令</p><p><br /></p><p style="text-align:center;">（二00一年第8号）</p><p><br /></p><p>　　现公布《对外贸易经济合作部和国家工商行政管理总局关于修改〈关于外商投资企业合并与分立的规定〉的决定》，自公布之日起施行。</p><p><br /></p><p style="text-align:right;">　　部长：石广生</p><p><br /></p><p style="text-align:right;">　　局长：王众孚</p><p><br /></p><p style="text-align:right;">　　二00一年十一月二十二日</p><p><br /></p><p style="text-align:center;">对外贸易经济合作部和国家工商行政管理总局关于修改</p><p><br /></p><p style="text-align:center;">《关于外商投资企业合并与分立的规定》的决定</p><p><br /></p><p>　　为适应我国对外开放新形势的需要，进一步完善外商在华投资的法律制度，规范外商投资企业与中国内资企业合并的行为，依据《中华人民共和国公司法》和有关外商投资企业的法律、行政法规和规章，对《关于外商投资企业合并与分立的规定》（〔1999〕外经贸法发第395号）作如下修改：</p><p><br /></p><p>　　一、第九条修改为：“在投资者按照公司合同、章程规定缴清出资、提供合作条件且实际开始生产、经营之前，公司之间不得合并，公司不得分立。投资者已经按照公司合同、章程规定缴付出资、提供合作条件的，公司可以与中国内资企业合并。”</p><p><br /></p><p>　　二、在第十七条后新增：“第十八条&nbsp;公司与中国内资企业合并后为外商投资企业，其投资总额为原公司的投资总额与中国内资企业财务审计报告所记载的企业资产总额之和，注册资本为原公司的注册资本额与中国内资企业的注册资本额之和。合并后的公司注册资本与投资总额比例，应当符合国家工商行政管理总局《关于中外合资经营企业注册资本与投资总额比例的暂行规定》；在特殊情况下，不能执行该规定的，须经外经贸部会同国家工商总局批准。</p><p><br /></p><p>　　第十九条与公司合并的中国内资企业已经投资设立的企业，成为合并后公司所持股的企业，应当符合中国利用外资的产业政策要求和《关于外商投资企业境内投资的暂行规定》。合并后的公司不得在禁止外商投资产业的企业中持有股权。”</p><p><br /></p><p>　　三、在原第十八条中新增：“公司与中国内资企业合并的，申请人还应向审批机关报送拟合并的中国内资企业已投资设立企业的营业执照复印件。”</p><p><br /></p><p>　　四、在原第三十五条中新增：“公司与中国内资企业合并的，存续或新设的公司；还应根据有关外商投资企业的规定，到税务、海关、土地管理和外汇管理等机关，办理相关的审核手续。”</p><p><br /></p><p>　　五、在原第三十六条中新增第二款：“在公司与中国内资企业合并过程中，外国投资者购买内资企业股东股权的，其股权购买金的支付条件，依照〈中外合资经营企业合营各方出资的若干规定〉的补充规定》执行。”</p><p><br /></p><p>　　六、原第三十九条修改为：“本规定自发布之日起执行。”</p><p><br /></p><p>　　此外，对部分条款的表述作相应修改，并对条、款、项顺序作相应调整。</p><p><br /></p><p>　　本决定自发布之日起执行。</p><p><br /></p><p>　　《关于外商投资企业合并与分立的规定》根据本决定作相应的修改，重新公布。</p></div>
+						
+						<br/>
+						<font color="#B22222">免责声明：本网站提供的法规来源于数据提供单位或网络，网站不对法规内容的准确性负责，请务必与正式文本核对后使用。网站访问者因使用或无法使用本网站提供的法规所造成的直接或间接损失，本网站不承担任何责任。</font>
+						</div>
+				</div>
+			</section>
+		
+		</div>
+	</div>
+</section>
+<form action="" method="get" id="clawForm">
+	<input type="hidden" name="id" value="9203"/>
+	<input type="hidden" name="title" value="对外贸易经济合作部和国家工商行政管理总局关于修改《关于外商投资企业合并与分立的规定》的决定"/>
+	<input type="hidden" name="clawUrl" value="https://picpolicy.mofcom.gov.cn/claw/201610/chl_38022.doc"/>
+</form>
+<div id="global-toolbar">
+  <div class="toolbar-wrap wrap">
+	<div class="toolbar">
+	  <div class="toolbar-tabs tab">
+		<!-- div class="toolbar-tab tbar-tab-word" onclick=""><i class="tab-ico"></i><em class="tab-text">修订对照<br />下载</em></div 
+		
+			<div class="toolbar-tab tbar-tab-word" onclick="window.open('https://picpolicy.mofcom.gov.cn/claw/201610/chl_38022.doc')"><i class="tab-ico"></i><em class="tab-text">WORD<br />版本下载</em></div>
+	 	-->
+	  </div>
+	  <div class="toolbar-footer">
+		<div class="toolbar-tab tbar-tab-top">
+			<a href="#"><i class="tab-ico"></i><em class="footer-tab-text">顶部</em></a>
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+	<footer class="footer mt30">
+				<section class="blank clearfix">
+			<dl class="nav_03 clearfix">
+				<dd>主办单位：中华人民共和国商务部</dd>
+				<dd>技术支持：中国国际电子商务中心</dd>
+				<dd>邮箱：global-law@ec.com.cn</dd>
+				<dd>客户服务：010-67801039</dd>
+				
+			</dl>
+			<dl class="nav_03 clearfix">
+				<dd>网站管理：商务部电子商务和信息化司</dd>
+			
+					<dd>网站标识码bm22000001</dd>
+					<dd><a href="https://beian.miit.gov.cn/" target="_blank"  onclick="if(confirm('您访问的链接即将离开“中华人民共和国商务部”政府网站，是否继续？')==false)return false;">京ICP备05004093号-1</a><br><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11040102700091" target="_blank"  onclick="if(confirm('您访问的链接即将离开“中华人民共和国商务部”政府网站，是否继续？')==false)return false;"><img src="/law/img/footer-img03.png">京公网安备11040102700091号</a></dd>
+					
+			</dl>
+			<dl class="nav_03 cur clearfix">
+			
+				<dd style="width:200px">
+					<span id="_span_jiucuo" style="display: inline-block; margin-top: 13px;">
+						<!-- <script id="_jiucuo_" sitecode='bm22000001' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script> -->
+					<a class="ft-jiucuo-link ediAssetsTextCon" href="https://zfwzgl.www.gov.cn/exposure/jiucuo.html?site_code=bm22000001&amp;url=http%3A%2F%2Fwww.mofcom.gov.cn/" target="_blank"><img style="margin: 0px; border: 0px currentColor; border-image: none; cursor: pointer;" src="https://zfwzgl.www.gov.cn/exposure/images/jiucuo.png?v=bm22000001"></a>
+					</span>
+					<a href="//bszs.conac.cn/sitename?method=show&id=0726B28348831856E053012819AC9312" target="_blank" onclick="if(confirm('您访问的链接即将离开“中华人民共和国商务部”政府网站，是否继续？')==false)return false;">
+						<img src="http://dcs.conac.cn/image/red.png">
+					</a>
+				</dd>
+			</dl>
+			
+		</section>
+	</footer>
+	<script type="text/javascript">
+	
+	$(function(){
+		var article = $(".article").html();
+		if(null==article||''==article||article.length<20){
+			window.location.href="/index.shtml"
+		}
+	})
+	
+		/** scroll 浮层
+		$(window).scroll(function(){
+			var ht = $(this).scrollTop();
+			if(ht>210){
+				boxLeft();
+				$(".conBox_01,#toolbar_box").addClass("cur");
+			}else{
+				$(".conBox_01,#toolbar_box").removeClass("cur").removeAttr("style");
+			}
+		});***/
+	</script>
+</body>
+</html>
