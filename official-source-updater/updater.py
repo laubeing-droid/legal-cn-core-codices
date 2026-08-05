@@ -41,6 +41,20 @@ DATASET_TABLES = {
     "case_legal_references.csv",
     "practice_references.csv",
 }
+PROXY_ENVIRONMENT_VARIABLES = (
+    "HTTP_PROXY",
+    "HTTPS_PROXY",
+    "ALL_PROXY",
+    "http_proxy",
+    "https_proxy",
+    "all_proxy",
+)
+
+
+def enforce_direct_network() -> None:
+    """Do not inherit environment proxy configuration into updater subprocesses."""
+    for variable_name in PROXY_ENVIRONMENT_VARIABLES:
+        os.environ.pop(variable_name, None)
 
 
 def load_registry(path: Path) -> dict:
@@ -448,6 +462,7 @@ def run_sources(
 
 
 def main() -> int:
+    enforce_direct_network()
     parser = argparse.ArgumentParser()
     parser.add_argument("command", choices=["list", "validate", "run"])
     parser.add_argument("--config", type=Path, default=DEFAULT_CONFIG)

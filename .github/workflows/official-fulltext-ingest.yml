@@ -1,0 +1,186 @@
+name: Official fulltext ingest
+
+on:
+  schedule:
+    - cron: "30 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: legal-corpus-official-fulltext-ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: [self-hosted, windows, x64, legal-corpus]
+    timeout-minutes: 360
+    env:
+      LEGAL_SOURCE_ROOT: ${{ vars.LEGAL_SOURCE_ROOT }}
+      LEGAL_FORMAL_ROOT: ${{ vars.LEGAL_FORMAL_ROOT }}
+      LEGAL_DEPRECATED_PATH: ${{ vars.LEGAL_DEPRECATED_PATH }}
+      LEGAL_CURRENT_ENGINEERING_ROOT: ${{ vars.LEGAL_CURRENT_ENGINEERING_ROOT }}
+      LEGAL_OVERLAP_DAYS: ${{ vars.LEGAL_OVERLAP_DAYS }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          clean: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: official-source-updater/requirements.txt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install dependencies
+        run: python -m pip install -r official-source-updater/requirements.txt
+
+      - name: Validate deployment configuration
+        shell: pwsh
+        run: |
+          $required = @(
+            'LEGAL_SOURCE_ROOT',
+            'LEGAL_FORMAL_ROOT',
+            'LEGAL_DEPRECATED_PATH'
+          )
+          foreach ($name in $required) {
+            if ([string]::IsNullOrWhiteSpace([Environment]::GetEnvironmentVariable($name))) {
+              throw "MISSING_REPOSITORY_VARIABLE:$name"
+            }
+          }
+          if (-not (Test-Path -LiteralPath $env:LEGAL_SOURCE_ROOT -PathType Container)) {
+            throw 'LEGAL_SOURCE_ROOT_NOT_FOUND'
+          }
+          if (-not (Test-Path -LiteralPath $env:LEGAL_FORMAL_ROOT -PathType Container)) {
+            throw 'LEGAL_FORMAL_ROOT_NOT_FOUND'
+          }
+          python official-source-updater/updater.py validate --database-root $env:LEGAL_FORMAL_ROOT
+
+      - name: Refresh registered automatic indexes
+        shell: pwsh
+        run: |
+          $sources = @(
+            'npc_flk',
+            'moj_admin_regulations',
+            'national_rules_database',
+            'state_council_policy_database',
+            'state_council_gazette',
+            'central_ministry_websites',
+            'spc_website',
+            'spc_gazette',
+            'spp_website'
+          ) -join ','
+          python official-source-updater/updater.py run `
+            --database-root $env:LEGAL_FORMAL_ROOT `
+            --source $sources
+          if ($LASTEXITCODE -ne 0) { throw "OFFICIAL_INDEX_UPDATE_FAILED:$LASTEXITCODE" }
+
+      - name: Select and fetch bounded single-page fulltext
+        id: fulltext
+        shell: pwsh
+        run: |
+          $run = Get-ChildItem -LiteralPath official-source-updater/runs -Directory |
+            Where-Object Name -Match '^\d{8}_\d{6}$' |
+            Sort-Object LastWriteTime |
+            Select-Object -Last 1
+          if (-not $run) { throw 'OFFICIAL_RUN_NOT_FOUND' }
+          $stamp = Get-Date -Format 'yyyyMMdd_HHmmss'
+          New-Item -ItemType Directory -Force -Path `
+            'workspace/runtime', `
+            'workspace/交换候选', `
+            'workspace/工程记录' | Out-Null
+          $runtime = Join-Path (Resolve-Path workspace).Path "runtime/github_$stamp"
+          New-Item -ItemType Directory -Force -Path $runtime | Out-Null
+          $days = 14
+          if ($env:LEGAL_OVERLAP_DAYS -match '^\d+$') { $days = [int]$env:LEGAL_OVERLAP_DAYS }
+          $overlapStart = (Get-Date).AddDays(-$days).ToString('yyyy-MM-dd')
+          $indexes = Get-ChildItem -LiteralPath $run.FullName -Recurse -Filter official_index.csv -File
+          if (-not $indexes) { throw 'SUPPORTED_OFFICIAL_INDEX_NOT_FOUND' }
+          $arguments = @(
+            'official-source-updater/scripts/build_fulltext_queue.py',
+            '--formal-root', $env:LEGAL_FORMAL_ROOT,
+            '--overlap-start', $overlapStart,
+            '--output', $runtime
+          )
+          foreach ($index in $indexes) { $arguments += @('--source-index', $index.FullName) }
+          python @arguments
+          $queue = Join-Path $runtime 'single_page_fulltext_queue.csv'
+          $count = @(Import-Csv -LiteralPath $queue).Count
+          "runtime=$runtime" >> $env:GITHUB_OUTPUT
+          "selected=$count" >> $env:GITHUB_OUTPUT
+          if ($count -eq 0) { exit 0 }
+          python official-source-updater/scripts/fetch_fulltext_queue.py `
+            --queue $queue `
+            --output (Join-Path $runtime 'fulltext_fetch_results.csv') `
+            --evidence-root (Join-Path $runtime 'fulltext_evidence') `
+            --max-workers 4
+          if ($LASTEXITCODE -ne 0) { throw "FULLTEXT_FETCH_FAILED:$LASTEXITCODE" }
+
+      - name: Materialize, build and validate candidate
+        if: steps.fulltext.outputs.selected != '0'
+        id: candidate
+        shell: pwsh
+        run: |
+          $runtime = '${{ steps.fulltext.outputs.runtime }}'
+          python official-source-updater/scripts/materialize_fulltext.py `
+            --fetch-results (Join-Path $runtime 'fulltext_fetch_results.csv') `
+            --evidence-root (Join-Path $runtime 'fulltext_evidence') `
+            --source-root $env:LEGAL_SOURCE_ROOT `
+            --formal-root $env:LEGAL_FORMAL_ROOT `
+            --manifest (Join-Path $runtime 'materialization_manifest.csv') `
+            --page-metadata (Join-Path $runtime 'official_page_metadata.csv')
+          if ($LASTEXITCODE -ne 0) { throw "MATERIALIZATION_FAILED:$LASTEXITCODE" }
+          $batch = "github_final_$(Get-Date -Format 'yyyyMMdd_HHmmss')"
+          $candidate = Join-Path (Resolve-Path workspace/交换候选).Path $batch
+          $engineering = Join-Path (Resolve-Path workspace/工程记录).Path $batch
+          node tools/build_local_csv.mjs `
+            --output-root $candidate `
+            --engineering-root $engineering `
+            --official-page-metadata (Join-Path $runtime 'official_page_metadata.csv') `
+            --full-corpus `
+            --full-corpus-purpose FINAL_ACCEPTANCE_ONLY
+          if ($LASTEXITCODE -ne 0) { throw "DATASET_BUILD_FAILED:$LASTEXITCODE" }
+          python tools/validate_dataset.py $candidate `
+            --engineering-root $engineering `
+            --source-root $env:LEGAL_SOURCE_ROOT `
+            --deprecated-path $env:LEGAL_DEPRECATED_PATH
+          if ($LASTEXITCODE -ne 0) { throw "CANDIDATE_VALIDATION_FAILED:$LASTEXITCODE" }
+          "candidate=$candidate" >> $env:GITHUB_OUTPUT
+          "engineering=$engineering" >> $env:GITHUB_OUTPUT
+
+      - name: Atomically publish validated candidate
+        if: steps.fulltext.outputs.selected != '0'
+        shell: pwsh
+        run: |
+          $statePointer = 'workspace/runtime/current_engineering_root.txt'
+          $currentEngineering = $env:LEGAL_CURRENT_ENGINEERING_ROOT
+          if (Test-Path -LiteralPath $statePointer) {
+            $currentEngineering = (Get-Content -LiteralPath $statePointer -Raw).Trim()
+          }
+          if ([string]::IsNullOrWhiteSpace($currentEngineering)) {
+            throw 'CURRENT_ENGINEERING_ROOT_NOT_CONFIGURED'
+          }
+          python tools/publish_validated_dataset.py '${{ steps.candidate.outputs.candidate }}' `
+            --target $env:LEGAL_FORMAL_ROOT `
+            --engineering-root '${{ steps.candidate.outputs.engineering }}' `
+            --current-engineering-root $currentEngineering `
+            --source-root $env:LEGAL_SOURCE_ROOT `
+            --deprecated-path $env:LEGAL_DEPRECATED_PATH `
+            --replace-validated-target
+          if ($LASTEXITCODE -ne 0) { throw "ATOMIC_PUBLISH_FAILED:$LASTEXITCODE" }
+          Set-Content -LiteralPath $statePointer `
+            -Value '${{ steps.candidate.outputs.engineering }}' -Encoding utf8
+
+      - name: Upload engineering evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: official-fulltext-ingest-${{ github.run_id }}
+          path: |
+            official-source-updater/runs/
+            workspace/runtime/github_*/
+            workspace/工程记录/github_final_*/
+          if-no-files-found: warn
+          retention-days: 30

@@ -153,13 +153,53 @@ def parse_links(page_url: str, text: str, allowed_host: str) -> list[dict]:
             {
                 "record_id": record_id,
                 "title": title,
-                "publication_date": date_match.group(1) if date_match else "",
+                "publication_date": normalize_catalog_date(
+                    date_match.group(1) if date_match else ""
+                ),
                 "category": "",
                 "publisher": "",
                 "official_url": url,
                 "catalog_url": page_url,
             }
         )
+    return rows
+
+
+def normalize_catalog_date(value: str) -> str:
+    digits = re.findall(r"\d+", value)
+    if len(digits) < 3:
+        return ""
+    year, month, day = digits[:3]
+    return f"{int(year):04d}-{int(month):02d}-{int(day):02d}"
+
+
+def filter_catalog_rows(
+    source_id: str,
+    category: str,
+    rows: list[dict],
+) -> list[dict]:
+    if source_id != "spp_website":
+        return rows
+    expected_prefix = {
+        "司法解释": "/spp/sfjs/",
+        "规范文件": "/spp/gfwj/",
+        "指导性案例": "/spp/jczdal/",
+    }.get(category)
+    if expected_prefix:
+        return [
+            row
+            for row in rows
+            if urlsplit(row.get("official_url", "")).path.startswith(expected_prefix)
+        ]
+    if category == "典型案例":
+        return [
+            row
+            for row in rows
+            if "案例" in row.get("title", "")
+            and urlsplit(row.get("official_url", "")).path.startswith(
+                ("/spp/zgjdxal/", "/spp/xwfbh/wsfbt/", "/xwfbh/wsfbt/")
+            )
+        ]
     return rows
 
 
@@ -780,7 +820,11 @@ def static_catalog(source_id: str, max_pages: int) -> tuple[list[dict], dict]:
                     }
                 )
                 break
-            page_rows = parse_links(page_url, response.text, host)
+            page_rows = filter_catalog_rows(
+                source_id,
+                category,
+                parse_links(page_url, response.text, host),
+            )
             urls = {row["official_url"] for row in page_rows}
             if not urls or (page > 1 and urls == previous_urls):
                 break

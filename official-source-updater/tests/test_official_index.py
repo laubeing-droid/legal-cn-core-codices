@@ -202,6 +202,30 @@ class OfficialIndexTest(unittest.TestCase):
             [row["publication_date"] for row in rows],
         )
 
+    def test_parse_links_normalizes_mixed_date_separators(self) -> None:
+        page = """
+        <a href="/spp/sfjs/202608/t20260805_1.shtml">测试司法解释</a>
+        <span>2026-08/05</span>
+        """
+        rows = official_index.parse_links(
+            "https://www.spp.gov.cn/spp/sfjs/index.shtml",
+            page,
+            "spp.gov.cn",
+        )
+        self.assertEqual("2026-08-05", rows[0]["publication_date"])
+
+    def test_spp_catalog_scope_rejects_navigation_news_links(self) -> None:
+        rows = [
+            {"title": "测试司法解释", "official_url": "https://www.spp.gov.cn/spp/sfjs/202608/t1.shtml"},
+            {"title": "最高检新闻", "official_url": "https://www.spp.gov.cn/xwfbh/wsfbt/202608/t2.shtml"},
+        ]
+        filtered = official_index.filter_catalog_rows(
+            "spp_website",
+            "司法解释",
+            rows,
+        )
+        self.assertEqual([rows[0]], filtered)
+
     def test_output_schema_and_partial_flag(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

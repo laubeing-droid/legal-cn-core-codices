@@ -129,7 +129,7 @@ FINAL_TOP_LEVEL_FILES = FORMAL_TABLES | {"README.md", "SHA256SUMS"}
 
 def sha256(path: Path) -> str:
     digest = hashlib.sha256()
-    with path.open("rb") as source:
+    with filesystem_path(path).open("rb") as source:
         for block in iter(lambda: source.read(1024 * 1024), b""):
             digest.update(block)
     return digest.hexdigest()
@@ -158,7 +158,7 @@ def valid_case_id(value: str) -> bool:
 
 
 def load_csv(path: Path) -> tuple[list[str], list[dict[str, str]]]:
-    raw = path.read_bytes()
+    raw = filesystem_path(path).read_bytes()
     if not raw.startswith(b"\xef\xbb\xbf"):
         raise ValueError("CSV_MISSING_UTF8_BOM")
     text = raw.decode("utf-8-sig", errors="strict")
@@ -180,7 +180,7 @@ def validate_legal_contents_stream(
     seen_keys: set[tuple[str, str]] = set()
     content_file_codes: set[str] = set()
     row_count = 0
-    with path.open("rb") as raw:
+    with filesystem_path(path).open("rb") as raw:
         if raw.read(3) != b"\xef\xbb\xbf":
             raise ValueError("CSV_MISSING_UTF8_BOM")
         raw.seek(0)
@@ -267,7 +267,7 @@ def validate_legal_contents_stream(
 
 
 def load_publication_skip_registry(path: Path) -> list[dict[str, str]]:
-    text = path.read_text(encoding="utf-8-sig")
+    text = filesystem_path(path).read_text(encoding="utf-8-sig")
     reader = csv.DictReader(text.splitlines(keepends=True))
     header = reader.fieldnames or []
     if header != PUBLICATION_SKIP_HEADER:
@@ -591,6 +591,7 @@ def validate_formal_source_hash_chain(
 
 
 def validate_candidate_layout(root: Path, result: Result) -> None:
+    scan_root = filesystem_path(root)
     if (root / "工程记录").exists():
         result.add("FINAL_ENGINEERING_MIXED", "最终候选混入工程记录")
     if (root / "正式数据").exists():
@@ -598,7 +599,7 @@ def validate_candidate_layout(root: Path, result: Result) -> None:
     for directory in sorted(FINAL_TOP_LEVEL_DIRECTORIES):
         if not (root / directory).is_dir():
             result.add("MISSING_FINAL_DIRECTORY", directory)
-    for entry in root.iterdir() if root.is_dir() else ():
+    for entry in scan_root.iterdir() if scan_root.is_dir() else ():
         allowed = (
             entry.name in FINAL_TOP_LEVEL_DIRECTORIES
             if entry.is_dir()
@@ -625,31 +626,33 @@ def validate_formal_carriers(
 
 
 def validate_markdown_only_delivery(root: Path, result: Result) -> None:
-    for path in root.rglob("*"):
+    scan_root = filesystem_path(root)
+    for path in scan_root.rglob("*"):
         if path.is_file() and path.suffix.lower() in NON_MARKDOWN_DOCUMENT_SUFFIXES:
             result.add(
                 "NON_MARKDOWN_DOCUMENT_CARRIER",
-                str(path.relative_to(root)),
+                str(path.relative_to(scan_root)),
             )
 
 
 def validate_delivery_tree_structure(root: Path, result: Result) -> None:
+    scan_root = filesystem_path(root)
     legacy_mixed = (
-        root
+        scan_root
         / "10_司法业务指导、会议纪要与公开答疑【非规范性法源】"
         / "03_法答网精选与法院业务答疑"
     )
     if legacy_mixed.exists():
         result.add(
             "LEGACY_MIXED_COURT_QA_DIRECTORY",
-            str(legacy_mixed.relative_to(root)),
+            str(legacy_mixed.relative_to(scan_root)),
         )
-    for directory in root.rglob("*"):
+    for directory in scan_root.rglob("*"):
         if directory.is_dir() and not any(directory.iterdir()):
-            result.add("EMPTY_DELIVERY_DIRECTORY", str(directory.relative_to(root)))
+            result.add("EMPTY_DELIVERY_DIRECTORY", str(directory.relative_to(scan_root)))
     legal_roots = [
         directory
-        for directory in root.iterdir()
+        for directory in scan_root.iterdir()
         if directory.is_dir() and re.match(r"^0[1-9]_", directory.name)
     ]
     for legal_root in legal_roots:
@@ -670,17 +673,18 @@ def validate_delivery_tree_structure(root: Path, result: Result) -> None:
             if not filename_wjbs or not frontmatter_wjbs:
                 result.add(
                     "LEGAL_MARKDOWN_WJBS_MISSING",
-                    str(markdown.relative_to(root)),
+                    str(markdown.relative_to(scan_root)),
                 )
             elif filename_wjbs.group(0) != frontmatter_wjbs.group(1):
                 result.add(
                     "LEGAL_MARKDOWN_WJBS_MISMATCH",
-                    str(markdown.relative_to(root)),
+                    str(markdown.relative_to(scan_root)),
                 )
 
 
 def validate_checksums(root: Path, result: Result) -> None:
-    checksum_path = root / "SHA256SUMS"
+    scan_root = filesystem_path(root)
+    checksum_path = scan_root / "SHA256SUMS"
     if not checksum_path.is_file():
         result.add("SHA256SUMS_MISSING", "最终候选缺少SHA256SUMS")
         return
@@ -694,8 +698,8 @@ def validate_checksums(root: Path, result: Result) -> None:
             continue
         declared[match.group(2)] = match.group(1)
     actual = {
-        path.relative_to(root).as_posix(): path
-        for path in root.rglob("*")
+        path.relative_to(scan_root).as_posix(): path
+        for path in scan_root.rglob("*")
         if path.is_file() and path != checksum_path
     }
     if set(declared) != set(actual):
@@ -726,7 +730,8 @@ def validate_markdown_derivatives(
     except (UnicodeDecodeError, ValueError, csv.Error) as error:
         result.add("MARKDOWN_MANIFEST_PARSE_ERROR", str(error))
         return
-    markdown_root = root.resolve()
+    regular_markdown_root = root.resolve()
+    markdown_root = filesystem_path(regular_markdown_root)
     source_by_path = {
         row.get("relative_path", ""): row
         for row in rows_by_table.get("source_records.csv", [])
@@ -771,9 +776,9 @@ def validate_markdown_derivatives(
             )
             continue
         manifest_targets.add(target_relative)
-        target = (root / Path(target_relative)).resolve()
+        regular_target = (root / Path(target_relative)).resolve()
         try:
-            target.relative_to(markdown_root)
+            regular_target.relative_to(regular_markdown_root)
         except ValueError:
             result.add(
                 "MARKDOWN_TARGET_PATH_INVALID",
@@ -782,6 +787,7 @@ def validate_markdown_derivatives(
                 row=index,
             )
             continue
+        target = filesystem_path(regular_target)
         if target.suffix.lower() != ".md" or not target.is_file():
             result.add(
                 "MARKDOWN_TARGET_MISSING",
@@ -824,7 +830,7 @@ def validate_markdown_derivatives(
                 row=index,
             )
     actual_targets = {
-        path.relative_to(root).as_posix()
+        path.relative_to(markdown_root).as_posix()
         for path in markdown_root.rglob("*.md")
         if path.name != "README.md"
     } if markdown_root.is_dir() else set()
@@ -843,7 +849,7 @@ def validate_markdown_derivatives(
 def validate_official_registry_snapshots(
     engineering_root: Path, result: Result
 ) -> None:
-    registry_root = engineering_root / "official_registry"
+    registry_root = filesystem_path(engineering_root / "official_registry")
     specifications = (
         (
             "npc_flk",
@@ -1409,9 +1415,10 @@ def validate(
     forbidden_names = {
         ".git", "node_modules", "tmp", "temp", "scripts", "交换候选", "intake"
     }
-    for path in root.rglob("*"):
+    scan_root = filesystem_path(root)
+    for path in scan_root.rglob("*"):
         if path.name.lower() in {name.lower() for name in forbidden_names}:
-            result.add("FORBIDDEN_OUTPUT_ENTRY", str(path.relative_to(root)))
+            result.add("FORBIDDEN_OUTPUT_ENTRY", str(path.relative_to(scan_root)))
 
     status_counts = Counter(row.get("ingest_status", "") for row in queue_rows)
     verification_counts = Counter(
@@ -1438,9 +1445,10 @@ def report(root: Path, statistics: dict, schema: dict, result: Result) -> dict:
         root / "工程记录" / "full_validation_report.json",
         root / "工程记录" / "full_validation_report.md",
     }
-    for path in sorted(root.rglob("*")):
-        if path.is_file() and path not in mutable_reports:
-            hashes[path.relative_to(root).as_posix()] = sha256(path)
+    scan_root = filesystem_path(root)
+    for path in sorted(scan_root.rglob("*")):
+        if path.is_file():
+            hashes[path.relative_to(scan_root).as_posix()] = sha256(path)
     tree_material = "\n".join(
         f"{relative}\0{digest}" for relative, digest in sorted(hashes.items())
     ).encode("utf-8")

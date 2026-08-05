@@ -5,20 +5,16 @@ param(
     [switch]$PromptCourtToken,
     [int]$CourtMaxPages = 0,
     [int]$FlkMaxPages = 0,
-    [int]$MaxPages = 0,
-    [string]$ProxyUrl = ""
+    [int]$MaxPages = 0
 )
 
 $ErrorActionPreference = "Stop"
 $PythonExecutable = (Get-Command python -ErrorAction Stop).Source
-if ($ProxyUrl) {
-    $ParsedProxy = [Uri]$ProxyUrl
-    if (-not $ParsedProxy.IsAbsoluteUri -or $ParsedProxy.Scheme -notin @("http", "https")) {
-        throw "ProxyUrl must be an absolute HTTP(S) URL"
-    }
-    $env:HTTP_PROXY = $ProxyUrl
-    $env:HTTPS_PROXY = $ProxyUrl
-    $env:ALL_PROXY = $ProxyUrl
+foreach ($ProxyEnvironmentVariable in @(
+    "HTTP_PROXY", "HTTPS_PROXY", "ALL_PROXY",
+    "http_proxy", "https_proxy", "all_proxy"
+)) {
+    Remove-Item -Path "Env:$ProxyEnvironmentVariable" -ErrorAction SilentlyContinue
 }
 $UpdaterArguments = @(
     (Join-Path $PSScriptRoot "updater.py"),

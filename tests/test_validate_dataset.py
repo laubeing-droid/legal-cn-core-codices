@@ -124,6 +124,29 @@ class ValidateDatasetContractTest(unittest.TestCase):
 
             self.assertEqual(result.counts["LEGAL_MARKDOWN_WJBS_MISSING"], 1)
 
+    def test_delivery_tree_reads_markdown_beyond_windows_max_path(self) -> None:
+        root = Path(tempfile.mkdtemp())
+        try:
+            target = root / "01_long_path"
+            for index in range(8):
+                target /= f"segment_{index}_" + "x" * 30
+            wjbs = "1.2.156.3005.6-" + "1" * 31
+            target /= f"document_{wjbs}.md"
+            accessible = VALIDATOR.filesystem_path(target)
+            accessible.parent.mkdir(parents=True)
+            accessible.write_text(
+                f'---\nidentifier: "{wjbs}"\n---\n\nbody\n',
+                encoding="utf-8",
+            )
+            self.assertGreater(len(str(target)), 260)
+
+            result = VALIDATOR.Result()
+            VALIDATOR.validate_delivery_tree_structure(root, result)
+
+            self.assertEqual(result.counts["LEGAL_MARKDOWN_WJBS_MISSING"], 0)
+        finally:
+            shutil.rmtree(VALIDATOR.filesystem_path(root), ignore_errors=True)
+
     def test_judicial_normative_markdown_is_inside_wjbs_gate(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

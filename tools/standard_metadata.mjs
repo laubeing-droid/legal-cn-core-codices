@@ -295,17 +295,26 @@ export function deriveAgencyCode(
   areaRegistry = [],
   relativePath = "",
 ) {
-  const normalizedAgencyName = agencyName.replace(/[（(](?:已撤销|撤销)[）)]$/, "");
-  let suffix = centralAgencyRegistry.get(normalizedAgencyName);
-  if (!suffix && normalizedAgencyName) {
+  const declaredAgencyName = agencyName.replace(/[（(](?:已撤销|撤销)[）)]$/, "");
+  const normalizedAgencyName = declaredAgencyName === "国家发展改革委"
+    ? "国家发展和改革委员会"
+    : declaredAgencyName;
+  const findCentralSuffix = (candidateName) => {
+    let matchedSuffix = centralAgencyRegistry.get(candidateName);
+    if (matchedSuffix || !candidateName) return matchedSuffix;
     const aliases = [...centralAgencyRegistry.entries()].filter(([registeredName]) => {
-      if (registeredName === normalizedAgencyName) return true;
-      if (registeredName.startsWith(`${normalizedAgencyName}(`)) return true;
-      if (!registeredName.endsWith(normalizedAgencyName)) return false;
-      const prefix = registeredName.slice(0, -normalizedAgencyName.length);
+      if (registeredName === candidateName) return true;
+      if (registeredName.startsWith(`${candidateName}(`)) return true;
+      if (!registeredName.endsWith(candidateName)) return false;
+      const prefix = registeredName.slice(0, -candidateName.length);
       return prefix === "中华人民共和国" || prefix === "中国";
     });
-    if (aliases.length === 1) suffix = aliases[0][1];
+    if (aliases.length === 1) matchedSuffix = aliases[0][1];
+    return matchedSuffix;
+  };
+  let suffix = findCentralSuffix(normalizedAgencyName);
+  if (!suffix && /(?:办公厅|办公室)$/.test(normalizedAgencyName)) {
+    suffix = findCentralSuffix(normalizedAgencyName.replace(/(?:办公厅|办公室)$/, ""));
   }
   if (suffix && /^\d{4}$/.test(suffix)) return `000000${suffix}`;
   if (agencyName === "中华人民共和国国务院") {

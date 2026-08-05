@@ -90,6 +90,10 @@ import {
   contentStructurePublicationErrors,
   formalLawPublicationDecision,
 } from "../publication_output.mjs";
+import {
+  applyAcceptedCodingBaseline,
+  loadAcceptedCodingBaseline,
+} from "../accepted_coding_baseline.mjs";
 
 const testDir = path.dirname(fileURLToPath(import.meta.url));
 const repositoryRoot = path.resolve(testDir, "..", "..");
@@ -115,6 +119,63 @@ const schema = JSON.parse(fs.readFileSync(schemaPath, "utf8").replace(/^\uFEFF/,
 test("current-applicable source status maps to the standard effective code", () => {
   assert.equal(deriveEffectCode("现行适用"), "01");
   assert.equal(deriveEffectCode("现行有效"), "01");
+});
+
+test("accepted coding baseline is reused only for the exact unchanged source", () => {
+  const directory = fs.mkdtempSync(path.join(os.tmpdir(), "accepted-coding-"));
+  const registryPath = path.join(directory, "baseline.csv");
+  const sourceSha256 = "a".repeat(64);
+  const wjbs = "1.2.156.3005.6-1400500000300020230102035500000";
+  fs.writeFileSync(
+    registryPath,
+    [
+      "source_relative_path,source_sha256,WJBS,WJBS_source_type,accepted_batch,accepted_tree_sha256",
+      `01/source.md,${sourceSha256},${wjbs},STANDARD_DERIVED_LOCAL,v6,${"b".repeat(64)}`,
+      "",
+    ].join("\n"),
+    "utf8",
+  );
+  const registry = loadAcceptedCodingBaseline(registryPath);
+  const entry = {
+    relativePath: "01/source.md",
+    digest: sourceSha256,
+    candidate: {
+      FLFGDZWJFLDM: "1400",
+      ZDJGDM: "5000003000",
+      GBRQ: "20240101",
+      DE_01020: "00",
+      DE_01001: "",
+      DE_01014: "20240101",
+      WJBS: "",
+      _sequence_code: "0000",
+    },
+  };
+  assert.equal(applyAcceptedCodingBaseline(entry, registry), true);
+  assert.equal(entry.candidate.WJBS, wjbs);
+  assert.equal(entry.candidate._sequence_code, "0355");
+  assert.equal(entry.candidate.GBRQ, "20230102");
+  assert.equal(entry.candidate.DE_01014, "20230102");
+  assert.equal(entry.candidate._promulgation_source, "REFERENCE_ACCEPTED_CODING_BASELINE");
+  assert.equal(entry.candidate.DE_01001, wjbs.split("-").at(-1));
+  assert.equal(entry.internalSequence, "000");
+  assert.equal(entry.internalSequenceSource, "REFERENCE_ACCEPTED_CODING_BASELINE");
+  assert.equal(entry.wjbsSourceType, "STANDARD_DERIVED_LOCAL");
+
+  const changed = structuredClone(entry);
+  changed.candidate.WJBS = "";
+  changed.digest = "c".repeat(64);
+  assert.equal(applyAcceptedCodingBaseline(changed, registry), false);
+});
+
+test("a locked accepted WJBS reserves its whole document-code component group", () => {
+  const accepted = { title: "accepted", officialDecisionOrder: 0 };
+  const newPeer = { title: "new-peer" };
+  const assignments = assignInternalSequenceGroup([accepted, newPeer]);
+  assert.equal(assignments[0].entry, accepted);
+  assert.equal(assignments[0].internalSequence, "000");
+  assert.equal(assignments[1].entry, newPeer);
+  assert.equal(assignments[1].internalSequence, "");
+  assert.equal(assignments[1].source, "BLOCKED_MISSING_OFFICIAL_DECISION_ORDER");
 });
 
 test("required standard dates reject malformed compact values instead of preserving them", () => {
@@ -1827,6 +1888,8 @@ test("standard metadata maps central agency codes and official area registry ent
     ["中国人民银行", "3200"],
     ["国家林业和草原局(国家公园管理局)", "4060"],
     ["卫生部", "3610"],
+    ["中华人民共和国国家发展和改革委员会", "3032"],
+    ["中华人民共和国自然资源部", "3670"],
     ["中华人民共和国国务院办公厅", "4340"],
   ]);
   const areas = [
@@ -1843,6 +1906,8 @@ test("standard metadata maps central agency codes and official area registry ent
   assert.equal(deriveAgencyCode("人民银行", registry), "0000003200");
   assert.equal(deriveAgencyCode("国家林业和草原局", registry), "0000004060");
   assert.equal(deriveAgencyCode("卫生部(已撤销)", registry), "0000003610");
+  assert.equal(deriveAgencyCode("国家发展改革委", registry), "0000003032");
+  assert.equal(deriveAgencyCode("自然资源部办公厅", registry), "0000003670");
   assert.equal(
     deriveAgencyCode("福州市人民政府办公室", registry, areas),
     "3501004340",

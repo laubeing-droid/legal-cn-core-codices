@@ -13,3 +13,7 @@
 # 正式CSV由本地发布器或GitHub Release生成，不进入普通Git历史。
 /corpus/*.csv
 /corpus/SHA256SUMS
+
+# 本地施工史和完整对话包含机器路径、会话状态，不进入公开仓库。
+/docs/2026-07-30_legal-references_完整对话记录.md
+/docs/WorkBuddy_法律法规库全文全量核对施工提示词.md

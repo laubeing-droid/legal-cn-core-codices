@@ -87,6 +87,10 @@ import {
   contentStructurePublicationErrors,
   formalLawPublicationDecision,
 } from "./publication_output.mjs";
+import {
+  applyAcceptedCodingBaseline,
+  loadAcceptedCodingBaseline,
+} from "./accepted_coding_baseline.mjs";
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const usage = [
@@ -221,6 +225,11 @@ const metadataOverrideRegistryPath = path.resolve(
   "schema",
   "标准元数据补证注册表.json",
 );
+const acceptedCodingBaselinePath = path.resolve(
+  repositoryRoot,
+  "schema",
+  "accepted_coding_baseline.csv",
+);
 const publicationSkipRegistryPath = path.resolve(
   scriptDir,
   "..",
@@ -317,6 +326,7 @@ function loadAreaRegistry(csvPath) {
 const centralAgencyRegistry = loadCentralAgencyRegistry(agencyRegistryPath);
 const areaRegistry = loadAreaRegistry(areaRegistryPath);
 const metadataOverrides = loadMetadataOverrides(metadataOverrideRegistryPath);
+const acceptedCodingBaseline = loadAcceptedCodingBaseline(acceptedCodingBaselinePath);
 const publicationSkips = loadPublicationSkips(publicationSkipRegistryPath);
 const officialDecisionOrderEvidence = loadDecisionOrderEvidenceRegistry(
   decisionOrderEvidenceRegistryPath,
@@ -956,7 +966,7 @@ async function main() {
     await fsp.cp(schemaSourceDir, schemaTargetDir, { recursive: true, force: true });
   }
   await fsp.copyFile(
-    path.resolve(scriptDir, "..", "来源注册表.json"),
+    path.resolve(scriptDir, "..", "schema", "来源注册表.json"),
     path.join(engineeringDir, "来源注册表.json"),
   );
   await fsp.cp(
@@ -1595,6 +1605,7 @@ async function main() {
   }
   for (const entry of codingPendingLaws) {
     const row = entry.candidate;
+    applyAcceptedCodingBaseline(entry, acceptedCodingBaseline);
     if (row.WJBS) continue;
     const eventKey = [row.ZDJGDM, row.GBRQ].join("|");
     let coding = decisionCodingForDocument({
@@ -1639,7 +1650,7 @@ async function main() {
     normalizedTextSha256: entry.normalizedTextSha256,
     coreProvisionSha256: entry.coreProvisionSha256,
     normalizedTextLength: entry.normalizedTextLength,
-    wjbsSourceType: normalizeWjbsSourceType(firstMeta(entry.meta, [
+    wjbsSourceType: entry.wjbsSourceType || normalizeWjbsSourceType(firstMeta(entry.meta, [
       "WJBS来源类型", "WJBS_source_type", "official_wjbs_source_type",
     ])),
     officialIndexMatch: Boolean(entry.officialLawRecord),
@@ -1654,6 +1665,9 @@ async function main() {
     entry: pendingLawByPath.get(duplicate.relativePath),
     canonicalEntry: pendingLawByPath.get(duplicate.canonicalRelativePath),
   }));
+  const duplicateLegalPathSet = new Set(
+    duplicateLegalVersions.map((duplicate) => duplicate.relativePath),
+  );
 
   for (const entry of pendingLaws) {
     const row = entry.candidate;
@@ -1692,6 +1706,11 @@ async function main() {
   }
 
   const documentCodeGroups = new Map();
+  const reservedWjbsOwners = new Map(
+    pendingLaws
+      .filter((entry) => entry.candidate.WJBS)
+      .map((entry) => [entry.candidate.WJBS, entry.relativePath]),
+  );
   for (const entry of pendingLaws) {
     const row = entry.candidate;
     const covered = STANDARD_CODE_SETS.gbt47277Categories.includes(row.FLFGDZWJFLDM);
@@ -1700,14 +1719,28 @@ async function main() {
         ? "GBT47229_2_ONLY"
         : "UNRESOLVED"
     );
-    entry.wjbsSourceType = normalizeWjbsSourceType(firstMeta(entry.meta, [
+    entry.wjbsSourceType ||= normalizeWjbsSourceType(firstMeta(entry.meta, [
       "WJBS来源类型", "WJBS_source_type", "official_wjbs_source_type",
     ]));
     if (row.WJBS) {
       const bodyMatch = /^1\.2\.156\.3005\.6-(\d{31})$/.exec(row.WJBS);
       if (bodyMatch) {
         entry.internalSequence = bodyMatch[1].slice(26, 29);
+        entry.officialDecisionOrder = Number(entry.internalSequence);
+        entry.existingWjbsLocked = true;
         if (covered) row.DE_01001 ||= bodyMatch[1];
+      }
+      const lockedComponents = [
+        row.FLFGDZWJFLDM,
+        row.ZDJGDM,
+        row.GBRQ,
+        row._sequence_code,
+        row.DE_01020,
+      ];
+      if (entry.codeScope !== "UNRESOLVED" && lockedComponents.every(Boolean)) {
+        const lockedKey = lockedComponents.join("|");
+        if (!documentCodeGroups.has(lockedKey)) documentCodeGroups.set(lockedKey, []);
+        documentCodeGroups.get(lockedKey).push(entry);
       }
       continue;
     }
@@ -1742,6 +1775,7 @@ async function main() {
     for (const assignment of assignInternalSequenceGroup(group)) {
       const entry = assignment.entry;
       const row = entry.candidate;
+      if (entry.existingWjbsLocked) continue;
       const incompleteExactGroupContext = Boolean(exactScopeArgument)
         && assignment.source === "UNIQUE_COMPONENTS"
         && !row.WJBS;
@@ -1764,8 +1798,7 @@ async function main() {
         });
       }
       if (!assignment.internalSequence) continue;
-      entry.wjbsSourceType = "STANDARD_DERIVED_LOCAL";
-      row.WJBS = buildWjbs({
+      const proposedWjbs = buildWjbs({
         category: row.FLFGDZWJFLDM,
         agency: row.ZDJGDM,
         promulgationDate: row.GBRQ,
@@ -1773,6 +1806,24 @@ async function main() {
         internalSequence: entry.internalSequence,
         fileCategory: row.DE_01020,
       });
+      const reservedOwner = reservedWjbsOwners.get(proposedWjbs);
+      if (reservedOwner && !duplicateLegalPathSet.has(entry.relativePath)) {
+        entry.internalSequence = "";
+        entry.internalSequenceSource = "BLOCKED_ACCEPTED_WJBS_COLLISION";
+        rows["conflicts.csv"].push({
+          relative_path: entry.relativePath,
+          conflict_type: "ACCEPTED_WJBS_COLLISION",
+          field_name: "WJBS",
+          local_value: proposedWjbs,
+          other_value: reservedOwner,
+          evidence: "已验收且源哈希未变的正式WJBS占用相同编码组合",
+          disposition: "BLOCKED_REVIEW",
+        });
+        continue;
+      }
+      entry.wjbsSourceType = "STANDARD_DERIVED_LOCAL";
+      row.WJBS = proposedWjbs;
+      reservedWjbsOwners.set(proposedWjbs, entry.relativePath);
       if (entry.codeScope === "GBT47277") {
         row.DE_01001 ||= build47277FileCode({
           category: row.FLFGDZWJFLDM,
@@ -1824,6 +1875,7 @@ async function main() {
       decision_order_evidence: "",
       metadata_override_evidence: candidate._metadata_override_evidence,
       official_page_evidence: candidate._official_page_evidence,
+      accepted_coding_evidence: "",
       file_code_31: "",
       file_type_code: candidate.DE_01020,
       code_scope: codeScope,
@@ -1913,6 +1965,7 @@ async function main() {
       decision_order_evidence: canonicalEntry.decisionOrderEvidence ?? "",
       metadata_override_evidence: candidate._metadata_override_evidence,
       official_page_evidence: candidate._official_page_evidence,
+      accepted_coding_evidence: canonicalEntry.acceptedCodingEvidence ?? "",
       file_code_31: canonicalCandidate.DE_01001,
       file_type_code: candidate.DE_01020,
       code_scope: canonicalEntry.codeScope,
@@ -1936,8 +1989,10 @@ async function main() {
     internalSequenceSource,
     decisionOrderEvidence,
     wjbsSourceType,
+    acceptedCodingEvidence,
   }
     of pendingLaws) {
+    if (duplicateLegalPathSet.has(relativePath)) continue;
     const lawErrors = validateLawRow(candidate, wjbsSourceType);
     if (codeError) lawErrors.push({ code: codeError, field: "DE_01001" });
     codingRows.push({
@@ -1967,6 +2022,7 @@ async function main() {
       decision_order_evidence: decisionOrderEvidence ?? "",
       metadata_override_evidence: candidate._metadata_override_evidence,
       official_page_evidence: candidate._official_page_evidence,
+      accepted_coding_evidence: acceptedCodingEvidence ?? "",
       file_code_31: candidate.DE_01001,
       file_type_code: candidate.DE_01020,
       code_scope: codeScope,
@@ -1993,6 +2049,7 @@ async function main() {
         decision_order_evidence: decisionOrderEvidence ?? "",
         metadata_override_evidence: candidate._metadata_override_evidence,
         official_page_evidence: candidate._official_page_evidence,
+        accepted_coding_evidence: acceptedCodingEvidence ?? "",
         file_category_code: candidate.DE_01020,
       });
       if (wjbsSourceType === "STANDARD_DERIVED_LOCAL") {
@@ -2166,6 +2223,7 @@ async function main() {
       "sequence_code", "internal_sequence_code",
       "internal_sequence_source", "decision_order_evidence",
       "metadata_override_evidence", "official_page_evidence",
+      "accepted_coding_evidence",
       "file_code_31", "file_type_code", "code_scope", "coding_status",
       "blocking_reason",
     ],

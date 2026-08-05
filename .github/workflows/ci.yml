@@ -32,9 +32,12 @@ jobs:
       - name: Run dataset contract tests
         run: |
           python tests/test_network_configuration.py
+          python tests/test_build_accepted_coding_baseline.py
+          python tests/test_pre_release_assets.py
           python tests/test_publish_validated_dataset.py
           python tests/test_validate_dataset.py
           node --test tests/test_build_local_csv.mjs
+          node --test tools/test/standard_pipeline.test.mjs
       - name: Run multi-source verifier tests
         run: |
           $env:PYTHONPATH = (Resolve-Path tools/verification_system).Path

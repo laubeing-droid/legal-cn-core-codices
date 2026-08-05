@@ -102,7 +102,24 @@ python ".\official-source-updater\scripts\wechat_registry.py" `
 
 人民法院案例库目录`89_人民法院案例库入库参考案例【本地人工更新】`依赖个人令牌，默认不进入无令牌全量批次；只有显式选择该来源并提供令牌时才更新。
 
-`run.ps1`不内置代理地址。默认继承当前进程的网络环境；需要代理时使用`-ProxyUrl`显式传入，或在调用前设置`HTTP_PROXY`、`HTTPS_PROXY`和`ALL_PROXY`。代理配置不得写入仓库、CSV或正式目录。
+`run.ps1`和`updater.py`固定使用直连，不读取、不继承、不保存代理环境变量。代理配置不得写入仓库、CSV、工程记录或正式目录。
+
+## 单件全文到正式入库
+
+索引命中不等于全文核验。自动入库链固定为：
+
+```text
+官方索引 → build_fulltext_queue.py → fetch_fulltext_queue.py
+→ materialize_fulltext.py → build_local_csv.mjs
+→ validate_dataset.py → publish_validated_dataset.py → 发布后复验
+```
+
+- 队列仅处理配置支持的单件详情页和重叠日期窗口，不做全站全文重抓。
+- 抓取器保存原始字节、HTTP状态、最终URL、原始SHA-256和规范化正文SHA-256。
+- 物化器按来源及标题区分司法解释、其他规范性文件和官方案例；最高法、最高检页面不会仅凭发布机关一律误归案例。
+- `cases.csv`读取使用平台允许的最大CSV字段上限，超长官方正文不会因默认128 KiB限制中断。
+- 新Markdown先进入源工作区，再全量确定性重建候选；候选通过全部门禁后才原子替换正式目录。
+- GitHub自动正式入库仅在带`legal-corpus`标签的Windows自托管Runner运行，配置见仓库`docs/GITHUB_DEPLOYMENT.md`。
 
 ## 状态码
 

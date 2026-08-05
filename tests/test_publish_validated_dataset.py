@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import importlib.util
 import os
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -60,6 +61,27 @@ class PublishDatasetContractTest(unittest.TestCase):
             (candidate / "正式数据").mkdir()
             with self.assertRaisesRegex(ValueError, "LEGACY_FORMAL_WRAPPER"):
                 PUBLISHER.assert_candidate_boundary(candidate)
+
+    def test_copy_candidate_tree_supports_windows_long_paths(self) -> None:
+        root = Path(tempfile.mkdtemp())
+        try:
+            source = root / "source"
+            target = root / "target"
+            long_parent = source / ("甲" * 90) / ("乙" * 90)
+            long_file = long_parent / ("丙" * 60 + ".md")
+            PUBLISHER.filesystem_path(long_parent).mkdir(parents=True)
+            PUBLISHER.filesystem_path(long_file).write_text("long-path", encoding="utf-8")
+            self.assertGreater(len(str(long_file)), 260)
+
+            PUBLISHER.copy_candidate_tree(source, target)
+
+            copied = target / long_file.relative_to(source)
+            self.assertEqual(
+                PUBLISHER.filesystem_path(copied).read_text(encoding="utf-8"),
+                "long-path",
+            )
+        finally:
+            shutil.rmtree(PUBLISHER.filesystem_path(root), ignore_errors=True)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,54 @@
+name: Pre-Release Audit
+
+on:
+  push:
+    branches: [main, "release/*"]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: official-source-updater/requirements.txt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: L1 Supply chain
+        run: |
+          python -m pip install -r official-source-updater/requirements.txt pip-audit
+          pip-audit -r official-source-updater/requirements.txt
+
+      - name: L2 Sanitization
+        run: bash scripts/audit-engine.sh
+
+      - name: L3 Semantic
+        run: |
+          python official-source-updater/updater.py validate --database-root corpus
+          python tests/test_network_configuration.py
+          python tests/test_pre_release_assets.py
+
+      - name: L4 Runtime
+        run: |
+          cd official-source-updater
+          python -m unittest discover -s tests -v
+          cd ..
+          python tests/test_build_accepted_coding_baseline.py
+          python tests/test_publish_validated_dataset.py
+          python tests/test_validate_dataset.py
+          node --test tests/test_build_local_csv.mjs
+          node --test tools/test/standard_pipeline.test.mjs
+          python -m compileall -q official-source-updater tools tests scripts

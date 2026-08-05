@@ -12,7 +12,7 @@ import sys
 import uuid
 from pathlib import Path
 
-from validate_dataset import validate
+from validate_dataset import filesystem_path, validate
 
 
 DEFAULT_TARGET = Path(
@@ -29,6 +29,15 @@ DEFAULT_SOURCE_ROOT = (
 
 def is_empty_directory(path: Path) -> bool:
     return path.is_dir() and next(path.iterdir(), None) is None
+
+
+def copy_candidate_tree(candidate: Path, staging: Path) -> None:
+    """Copy a validated tree without falling back to Windows MAX_PATH."""
+    shutil.copytree(filesystem_path(candidate), filesystem_path(staging))
+
+
+def remove_tree(path: Path) -> None:
+    shutil.rmtree(filesystem_path(path))
 
 
 def assert_candidate_boundary(candidate: Path) -> None:
@@ -141,10 +150,10 @@ def main() -> int:
     preserve_previous = False
     if staging.exists() or previous.exists():
         raise SystemExit("原子发布临时路径碰撞")
-    shutil.copytree(candidate, staging)
+    copy_candidate_tree(candidate, staging)
     staged = validate(staging, source_root, deprecated, engineering_root)
     if staged["status"] != "LOCAL_FULLY_VALIDATED":
-        shutil.rmtree(staging)
+        remove_tree(staging)
         raise SystemExit("复制后的暂存树未通过复验")
 
     target_was_empty = target.exists() and is_empty_directory(target)
@@ -153,10 +162,10 @@ def main() -> int:
             args.replace_validated_target
             or args.replace_unvalidated_target_with_backup
         ):
-            shutil.rmtree(staging)
+            remove_tree(staging)
             raise SystemExit("最终目录非空；未授权替换")
         if current_engineering_root is None:
-            shutil.rmtree(staging)
+            remove_tree(staging)
             raise SystemExit(
                 "替换非空最终目录必须提供--current-engineering-root，"
                 "禁止用新候选工程清单复验旧最终树"
@@ -173,11 +182,11 @@ def main() -> int:
             "blocking_counts": current["blocking_counts"],
         }, ensure_ascii=False))
         if args.replace_validated_target and current["status"] != "LOCAL_FULLY_VALIDATED":
-            shutil.rmtree(staging)
+            remove_tree(staging)
             raise SystemExit("现有最终目录未通过全量验证；拒绝替换")
         if args.replace_unvalidated_target_with_backup:
             if current["status"] == "LOCAL_FULLY_VALIDATED":
-                shutil.rmtree(staging)
+                remove_tree(staging)
                 raise SystemExit("现有最终目录已通过验证；应使用--replace-validated-target")
             previous = unvalidated_backup
             preserve_previous = True
@@ -198,12 +207,12 @@ def main() -> int:
             if target_was_empty:
                 previous.rmdir()
             elif not preserve_previous:
-                shutil.rmtree(previous)
+                remove_tree(previous)
     except BaseException:
         if target_moved and not target.exists() and previous.exists():
             os.replace(previous, target)
         if staging.exists():
-            shutil.rmtree(staging)
+            remove_tree(staging)
         raise
     print(json.dumps({
         "phase": "published",
