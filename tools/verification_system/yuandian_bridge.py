@@ -5,12 +5,12 @@
 """
 
 import json
-import time
-from pathlib import Path
-from typing import List, Dict, Optional
+from typing import Dict, List
+
+from config import RUNTIME_ROOT
 
 # 元典缓存目录
-YUANDIAN_CACHE_DIR = Path("D:/legal-references/verification_system/yuandian_cache")
+YUANDIAN_CACHE_DIR = RUNTIME_ROOT / "yuandian_cache"
 YUANDIAN_CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
 # 查询队列文件

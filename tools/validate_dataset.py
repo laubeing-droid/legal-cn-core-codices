@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
+import io
 import json
 import os
 import re
@@ -167,6 +168,102 @@ def load_csv(path: Path) -> tuple[list[str], list[dict[str, str]]]:
     if any(None in row for row in rows):
         raise ValueError("CSV_COLUMN_COUNT_MISMATCH")
     return header, rows
+
+
+def validate_legal_contents_stream(
+    path: Path,
+    table_schema: dict,
+    parent_file_codes: set[str],
+    result: Result,
+) -> tuple[list[str], int, set[str]]:
+    """Validate the largest formal table without materializing it in memory."""
+    seen_keys: set[tuple[str, str]] = set()
+    content_file_codes: set[str] = set()
+    row_count = 0
+    with path.open("rb") as raw:
+        if raw.read(3) != b"\xef\xbb\xbf":
+            raise ValueError("CSV_MISSING_UTF8_BOM")
+        raw.seek(0)
+        with io.TextIOWrapper(raw, encoding="utf-8-sig", errors="strict", newline="") as text:
+            reader = csv.DictReader(text)
+            header = reader.fieldnames or []
+            if header != table_schema["columns"]:
+                result.add(
+                    "HEADER_MISMATCH",
+                    "表头与Schema不一致",
+                    table="legal_contents.csv",
+                )
+            for index, row in enumerate(reader, 2):
+                row_count += 1
+                if None in row:
+                    raise ValueError("CSV_COLUMN_COUNT_MISMATCH")
+                for field in table_schema.get("required", []):
+                    if not row.get(field, "").strip():
+                        result.add(
+                            "MISSING_REQUIRED_FIELD",
+                            field,
+                            table="legal_contents.csv",
+                            row=index,
+                        )
+
+                file_code = row.get("DE_01001", "")
+                content_code = row.get("DE_02001", "")
+                key = (file_code, content_code)
+                if key in seen_keys:
+                    result.add(
+                        "DUPLICATE_PRIMARY_KEY",
+                        "['DE_01001', 'DE_02001']重复1行",
+                        table="legal_contents.csv",
+                        row=index,
+                    )
+                seen_keys.add(key)
+                if file_code not in parent_file_codes:
+                    result.add(
+                        "FOREIGN_KEY_VIOLATION",
+                        "引用legal_documents.csv失败1行",
+                        table="legal_contents.csv",
+                        row=index,
+                    )
+                if not re.fullmatch(r"\d{31}", file_code):
+                    result.add(
+                        "INVALID_31_CODE",
+                        file_code,
+                        table="legal_contents.csv",
+                        row=index,
+                    )
+                if not re.fullmatch(r"\d{18}", content_code):
+                    result.add(
+                        "INVALID_18_CODE",
+                        content_code,
+                        table="legal_contents.csv",
+                        row=index,
+                    )
+                if file_code and content_code and len(file_code + content_code) != 49:
+                    result.add(
+                        "INVALID_49_CODE",
+                        "",
+                        table="legal_contents.csv",
+                        row=index,
+                    )
+                if file_code:
+                    content_file_codes.add(file_code)
+                category = row.get("DE_02003", "")
+                if category not in {"01", "02", "03", "04", "05", "06", "07", "08"}:
+                    result.add(
+                        "INVALID_CONTENT_CATEGORY",
+                        category,
+                        table="legal_contents.csv",
+                        row=index,
+                    )
+                order = row.get("DE_02004", "")
+                if order and not re.fullmatch(r"\d{1,4}", order):
+                    result.add(
+                        "INVALID_CONTENT_ORDER",
+                        order,
+                        table="legal_contents.csv",
+                        row=index,
+                    )
+    return header, row_count, content_file_codes
 
 
 def load_publication_skip_registry(path: Path) -> list[dict[str, str]]:
@@ -365,6 +462,14 @@ def validate_legal_content_coverage(
     content_file_codes = {
         row.get("DE_01001", "") for row in content_rows if row.get("DE_01001", "")
     }
+    validate_legal_content_coverage_codes(legal_rows, content_file_codes, result)
+
+
+def validate_legal_content_coverage_codes(
+    legal_rows: list[dict[str, str]],
+    content_file_codes: set[str],
+    result: Result,
+) -> None:
     for index, row in enumerate(legal_rows, 2):
         if (
             row.get("FLFGDZWJFLDM", "") in GBT47277_CATEGORIES
@@ -969,6 +1074,7 @@ def validate(
         result.add("UNEXPECTED_TOP_LEVEL_CSV", name)
 
     rows_by_table: dict[str, list[dict[str, str]]] = {}
+    table_counts: dict[str, int] = {}
     headers: dict[str, list[str]] = {}
     for table_name, table_schema in schema["tables"].items():
         table_path = (
@@ -979,6 +1085,8 @@ def validate(
         if not table_path.is_file():
             result.add("MISSING_TABLE", str(table_path), table=table_name)
             continue
+        if table_name == "legal_contents.csv":
+            continue
         try:
             header, rows = load_csv(table_path)
         except (UnicodeDecodeError, ValueError, csv.Error) as error:
@@ -986,6 +1094,7 @@ def validate(
             continue
         headers[table_name] = header
         rows_by_table[table_name] = rows
+        table_counts[table_name] = len(rows)
         if header != table_schema["columns"]:
             result.add("HEADER_MISMATCH", "表头与Schema不一致", table=table_name)
         for index, row in enumerate(rows, 2):
@@ -1002,6 +1111,8 @@ def validate(
 
     constraints = schema.get("constraints", {})
     for table_name, key_fields in constraints.get("primary_keys", {}).items():
+        if table_name == "legal_contents.csv":
+            continue
         table_rows = rows_by_table.get(table_name, [])
         seen: set[tuple[str, ...]] = set()
         duplicates = 0
@@ -1019,6 +1130,8 @@ def validate(
             )
 
     for foreign in constraints.get("foreign_keys", []):
+        if foreign["table"] == "legal_contents.csv":
+            continue
         child_rows = rows_by_table.get(foreign["table"], [])
         parent_rows = rows_by_table.get(foreign["references"], [])
         parent_keys = {
@@ -1102,41 +1215,30 @@ def validate(
                 row=index,
             )
 
-    content_rows = rows_by_table.get("legal_contents.csv", [])
     content_file_codes: set[str] = set()
-    for index, row in enumerate(content_rows, 2):
-        file_code = row.get("DE_01001", "")
-        content_code = row.get("DE_02001", "")
-        if not re.fullmatch(r"\d{31}", file_code):
-            result.add("INVALID_31_CODE", file_code, table="legal_contents.csv", row=index)
-        if not re.fullmatch(r"\d{18}", content_code):
-            result.add(
-                "INVALID_18_CODE", content_code, table="legal_contents.csv", row=index
+    content_path = root / "legal_contents.csv"
+    if content_path.is_file():
+        try:
+            header, content_count, content_file_codes = validate_legal_contents_stream(
+                content_path,
+                schema["tables"]["legal_contents.csv"],
+                {
+                    row.get("DE_01001", "")
+                    for row in legal_rows
+                    if row.get("DE_01001", "")
+                },
+                result,
             )
-        if file_code and content_code and len(file_code + content_code) != 49:
+            headers["legal_contents.csv"] = header
+            table_counts["legal_contents.csv"] = content_count
+        except (UnicodeDecodeError, ValueError, csv.Error) as error:
             result.add(
-                "INVALID_49_CODE", "", table="legal_contents.csv", row=index
-            )
-        if file_code:
-            content_file_codes.add(file_code)
-        category = row.get("DE_02003", "")
-        if category not in {"01", "02", "03", "04", "05", "06", "07", "08"}:
-            result.add(
-                "INVALID_CONTENT_CATEGORY",
-                category,
+                "CSV_PARSE_ERROR",
+                str(error),
                 table="legal_contents.csv",
-                row=index,
-            )
-        order = row.get("DE_02004", "")
-        if order and not re.fullmatch(r"\d{1,4}", order):
-            result.add(
-                "INVALID_CONTENT_ORDER",
-                order,
-                table="legal_contents.csv",
-                row=index,
             )
 
-    validate_legal_content_coverage(legal_rows, content_rows, result)
+    validate_legal_content_coverage_codes(legal_rows, content_file_codes, result)
 
     case_rows = rows_by_table.get("cases.csv", [])
     case_id_counts = Counter(
@@ -1237,17 +1339,34 @@ def validate(
 
     validate_official_registry_snapshots(engineering_root, result)
 
-    formal_text = ""
+    formal_flags = {
+        "absolute_path": False,
+        "pollution": False,
+        "intermediate": False,
+    }
     for table_name in FORMAL_TABLES:
         table_path = root / table_name
         if table_path.is_file():
-            formal_text += table_path.read_text(encoding="utf-8-sig", errors="strict")
-    if ABSOLUTE_PATH.search(formal_text):
+            with table_path.open("r", encoding="utf-8-sig", errors="strict") as file:
+                for line in file:
+                    if not formal_flags["absolute_path"] and ABSOLUTE_PATH.search(line):
+                        formal_flags["absolute_path"] = True
+                    if not formal_flags["pollution"] and POLLUTION.search(line):
+                        formal_flags["pollution"] = True
+                    if (
+                        not formal_flags["intermediate"]
+                        and PERSONAL_OR_INTERMEDIATE.search(line)
+                    ):
+                        formal_flags["intermediate"] = True
+    if formal_flags["absolute_path"]:
         result.add("FORMAL_ABSOLUTE_PATH", "正式CSV含Windows绝对路径")
-    if POLLUTION.search(formal_text):
+    if formal_flags["pollution"]:
         result.add("FORMAL_PLATFORM_POLLUTION", "正式CSV含固定转载污染")
-    if PERSONAL_OR_INTERMEDIATE.search(formal_text):
-        result.add("FORMAL_RESEARCH_OR_INTERMEDIATE_CONTENT", "正式CSV含研究或中间标记")
+    if formal_flags["intermediate"]:
+        result.add(
+            "FORMAL_RESEARCH_OR_INTERMEDIATE_CONTENT",
+            "正式CSV含研究或中间标记",
+        )
 
     path_hash_rows = case_rows + rows_by_table.get("practice_references.csv", [])
     hash_mismatch = 0
@@ -1294,9 +1413,6 @@ def validate(
         if path.name.lower() in {name.lower() for name in forbidden_names}:
             result.add("FORBIDDEN_OUTPUT_ENTRY", str(path.relative_to(root)))
 
-    table_counts = {
-        table: len(rows) for table, rows in sorted(rows_by_table.items())
-    }
     status_counts = Counter(row.get("ingest_status", "") for row in queue_rows)
     verification_counts = Counter(
         row.get("verification_status", "") for row in verification_rows

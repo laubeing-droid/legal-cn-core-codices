@@ -102,7 +102,7 @@ python ".\official-source-updater\scripts\wechat_registry.py" `
 
 人民法院案例库目录`89_人民法院案例库入库参考案例【本地人工更新】`依赖个人令牌，默认不进入无令牌全量批次；只有显式选择该来源并提供令牌时才更新。
 
-`run.ps1`默认只在当前进程使用`http://127.0.0.1:10808`，可用`-ProxyUrl`显式替换，传空字符串则继承当前环境。直接运行`updater.py`时遵循当前进程的`HTTP_PROXY`、`HTTPS_PROXY`和`ALL_PROXY`。代理端口不可用时应先修复代理，不修改系统设置。
+`run.ps1`不内置代理地址。默认继承当前进程的网络环境；需要代理时使用`-ProxyUrl`显式传入，或在调用前设置`HTTP_PROXY`、`HTTPS_PROXY`和`ALL_PROXY`。代理配置不得写入仓库、CSV或正式目录。
 
 ## 状态码
 

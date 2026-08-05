@@ -11,30 +11,40 @@ from pathlib import Path
 # 路径配置
 # ========================
 
-# 法律库根目录
-LEGAL_CORE_ROOT = Path("D:/legal-cn-core-codices")
-
-# 工程记录根目录
-ENGINEERING_ROOT = Path("D:/legal-references")
-
 # 本系统根目录
-SYSTEM_ROOT = Path(__file__).parent
+SYSTEM_ROOT = Path(__file__).resolve().parent
+REPOSITORY_ROOT = SYSTEM_ROOT.parent.parent
+
+# 法律库根目录
+LEGAL_CORE_ROOT = REPOSITORY_ROOT.parent / "legal-cn-core-codices"
+
+# Git忽略的工程工作区
+ENGINEERING_ROOT = REPOSITORY_ROOT / "workspace"
 
 # 输入文件
-CHECKPOINT_INPUT = Path(
-    "D:/legal-references/90_项目任务记录/全文全量核对_20260731_221821/"
-    "checkpoints/batch_checkpoint.json"
+CHECKPOINT_INPUT = (
+    ENGINEERING_ROOT
+    / "engineering-history"
+    / "90_项目任务记录"
+    / "全文全量核对_20260731_221821"
+    / "checkpoints"
+    / "batch_checkpoint.json"
 )
-CSV_INPUT = Path(
-    "D:/legal-references/90_项目任务记录/本地CSV数据集_20260730/"
-    "工程记录/verification_results.csv"
+CSV_INPUT = (
+    ENGINEERING_ROOT
+    / "engineering-history"
+    / "90_项目任务记录"
+    / "本地CSV数据集_20260730"
+    / "工程记录"
+    / "verification_results.csv"
 )
 
-# 输出目录
-OUTPUT_DIR = SYSTEM_ROOT / "output"
+# 输出目录（全部位于Git忽略的运行区）
+RUNTIME_ROOT = ENGINEERING_ROOT / "runtime" / "verification_system"
+OUTPUT_DIR = RUNTIME_ROOT / "output"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-CHECKPOINT_DIR = SYSTEM_ROOT / "checkpoints"
+CHECKPOINT_DIR = RUNTIME_ROOT / "checkpoints"
 CHECKPOINT_DIR.mkdir(parents=True, exist_ok=True)
 
 RESULTS_CSV = OUTPUT_DIR / "fulltext_verification_results.csv"

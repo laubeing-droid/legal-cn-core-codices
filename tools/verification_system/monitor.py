@@ -5,10 +5,9 @@
 """
 
 import re
-from pathlib import Path
 from datetime import datetime
 
-LOG_FILE = Path("D:/legal-references/verification_system/output/verification.log")
+from config import LOG_FILE
 
 def get_progress():
     """从日志文件提取进度信息。"""

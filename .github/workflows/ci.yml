@@ -31,8 +31,13 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Run dataset contract tests
         run: |
+          python tests/test_network_configuration.py
           python tests/test_publish_validated_dataset.py
           python tests/test_validate_dataset.py
           node --test tests/test_build_local_csv.mjs
+      - name: Run multi-source verifier tests
+        run: |
+          $env:PYTHONPATH = (Resolve-Path tools/verification_system).Path
+          python -m unittest discover -s tests/verification_system -p "test_*.py" -v
       - name: Compile Python sources
         run: python -m compileall -q official-source-updater tools tests

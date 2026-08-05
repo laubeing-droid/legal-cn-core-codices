@@ -552,7 +552,7 @@ def main() -> int:
     parser.add_argument("--official-index", type=Path, required=True)
     parser.add_argument("--output-root", type=Path, required=True)
     parser.add_argument("--registry", type=Path, required=True)
-    parser.add_argument("--proxy", default="http://127.0.0.1:10808")
+    parser.add_argument("--proxy", default="")
     parser.add_argument("--delay", type=float, default=0.2)
     parser.add_argument("--max-candidates", type=int, default=0)
     parser.add_argument("--fetch", action="store_true")

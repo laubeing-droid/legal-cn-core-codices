@@ -4,6 +4,7 @@ import importlib.util
 import hashlib
 import inspect
 import os
+import csv
 import shutil
 import subprocess
 import sys
@@ -209,6 +210,40 @@ class ValidateDatasetContractTest(unittest.TestCase):
             result,
         )
         self.assertFalse(result.counts)
+
+    def test_legal_contents_validation_streams_rows_and_returns_compact_indexes(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "legal_contents.csv"
+            columns = [
+                "DE_01001",
+                "DE_02001",
+                "DE_02002",
+                "DE_02003",
+                "DE_02004",
+                "DE_02005",
+            ]
+            with path.open("w", encoding="utf-8-sig", newline="") as file:
+                writer = csv.DictWriter(file, fieldnames=columns)
+                writer.writeheader()
+                writer.writerow({
+                    "DE_01001": "1" * 31,
+                    "DE_02001": "2" * 18,
+                    "DE_02003": "05",
+                    "DE_02004": "1",
+                })
+
+            result = VALIDATOR.Result()
+            header, count, file_codes = VALIDATOR.validate_legal_contents_stream(
+                path,
+                {"columns": columns, "required": ["DE_01001", "DE_02001", "DE_02003"]},
+                {"1" * 31},
+                result,
+            )
+
+            self.assertEqual(header, columns)
+            self.assertEqual(count, 1)
+            self.assertEqual(file_codes, {"1" * 31})
+            self.assertFalse(result.counts)
 
 
 if __name__ == "__main__":

@@ -9,7 +9,7 @@ param(
 
     [string]$CandidateCsv,
     [string]$FetchResultsCsv,
-    [string]$Proxy = 'http://127.0.0.1:10808',
+    [string]$Proxy = '',
     [int]$DelayMilliseconds = 100
 )
 

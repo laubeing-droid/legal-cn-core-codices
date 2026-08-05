@@ -6,7 +6,7 @@ param(
     [int]$CourtMaxPages = 0,
     [int]$FlkMaxPages = 0,
     [int]$MaxPages = 0,
-    [string]$ProxyUrl = "http://127.0.0.1:10808"
+    [string]$ProxyUrl = ""
 )
 
 $ErrorActionPreference = "Stop"
