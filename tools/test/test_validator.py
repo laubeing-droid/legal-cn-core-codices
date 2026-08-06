@@ -56,6 +56,10 @@ class FormalVerificationGateTest(unittest.TestCase):
             "OFFICIAL_FULLTEXT_VERIFIED",
             schema["constraints"]["allowed_values"]["verification_status"],
         )
+        self.assertIn(
+            "IDENTITY_METADATA_VERIFIED_FULLTEXT_MISSING",
+            ACCEPTED_VERIFICATION,
+        )
 
     def test_local_formal_law_does_not_require_online_revalidation(self) -> None:
         result = Result()
@@ -249,6 +253,48 @@ class FormalSourceHashChainTest(unittest.TestCase):
         self.assertEqual(1, result.counts["FORMAL_SOURCE_SHA256_MISMATCH"])
         self.assertEqual(1, result.counts["FORMAL_TEXT_SHA256_MISMATCH"])
 
+    def test_declared_missing_fulltext_has_no_invented_text_hash(self) -> None:
+        wjbs = "1.2.156.3005.6-" + "0" * 31
+        source_hash = "a" * 64
+        result = Result()
+        validate_formal_source_hash_chain(
+            [{"WJBS": wjbs, "DE_01019": ""}],
+            [{
+                "relative_path": "法规/缺全文.md",
+                "source_sha256": source_hash,
+            }],
+            [{
+                "relative_path": "法规/缺全文.md",
+                "WJBS": wjbs,
+                "carrier_sha256": source_hash,
+                "verification_status": "IDENTITY_METADATA_VERIFIED_FULLTEXT_MISSING",
+                "normalized_text_sha256": "",
+            }],
+            result,
+        )
+        self.assertFalse(result.counts)
+
+    def test_ordinary_formal_record_cannot_omit_text_hash(self) -> None:
+        wjbs = "1.2.156.3005.6-" + "0" * 31
+        source_hash = "a" * 64
+        result = Result()
+        validate_formal_source_hash_chain(
+            [{"WJBS": wjbs, "DE_01019": ""}],
+            [{
+                "relative_path": "法规/正文.md",
+                "source_sha256": source_hash,
+            }],
+            [{
+                "relative_path": "法规/正文.md",
+                "WJBS": wjbs,
+                "carrier_sha256": source_hash,
+                "verification_status": "UNOFFICIAL_CANDIDATE",
+                "normalized_text_sha256": "",
+            }],
+            result,
+        )
+        self.assertEqual(1, result.counts["FORMAL_TEXT_SHA256_MISMATCH"])
+
     def test_identity_normalization_removes_unsafe_unit_separator(self) -> None:
         self.assertEqual(
             normalize_legal_text_for_identity("第一条\x1f正文"),
@@ -333,6 +379,23 @@ class LegalContentCoverageGateTest(unittest.TestCase):
         )
         self.assertEqual(1, result.counts["LEGAL_CONTENT_MISSING"])
 
+    def test_declared_unstructured_fulltext_does_not_require_invented_rows(self) -> None:
+        from validate_dataset import validate_legal_content_coverage_codes
+
+        file_code = "0" * 31
+        result = Result()
+        validate_legal_content_coverage_codes(
+            [{
+                "DE_01001": file_code,
+                "FLFGDZWJFLDM": "0200",
+                "DE_01019": "### 第一条\n结构提取发生确定性冲突。",
+            }],
+            set(),
+            result,
+            {file_code},
+        )
+        self.assertFalse(result.counts)
+
 
 class ConflictDispositionGateTest(unittest.TestCase):
     def test_primary_document_derivation_is_a_resolved_conflict(self) -> None:
@@ -340,6 +403,9 @@ class ConflictDispositionGateTest(unittest.TestCase):
         self.assertTrue(
             is_resolved_conflict("RESOLVED_PRIMARY_DOCUMENT_ONLY_DERIVED")
         )
+
+    def test_primary_standard_evidence_retained_is_resolved(self) -> None:
+        self.assertTrue(is_resolved_conflict("PRIMARY_STANDARD_EVIDENCE_RETAINED"))
 
 
 class MarkdownOnlyDeliveryTest(unittest.TestCase):

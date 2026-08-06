@@ -145,4 +145,21 @@ test("verification states retain honest unverified migration states", () => {
   assert.ok(values.includes("UNMATCHED_OFFICIAL_INDEX"));
   assert.ok(values.includes("BLOCKED_ACCESS"));
   assert.ok(values.includes("UNVERIFIED_LOCAL"));
+  assert.ok(values.includes("IDENTITY_METADATA_VERIFIED_FULLTEXT_MISSING"));
+});
+
+test("access challenges are metadata-only inputs, never formal fulltext", () => {
+  assert.match(buildSource, /IDENTITY_METADATA_VERIFIED_FULLTEXT_MISSING/);
+  assert.match(buildSource, /sourceContentClass === "blocked_access_content"/);
+  assert.doesNotMatch(
+    buildSource,
+    /emitDerivedMarkdown\(\{[\s\S]{0,500}body:\s*sourceBody[\s\S]{0,500}blocked_access_content/,
+  );
+});
+
+test("formal verification hashes the same sanitized text that is published", () => {
+  assert.match(
+    buildSource,
+    /normalized_text_sha256:[\s\S]{0,180}normalizeLegalTextForIdentity\(sanitizeFormalText\(body\)\.text\)/,
+  );
 });

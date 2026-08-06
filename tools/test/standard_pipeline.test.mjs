@@ -37,10 +37,11 @@ import {
   normalizeSourceDate,
 } from "../standard_metadata.mjs";
 import { assignInternalSequenceGroup } from "../internal_sequence.mjs";
-import { listMarkdownFilesWithRipgrep } from "../file_inventory.mjs";
+import { listMarkdownFiles } from "../file_inventory.mjs";
 import {
   applyMetadataOverride,
   loadMetadataOverrides,
+  mergeMetadataOverrideMaps,
 } from "../metadata_overrides.mjs";
 import {
   applyOfficialPageMetadata,
@@ -89,6 +90,7 @@ import {
 import {
   contentStructurePublicationErrors,
   formalLawPublicationDecision,
+  required47277CoreFields,
 } from "../publication_output.mjs";
 import {
   applyAcceptedCodingBaseline,
@@ -114,11 +116,52 @@ const registeredPageAuditDir = path.join(
 );
 const schemaPath = path.join(repositoryRoot, "schema", "tables.json");
 const builderPath = path.resolve(testDir, "..", "build_local_csv.mjs");
+const formalTextPath = path.resolve(testDir, "..", "formal_text.mjs");
 const schema = JSON.parse(fs.readFileSync(schemaPath, "utf8").replace(/^\uFEFF/, ""));
 
 test("current-applicable source status maps to the standard effective code", () => {
   assert.equal(deriveEffectCode("现行适用"), "01");
   assert.equal(deriveEffectCode("现行有效"), "01");
+});
+
+test("independent metadata evidence registries merge fields and retain primary provenance", () => {
+  const merged = mergeMetadataOverrideMaps(
+    new Map([["a.md", {
+      values: { GBRQ: "2021-01-01", _promulgation_source: "OFFICIAL" },
+      evidence: { type: "A" },
+    }]]),
+    new Map([
+      ["a.md", {
+        values: { SXX: "01", _promulgation_source: "PKULAW_VERIFIED" },
+        evidence: { type: "B" },
+      }],
+      ["b.md", { values: { SXX: "03" }, evidence: { type: "C" } }],
+    ]),
+  );
+  assert.equal(merged.size, 2);
+  assert.deepEqual(merged.get("a.md").values, {
+    GBRQ: "2021-01-01",
+    _promulgation_source: "OFFICIAL",
+    SXX: "01",
+  });
+  assert.deepEqual(merged.get("a.md").evidence, {
+    primary: { type: "A" },
+    supplemental: [{ type: "B" }],
+  });
+});
+
+test("metadata registries retain primary substantive values and expose conflicts", () => {
+  const merged = mergeMetadataOverrideMaps(
+    new Map([["a.md", { values: { GBRQ: "2021-01-01" }, evidence: { type: "OFFICIAL" } }]]),
+    new Map([["a.md", { values: { GBRQ: "2022-01-01" }, evidence: { type: "COMMERCIAL" } }]]),
+  );
+  assert.equal(merged.get("a.md").values.GBRQ, "2021-01-01");
+  assert.deepEqual(merged.conflicts, [{
+    relativePath: "a.md",
+    field: "GBRQ",
+    primaryValue: "2021-01-01",
+    supplementalValue: "2022-01-01",
+  }]);
 });
 
 test("accepted coding baseline is reused only for the exact unchanged source", () => {
@@ -219,6 +262,58 @@ test("ready formal laws emit one final Markdown derivative", () => {
   assert.equal(decision.ingestStatus, "READY_FORMAL_LAW");
 });
 
+test("metadata-only formal laws publish codes without inventing fulltext", () => {
+  const decision = formalLawPublicationDecision({
+    lawErrors: [],
+    publicationErrors: [],
+    fulltextAvailable: false,
+  });
+  assert.equal(decision.publishFormal, true);
+  assert.equal(decision.emitMarkdown, false);
+  assert.equal(decision.ingestStatus, "READY_FORMAL_LAW_METADATA_ONLY");
+});
+
+test("missing fulltext never relaxes standard coding fields", () => {
+  const decision = formalLawPublicationDecision({
+    lawErrors: [{ code: "MISSING_STANDARD_FIELD", field: "WJBS" }],
+    publicationErrors: [],
+    fulltextAvailable: false,
+  });
+  assert.equal(decision.publishFormal, false);
+  assert.equal(decision.emitMarkdown, false);
+  assert.equal(decision.ingestStatus, "BLOCKED_STANDARD_FIELDS");
+});
+
+test("metadata-only laws omit only the fulltext element from GB/T 47277 core fields", () => {
+  const complete = required47277CoreFields({ fulltextAvailable: true });
+  const metadataOnly = required47277CoreFields({ fulltextAvailable: false });
+  assert.equal(complete.includes("DE_01019"), true);
+  assert.equal(metadataOnly.includes("DE_01019"), false);
+  assert.deepEqual(
+    complete.filter((field) => field !== "DE_01019"),
+    metadataOnly,
+  );
+  for (const field of ["DE_01001", "DE_01006", "DE_01014", "DE_01018"]) {
+    assert.equal(metadataOnly.includes(field), true);
+  }
+});
+
+test("content-structure failures block content rows, not the coded legal document", () => {
+  const decision = formalLawPublicationDecision({
+    lawErrors: [],
+    publicationErrors: [{ code: "CONTENT_STRUCTURE_DUPLICATE", field: "DE_02001" }],
+    fulltextAvailable: true,
+  });
+  assert.equal(decision.publishFormal, true);
+  assert.equal(decision.emitMarkdown, true);
+  assert.equal(decision.emitStructuredContents, false);
+  assert.equal(decision.ingestStatus, "READY_FORMAL_LAW_UNSTRUCTURED_FULLTEXT");
+  assert.deepEqual(decision.formalErrors, []);
+  assert.deepEqual(decision.contentErrors, [
+    { code: "CONTENT_STRUCTURE_DUPLICATE", field: "DE_02001" },
+  ]);
+});
+
 test("article-free legal documents do not invent a zero article content code", () => {
   assert.deepEqual(contentStructurePublicationErrors({
     codeScope: "GBT47277",
@@ -227,7 +322,7 @@ test("article-free legal documents do not invent a zero article content code", (
   }), []);
 });
 
-test("actual content-structure parsing failures remain publication blockers", () => {
+test("actual content-structure parsing failures remain reportable content errors", () => {
   assert.deepEqual(contentStructurePublicationErrors({
     codeScope: "GBT47277",
     structureRows: [],
@@ -733,6 +828,7 @@ test("CSV builder requires an explicit exchange-candidate output root", () => {
 
 test("local migration builder does not require an online fulltext registry", () => {
   const source = fs.readFileSync(builderPath, "utf8");
+  const formalTextSource = fs.readFileSync(formalTextPath, "utf8");
   assert.doesNotMatch(source, /flk_fulltext/i);
   assert.doesNotMatch(source, /formalFulltextBlockingCode/);
   assert.doesNotMatch(source, /formalErrors\.length === 0 && officialCarrier/);
@@ -741,7 +837,7 @@ test("local migration builder does not require an online fulltext registry", () 
   assert.match(source, /Markdown/);
   assert.match(source, /source_relative_path/);
   assert.match(source, /source_sha256/);
-  assert.ok(source.includes("IMA(?:知识库|条目ID)"));
+  assert.ok(formalTextSource.includes("IMA(?:知识库|条目ID)"));
 });
 
 test("successfully stripped platform pollution is an engineering warning, not a formal blocker", () => {
@@ -1873,7 +1969,7 @@ test("file inventory uses fast exact Markdown enumeration", () => {
   fs.writeFileSync(path.join(directory, "a.md"), "a", "utf8");
   fs.writeFileSync(path.join(directory, "子目录", "b.MD"), "b", "utf8");
   fs.writeFileSync(path.join(directory, "c.txt"), "c", "utf8");
-  const files = listMarkdownFilesWithRipgrep(directory);
+  const files = listMarkdownFiles(directory);
   assert.deepEqual(
     files.map((filePath) => path.basename(filePath)).sort(),
     ["a.md", "b.MD"],

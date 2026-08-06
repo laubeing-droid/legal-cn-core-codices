@@ -46,10 +46,11 @@ import {
   finalRelativeMarkdownPath,
 } from "./delivery_paths.mjs";
 import { assignInternalSequenceGroup } from "./internal_sequence.mjs";
-import { listMarkdownFilesWithRipgrep } from "./file_inventory.mjs";
+import { listMarkdownFiles } from "./file_inventory.mjs";
 import {
   applyMetadataOverride,
   loadMetadataOverrides,
+  mergeMetadataOverrideMaps,
 } from "./metadata_overrides.mjs";
 import {
   applyOfficialPageMetadata,
@@ -70,7 +71,6 @@ import {
   canonicalizeLegalVersions,
   normalizeCoreProvisionsForCarrierIdentity,
   normalizeLegalTextForIdentity,
-  stripUnsafeTextControls,
 } from "./legal_version_identity.mjs";
 import {
   describeExactWjbsScope,
@@ -86,11 +86,21 @@ import {
 import {
   contentStructurePublicationErrors,
   formalLawPublicationDecision,
+  required47277CoreFields,
 } from "./publication_output.mjs";
 import {
   applyAcceptedCodingBaseline,
   loadAcceptedCodingBaseline,
 } from "./accepted_coding_baseline.mjs";
+import {
+  acceptedCodingComponentContext,
+  loadComponentContext,
+  mergeComponentContexts,
+} from "./component_context.mjs";
+import {
+  fixedPollutionPattern,
+  sanitizeFormalText,
+} from "./formal_text.mjs";
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const usage = [
@@ -101,6 +111,7 @@ const usage = [
   "  --full-corpus <显式授权枚举全部源文件；不得与WJBS精确基线同时使用>",
   "  --full-corpus-purpose FINAL_ACCEPTANCE_ONLY <全量最终验收双确认；其他值拒绝运行>",
   "  --exact-path-baseline <仅处理CSV中relative_path列出的路径；专项审计输出不可发布>",
+  "  --component-context-baseline <精确专项可选；既有标准编码清单，仅用于判断同组占用>",
   "  --wjbs-target-baseline <仅处理44条及LOCAL_NORMALIZED_TITLE_ORDER队列；专项审计输出不可发布>",
   "  --wjbs-blocked-baseline <仅处理当前明确缺WJBS且状态为BLOCKED的记录；专项审计输出不可发布>",
   "",
@@ -124,6 +135,10 @@ const officialPageMetadataArgument = officialPageMetadataArgumentIndex >= 0
 const exactPathBaselineArgumentIndex = process.argv.indexOf("--exact-path-baseline");
 const exactPathBaselineArgument = exactPathBaselineArgumentIndex >= 0
   ? process.argv[exactPathBaselineArgumentIndex + 1]
+  : "";
+const componentContextArgumentIndex = process.argv.indexOf("--component-context-baseline");
+const componentContextArgument = componentContextArgumentIndex >= 0
+  ? process.argv[componentContextArgumentIndex + 1]
   : "";
 const wjbsTargetBaselineArgumentIndex = process.argv.indexOf("--wjbs-target-baseline");
 const wjbsTargetBaselineArgument = wjbsTargetBaselineArgumentIndex >= 0
@@ -149,6 +164,9 @@ if (exactScopeArguments.length > 1) {
 const exactScopeArgument = exactScopeArguments[0] ?? "";
 if (fullCorpusRequested && exactScopeArgument) {
   throw new Error("--full-corpus 不得与精确路径基线同时使用。");
+}
+if (componentContextArgument && !exactScopeArgument) {
+  throw new Error("--component-context-baseline 只能与精确路径基线同时使用。");
 }
 if (fullCorpusRequested && fullCorpusPurposeArgument !== "FINAL_ACCEPTANCE_ONLY") {
   throw new Error("全量枚举仅限最终验收，必须同时提供 --full-corpus-purpose FINAL_ACCEPTANCE_ONLY。");
@@ -225,6 +243,12 @@ const metadataOverrideRegistryPath = path.resolve(
   "schema",
   "标准元数据补证注册表.json",
 );
+const commercialMetadataOverrideRegistryPath = path.resolve(
+  scriptDir,
+  "..",
+  "schema",
+  "商业数据库元数据补证注册表.json",
+);
 const acceptedCodingBaselinePath = path.resolve(
   repositoryRoot,
   "schema",
@@ -293,8 +317,6 @@ const effectLabels = new Map([
   ["05", "已失效"],
 ]);
 const absolutePathPattern = /(?:^|[\s("'`])(?:[A-Za-z]:[\\/])/m;
-const embeddedAbsolutePathPattern = /[A-Za-z]:[\\/][^\s<>"'`)]+/g;
-const fixedPollutionPattern = /本文由律锥[·・]?\s*Legalskill|智法AI|云法律网|^\s*-\s*IMA(?:知识库|条目ID)\s*[：:]/im;
 
 function loadCentralAgencyRegistry(csvPath) {
   const registry = new Map();
@@ -325,8 +347,23 @@ function loadAreaRegistry(csvPath) {
 
 const centralAgencyRegistry = loadCentralAgencyRegistry(agencyRegistryPath);
 const areaRegistry = loadAreaRegistry(areaRegistryPath);
-const metadataOverrides = loadMetadataOverrides(metadataOverrideRegistryPath);
+const metadataOverrides = mergeMetadataOverrideMaps(
+  loadMetadataOverrides(metadataOverrideRegistryPath),
+  loadMetadataOverrides(commercialMetadataOverrideRegistryPath),
+);
+const metadataOverrideConflictsByPath = new Map();
+for (const conflict of metadataOverrides.conflicts ?? []) {
+  const conflicts = metadataOverrideConflictsByPath.get(conflict.relativePath) ?? [];
+  conflicts.push(conflict);
+  metadataOverrideConflictsByPath.set(conflict.relativePath, conflicts);
+}
 const acceptedCodingBaseline = loadAcceptedCodingBaseline(acceptedCodingBaselinePath);
+const exactComponentContext = componentContextArgument
+  ? mergeComponentContexts(
+      acceptedCodingComponentContext(acceptedCodingBaseline),
+      loadComponentContext(path.resolve(componentContextArgument)),
+    )
+  : new Map();
 const publicationSkips = loadPublicationSkips(publicationSkipRegistryPath);
 const officialDecisionOrderEvidence = loadDecisionOrderEvidenceRegistry(
   decisionOrderEvidenceRegistryPath,
@@ -592,35 +629,16 @@ function csvText(columns, rows) {
 }
 
 function derivedMarkdownText(fields, sourceBody) {
-  let removedPollutionLines = 0;
-  let removedAbsolutePaths = 0;
-  const unsafeControlCharacters = sourceBody.match(
-    /[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/gu,
-  ) ?? [];
-  const withoutPollution = stripUnsafeTextControls(sourceBody)
-    .split(/\r?\n/)
-    .filter((line) => {
-      if (!fixedPollutionPattern.test(line)) return true;
-      removedPollutionLines += 1;
-      return false;
-    })
-    .join("\n");
-  const sanitizedBody = withoutPollution.replace(
-    embeddedAbsolutePathPattern,
-    () => {
-      removedAbsolutePaths += 1;
-      return "[本机路径已移除]";
-    },
-  ).trim();
+  const sanitized = sanitizeFormalText(sourceBody);
   const frontMatter = Object.entries(fields)
     .map(([key, value]) => `${key}: ${JSON.stringify(String(value ?? ""))}`)
     .join("\n");
   return {
-    text: `---\n${frontMatter}\n---\n\n${sanitizedBody}\n`,
+    text: `---\n${frontMatter}\n---\n\n${sanitized.text}\n`,
     transformations: JSON.stringify({
-      removed_pollution_lines: removedPollutionLines,
-      removed_absolute_paths: removedAbsolutePaths,
-      removed_unsafe_control_characters: unsafeControlCharacters.length,
+      removed_pollution_lines: sanitized.removedPollutionLines,
+      removed_absolute_paths: sanitized.removedAbsolutePaths,
+      removed_unsafe_control_characters: sanitized.removedUnsafeControlCharacters,
     }),
   };
 }
@@ -785,7 +803,7 @@ function lawRow(
   row.DE_01016 = standardDate(firstMeta(meta, ["DE_01016", "修改日期"]));
   row.DE_01017 = row.SHXRQ;
   row.DE_01018 = row.SXX;
-  row.DE_01019 = stripUnsafeTextControls(body).trim();
+  row.DE_01019 = sanitizeFormalText(body).text;
   row.DE_01020 ||= firstMeta(meta, ["DE_01020", "文件类型代码"]);
   row.DE_01021 ||= firstMeta(meta, ["DE_01021", "文本出处", "正式来源"]);
   row.DE_01021 ||= "第三方本地载体（待官方全文核验）";
@@ -799,7 +817,7 @@ function normalizeWjbsSourceType(value) {
   return "";
 }
 
-function validateLawRow(row, wjbsSourceType) {
+function validateLawRow(row, wjbsSourceType, { fulltextAvailable = true } = {}) {
   const errors = [];
   for (const field of lawRequired) {
     if (!row[field]) errors.push({ code: "MISSING_STANDARD_FIELD", field });
@@ -826,10 +844,7 @@ function validateLawRow(row, wjbsSourceType) {
     row.FLFGDZWJFLDM,
   );
   if (coveredBy47277) {
-    for (const field of [
-      "DE_01001", "DE_01002", "DE_01004", "DE_01006", "DE_01007",
-      "DE_01014", "DE_01015", "DE_01018", "DE_01019", "DE_01020", "DE_01021",
-    ]) {
+    for (const field of required47277CoreFields({ fulltextAvailable })) {
       if (!row[field]) errors.push({ code: "MISSING_47277_CORE_ELEMENT", field });
     }
     if (row.DE_01001) {
@@ -1103,7 +1118,7 @@ async function main() {
     for (const rootName of sourceRootNames) {
       const root = path.join(workspaceRoot, rootName);
       process.stdout.write(`listing ${rootName}\n`);
-      const rootFiles = listMarkdownFilesWithRipgrep(root);
+      const rootFiles = listMarkdownFiles(root);
       process.stdout.write(`listed ${rootName}: ${rootFiles.length}\n`);
       files.push(...rootFiles);
     }
@@ -1124,6 +1139,17 @@ async function main() {
   let processed = 0;
   for (const fullPath of files) {
     const relativePath = normalizeRelative(fullPath);
+    for (const conflict of metadataOverrideConflictsByPath.get(relativePath) ?? []) {
+      rows["conflicts.csv"].push({
+        relative_path: relativePath,
+        conflict_type: "METADATA_OVERRIDE_SOURCE_CONFLICT",
+        field_name: conflict.field,
+        local_value: conflict.primaryValue,
+        other_value: conflict.supplementalValue,
+        evidence: "标准/官方补证注册表与商业数据库补证值不一致；按证据层级保留前者。",
+        disposition: "PRIMARY_STANDARD_EVIDENCE_RETAINED",
+      });
+    }
     if (processed % 100 === 0) {
       process.stdout.write(`processing ${processed + 1}/${files.length}: ${relativePath}\n`);
     }
@@ -1154,9 +1180,14 @@ async function main() {
       ? `${JSON.stringify(meta)}\n${sourceBody}`
       : text;
     const title = displayTitle(meta, sourceBody, fullPath);
-    const objectType = classifySourceContent(relativePath, title, sourceBody);
+    const sourceContentClass = classifySourceContent(relativePath, title, sourceBody);
+    const fulltextAvailable = sourceContentClass !== "blocked_access_content";
+    const objectType = sourceContentClass === "blocked_access_content"
+      ? "legal_document"
+      : sourceContentClass;
+    const legalProcessingBody = fulltextAvailable ? sourceBody : "";
     const primaryBodyExtraction = objectType === "legal_document"
-      ? extractPrimaryLegalDocumentBody(sourceBody)
+      ? extractPrimaryLegalDocumentBody(legalProcessingBody)
       : {
           body: sourceBody,
           truncated: false,
@@ -1294,6 +1325,16 @@ async function main() {
         `中国政府网国家规章库记录=${officialRuleRecord.record_id}；仅核验官方索引元数据，不代表全文核验。`,
       ].filter(Boolean).join("；");
     }
+    if (sourceContentClass === "blocked_access_content") {
+      verification.fulltext = "false";
+      verification.status = verification.identity === "true"
+        ? "IDENTITY_METADATA_VERIFIED_FULLTEXT_MISSING"
+        : "BLOCKED_ACCESS";
+      verification.note = [
+        verification.note,
+        "源Markdown正文为WZWS或JavaScript访问挑战页；仅保留法规身份和元数据，不发布正文。",
+      ].filter(Boolean).join("；");
+    }
     const verificationRow = {
       relative_path: relativePath,
       WJBS: firstMeta(meta, ["WJBS"]),
@@ -1315,10 +1356,12 @@ async function main() {
       attachments_verified: verification.attachments,
       effect_verified: verification.effect,
       carrier_sha256: digest,
-      normalized_text_sha256: sha256(Buffer.from(
-        normalizeLegalTextForIdentity(body),
-        "utf8",
-      )),
+      normalized_text_sha256: fulltextAvailable
+        ? sha256(Buffer.from(
+            normalizeLegalTextForIdentity(sanitizeFormalText(body).text),
+            "utf8",
+          ))
+        : "",
       verified_at: officialLawRecord
         ? flkMeta.fetched_at
         : (officialRuleRecord ? nationalRulesMeta.fetched_at : ""),
@@ -1379,7 +1422,11 @@ async function main() {
           const normalized = normalizeCoreProvisionsForCarrierIdentity(body);
           return normalized ? sha256(Buffer.from(normalized, "utf8")) : "";
         })(),
-        normalizedTextLength: normalizeLegalTextForIdentity(body).length,
+        normalizedTextLength: normalizeLegalTextForIdentity(
+          sanitizeFormalText(body).text,
+        ).length,
+        fulltextAvailable,
+        sourceContentClass,
       });
     } else if (objectType === "case") {
       const extractedCaseId = extractOfficialCaseId(meta, `${body}\n${title}`, relativePath);
@@ -1539,16 +1586,6 @@ async function main() {
         target_table: "practice_references.csv",
         target_relative_path: referenceTargetRelativePath,
         review_note: "参考材料默认不参与法规检索。",
-      });
-    } else if (objectType === "blocked_access_content") {
-      rows["ingest_queue.csv"].push({
-        relative_path: relativePath,
-        object_type: "legal_document",
-        ingest_status: "BLOCKED_ACCESS_CONTENT",
-        blocking_reason: "SOURCE_BODY_IS_ACCESS_CHALLENGE",
-        target_table: "source_records.csv",
-        target_relative_path: "",
-        review_note: "本地文件正文是WZWS或JavaScript访问挑战页，不作为法律全文、决定顺序证据或正式Markdown发布。",
       });
     } else if (objectType === "legal_fragment") {
       const fragment = fragmentDescriptor(relativePath);
@@ -1771,13 +1808,17 @@ async function main() {
     if (!documentCodeGroups.has(key)) documentCodeGroups.set(key, []);
     documentCodeGroups.get(key).push(entry);
   }
-  for (const group of documentCodeGroups.values()) {
+  for (const [componentGroupKey, group] of documentCodeGroups) {
+    const currentGroupPaths = new Set(group.map((entry) => entry.relativePath));
+    const externalComponentOwners = [...(exactComponentContext.get(componentGroupKey) ?? [])]
+      .filter((relativePath) => !currentGroupPaths.has(relativePath));
     for (const assignment of assignInternalSequenceGroup(group)) {
       const entry = assignment.entry;
       const row = entry.candidate;
       if (entry.existingWjbsLocked) continue;
       const incompleteExactGroupContext = Boolean(exactScopeArgument)
         && assignment.source === "UNIQUE_COMPONENTS"
+        && (!componentContextArgument || externalComponentOwners.length > 0)
         && !row.WJBS;
       entry.internalSequence = incompleteExactGroupContext ? "" : assignment.internalSequence;
       entry.internalSequenceSource = incompleteExactGroupContext
@@ -1990,10 +2031,14 @@ async function main() {
     decisionOrderEvidence,
     wjbsSourceType,
     acceptedCodingEvidence,
+    fulltextAvailable,
+    sourceContentClass,
   }
     of pendingLaws) {
     if (duplicateLegalPathSet.has(relativePath)) continue;
-    const lawErrors = validateLawRow(candidate, wjbsSourceType);
+    const lawErrors = validateLawRow(candidate, wjbsSourceType, {
+      fulltextAvailable,
+    });
     if (codeError) lawErrors.push({ code: codeError, field: "DE_01001" });
     codingRows.push({
       relative_path: relativePath,
@@ -2066,7 +2111,7 @@ async function main() {
     const publicationErrors = [];
     let structureRows = [];
     let structureFailure = "";
-    if (codeScope === "GBT47277") {
+    if (codeScope === "GBT47277" && fulltextAvailable) {
       try {
         structureRows = extractLegalContentRows(body);
         const duplicateStructureCodes = duplicateContentStructureCodes(
@@ -2089,8 +2134,10 @@ async function main() {
     const publicationDecision = formalLawPublicationDecision({
       lawErrors,
       publicationErrors,
+      fulltextAvailable,
     });
     const formalErrors = publicationDecision.formalErrors;
+    const contentErrors = publicationDecision.contentErrors;
     delete candidate._sequence_code;
     delete candidate._agency_code_source;
     delete candidate._agency_name_source;
@@ -2101,25 +2148,27 @@ async function main() {
     delete candidate._effect_source;
     if (publicationDecision.publishFormal) {
       rows["legal_documents.csv"].push(candidate);
-      for (const contentRow of structureRows) {
+      for (const contentRow of publicationDecision.emitStructuredContents ? structureRows : []) {
         rows["legal_contents.csv"].push({
           DE_01001: candidate.DE_01001,
           ...contentRow,
         });
       }
-      const lawTargetRelativePath = await emitDerivedMarkdown({
-        relativePath,
-        objectType: "legal_document",
-        identifier: candidate.WJBS,
-        title: candidate.BT,
-        publicationDate: candidate.GBRQ,
-        effectCode: candidate.SXX,
-        categoryCode: candidate.FLFGDZWJFLDM,
-        agencyName: candidate.ZDJGMC,
-        sourceSha256: digest,
-        verificationStatus: verificationRow.verification_status,
-        body,
-      });
+      const lawTargetRelativePath = publicationDecision.emitMarkdown
+        ? await emitDerivedMarkdown({
+            relativePath,
+            objectType: "legal_document",
+            identifier: candidate.WJBS,
+            title: candidate.BT,
+            publicationDate: candidate.GBRQ,
+            effectCode: candidate.SXX,
+            categoryCode: candidate.FLFGDZWJFLDM,
+            agencyName: candidate.ZDJGMC,
+            sourceSha256: digest,
+            verificationStatus: verificationRow.verification_status,
+            body,
+          })
+        : "";
       const currentEntry = pendingLawByPath.get(relativePath);
       if (currentEntry) currentEntry.targetRelativePath = lawTargetRelativePath;
       rows["ingest_queue.csv"].push({
@@ -2129,8 +2178,23 @@ async function main() {
         blocking_reason: "",
         target_table: "legal_documents.csv",
         target_relative_path: lawTargetRelativePath,
-        review_note: "现有本地源文件已完成国标字段、确定性编码、正文结构和源文件SHA-256迁移；联网核验状态独立保留。",
+        review_note: sourceContentClass === "blocked_access_content"
+          ? "法规身份和元数据已核验并完成确定性编码；全文缺失，不补抓、不生成正文行或Markdown，挑战页仅留工程记录。"
+          : contentErrors.length
+            ? "法律元数据和WJBS已通过；全文Markdown保留，但正文结构码冲突，未生成legal_contents行，冲突留工程记录。"
+            : "现有本地源文件已完成国标字段、确定性编码、正文结构和源文件SHA-256迁移；联网核验状态独立保留。",
       });
+      for (const error of contentErrors) {
+        validationRows.push({
+          relative_path: relativePath,
+          table_name: "legal_contents.csv",
+          row_locator: relativePath,
+          error_code: error.code,
+          severity: "WARNING",
+          field_name: error.field,
+          message: `正文结构未物化，不影响法律元数据入库：${error.code}。`,
+        });
+      }
       if (seenWjbs.has(candidate.WJBS)) {
         rows["conflicts.csv"].push({
           relative_path: relativePath,
@@ -2342,7 +2406,7 @@ async function main() {
       formal_fixed_pollution_hits: formalPollutionHits,
       artifact_tool: artifactValidation,
     },
-    boundary: "本地Markdown是唯一正文交付载体；法律法规缺少必选国标字段时不进入正式表；明确登记的历史缺证对象仅保留工程记录且不阻断其他合格数据发布；案例不赋WJBS；无官方案例编号时留空。",
+    boundary: "法律元数据与正文分层发布：找不到全文时不补全文，确定性编码合格后进入legal_documents.csv且不生成伪正文；正文结构失败只阻断legal_contents.csv，不阻断合格法律元数据；挑战页不得作为正文；案例不赋WJBS，无官方案例编号时留空。",
   };
   await fsp.writeFile(
     path.join(engineeringDir, "build_summary.json"),
@@ -2371,7 +2435,8 @@ async function main() {
     "",
     "## 边界",
     "",
-    "- 法律法规：未满足必选字段不进入正式表，不补造 WJBS、机关代码或分类代码。",
+    "- 法律法规：未满足编码必选字段不进入正式元数据表，不补造 WJBS、机关代码或分类代码。",
+    "- 正文：找不到全文时不补全文、不生成伪正文；结构码失败时保留Markdown并仅跳过legal_contents结构行。",
     "- 案例：只登记源文件明示的官方编号；无编号留空，不使用 IMA 标识替代。",
     "- 仲裁案例：不把“结语和建议”当作裁判要旨。",
     "- 正文只交付Markdown派生文件，不输出DOCX、PDF、OFD或UOF；Markdown不冒充国标主交换文件。",

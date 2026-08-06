@@ -597,3 +597,14 @@
 - 最终目录已原子写入`D:\legal-cn-core-codices`；树SHA-256=`02ebef764292b7866caebf57454a7822ec9cfd8a7e5d20b8121e054653bfbd49`，`SHA256SUMS`文件SHA-256=`91bb381e50b467014baa1431903b6dc9b8064e6818ec9c619fd450758c825158`；废弃路径不存在。
 - 旧最终树复验为BLOCKED，原样保存在`D:\legal-cn-core-codices.rollback_20260805_090158`。根目录非Git，未伪造提交；更新器未修改，HEAD `efb58b60f940ae30d697e59ad82033ca9c48cf7c`且工作树干净。
 - 最终验收报告：`D:\法律法规库本地标准化数据集最终验收审计报告_20260805.md`。
+
+## 2026-08-06 无全文分层发布、商业库补证与v3正式发布
+
+- 【修改位置】`schema/tables.json`、`tools/publication_output.mjs`、`tools/build_local_csv.mjs`、`tools/validate_dataset.py`；【修改内容】把法律元数据和正文分层发布：找不到全文时不补全文，编码要素完整即可进入`legal_documents.csv`，不生成`legal_contents.csv`或Markdown伪正文；正文结构失败仅阻断结构行；【修改原因】用户明确下达“找不到全文的，不补全文，编码入库即可”，旧校验器错误地把正文缺失和正文结构失败扩大为法律元数据阻断。
+- WZWS/JavaScript挑战页只保留载体SHA-256和`IDENTITY_METADATA_VERIFIED_FULLTEXT_MISSING`状态，不作为正文；正式输出统一清除IMA声明、固定平台污染、本机绝对路径和不安全控制字符，正文规范化哈希与实际发布文本使用同一清洗函数。
+- Kimi对6,830份源Markdown的批量Front Matter写入和换行变更全部按2026-08-05基线SHA-256精确恢复；源材料不依赖无证批量赋值。清点器移除外部`rg`运行依赖，改为Node原生文件遍历，避免Windows环境缺少`rg`导致全量构建失败。
+- 元典优先、北大法宝补查：1,791条效力缺口商业库精确命中1,726条、确定映射1,717条；5,048条缺WJBS队列商业库精确命中4,621条。商业库仅作为`YUANDIAN_VERIFIED`/`PKULAW_VERIFIED`补证，不伪称官方来源；标准/官方注册表与商业库冲突时保留前者并生成已解决冲突记录。
+- 最终全量处理43,076份源文件。正式8表行数：29,722 / 2,034,427 / 0 / 0 / 10,171 / 8,702 / 6,175 / 336。核心工程5表行数：43,076 / 43,076 / 43,076 / 209 / 6,833。
+- 标准编码清单32,058条：READY 29,722、既有规范引用111、BLOCKED 2,216、SKIPPED 9；有WJBS 29,926，覆盖率93.35%。40条无全文法律和57条正文结构失败法律均已编码入库；未伪造正文。2,216条仍因内部顺序、机关代码或效力等标准编码要素不足阻断，不因“无全文”放宽编码规则。
+- 正式候选、暂存树、旧正式树、发布后正式树及独立发布后复验均为`LOCAL_FULLY_VALIDATED`，阻断计数0。最终目录为`D:\Codex\1.法律工作区\legal-cn-core-codices开发区\legal-cn-core-codices`，产物40,198个，树SHA-256=`d939ee5be3867ffe517d5a20b038240c5c50f428eb753ca2028969ae72fedabb`；废弃路径`D:\legal-references\legal-cn-core-codices`不存在。
+- 测试：Node 229/229、根Python 50/50、tools Python 42/42、AST 22文件、Node语法32文件、`pip check`全部通过。正式根未混入工程记录、候选、IMA声明、个人笔记或硬编码本机路径。

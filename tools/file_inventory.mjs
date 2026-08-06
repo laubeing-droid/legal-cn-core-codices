@@ -1,23 +1,19 @@
 import path from "node:path";
-import { spawnSync } from "node:child_process";
+import fs from "node:fs";
 
-export function listMarkdownFilesWithRipgrep(root) {
-  const result = spawnSync(
-    "rg",
-    ["--files", root, "-g", "*.[mM][dD]"],
-    {
-      encoding: "utf8",
-      windowsHide: true,
-      maxBuffer: 128 * 1024 * 1024,
-    },
-  );
-  if (result.error) throw result.error;
-  if (![0, 1].includes(result.status)) {
-    throw new Error(`RG_FILE_INVENTORY_FAILED:${result.status}:${result.stderr.trim()}`);
+export function listMarkdownFiles(root) {
+  const files = [];
+  function walk(dir) {
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    for (const entry of entries) {
+      const fullPath = path.join(dir, entry.name);
+      if (entry.isDirectory()) {
+        walk(fullPath);
+      } else if (entry.isFile() && /\.[mM][dD]$/.test(entry.name)) {
+        files.push(path.resolve(fullPath));
+      }
+    }
   }
-  return result.stdout
-    .replace(/^\uFEFF/, "")
-    .split(/\r?\n/)
-    .filter(Boolean)
-    .map((filePath) => path.resolve(filePath));
+  walk(root);
+  return files.sort((a, b) => a.localeCompare(b, "zh-CN"));
 }

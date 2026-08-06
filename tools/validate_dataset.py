@@ -47,6 +47,7 @@ ACCEPTED_VERIFICATION = {
     "UNOFFICIAL_CANDIDATE",
     "UNMATCHED_OFFICIAL_INDEX",
     "UNVERIFIED_LOCAL",
+    "IDENTITY_METADATA_VERIFIED_FULLTEXT_MISSING",
 }
 PUBLICATION_SKIP_HEADER = [
     "relative_path",
@@ -82,6 +83,7 @@ def is_resolved_conflict(disposition: str) -> bool:
             "USE_OFFICIAL_INDEX_METADATA",
             "MIGRATED_WITH_READABLE_VERSION_SUFFIX",
             "PRIMARY_DOCUMENT_ONLY_DERIVED",
+            "PRIMARY_STANDARD_EVIDENCE_RETAINED",
         }
         or disposition.startswith("EXCLUDED_")
         or disposition.startswith("RESOLVED_")
@@ -469,11 +471,14 @@ def validate_legal_content_coverage_codes(
     legal_rows: list[dict[str, str]],
     content_file_codes: set[str],
     result: Result,
+    permitted_missing_content_codes: set[str] | None = None,
 ) -> None:
+    permitted_missing_content_codes = permitted_missing_content_codes or set()
     for index, row in enumerate(legal_rows, 2):
         if (
             row.get("FLFGDZWJFLDM", "") in GBT47277_CATEGORIES
             and row.get("DE_01001", "") not in content_file_codes
+            and row.get("DE_01001", "") not in permitted_missing_content_codes
             and EXPLICIT_STANDARD_CONTENT_STRUCTURE.search(row.get("DE_01019", ""))
         ):
             result.add(
@@ -580,6 +585,13 @@ def validate_formal_source_hash_chain(
         normalized_text = normalize_legal_text_for_identity(
             document.get("DE_01019", "")
         )
+        if (
+            verification.get("verification_status", "")
+            == "IDENTITY_METADATA_VERIFIED_FULLTEXT_MISSING"
+            and not normalized_text
+            and not verification.get("normalized_text_sha256", "").strip()
+        ):
+            continue
         actual_text_hash = hashlib.sha256(normalized_text.encode("utf-8")).hexdigest()
         if verification.get("normalized_text_sha256", "").lower() != actual_text_hash:
             result.add(
@@ -1244,7 +1256,24 @@ def validate(
                 table="legal_contents.csv",
             )
 
-    validate_legal_content_coverage_codes(legal_rows, content_file_codes, result)
+    queue_status_by_path = {
+        row.get("relative_path", ""): row.get("ingest_status", "")
+        for row in rows_by_table.get("ingest_queue.csv", [])
+        if row.get("relative_path", "")
+    }
+    permitted_missing_content_codes = {
+        wjbs.removeprefix("1.2.156.3005.6-")
+        for row in rows_by_table.get("verification_results.csv", [])
+        if (wjbs := row.get("WJBS", ""))
+        and queue_status_by_path.get(row.get("relative_path", ""))
+        == "READY_FORMAL_LAW_UNSTRUCTURED_FULLTEXT"
+    }
+    validate_legal_content_coverage_codes(
+        legal_rows,
+        content_file_codes,
+        result,
+        permitted_missing_content_codes,
+    )
 
     case_rows = rows_by_table.get("cases.csv", [])
     case_id_counts = Counter(
@@ -1441,14 +1470,17 @@ def validate(
 def report(root: Path, statistics: dict, schema: dict, result: Result) -> dict:
     status = "LOCAL_FULLY_VALIDATED" if not result.counts else "BLOCKED"
     hashes = {}
-    mutable_reports = {
-        root / "工程记录" / "full_validation_report.json",
-        root / "工程记录" / "full_validation_report.md",
+    mutable_report_paths = {
+        "工程记录/full_validation_report.json",
+        "工程记录/full_validation_report.md",
     }
     scan_root = filesystem_path(root)
     for path in sorted(scan_root.rglob("*")):
         if path.is_file():
-            hashes[path.relative_to(scan_root).as_posix()] = sha256(path)
+            relative_path = path.relative_to(scan_root).as_posix()
+            if relative_path in mutable_report_paths:
+                continue
+            hashes[relative_path] = sha256(path)
     tree_material = "\n".join(
         f"{relative}\0{digest}" for relative, digest in sorted(hashes.items())
     ).encode("utf-8")
