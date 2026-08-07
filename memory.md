@@ -18,6 +18,7 @@
 - 第二次真实运行`31172086338`在长路径步骤失败：本机PowerShell执行策略阻止runner点入临时`.ps1`，后续所有`run`步骤同样会受影响。两个自托管job现固定以`-ExecutionPolicy Bypass`启动非交互PowerShell，且不依赖机器级策略变更。
 - 第四次实际执行的运行`31172924045`证明runner进程级Bypass和`setup-python`均已通过；真正失败点是Windows PowerShell 5.1不能解析Actions生成的UTF-8无BOM中文脚本。`-File`本地复现仍失败，故两个自托管job固定使用PowerShell 7的`pwsh`；本机安装7.6.4并以官方`hashes.sha256`核验，ZIP SHA-256为`80832551c52809301e6071c8bac977beb5a2f1ec953eb4db9f94deb953333793`。
 - PowerShell 7修复后的运行`31173661638`在批次解析阶段失败，确认人工候选与工程批次属于主仓库被忽略的`workspace`资产，不存在于runner checkout。`dataset-release.yml`改由`LEGAL_CANDIDATE_ROOT`和`LEGAL_ENGINEERING_ROOT`两个Repository Variables注入真实根目录，再把已校验的批次名拼接到根目录。
+- 运行`31174332150`已完成打包并创建空资产草稿`dataset-5aac0b2c57ba9fc6`，但GitHub按tag REST端点对draft返回404。发布器现先用`gh release view`取得`databaseId`，再通过`/releases/{id}`读取草稿和资产；不得把draft的404误判为草稿不存在或重复创建。
 
 ## 2026-08-07 标准编码阻断对象完整清单
 

@@ -99,6 +99,23 @@ class PublishDatasetReleaseTests(unittest.TestCase):
             with self.assertRaisesRegex(RuntimeError, "REQUIRED_CHECK_NOT_SUCCESSFUL"):
                 PUBLISH.assert_required_audit("owner/repository", "a" * 40)
 
+    def test_release_payload_uses_database_id_so_drafts_are_visible(self) -> None:
+        release = {
+            "databaseId": 123,
+            "isDraft": True,
+            "tagName": "dataset-a",
+            "url": "https://example.invalid/draft",
+        }
+        with mock.patch.object(PUBLISH, "release_by_tag", return_value=release), mock.patch.object(
+            PUBLISH, "gh_json", return_value={"id": 123, "draft": True, "assets": []}
+        ) as gh_json:
+            payload = PUBLISH.release_api_payload("owner/repository", "dataset-a")
+        self.assertTrue(payload["draft"])
+        self.assertEqual(
+            gh_json.call_args.args[0][-1],
+            "repos/owner/repository/releases/123",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

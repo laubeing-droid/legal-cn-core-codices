@@ -79,7 +79,16 @@ def assert_required_audit(repository: str, commit_sha: str) -> None:
 
 def release_by_tag(repository: str, tag: str) -> dict[str, Any] | None:
     completed = run_command(
-        ["gh", "release", "view", tag, "--repo", repository, "--json", "isDraft,tagName,url"],
+        [
+            "gh",
+            "release",
+            "view",
+            tag,
+            "--repo",
+            repository,
+            "--json",
+            "databaseId,isDraft,tagName,url",
+        ],
         check=False,
     )
     if completed.returncode == 0:
@@ -91,12 +100,15 @@ def release_by_tag(repository: str, tag: str) -> dict[str, Any] | None:
 
 
 def release_api_payload(repository: str, tag: str) -> dict[str, Any]:
+    release = release_by_tag(repository, tag)
+    if release is None:
+        raise RuntimeError(f"RELEASE_NOT_FOUND:{tag}")
     return gh_json(
         [
             "api",
             "-H",
             "Accept: application/vnd.github+json",
-            f"repos/{repository}/releases/tags/{tag}",
+            f"repos/{repository}/releases/{release['databaseId']}",
         ]
     )
 
