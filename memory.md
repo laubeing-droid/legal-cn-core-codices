@@ -9,6 +9,7 @@
 - 线上运行`31174729480`已成功完成全量校验、原子正式树替换和公开Release；Release为`dataset-5aac0b2c57ba9fc6`，11个资产均由GitHub返回匹配的SHA-256 digest，manifest记录树SHA-256=`5aac0b2c57ba9fc6cc54cd600daaf1b423c82ce7fdda9df596bb2516816d1924`、运行提交`789c2232631eb86c997138c3444226f1cfabafec`及8表行数。复用前次失败留下的draft时，GitHub保留了旧`target_commitish`；发布器现于每次复用draft后通过Release数据库ID将目标提交同步为本次运行提交并强校验。本次已将轻量标签从旧`f8163ec`校正到manifest中的`789c223`。
 - Windows托管CI不得运行依赖被忽略私有`workspace/engineering-history`与本机源树的`standard_pipeline.test.mjs`；该套件只在完整本地/自托管环境执行。公开CI保留仓库自包含的4组Node结构测试与Release测试，并设置`PYTHONUTF8=1`，避免GitHub Windows英文环境在`argparse --help`输出中文时触发cp1252编码失败。
 - 持久化runner首次复验运行`31178147720`已真实接单并进入发布步骤，但`gh release view`遭遇GitHub GraphQL瞬时`unexpected EOF`；外层资产校验重试被无重试的单次Release查询截断。Release标签查询现对非“not found”失败按0/2/4/8/16秒重试，仍失败才阻断；这是只读查询重试，不扩大写入范围。
+- 同一数据树重跑会生成新的manifest提交号和运行号，因此`dataset-manifest.json`及其派生的`release-SHA256SUMS`与首次公开Release不同；运行`31178662321`据此暴露幂等性误判。已公开Release复验现要求资产集合完全一致、9个数据资产逐一匹配GitHub size/digest，并要求两个首次发布元数据资产仍具有合法非空SHA-256；不得因后续运行身份变化重写不可变Release，也不得放宽任何数据资产校验。
 
 ## 2026-08-07 GitHub Linux审计路径示例误报修复
 

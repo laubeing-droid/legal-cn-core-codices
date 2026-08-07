@@ -21,6 +21,7 @@ from prepare_dataset_release import prepare_release, sha256_file
 
 REPOSITORY_PATTERN = re.compile(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+")
 REQUIRED_CHECK_NAME = "audit"
+HISTORICAL_RELEASE_METADATA = {"dataset-manifest.json", "release-SHA256SUMS"}
 
 
 def run_command(arguments: list[str], *, check: bool = True) -> subprocess.CompletedProcess[str]:
@@ -152,6 +153,8 @@ def verify_release_assets(
     repository: str,
     tag: str,
     expected: dict[str, dict[str, object]],
+    *,
+    retain_historical_metadata: bool = False,
 ) -> None:
     last_error: RuntimeError | None = None
     for delay in (0, 2, 4, 8, 16):
@@ -168,6 +171,12 @@ def verify_release_assets(
         last_error = None
         for name, expected_metadata in expected.items():
             asset = actual[name]
+            if retain_historical_metadata and name in HISTORICAL_RELEASE_METADATA:
+                digest = str(asset.get("digest") or "").lower()
+                if asset.get("size", 0) <= 0 or not re.fullmatch(r"sha256:[0-9a-f]{64}", digest):
+                    last_error = RuntimeError(f"RELEASE_METADATA_INVALID:{name}")
+                    break
+                continue
             if asset.get("size") != expected_metadata["size"]:
                 last_error = RuntimeError(f"RELEASE_ASSET_SIZE_MISMATCH:{name}")
                 break
@@ -248,7 +257,12 @@ def publish_dataset_release(args: argparse.Namespace) -> dict[str, object]:
     tag = str(prepared["tag"])
     existing = release_by_tag(args.repository, tag)
     if existing and not existing["isDraft"]:
-        verify_release_assets(args.repository, tag, expected)
+        verify_release_assets(
+            args.repository,
+            tag,
+            expected,
+            retain_historical_metadata=True,
+        )
         if not formal_tree_matches_release(args.target.resolve(), release_directory / "dataset-manifest.json"):
             raise RuntimeError("PUBLISHED_RELEASE_FORMAL_TREE_MISMATCH")
         return {

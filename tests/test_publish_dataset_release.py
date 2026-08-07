@@ -51,6 +51,45 @@ class PublishDatasetReleaseTests(unittest.TestCase):
             with self.assertRaisesRegex(RuntimeError, "RELEASE_ASSET_DIGEST_MISMATCH"):
                 PUBLISH.verify_release_assets("owner/repository", "dataset-a", expected)
 
+    def test_published_release_retains_first_run_metadata_but_not_changed_data(self) -> None:
+        expected = {
+            "cases.csv": {"size": 4, "digest": "sha256:" + "a" * 64},
+            "dataset-manifest.json": {"size": 5, "digest": "sha256:" + "b" * 64},
+            "release-SHA256SUMS": {"size": 6, "digest": "sha256:" + "c" * 64},
+        }
+        payload = {
+            "assets": [
+                {"name": "cases.csv", "size": 4, "digest": "sha256:" + "a" * 64},
+                {
+                    "name": "dataset-manifest.json",
+                    "size": 7,
+                    "digest": "sha256:" + "d" * 64,
+                },
+                {
+                    "name": "release-SHA256SUMS",
+                    "size": 8,
+                    "digest": "sha256:" + "e" * 64,
+                },
+            ]
+        }
+        with mock.patch.object(PUBLISH, "release_api_payload", return_value=payload), mock.patch.object(
+            PUBLISH.time, "sleep"
+        ):
+            PUBLISH.verify_release_assets(
+                "owner/repository",
+                "dataset-a",
+                expected,
+                retain_historical_metadata=True,
+            )
+            payload["assets"][0]["digest"] = "sha256:" + "f" * 64
+            with self.assertRaisesRegex(RuntimeError, "RELEASE_ASSET_DIGEST_MISMATCH:cases.csv"):
+                PUBLISH.verify_release_assets(
+                    "owner/repository",
+                    "dataset-a",
+                    expected,
+                    retain_historical_metadata=True,
+                )
+
     def test_state_pointer_and_formal_tree_match_are_content_based(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
