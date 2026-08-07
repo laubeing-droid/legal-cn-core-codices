@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-04",
+  "version": "2026-08-07-qinghai125",
   "entries": [
     {
       "agency_code": "1100003000",
@@ -1893,6 +1893,45 @@
       "evidence_path": "../npc_flk_decision_order_targeted_20260805/run_v3/raw/0b0fca198c6d43f9a9cd2b8acf5f1bdb.docx",
       "official_url": "https://flk.npc.gov.cn/detail?id=0b0fca198c6d43f9a9cd2b8acf5f1bdb",
       "source_sha256": "dae501d7423e6a480c94fbe1da09970feffbc1709ebb818d1d20768c03f3ab3b"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府令第125号（修改部分省政府规章的决定）",
+      "ordered_titles": [
+        {
+          "title": "青海省公益事业捐赠办法",
+          "order": 15
+        },
+        {
+          "title": "青海省卤虫资源保护办法",
+          "order": 16
+        },
+        {
+          "title": "青海省国有土地使用权租赁办法",
+          "order": 23
+        },
+        {
+          "title": "青海省财政票据管理办法",
+          "order": 24
+        },
+        {
+          "title": "青海省城镇土地使用税实施办法",
+          "order": 26
+        },
+        {
+          "title": "青海省气象灾害预警信号发布与传播办法",
+          "order": 27
+        },
+        {
+          "title": "青海省地震重点监视防御区管理办法",
+          "order": 29
+        }
+      ],
+      "evidence_path": "qinghai_order_125_official_evidence.json",
+      "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202009/t20200922_143182.htm",
+      "source_sha256": "b41f539b22bcf360530f633985910fc288943e90fedebcd7a8922312d2f460c8"
     }
   ]
 }

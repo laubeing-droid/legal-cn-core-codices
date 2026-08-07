@@ -1,0 +1,103 @@
+{
+  "decision_title": "青海省人民政府令第125号（2020-06-12，修改部分省政府规章的决定）",
+  "sequence_code": "0125",
+  "promulgation_date": "20200612",
+  "agency_code": "6300003000",
+  "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202009/t20200922_143182.htm",
+  "ordered_titles": [
+    {
+      "title": "青海省公益事业捐赠办法",
+      "order": 15
+    },
+    {
+      "title": "青海省卤虫资源保护办法",
+      "order": 16
+    },
+    {
+      "title": "青海省国有土地使用权租赁办法",
+      "order": 23
+    },
+    {
+      "title": "青海省财政票据管理办法",
+      "order": 24
+    },
+    {
+      "title": "青海省城镇土地使用税实施办法",
+      "order": 26
+    },
+    {
+      "title": "青海省气象灾害预警信号发布与传播办法",
+      "order": 27
+    },
+    {
+      "title": "青海省地震重点监视防御区管理办法",
+      "order": 29
+    }
+  ],
+  "evidence_records": {
+    "青海省公益事业捐赠办法": {
+      "title": "青海省公益事业捐赠办法",
+      "order": 15,
+      "note": "关键官方证据：125号令第15项修改公益事业捐赠办法——WJBS内部决定顺序=15(125号令)。",
+      "urls": [
+        "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202009/t20200922_143182.html",
+        "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/202112/W020211224326167977158.pdf"
+      ]
+    },
+    "青海省财政票据管理办法": {
+      "title": "青海省财政票据管理办法",
+      "order": 24,
+      "note": "青海省财政厅规章库未列财政票据管理办法，可能已废止。需进一步核验青海省政府规章库。WJBS待定。",
+      "urls": [
+        "https://czt.qinghai.gov.cn/zfxxgk/gz/XWGL_ZC_GZ.html"
+      ]
+    },
+    "青海省地震重点监视防御区管理办法": {
+      "title": "青海省地震重点监视防御区管理办法",
+      "order": 29,
+      "note": "关键官方证据：125号令第29项修改地震重点监视防御区管理办法——WJBS内部决定顺序=29。",
+      "urls": [
+        "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202009/t20200922_143182.html"
+      ]
+    },
+    "青海省国有土地使用权租赁办法": {
+      "title": "青海省国有土地使用权租赁办法",
+      "order": 23,
+      "note": "关键官方证据：125号令第23项修改国有土地使用权租赁办法——WJBS内部决定顺序=23(125号令)。基线2020-06-12版即修订本。",
+      "urls": [
+        "https://sft.qinghai.gov.cn/upload/main/application/2024/02/01/202402012041082302.pdf",
+        "https://zrzyt.qinghai.gov.cn/gk/zc",
+        "http://gxt.qinghai.gov.cn:443/1743215872196567041.html"
+      ]
+    },
+    "青海省气象灾害预警信号发布与传播办法": {
+      "title": "青海省气象灾害预警信号发布与传播办法",
+      "order": 27,
+      "note": "关键官方证据：125号令第27项修改气象灾害预警信号发布与传播办法——WJBS内部决定顺序=27。2008年制定。",
+      "urls": [
+        "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202009/t20200922_143182.html",
+        "https://sft.qinghai.gov.cn/zwgk/gzk/qhsrmzfgz/content_723"
+      ]
+    },
+    "青海省城镇土地使用税实施办法": {
+      "title": "青海省城镇土地使用税实施办法",
+      "order": 26,
+      "note": "官方证据充分：2007年第59号令制定、2017年第118号令第一次修订、2020年第125号令第二次修订。基线2020-06-12版即第125号令修订本。WJBS内部决定顺序：118/125号令均为一揽子修改决定，需查该办法在决定中的序号。",
+      "urls": [
+        "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/202112/W020211224320135586724.docx",
+        "https://czt.qinghai.gov.cn/zfxxgk/gz/XWGL_ZC_GZ.html"
+      ]
+    },
+    "青海省卤虫资源保护办法": {
+      "title": "青海省卤虫资源保护办法",
+      "order": 16,
+      "note": "关键官方证据：2003年第28号令制定、2009年第70号令第一次修订(单件)、2020年第125号令第二次修订(顺序=16)。WJBS内部决定顺序完整。",
+      "urls": [
+        "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202009/t20200922_143182.html",
+        "https://sft.qinghai.gov.cn/upload/main/application/2024/02/01/202402012024063095.pdf",
+        "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_2.html"
+      ]
+    }
+  },
+  "evidence_basis": "司法部官网全文页列出125号令逐项修改顺序；青海省政府官网/司法厅官网为各规章现行文本。"
+}

@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-06",
+  "version": "2026-08-07-l3-effect-merge",
   "policy": "IDENTITY_VERIFIED_METADATA_ONLY; ambiguous combined effect states remain empty",
   "entries": [
     {
@@ -128719,6 +128719,1060 @@
         "timeliness_raw": "现行有效",
         "verified_at": "2026-08-06T11:05:01.849536+00:00",
         "source_sha256": "b70265b1aa35b6798ac09f210cf759885b449890bfd8a5d9cc70c90a596ad537",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/01_宪法、法律与全国人大规范性文件/全国人民代表大会关于国务院提请审议授权深圳市制定深圳经济特区法规和规章的议案的决定_1989-04-04_未知_ff808081777d0c940177804292db0466.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/chl/a5be2ae1b89b4423bdfb.html",
+        "matched_title": "全国人民代表大会关于国务院提请审议授权深圳市制定深圳经济特区法规和规章的议案的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/01_宪法、法律与全国人大规范性文件/全国人民代表大会常务委员会公告（中华人民共和国澳门特别行政区基本法附件二澳门特别行政区立法会的产生办法修正案）_2012-06-30_未知_ff808081777d0c9401778045e43f0469.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "WEB_OFFICIAL_VERIFIED"
+      },
+      "evidence": {
+        "type": "WEB_OFFICIAL_VERIFIED",
+        "provider_record_id": "",
+        "url": "http://www.npc.gov.cn/c2/c30834/202501/t20250124_442645.html",
+        "matched_title": "全国人民代表大会常务委员会公告（中华人民共和国澳门特别行政区基本法附件二澳门特别行政区立法会的产生办法修正案）",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/01_宪法、法律与全国人大规范性文件/全国人民代表大会常务委员会关于修改中华人民共和国道路交通安全法等八部法律的决定_2021-04-29_未知_ff80818178efe3620179207b83a228f1.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/chl/405db0ce5ccd4f67bdfb.html",
+        "matched_title": "全国人民代表大会常务委员会关于修改《中华人民共和国道路交通安全法》等八部法律的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/01_宪法、法律与全国人大规范性文件/全国人民代表大会常务委员会关于批准中华人民共和国澳门特别行政区基本法附件一澳门特别行政区行政长官的产生办法修正案的决定（中华人民共和国澳门特别行政区基本法附件一澳门特别行政区行政长官的产生办法修正案）_2012-06-30_未知_ff808081777d07c50177845642060866.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "WEB_OFFICIAL_VERIFIED"
+      },
+      "evidence": {
+        "type": "WEB_OFFICIAL_VERIFIED",
+        "provider_record_id": "",
+        "url": "http://www.npc.gov.cn/c2/c30834/202501/t20250124_442645.html",
+        "matched_title": "全国人民代表大会常务委员会关于批准《中华人民共和国澳门特别行政区基本法附件一澳门特别行政区行政长官的产生办法修正案》的决定（中华人民共和国澳门特别行政区基本法附件一澳门特别行政区行政长官的产生办法修正案）",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/01_宪法、法律与全国人大规范性文件/全国人民代表大会常务委员会关于批准中华人民共和国香港特别行政区基本法附件一香港特别行政区行政长官的产生办法修正案的决定（中华人民共和国香港特别行政区基本法附件一香港特别行政区行政长官的产生办法修正案）_2010-08-28_未知_ff808081777d07c50177845d0f7c0877.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "WEB_OFFICIAL_VERIFIED"
+      },
+      "evidence": {
+        "type": "WEB_OFFICIAL_VERIFIED",
+        "provider_record_id": "",
+        "url": "http://www.npc.gov.cn/c2/c30834/202501/t20250124_442645.html",
+        "matched_title": "全国人民代表大会常务委员会关于批准《中华人民共和国香港特别行政区基本法附件一香港特别行政区行政长官的产生办法修正案》的决定（中华人民共和国香港特别行政区基本法附件一香港特别行政区行政长官的产生办法修正案）",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/01_宪法、法律与全国人大规范性文件/第十三届全国人民代表大会第一次会议关于国务院机构改革方案的决定（附：国务院机构改革方案）_2018-03-17_未知_ff80808176f4df3701771932a4f5359d.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/chl/338647c8fdce77a4bdfb.html",
+        "matched_title": "第十三届全国人民代表大会第一次会议关于国务院机构改革方案的决定（附：国务院机构改革方案）",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/01_宪法、法律与全国人大规范性文件/第十四届全国人民代表大会第一次会议关于国务院机构改革方案的决定（附：国务院机构改革方案）_2023-03-10_未知_ff808181865eebab0186d8e900502342.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/chl/9fbd12541d9fd768bdfb.html",
+        "matched_title": "第十四届全国人民代表大会第一次会议关于国务院机构改革方案的决定（附：国务院机构改革方案）",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/内蒙古/内蒙古自治区人民代表大会常务委员会关于修改内蒙古自治区安全生产条例的决定_2023-01-01_未知_b4e769d61b774b9aa033c24e23757e47.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/b90557c1b5f0f7bbf17e96af9800c570bdfb.html",
+        "matched_title": "内蒙古自治区人民代表大会常务委员会关于修改《内蒙古自治区安全生产条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/内蒙古/内蒙古自治区人民代表大会常务委员会关于修改内蒙古自治区计量管理条例的决定_2021-11-16_未知_ff8081817d99a43a017ddc48f4512e1f.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/dd7a74920bd109f5256f3afaaf598e3bbdfb.html",
+        "matched_title": "内蒙古自治区人民代表大会常务委员会关于修改《内蒙古自治区计量管理条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/吉林/吉林市人民代表大会常务委员会关于废止和修改部分地方性法规的决定_2010-11-01_未知_ima-markdown-6e0997fe.md",
+      "values": {
+        "SXX": "03",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/cf3ba93bc91cea1e559db6431c9e23cfbdfb.html",
+        "matched_title": "吉林市人民代表大会常务委员会关于废止和修改部分地方性法规的决定",
+        "timeliness_raw": "部分废止或失效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/天津/天津市人民代表大会常务委员会关于修改天津市人口与计划生育条例的决定_2021-11-29_未知_ff8081817d99a43a017dd65b0d4f2a30.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/a8f89c56a6fb5784bd948ef0dd781000bdfb.html",
+        "matched_title": "天津市人民代表大会常务委员会关于修改《天津市人口与计划生育条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/安徽/安徽省人民代表大会常务委员会关于修改部分地方性法规的决定_2023-04-03_未知_08c4072763a741e2901b3535fcabd698.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/e71be0e540ffc3d409bbf9e0b8c9b7abbdfb.html",
+        "matched_title": "安徽省人民代表大会常务委员会关于修改部分地方性法规的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/安徽/安徽省人民代表大会常务委员会关于修改部分地方性法规的决定_2023-12-28_未知_97a78dae95f8420a85b53aa037542ca4.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/e71be0e540ffc3d409bbf9e0b8c9b7abbdfb.html",
+        "matched_title": "安徽省人民代表大会常务委员会关于修改部分地方性法规的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/山东/山东省人民代表大会常务委员会关于修改山东省人口与计划生育条例的决定_2022-11-01_未知_1ecb4300d0a6487393bedecbc35de81e.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/a0836db2f9754ca62fce65f19d216272bdfb.html",
+        "matched_title": "山东省人民代表大会常务委员会关于修改《山东省人口与计划生育条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/山东/山东省人民代表大会常务委员会关于修改山东省人口与计划生育条例的决定_2025-01-18_未知_7041f8e5fbb546218d52a6867d84d5b0.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/a0836db2f9754ca62fce65f19d216272bdfb.html",
+        "matched_title": "山东省人民代表大会常务委员会关于修改《山东省人口与计划生育条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/山东/淄博市人民代表大会常务委员会关于废止淄博市大武水源地水资源管理办法的决定_2024-06-05_未知_27cf4844cb35478e93337b42f69026e6.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/c25fad4e1be86c742aa9f33c39505cb1bdfb.html",
+        "matched_title": "淄博市人民代表大会常务委员会关于废止《淄博市大武水源地水资源管理办法》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/山西/晋城市人民代表大会常务委员会关于修改晋城市沁河流域生态修复与保护条例决定_2024-10-14_未知_7e370e50166b462e937885762cd82c93.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/59fd58dfe690fc7cae8f397d6fbe22f8bdfb.html",
+        "matched_title": "晋城市人民代表大会常务委员会关于修改《晋城市沁河流域生态修复与保护条例》决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/广东/梅州市人民代表大会常务委员会关于修改梅州市客家围龙屋条例梅州市城市市容和环境卫生管理条例的决定_2021-10-15_未知_ff8081817ceadf53017cff3fcab5161d.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/670966ff437c72718d63d678e14951e7bdfb.html",
+        "matched_title": "梅州市人民代表大会常务委员会关于修改《梅州市客家围龙屋条例》《梅州市城市市容和环境卫生管理条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/广东/深圳市人民代表大会常务委员会关于废止深圳市人民代表大会常务委员会关于打击公职人员携款潜逃的决定的决定_2025-10-31_未知_fd784ea062a94b8985b05a91b8b8b1be.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/095a1fd385ea45a41d090edb11eb00eebdfb.html",
+        "matched_title": "深圳市人民代表大会常务委员会关于废止《深圳市人民代表大会常务委员会关于打击公职人员携款潜逃的决定》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/广东/潮州市人民代表大会常务委员会关于修改潮州市制定地方性法规条例的决定_2024-08-12_未知_d54ae11c9dc544f082877b0af33b4a66.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/7863b64364fdf5d49eea4e4b5195b9a5bdfb.html",
+        "matched_title": "潮州市人民代表大会常务委员会关于修改《潮州市制定地方性法规条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/新疆/吐鲁番市人民代表大会常务委员会关于修改吐鲁番市制定地方性法规条例的决定_2024-10-10_未知_ff808181927b083b0192fb1b8cc752b4.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/d5bf1541f7ccfa924258ee8e47429aa9bdfb.html",
+        "matched_title": "吐鲁番市人民代表大会常务委员会关于修改《吐鲁番市制定地方性法规条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/新疆/哈密市人民代表大会常务委员会关于修改哈密市历史文化遗产保护条例的决定_2025-08-13_未知_ff808181987921230199742d674368c9.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/0052f98a9a6e5bb1294768b1b06151a1bdfb.html",
+        "matched_title": "哈密市人民代表大会常务委员会关于修改《哈密市历史文化遗产保护条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/江苏/宿迁市人民代表大会常务委员会关于修改宿迁市住宅物业管理条例的决定_2025-10-13_未知_2f29bb2429da402fabaeb60761dec444.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/9a6f1a780ebbd40bb6a4186a1247483dbdfb.html",
+        "matched_title": "宿迁市人民代表大会常务委员会关于修改《宿迁市住宅物业管理条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/河北/石家庄市人民代表大会常务委员会关于修改石家庄市出租汽车管理条例的决定_2025-04-07_未知_3cd1719b1a2a452581c877c4acdca8d3.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/7f6565698011bde4ca2542baa0f05bd3bdfb.html",
+        "matched_title": "石家庄市人民代表大会常务委员会关于修改《石家庄市出租汽车管理条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/河北/石家庄市人民代表大会常务委员会关于修改石家庄市肉品管理条例的决定_2025-04-07_未知_8ef2ecb0123e42188810fac3e9abc2f3.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/7f6565698011bde4ca2542baa0f05bd3bdfb.html",
+        "matched_title": "石家庄市人民代表大会常务委员会关于修改《石家庄市肉品管理条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/河南/开封市人民代表大会常务委员会关于修改开封古城保护条例的决定_2025-12-26_未知_ima-markdown-7473cc46.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/49a97e33a92fb84c2793a0d805a0a8f0bdfb.html",
+        "matched_title": "开封市人民代表大会常务委员会关于修改《开封古城保护条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/浙江/关于修改浙江省促进科技成果转化条例等七件地方性法规的决定_2021-09-30_未知_ff808181818ea1a50181c341f499150a.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/d1862dc1b1afdd9163fc02c5debc91cdbdfb.html",
+        "matched_title": "关于修改《浙江省促进科技成果转化条例》等七件地方性法规的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/浙江/宁波市人民代表大会常务委员会关于修改宁波市余姚江水污染防治条例的决定_2024-06-11_未知_96cd41b77283435bb801910bcbf8d1d7.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/0d00a5cf8cc5c1898b37ffc22b76c1a5bdfb.html",
+        "matched_title": "宁波市人民代表大会常务委员会关于修改《宁波市余姚江水污染防治条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/浙江/浙江省人民代表大会常务委员会关于修改浙江省县级以上人民政府行政执法监督条例的决定_2022-10-01_未知_66d66e5d52374a8481cb7bb9082d89b8.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/fec33c39ab3916a52e79fcc092ad4efebdfb.html",
+        "matched_title": "浙江省人民代表大会常务委员会关于修改《浙江省县级以上人民政府行政执法监督条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/海南/海南省人民代表大会常务委员会关于修改海南省人口与计划生育条例等二件法规的决定_2021-12-30_未知_ff8081817ed76995017ee2bac1251949.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/34f4c8fb10b3e399e9b09b3d2ab5cfcbbdfb.html",
+        "matched_title": "海南省人民代表大会常务委员会关于修改《海南省人口与计划生育条例》等二件法规的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/甘肃/甘肃省人民代表大会常务委员会关于废止甘肃省矿产储量管理条例的决定_2024-07-27_未知_3cf740c6a4fa4550ba1e51fcf57194e3.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "WEB_OFFICIAL_VERIFIED"
+      },
+      "evidence": {
+        "type": "WEB_OFFICIAL_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://www.gsrdw.gov.cn/newsDeail.html?id=40016",
+        "matched_title": "甘肃省人民代表大会常务委员会关于废止《甘肃省矿产储量管理条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/福建/漳州市人民代表大会关于修改漳州市人民代表大会及其常务委员会立法条例的决定_2025-04-01_未知_61d2f6367de04281b0a46d8c5953ec39.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/9b56afe0a176ee8d9b2b80d3b5d86bc7bdfb.html",
+        "matched_title": "漳州市人民代表大会关于修改《漳州市人民代表大会及其常务委员会立法条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/福建/附件2福建省人民代表大会常务委员会关于修改福建省促进革命老区发展条例的决定_2020-01-09_未知_ff80818182cf5c220182fcd2095a22e4.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/1a80061416fcf818cb4c301f34835980bdfb.html",
+        "matched_title": "附件2福建省人民代表大会常务委员会关于修改《福建省促进革命老区发展条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/贵州/贵州省人民代表大会常务委员会关于修改贵州省各级人民代表大会代表选举条例贵州省实施〈中华人民共和国全国人民代表大会和地方各级人民代表大会代表法〉办法个别条款的决定_2021-03-27_未知_ff8081817cdd56cd017ce51607970568.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/de5b4769b428e53982839d3df848bcecbdfb.html",
+        "matched_title": "贵州省人民代表大会常务委员会关于修改《贵州省各级人民代表大会代表选举条例》《贵州省实施〈中华人民共和国全国人民代表大会和地方各级人民代表大会代表法〉办法》个别条款的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/辽宁/抚顺市人民代表大会常务委员会关于废止抚顺市节约用水条例的决定_2025-04-08_未知_bf2efbf8e1cb40458ad86cb2c08d687b.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/a8fd548044ab71052abd6d62ed635f8bbdfb.html",
+        "matched_title": "抚顺市人民代表大会常务委员会关于废止《抚顺市节约用水条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/辽宁/辽宁省人民代表大会常务委员会关于修改辽宁省人口与计划生育条例的决定_2021-11-26_未知_ff8081817e6c4d1f017e8104e1f00913.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/34d2aadd27c22a28c96db5a3cdb0acedbdfb.html",
+        "matched_title": "辽宁省人民代表大会常务委员会关于修改《辽宁省人口与计划生育条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/重庆/重庆市人民代表大会常务委员会关于修改重庆市人口与计划生育条例的决定_2021-11-25_未知_ff8081817e8b6cd8017e9af6151b053d.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/56f471b7694c7322365613dde13707debdfb.html",
+        "matched_title": "重庆市人民代表大会常务委员会关于修改《重庆市人口与计划生育条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/陕西/汉中市人民代表大会关于修改汉中市地方立法条例的决定_2024-05-30_未知_34ce18122d544490969854ab92093643.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/7ca0e7da619630883b3a277afd494947bdfb.html",
+        "matched_title": "汉中市人民代表大会关于修改《汉中市地方立法条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/陕西/陕西省人民代表大会常务委员会关于修改陕西省人民代表大会常务委员会关于加强新时代检察机关法律监督工作的决定的决定_2025-03-25_未知_e63f6dcc856a44819d133ee3fa487c90.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/0aeab6fede242fe0396deb96a9280399bdfb.html",
+        "matched_title": "陕西省人民代表大会常务委员会关于修改《陕西省人民代表大会常务委员会关于加强新时代检察机关法律监督工作的决定》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/陕西/陕西省人民代表大会常务委员会关于修改陕西省实施〈中华人民共和国农业技术推广法〉办法等四部地方性法规的决定_2024-01-12_未知_42e53a56c13c44f8b42c362bc1ad27ca.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/b8dd2e7c2c856d8b2325942413963e16bdfb.html",
+        "matched_title": "陕西省人民代表大会常务委员会关于修改《陕西省实施〈中华人民共和国农业技术推广法〉办法》等四部地方性法规的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/陕西/陕西省人民代表大会常务委员会关于修改陕西省实施〈中华人民共和国农民专业合作社法〉办法的决定_2026-01-18_未知_f6bd2452623749a4a0bdbb3d8911a1e9.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/28b48c0b57c5e5039f69770e345125ebbdfb.html",
+        "matched_title": "陕西省人民代表大会常务委员会关于修改《陕西省实施〈中华人民共和国农民专业合作社法〉办法》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/02_自治条例和单行条例/云南/云南省宁洱哈尼族彝族自治县人民代表大会关于废止云南省普洱哈尼族彝族自治县环境污染防治条例的决定_2022-05-20_未知_30cc54a5846e4728957b3a939990d4f3.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/61a49279552b6fd537d3d78ab6716e56bdfb.html",
+        "matched_title": "云南省宁洱哈尼族彝族自治县人民代表大会关于废止《云南省普洱哈尼族彝族自治县环境污染防治条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/02_自治条例和单行条例/云南/云南省宁蒗彝族自治县人民代表大会关于废止云南省宁蒗彝族自治县林业管理条例的决定_2022-10-24_未知_1d7cabc25ce7430bae337b2d7c353bce.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/339896af3580db8a50488ba72096492ebdfb.html",
+        "matched_title": "云南省宁蒗彝族自治县人民代表大会关于废止《云南省宁蒗彝族自治县林业管理条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/02_自治条例和单行条例/云南/云南省西双版纳傣族自治州人民代表大会关于废止云南省西双版纳傣族自治州野生动物保护条例的决定_2024-04-30_未知_93da91db2c1e4ba382391e062b3f70fb.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/92da91fe16fb3ee2c05cfd9522364cc4bdfb.html",
+        "matched_title": "云南省西双版纳傣族自治州人民代表大会关于废止《云南省西双版纳傣族自治州野生动物保护条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/02_自治条例和单行条例/内蒙古/鄂伦春自治旗人民代表大会关于废止鄂伦春自治旗民族教育条例鄂伦春自治旗城市市容和环境卫生管理条例和鄂伦春自治旗农药管理条例的决定_2022-04-06_未知_ff80818180ac48840180ac9fb9fc00b9.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/5e553fa405c0db6f70eaffb751e77230bdfb.html",
+        "matched_title": "鄂伦春自治旗人民代表大会关于废止《鄂伦春自治旗民族教育条例》《鄂伦春自治旗城市市容和环境卫生管理条例》和《鄂伦春自治旗农药管理条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/02_自治条例和单行条例/内蒙古/鄂伦春自治旗第十五届人民代表大会第五次会议关于废止鄂伦春自治旗森林防火条例鄂伦春自治旗流动人口管理条例和鄂伦春自治旗环境保护条例的决定_2021-08-19_未知_ff808181807208fc018074117bfb01c5.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/4fb6b20af5969adf0af32da5908bc066bdfb.html",
+        "matched_title": "鄂伦春自治旗第十五届人民代表大会第五次会议关于废止《鄂伦春自治旗森林防火条例》《鄂伦春自治旗流动人口管理条例》和《鄂伦春自治旗环境保护条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/02_自治条例和单行条例/吉林/前郭尔罗斯蒙古族自治县第十九届人民代表大会第四次会议关于废止前郭尔罗斯蒙古族自治县蒙古语言文字工作条例和前郭尔罗斯蒙古族自治县民族文化条例的决定_2025-05-20_未知_dbf5cbb79f3c4e85a6ba9dbc0dc46726.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/4f11f6fbeb7f2d65f6ac4cd5283d2e9fbdfb.html",
+        "matched_title": "前郭尔罗斯蒙古族自治县第十九届人民代表大会第四次会议关于废止《前郭尔罗斯蒙古族自治县蒙古语言文字工作条例》和《前郭尔罗斯蒙古族自治县民族文化条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/02_自治条例和单行条例/新疆/巴音郭楞蒙古自治州人民代表大会关于废止巴音郭楞蒙古自治州农田防护林建设管理条例的决定_2023-04-19_未知_25e4b46c875b49b8ac0a4280376f8598.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/ec50ffa6af4d822ae336c2d31c2ca822bdfb.html",
+        "matched_title": "巴音郭楞蒙古自治州人民代表大会关于废止《巴音郭楞蒙古自治州农田防护林建设管理条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/02_自治条例和单行条例/辽宁/宽甸满族自治县第七届人民代表大会第四次会议关于宽甸满族自治县旅游条例_2021-09-15_未知_ff8081818214c2ea018267b23d62363f.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/28a85c2e23d91624de70174d86951561bdfb.html",
+        "matched_title": "宽甸满族自治县第七届人民代表大会第四次会议关于《宽甸满族自治县旅游条例",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/02_自治条例和单行条例/辽宁/本溪满族自治县人民代表大会关于修订本溪满族自治县河道管理条例的决定_2021-08-01_未知_ff8081817b4e7fa6017b574844ed01d7.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/51b68b9d13b60c7dbaa960333c7bec66bdfb.html",
+        "matched_title": "本溪满族自治县人民代表大会关于修订《本溪满族自治县河道管理条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/02_自治条例和单行条例/辽宁/阜新蒙古族自治县第十六届人民代表大会第四次会议关于废止阜新蒙古族自治县矿产资源管理条例和阜新蒙古族自治县土地管理条例的决定_2021-05-27_未知_ff8081817af243ed017b3900ed1e1a0e.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/a1014cac55c19bdf4b388061b526c8debdfb.html",
+        "matched_title": "阜新蒙古族自治县第十六届人民代表大会第四次会议关于废止《阜新蒙古族自治县矿产资源管理条例》和《阜新蒙古族自治县土地管理条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/02_自治条例和单行条例/青海/互助土族自治县第十八届人民代表大会第六次会议关于废止互助土族自治县森林管护条例的决定_2026-04-21_未知_ima-markdown-4a98a3b3.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/88e30fb177c985987fac15644e09988abdfb.html",
+        "matched_title": "互助土族自治县第十八届人民代表大会第六次会议关于废止《互助土族自治县森林管护条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/02_自治条例和单行条例/青海/民和回族土族自治县第十八届人民代表大会第七次会议关于废止民和回族土族自治县发展职业教育条例的决定_2026-04-01_未知_ima-markdown-eef6a3c9.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/2ea73bd54dee4c7ad2a6120f5b489a8bbdfb.html",
+        "matched_title": "民和回族土族自治县第十八届人民代表大会第七次会议关于废止《民和回族土族自治县发展职业教育条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/02_自治条例和单行条例/青海/海北藏族自治州第十五届人民代表大会第五次会议关于修改海北藏族自治州水资源管理条例的决定_2024-07-01_未知_ima-markdown-76e5d1c2.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/187caca93cff1ca5c67c303e4fce88aabdfb.html",
+        "matched_title": "海北藏族自治州第十五届人民代表大会第五次会议关于修改《海北藏族自治州水资源管理条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/02_自治条例和单行条例/青海/海南藏族自治州人民代表大会关于废止和修改部分单行条例的决定_2024-04-02_未知_cf6315f7665e426ba4ec477b9de7bb27.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/35c1bb8b8c36d49a1b869400c17a091bbdfb.html",
+        "matched_title": "海南藏族自治州人民代表大会关于废止和修改部分单行条例的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/02_自治条例和单行条例/青海/海西蒙古族藏族自治州人民代表大会关于废止海西蒙古族藏族自治州社会治安综合治理条例的决定_2020-06-29_未知_ff80808172b5f24f017332bd49333f0c.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/d2a9e9e8bb672aa65ffaacfe14d57fd6bdfb.html",
+        "matched_title": "海西蒙古族藏族自治州人民代表大会关于废止《海西蒙古族藏族自治州社会治安综合治理条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/02_自治条例和单行条例/青海/玉树藏族自治州第十四届人民代表大会第五次会议关于废止玉树藏族自治州藏医药管理条例的决定_2024-06-28_未知_4a0fea2ff04a45849d1358515fa9e37c.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/lar/6451072aef55707c1477cccdffaa8b3abdfb.html",
+        "matched_title": "玉树藏族自治州第十四届人民代表大会第五次会议关于废止《玉树藏族自治州藏医药管理条例》的决定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/【法〔2004〕121号】最高人民法院关于在全国各高、中级人民法院开展减刑、假释工作专项大检查的通知_20040630_司法文件 [ima-pdf_32e7-83db2747] (1).md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/chl/63c7c69bd1f848e4bdfb.html",
+        "matched_title": "最高人民法院关于在全国各高、中级人民法院开展减刑、假释工作专项大检查的通知_20040630_司法文件 [ima-pdf_32e7-83db2747] (1)",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/【法发〔2003〕15号】最高人民法院关于本院各类案件诉讼费收交办法_20030827_司法文件 [ima-pdf_32e7-cf554428] (1).md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/chl/cc8447152863d5bdbdfb.html",
+        "matched_title": "最高人民法院关于本院各类案件诉讼费收交办法_20030827_司法文件 [ima-pdf_32e7-cf554428] (1)",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/【法发〔2009〕43号】最高人民法院印发《关于进一步加强和规范执行工作的若干意见》的通知_20090717_司法文件 [ima-pdf_32e7-bf756152] (1).md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/chl/bb2fb91a7cd223b4bdfb.html",
+        "matched_title": "最高人民法院印发《关于进一步加强和规范执行工作的若干意见》的通知_20090717_司法文件 [ima-pdf_32e7-bf756152] (1)",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/【法发〔2010〕24号】最高人民法院印发《关于进一步加强和推进人民陪审工作的若干意见》的通知_20100629_司法文件 [ima-pdf_32e7-2aa501f7] (1).md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/chl/9c379dfcf28897f0bdfb.html",
+        "matched_title": "最高人民法院印发《关于进一步加强和推进人民陪审工作的若干意见》的通知_20100629_司法文件 [ima-pdf_32e7-2aa501f7] (1)",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
+        "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "02_法院系统/02_法院司法规范性文件/最高人民法院、最高人民检察院、公安部、国家安全部、司法部关于依法保障律师执业权利的规定_20150916_未知.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "PKULAW_VERIFIED"
+      },
+      "evidence": {
+        "type": "PKULAW_VERIFIED",
+        "provider_record_id": "",
+        "url": "https://pkulaw.com/chl/7757bea149dde92cbdfb.html",
+        "matched_title": "最高人民法院、最高人民检察院、公安部、国家安全部、司法部关于依法保障律师执业权利的规定",
+        "timeliness_raw": "现行有效",
+        "verified_at": "2026-08-07",
+        "source_sha256": "",
         "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
       }
     }
