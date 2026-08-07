@@ -7,6 +7,8 @@
 - 数据树不变时返回`LATEST_UNCHANGED`，仅核验9个数据资产、11资产集合、远端manifest、正式树、Latest标签及标签目标，不重写资产、不上传快照；变化时返回`LATEST_UPDATED`并上传15天完整Actions Artifact。工程证据Artifact继续保留30天。
 - 季度归档标签为`dataset-YYYYQn-<tree16>`；人工里程碑为`dataset-milestone-<name>-<tree16>`；Schema变化自动准备`dataset-schema-<version>-<tree16>`草稿，latest成功后公开。不可变归档重跑忽略run-id导致的元数据差异，但锁死9数据资产、树哈希、Schema、源校验和及11资产集合，禁止覆盖。
 - 现有`dataset-5aac0b2c57ba9fc6`继续作为首版/Q3基线，legacy归档同样保留；滚动发布器没有删除既有不可变Release的路径。
+- 线上初始化运行`31198001092`在提交`b1702907a41147702f578b2964876508c2b80194`上成功返回`LATEST_UPDATED`；`dataset-latest`公开且为GitHub Latest，11资产全部匹配GitHub digest，树SHA-256=`5aac0b2c57ba9fc6cc54cd600daaf1b423c82ce7fdda9df596bb2516816d1924`。本次完整快照Artifact为`dataset-snapshot-31198001092`，大小256,973,134字节，过期时间2026-08-22。
+- 同批次复跑`31208197246`成功返回`LATEST_UNCHANGED`、`snapshot_required=false`；快照步骤为`skipped`且Artifacts总数0，远端manifest仍记录首次初始化run，证明11资产未被重写。完成后runner `legal-corpus-lauebing`为`online/busy=false`。main提交`b1702907`的CI `31197758968`与Pre-Release Audit `31197758655`均为success。
 
 ## 2026-08-07 九文件GitHub Release两阶段发布
 
