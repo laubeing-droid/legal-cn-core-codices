@@ -78,25 +78,30 @@ def assert_required_audit(repository: str, commit_sha: str) -> None:
 
 
 def release_by_tag(repository: str, tag: str) -> dict[str, Any] | None:
-    completed = run_command(
-        [
-            "gh",
-            "release",
-            "view",
-            tag,
-            "--repo",
-            repository,
-            "--json",
-            "databaseId,isDraft,tagName,url",
-        ],
-        check=False,
-    )
-    if completed.returncode == 0:
-        return json.loads(completed.stdout)
-    message = f"{completed.stdout}\n{completed.stderr}".lower()
-    if "release not found" in message or "not found" in message:
-        return None
-    raise RuntimeError(f"RELEASE_LOOKUP_FAILED:{completed.stderr.strip()}")
+    last_error = ""
+    for delay in (0, 2, 4, 8, 16):
+        if delay:
+            time.sleep(delay)
+        completed = run_command(
+            [
+                "gh",
+                "release",
+                "view",
+                tag,
+                "--repo",
+                repository,
+                "--json",
+                "databaseId,isDraft,tagName,url",
+            ],
+            check=False,
+        )
+        if completed.returncode == 0:
+            return json.loads(completed.stdout)
+        message = f"{completed.stdout}\n{completed.stderr}".lower()
+        if "release not found" in message or "not found" in message:
+            return None
+        last_error = completed.stderr.strip() or completed.stdout.strip()
+    raise RuntimeError(f"RELEASE_LOOKUP_FAILED:{last_error}")
 
 
 def release_api_payload(repository: str, tag: str) -> dict[str, Any]:

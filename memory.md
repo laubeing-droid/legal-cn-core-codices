@@ -8,6 +8,7 @@
 - GitHub CLI 2.97.0已按官方Release公布SHA-256校验后安装；本机实际代理为`127.0.0.1:10808`，旧环境变量`20808`不可达。远端归档、迁移和在线Release实跑只有取得GitHub授权并实际完成后才能记为已验证。
 - 线上运行`31174729480`已成功完成全量校验、原子正式树替换和公开Release；Release为`dataset-5aac0b2c57ba9fc6`，11个资产均由GitHub返回匹配的SHA-256 digest，manifest记录树SHA-256=`5aac0b2c57ba9fc6cc54cd600daaf1b423c82ce7fdda9df596bb2516816d1924`、运行提交`789c2232631eb86c997138c3444226f1cfabafec`及8表行数。复用前次失败留下的draft时，GitHub保留了旧`target_commitish`；发布器现于每次复用draft后通过Release数据库ID将目标提交同步为本次运行提交并强校验。本次已将轻量标签从旧`f8163ec`校正到manifest中的`789c223`。
 - Windows托管CI不得运行依赖被忽略私有`workspace/engineering-history`与本机源树的`standard_pipeline.test.mjs`；该套件只在完整本地/自托管环境执行。公开CI保留仓库自包含的4组Node结构测试与Release测试，并设置`PYTHONUTF8=1`，避免GitHub Windows英文环境在`argparse --help`输出中文时触发cp1252编码失败。
+- 持久化runner首次复验运行`31178147720`已真实接单并进入发布步骤，但`gh release view`遭遇GitHub GraphQL瞬时`unexpected EOF`；外层资产校验重试被无重试的单次Release查询截断。Release标签查询现对非“not found”失败按0/2/4/8/16秒重试，仍失败才阻断；这是只读查询重试，不扩大写入范围。
 
 ## 2026-08-07 GitHub Linux审计路径示例误报修复
 

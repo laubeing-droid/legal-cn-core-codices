@@ -116,6 +116,27 @@ class PublishDatasetReleaseTests(unittest.TestCase):
             "repos/owner/repository/releases/123",
         )
 
+    def test_release_lookup_retries_transient_github_failures(self) -> None:
+        failure = mock.Mock(returncode=1, stdout="", stderr="unexpected EOF")
+        success = mock.Mock(
+            returncode=0,
+            stdout=json.dumps(
+                {
+                    "databaseId": 123,
+                    "isDraft": False,
+                    "tagName": "dataset-a",
+                    "url": "https://example.invalid/release",
+                }
+            ),
+            stderr="",
+        )
+        with mock.patch.object(PUBLISH, "run_command", side_effect=[failure, success]), mock.patch.object(
+            PUBLISH.time, "sleep"
+        ) as sleep:
+            release = PUBLISH.release_by_tag("owner/repository", "dataset-a")
+        self.assertEqual(release["databaseId"], 123)
+        sleep.assert_called_once_with(2)
+
     def test_reused_draft_is_retargeted_to_current_commit(self) -> None:
         release = {
             "databaseId": 123,
