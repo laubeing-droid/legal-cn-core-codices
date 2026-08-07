@@ -1,0 +1,92 @@
+name: Publish validated dataset
+
+on:
+  workflow_dispatch:
+    inputs:
+      candidate_batch:
+        description: Batch directory name under workspace/交换候选
+        required: true
+        type: string
+      engineering_batch:
+        description: Batch directory name under workspace/工程记录
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: legal-corpus-dataset-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    permissions:
+      contents: write
+    runs-on: [self-hosted, windows, x64, legal-corpus]
+    timeout-minutes: 360
+    env:
+      LEGAL_SOURCE_ROOT: ${{ vars.LEGAL_SOURCE_ROOT }}
+      LEGAL_FORMAL_ROOT: ${{ vars.LEGAL_FORMAL_ROOT }}
+      LEGAL_DEPRECATED_PATH: ${{ vars.LEGAL_DEPRECATED_PATH }}
+      LEGAL_CURRENT_ENGINEERING_ROOT: ${{ vars.LEGAL_CURRENT_ENGINEERING_ROOT }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          clean: false
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Resolve validated local batch
+        id: batch
+        shell: pwsh
+        run: |
+          $candidateBatch = '${{ inputs.candidate_batch }}'
+          $engineeringBatch = '${{ inputs.engineering_batch }}'
+          foreach ($value in @($candidateBatch, $engineeringBatch)) {
+            if ($value -notmatch '^[A-Za-z0-9._-]+$') {
+              throw 'BATCH_NAME_INVALID'
+            }
+          }
+          $candidate = Join-Path (Resolve-Path 'workspace/交换候选').Path $candidateBatch
+          $engineering = Join-Path (Resolve-Path 'workspace/工程记录').Path $engineeringBatch
+          if (-not (Test-Path -LiteralPath $candidate -PathType Container)) {
+            throw 'CANDIDATE_BATCH_NOT_FOUND'
+          }
+          if (-not (Test-Path -LiteralPath $engineering -PathType Container)) {
+            throw 'ENGINEERING_BATCH_NOT_FOUND'
+          }
+          "candidate=$candidate" >> $env:GITHUB_OUTPUT
+          "engineering=$engineering" >> $env:GITHUB_OUTPUT
+
+      - name: Publish verified dataset and GitHub Release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $statePointer = 'workspace/runtime/current_engineering_root.txt'
+          $currentEngineering = $env:LEGAL_CURRENT_ENGINEERING_ROOT
+          if (Test-Path -LiteralPath $statePointer) {
+            $currentEngineering = (Get-Content -LiteralPath $statePointer -Raw).Trim()
+          }
+          if ([string]::IsNullOrWhiteSpace($currentEngineering)) {
+            throw 'CURRENT_ENGINEERING_ROOT_NOT_CONFIGURED'
+          }
+          New-Item -ItemType Directory -Force -Path 'workspace/runtime' | Out-Null
+          $releaseDirectory = Join-Path (Resolve-Path workspace/runtime).Path `
+            'release-${{ github.run_id }}-${{ github.run_attempt }}'
+          python tools/publish_dataset_release.py `
+            --candidate '${{ steps.batch.outputs.candidate }}' `
+            --engineering-root '${{ steps.batch.outputs.engineering }}' `
+            --release-directory $releaseDirectory `
+            --target $env:LEGAL_FORMAL_ROOT `
+            --current-engineering-root $currentEngineering `
+            --source-root $env:LEGAL_SOURCE_ROOT `
+            --deprecated-path $env:LEGAL_DEPRECATED_PATH `
+            --state-pointer $statePointer `
+            --repository '${{ github.repository }}' `
+            --commit-sha '${{ github.sha }}' `
+            --run-id '${{ github.run_id }}.${{ github.run_attempt }}'
+          if ($LASTEXITCODE -ne 0) { throw "DATASET_RELEASE_FAILED:$LASTEXITCODE" }

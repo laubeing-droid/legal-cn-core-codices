@@ -3,14 +3,15 @@
 ## 运行边界
 
 - `official-index-update.yml`：GitHub托管Runner执行无令牌官方索引更新，只上传候选证据。
-- `official-fulltext-ingest.yml`：带`legal-corpus`标签的Windows自托管Runner执行索引、单页全文、物化、全量重建、验证和原子入库。
+- `official-fulltext-ingest.yml`：带`legal-corpus`标签的Windows自托管Runner执行索引、单页全文、物化、全量重建、验证、GitHub Release和原子入库。
+- `dataset-release.yml`：人工批准候选与工程批次使用同一两阶段发布入口。
 - `release-audit.yml`：执行供应链、脱敏、语义和运行时四层发布门禁。
 - 人民法院案例库、微信公众号人工批次、司法部案例库候选能力不进入无人值守工作流。
 
 ## 自托管Runner要求
 
 1. Windows x64，标签：`self-hosted`、`windows`、`x64`、`legal-corpus`。
-2. Python 3.11、Node.js 22由Actions安装；Git和PowerShell必须可用。
+2. Python 3.11、Node.js 22由Actions安装；Git、GitHub CLI（`gh`）和PowerShell必须可用。
 3. Runner账户对源工作区、正式目录和仓库`workspace/`具有读写权限。
 4. 仓库签出设置为`clean: false`，保留被Git忽略的断点、候选和工程记录。
 
@@ -33,6 +34,15 @@
 3. 手工运行`Official fulltext ingest`。
 4. 首批发布成功后，工作流把新工程批次写入被Git忽略的`workspace/runtime/current_engineering_root.txt`，后续运行自动使用。
 5. 检查Artifact中的索引、原始字节哈希、物化清单、构建报告和全量验证报告。
+6. 检查对应`dataset-<树哈希前16位>` Release为Latest，11个资产的GitHub `digest`与`release-SHA256SUMS`一致。
+
+## Release资产合同
+
+- 9个数据载荷：`legal_contents.csv.zip`、`legal_documents.csv.zip`、其余6张正式CSV、`SHA256SUMS`。
+- 2个校验载荷：`dataset-manifest.json`、`release-SHA256SUMS`。
+- ZIP固定成员名、时间戳、权限和压缩级别；同一候选重复打包必须产生相同SHA-256。
+- Release标签由全树SHA-256确定；已公开同标签只允许哈希完全一致的幂等确认，禁止覆盖。
+- GitHub Token仅注入发布步骤，工作流其他步骤保持只读权限语义。
 
 ## 编码基线更新
 
@@ -53,3 +63,6 @@ python tools/build_accepted_coding_baseline.py `
 - 无新增单页全文：正常结束，不触发全量重建。
 - 旧正式树无法用匹配工程批次复验：停止原子替换。
 - 外部站点阻断：保留工程证据，不把索引命中写成全文核验。
+- Release打包、草稿上传或资产SHA-256不一致：正式目录不变。
+- 本地原子发布失败：保留草稿Release，修复后按同一候选重试。
+- 本地发布成功但Release公开失败：工程批次指针已更新，草稿保留；重试时再次核验草稿资产和正式树后公开。

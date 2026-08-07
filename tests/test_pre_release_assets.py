@@ -52,8 +52,7 @@ class PreReleaseAssetTests(unittest.TestCase):
             "materialize_fulltext.py",
             "build_local_csv.mjs",
             "validate_dataset.py",
-            "publish_validated_dataset.py",
-            "--replace-validated-target",
+            "publish_dataset_release.py",
             "'workspace/runtime'",
             "'workspace/交换候选'",
             "'workspace/工程记录'",
@@ -64,6 +63,28 @@ class PreReleaseAssetTests(unittest.TestCase):
         self.assertNotIn("HTTP_PROXY", workflow)
         self.assertNotIn("HTTPS_PROXY", workflow)
         self.assertNotIn("ALL_PROXY", workflow)
+
+    def test_fulltext_workflow_uses_two_phase_dataset_release(self) -> None:
+        workflow = (ROOT / ".github" / "workflows" / "official-fulltext-ingest.yml").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("permissions:\n      contents: write", workflow)
+        self.assertIn("publish_dataset_release.py", workflow)
+        self.assertIn("GH_TOKEN: ${{ github.token }}", workflow)
+        self.assertIn("persist-credentials: false", workflow)
+        self.assertNotIn("Atomically publish validated candidate", workflow)
+
+    def test_manual_batches_use_the_same_dataset_release_entrypoint(self) -> None:
+        workflow = (ROOT / ".github" / "workflows" / "dataset-release.yml").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("workflow_dispatch:", workflow)
+        self.assertIn("candidate_batch:", workflow)
+        self.assertIn("engineering_batch:", workflow)
+        self.assertIn("publish_dataset_release.py", workflow)
+        self.assertIn("permissions:\n      contents: write", workflow)
+        self.assertIn("persist-credentials: false", workflow)
+        self.assertNotRegex(workflow, r"[A-Za-z]:[\\/]")
 
 
 if __name__ == "__main__":

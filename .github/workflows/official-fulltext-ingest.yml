@@ -14,6 +14,8 @@ concurrency:
 
 jobs:
   ingest:
+    permissions:
+      contents: write
     runs-on: [self-hosted, windows, x64, legal-corpus]
     timeout-minutes: 360
     env:
@@ -26,6 +28,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           clean: false
+          persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -150,9 +153,11 @@ jobs:
           "candidate=$candidate" >> $env:GITHUB_OUTPUT
           "engineering=$engineering" >> $env:GITHUB_OUTPUT
 
-      - name: Atomically publish validated candidate
+      - name: Publish verified dataset and GitHub Release
         if: steps.fulltext.outputs.selected != '0'
         shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           $statePointer = 'workspace/runtime/current_engineering_root.txt'
           $currentEngineering = $env:LEGAL_CURRENT_ENGINEERING_ROOT
@@ -162,16 +167,21 @@ jobs:
           if ([string]::IsNullOrWhiteSpace($currentEngineering)) {
             throw 'CURRENT_ENGINEERING_ROOT_NOT_CONFIGURED'
           }
-          python tools/publish_validated_dataset.py '${{ steps.candidate.outputs.candidate }}' `
-            --target $env:LEGAL_FORMAL_ROOT `
+          $releaseDirectory = Join-Path (Resolve-Path workspace/runtime).Path `
+            'release-${{ github.run_id }}-${{ github.run_attempt }}'
+          python tools/publish_dataset_release.py `
+            --candidate '${{ steps.candidate.outputs.candidate }}' `
             --engineering-root '${{ steps.candidate.outputs.engineering }}' `
+            --release-directory $releaseDirectory `
+            --target $env:LEGAL_FORMAL_ROOT `
             --current-engineering-root $currentEngineering `
             --source-root $env:LEGAL_SOURCE_ROOT `
             --deprecated-path $env:LEGAL_DEPRECATED_PATH `
-            --replace-validated-target
-          if ($LASTEXITCODE -ne 0) { throw "ATOMIC_PUBLISH_FAILED:$LASTEXITCODE" }
-          Set-Content -LiteralPath $statePointer `
-            -Value '${{ steps.candidate.outputs.engineering }}' -Encoding utf8
+            --state-pointer $statePointer `
+            --repository '${{ github.repository }}' `
+            --commit-sha '${{ github.sha }}' `
+            --run-id '${{ github.run_id }}.${{ github.run_attempt }}'
+          if ($LASTEXITCODE -ne 0) { throw "DATASET_RELEASE_FAILED:$LASTEXITCODE" }
 
       - name: Upload engineering evidence
         if: always()

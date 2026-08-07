@@ -33,7 +33,7 @@ python -m unittest discover -s official-source-updater\tests -v
 
 人民法院案例库个人令牌、微信公众号Cookie和人工批准批次只允许本地运行。司法部案例库当前为`ci_auto_candidate`，不进入定时矩阵。
 
-`legal_documents.csv`和`legal_contents.csv`超过GitHub普通仓库单文件限制；8张正式CSV由本地发布器保留在正式目录，GitHub发布时使用Release资产，不提交普通Git历史。
+`legal_documents.csv`和`legal_contents.csv`超过GitHub普通仓库单文件限制；8张正式CSV由本地发布器保留在正式目录，不提交普通Git历史。每次正式发布同步创建不可变GitHub Release：两个大表分别压缩为ZIP，其余6张CSV和`SHA256SUMS`保持原文件，并附数据清单及Release资产校验清单。
 
 ## 全文更新与自动入库
 
@@ -41,7 +41,8 @@ python -m unittest discover -s official-source-updater\tests -v
 
 ```text
 官方索引 → 有界单页队列 → 原始字节及正文哈希 → Markdown物化
-→ 全量确定性重建 → 候选验证 → 原子发布 → 发布后复验
+→ 全量确定性重建 → 候选验证 → Release草稿资产核验
+→ 原子发布 → 发布后复验 → Release公开
 ```
 
 - `official-source-updater/scripts/build_fulltext_queue.py`：只选择重叠窗口内、正式库尚无同标题同日期的支持对象。
@@ -49,6 +50,9 @@ python -m unittest discover -s official-source-updater\tests -v
 - `official-source-updater/scripts/materialize_fulltext.py`：区分司法解释、规范文件和案例合集；案例无官方编号时留空。
 - `schema/accepted_coding_baseline.csv`：仅收录上一已验收正式表中主键唯一的发布记录，并按`source_relative_path + source_sha256`复用WJBS；源文件变化即失效。
 - `.github/workflows/official-fulltext-ingest.yml`：自托管Windows Runner自动执行到正式入库。
+- `.github/workflows/dataset-release.yml`：人工批准批次复用同一发布器，不允许绕过Release直接替换正式目录。
+- `tools/prepare_dataset_release.py`：生成确定性ZIP、`dataset-manifest.json`和`release-SHA256SUMS`。
+- `tools/publish_dataset_release.py`：要求当前提交的`Pre-Release Audit / audit`已通过，执行草稿上传、GitHub资产SHA-256复核、本地原子发布和Release公开。
 
 部署变量、Runner标签、首次上线和失败处理见[GitHub部署说明](docs/GITHUB_DEPLOYMENT.md)。
 
