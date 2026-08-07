@@ -95,6 +95,8 @@ class PreReleaseAssetTests(unittest.TestCase):
         self.assertIn("workflow_dispatch:", workflow)
         self.assertIn("candidate_batch:", workflow)
         self.assertIn("engineering_batch:", workflow)
+        self.assertIn("LEGAL_CANDIDATE_ROOT: ${{ vars.LEGAL_CANDIDATE_ROOT }}", workflow)
+        self.assertIn("LEGAL_ENGINEERING_ROOT: ${{ vars.LEGAL_ENGINEERING_ROOT }}", workflow)
         self.assertIn("publish_dataset_release.py", workflow)
         self.assertIn("permissions:\n      contents: write", workflow)
         self.assertIn("persist-credentials: false", workflow)

@@ -24,6 +24,8 @@
 | `LEGAL_FORMAL_ROOT` | 唯一正式发布目录 |
 | `LEGAL_DEPRECATED_PATH` | 必须持续不存在的废弃路径 |
 | `LEGAL_CURRENT_ENGINEERING_ROOT` | 首次运行时与当前正式树匹配的已验收工程批次 |
+| `LEGAL_CANDIDATE_ROOT` | 人工Release批次所在的`交换候选`根目录 |
+| `LEGAL_ENGINEERING_ROOT` | 人工Release批次所在的`工程记录`根目录 |
 | `LEGAL_OVERLAP_DAYS` | 索引重叠回扫天数；缺省14 |
 
 路径只通过Repository variables注入，不写入代码、工作流或CSV。

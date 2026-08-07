@@ -33,6 +33,8 @@ jobs:
       LEGAL_FORMAL_ROOT: ${{ vars.LEGAL_FORMAL_ROOT }}
       LEGAL_DEPRECATED_PATH: ${{ vars.LEGAL_DEPRECATED_PATH }}
       LEGAL_CURRENT_ENGINEERING_ROOT: ${{ vars.LEGAL_CURRENT_ENGINEERING_ROOT }}
+      LEGAL_CANDIDATE_ROOT: ${{ vars.LEGAL_CANDIDATE_ROOT }}
+      LEGAL_ENGINEERING_ROOT: ${{ vars.LEGAL_ENGINEERING_ROOT }}
     steps:
       - name: Enable Windows long paths
         run: git config --global core.longpaths true
@@ -54,8 +56,8 @@ jobs:
               throw 'BATCH_NAME_INVALID'
             }
           }
-          $candidate = Join-Path (Resolve-Path 'workspace/交换候选').Path $candidateBatch
-          $engineering = Join-Path (Resolve-Path 'workspace/工程记录').Path $engineeringBatch
+          $candidate = Join-Path (Resolve-Path $env:LEGAL_CANDIDATE_ROOT).Path $candidateBatch
+          $engineering = Join-Path (Resolve-Path $env:LEGAL_ENGINEERING_ROOT).Path $engineeringBatch
           if (-not (Test-Path -LiteralPath $candidate -PathType Container)) {
             throw 'CANDIDATE_BATCH_NOT_FOUND'
           }
