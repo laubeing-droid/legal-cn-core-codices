@@ -34,6 +34,10 @@ class PreReleaseAssetTests(unittest.TestCase):
         source = (ROOT / ".audit-prompt-kernel.md").read_text(encoding="utf-8")
         self.assertIn("<user-home>", source)
         self.assertNotIn("C:\\Users\\Administrator", source)
+        gemini_source = (ROOT / ".audit-prompt-gemini.md").read_text(encoding="utf-8")
+        self.assertIn("<user-home>", gemini_source)
+        self.assertNotIn("/Users/username/", gemini_source)
+        self.assertNotIn("C:\\Users\\", gemini_source)
 
     def test_release_workflow_runs_all_four_layers(self) -> None:
         workflow = (ROOT / ".github" / "workflows" / "release-audit.yml").read_text(

@@ -7,6 +7,11 @@
 - 当前v5正式树真实打包两次，11个上传资产SHA-256差异0；标签为`dataset-5aac0b2c57ba9fc6`，两个ZIP大小127,031,725与120,247,925字节。新增合同测试8项；Node 229/229、tools Python 42/42、根Python 60/60、更新器67/67通过，workflow YAML解析通过，依赖审计无已知漏洞。
 - GitHub CLI 2.97.0已按官方Release公布SHA-256校验后安装；本机实际代理为`127.0.0.1:10808`，旧环境变量`20808`不可达。远端归档、迁移和在线Release实跑只有取得GitHub授权并实际完成后才能记为已验证。
 
+## 2026-08-07 GitHub Linux审计路径示例误报修复
+
+- 远端`Pre-Release Audit`首次运行在L2失败；根因是`.audit-prompt-gemini.md`把`/Users/username/`与`C:\Users\`写作审计示例，Linux扫描器把仓库自身提示词示例识别为本地绝对路径泄露。
+- 示例已统一替换为抽象占位符`<user-home>/`，`tests/test_pre_release_assets.py`新增跨平台回归断言。单测8/8、workflow YAML解析、`git diff --check`和本地审计引擎均通过；远端通过状态必须由修复提交后的真实Actions运行确认。
+
 ## 2026-08-07 标准编码阻断对象完整清单
 
 - 从`workspace/工程记录/final_acceptance_20260806_214000_v3/批次清单/标准编码生成清单.csv`确定性筛选`coding_status=BLOCKED`，完整对象数为2,216；这不是缺正文清单，而是确定性标准编码要素不足清单。
