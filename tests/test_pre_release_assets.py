@@ -48,6 +48,11 @@ class PreReleaseAssetTests(unittest.TestCase):
         )
         for marker in ("L1 Supply chain", "L2 Sanitization", "L3 Semantic", "L4 Runtime"):
             self.assertIn(marker, workflow)
+        self.assertIn("test_prepare_dataset_release.py", workflow)
+        self.assertIn("test_publish_dataset_release.py", workflow)
+        self.assertIn("tools/test/legal_structure.test.mjs", workflow)
+        self.assertNotIn("tests/test_build_local_csv.mjs", workflow)
+        self.assertNotIn("tools/test/standard_pipeline.test.mjs", workflow)
 
     def test_fulltext_workflow_reaches_atomic_publish_without_local_paths(self) -> None:
         workflow = (ROOT / ".github" / "workflows" / "official-fulltext-ingest.yml").read_text(
