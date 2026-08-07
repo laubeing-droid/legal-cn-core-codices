@@ -14,6 +14,7 @@
 - 回归测试自身也不得直接出现被审计的完整路径字面量；应以分段字符串构造目标值，否则测试源码会再次触发同一全仓扫描门禁。
 - L2修复后远端L4暴露第二个跨平台问题：Windows扩展长度路径测试在Linux上创建单文件名超过255字节，失败发生在测试夹具创建阶段而非发布器逻辑。该合同现仅在Windows运行；Linux继续执行其余发布器测试。
 - 远端L4原先还调用依赖Codex私有`@oai/artifact-tool`和忽略目录`workspace/engineering-history`的本机集成测试，公开checkout必然失败。Ubuntu预发布审计现只跑仓库自包含的Python套件、51项Node结构测试及两组Release测试；完整标准流水线与正式树验证继续在本地和`legal-corpus`自托管发布job执行，不能用公开CI替代正式数据验收。
+- 数据Release首次真实运行`31171825347`在`actions/checkout`失败：Windows自托管runner未启用Git长路径，10个超长中文法律文件名无法创建；失败发生在打包和正式发布之前。两个`legal-corpus`工作流现均在checkout前执行`git config --global core.longpaths true`，防止定时全文工作流复现同一问题。
 
 ## 2026-08-07 标准编码阻断对象完整清单
 

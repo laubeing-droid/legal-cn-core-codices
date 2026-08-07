@@ -25,6 +25,8 @@ jobs:
       LEGAL_CURRENT_ENGINEERING_ROOT: ${{ vars.LEGAL_CURRENT_ENGINEERING_ROOT }}
       LEGAL_OVERLAP_DAYS: ${{ vars.LEGAL_OVERLAP_DAYS }}
     steps:
+      - name: Enable Windows long paths
+        run: git config --global core.longpaths true
       - uses: actions/checkout@v4
         with:
           clean: false
