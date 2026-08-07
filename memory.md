@@ -9,8 +9,9 @@
 
 ## 2026-08-07 GitHub Linux审计路径示例误报修复
 
-- 远端`Pre-Release Audit`首次运行在L2失败；根因是`.audit-prompt-gemini.md`把`/Users/username/`与`C:\Users\`写作审计示例，Linux扫描器把仓库自身提示词示例识别为本地绝对路径泄露。
+- 远端`Pre-Release Audit`首次运行在L2失败；根因是`.audit-prompt-gemini.md`写入了macOS和Windows用户目录的具体绝对路径示例，Linux扫描器把仓库自身提示词示例识别为本地路径泄露。
 - 示例已统一替换为抽象占位符`<user-home>/`，`tests/test_pre_release_assets.py`新增跨平台回归断言。单测8/8、workflow YAML解析、`git diff --check`和本地审计引擎均通过；远端通过状态必须由修复提交后的真实Actions运行确认。
+- 回归测试自身也不得直接出现被审计的完整路径字面量；应以分段字符串构造目标值，否则测试源码会再次触发同一全仓扫描门禁。
 
 ## 2026-08-07 标准编码阻断对象完整清单
 
