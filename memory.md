@@ -6,6 +6,7 @@
 - 发布顺序冻结为：校验候选及发布文件SHA-256→验证当前提交`Pre-Release Audit / audit`通过→创建或复用草稿Release→上传并核验GitHub资产`digest`→本地原子发布及发布后复验→更新工程批次指针→公开并设为Latest。上传失败不动正式树；本地发布失败保留草稿；公开失败允许同树哈希重试。
 - 当前v5正式树真实打包两次，11个上传资产SHA-256差异0；标签为`dataset-5aac0b2c57ba9fc6`，两个ZIP大小127,031,725与120,247,925字节。新增合同测试8项；Node 229/229、tools Python 42/42、根Python 60/60、更新器67/67通过，workflow YAML解析通过，依赖审计无已知漏洞。
 - GitHub CLI 2.97.0已按官方Release公布SHA-256校验后安装；本机实际代理为`127.0.0.1:10808`，旧环境变量`20808`不可达。远端归档、迁移和在线Release实跑只有取得GitHub授权并实际完成后才能记为已验证。
+- 线上运行`31174729480`已成功完成全量校验、原子正式树替换和公开Release；Release为`dataset-5aac0b2c57ba9fc6`，11个资产均由GitHub返回匹配的SHA-256 digest，manifest记录树SHA-256=`5aac0b2c57ba9fc6cc54cd600daaf1b423c82ce7fdda9df596bb2516816d1924`、运行提交`789c2232631eb86c997138c3444226f1cfabafec`及8表行数。复用前次失败留下的draft时，GitHub保留了旧`target_commitish`；发布器现于每次复用draft后通过Release数据库ID将目标提交同步为本次运行提交并强校验。本次已将轻量标签从旧`f8163ec`校正到manifest中的`789c223`。
 
 ## 2026-08-07 GitHub Linux审计路径示例误报修复
 

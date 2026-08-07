@@ -116,6 +116,34 @@ class PublishDatasetReleaseTests(unittest.TestCase):
             "repos/owner/repository/releases/123",
         )
 
+    def test_reused_draft_is_retargeted_to_current_commit(self) -> None:
+        release = {
+            "databaseId": 123,
+            "isDraft": True,
+            "tagName": "dataset-a",
+            "url": "https://example.invalid/draft",
+        }
+        updated = {
+            "id": 123,
+            "draft": True,
+            "target_commitish": "a" * 40,
+        }
+        with mock.patch.object(PUBLISH, "release_by_tag", return_value=release), mock.patch.object(
+            PUBLISH, "gh_json", return_value=updated
+        ) as gh_json:
+            PUBLISH.retarget_draft_release("owner/repository", "dataset-a", "a" * 40)
+        self.assertEqual(
+            gh_json.call_args.args[0],
+            [
+                "api",
+                "--method",
+                "PATCH",
+                "repos/owner/repository/releases/123",
+                "-f",
+                "target_commitish=" + "a" * 40,
+            ],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

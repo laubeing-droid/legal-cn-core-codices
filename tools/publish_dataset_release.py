@@ -113,6 +113,26 @@ def release_api_payload(repository: str, tag: str) -> dict[str, Any]:
     )
 
 
+def retarget_draft_release(repository: str, tag: str, commit_sha: str) -> None:
+    release = release_by_tag(repository, tag)
+    if release is None:
+        raise RuntimeError(f"RELEASE_NOT_FOUND:{tag}")
+    payload = gh_json(
+        [
+            "api",
+            "--method",
+            "PATCH",
+            f"repos/{repository}/releases/{release['databaseId']}",
+            "-f",
+            f"target_commitish={commit_sha}",
+        ]
+    )
+    if not payload.get("draft"):
+        raise RuntimeError("RELEASE_IS_NOT_DRAFT")
+    if str(payload.get("target_commitish", "")).lower() != commit_sha.lower():
+        raise RuntimeError("RELEASE_TARGET_COMMIT_MISMATCH")
+
+
 def expected_asset_digests(release_directory: Path, asset_names: list[str]) -> dict[str, dict[str, object]]:
     return {
         name: {
@@ -251,6 +271,7 @@ def publish_dataset_release(args: argparse.Namespace) -> dict[str, object]:
             ]
         )
 
+    retarget_draft_release(args.repository, tag, args.commit_sha.lower())
     replace_draft_assets(args.repository, tag, release_directory, asset_names)
     verify_release_assets(args.repository, tag, expected)
 
