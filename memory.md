@@ -16,6 +16,7 @@
 - 远端L4原先还调用依赖Codex私有`@oai/artifact-tool`和忽略目录`workspace/engineering-history`的本机集成测试，公开checkout必然失败。Ubuntu预发布审计现只跑仓库自包含的Python套件、51项Node结构测试及两组Release测试；完整标准流水线与正式树验证继续在本地和`legal-corpus`自托管发布job执行，不能用公开CI替代正式数据验收。
 - 数据Release首次真实运行`31171825347`在`actions/checkout`失败：Windows自托管runner未启用Git长路径，10个超长中文法律文件名无法创建；失败发生在打包和正式发布之前。两个`legal-corpus`工作流现均在checkout前执行`git config --global core.longpaths true`，防止定时全文工作流复现同一问题。
 - 第二次真实运行`31172086338`在长路径步骤失败：本机PowerShell执行策略阻止runner点入临时`.ps1`，后续所有`run`步骤同样会受影响。两个自托管job现固定以`-ExecutionPolicy Bypass`启动非交互PowerShell，且不依赖机器级策略变更。
+- 第四次实际执行的运行`31172924045`证明runner进程级Bypass和`setup-python`均已通过；真正失败点是Windows PowerShell 5.1不能解析Actions生成的UTF-8无BOM中文脚本。`-File`本地复现仍失败，故两个自托管job固定使用PowerShell 7的`pwsh`；本机安装7.6.4并以官方`hashes.sha256`核验，ZIP SHA-256为`80832551c52809301e6071c8bac977beb5a2f1ec953eb4db9f94deb953333793`。
 
 ## 2026-08-07 标准编码阻断对象完整清单
 

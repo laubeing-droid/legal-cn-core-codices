@@ -20,7 +20,7 @@ jobs:
     timeout-minutes: 360
     defaults:
       run:
-        shell: powershell -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command ". '{0}'"
+        shell: pwsh
     env:
       LEGAL_SOURCE_ROOT: ${{ vars.LEGAL_SOURCE_ROOT }}
       LEGAL_FORMAL_ROOT: ${{ vars.LEGAL_FORMAL_ROOT }}

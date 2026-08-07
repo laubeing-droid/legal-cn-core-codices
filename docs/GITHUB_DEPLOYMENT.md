@@ -11,9 +11,10 @@
 ## 自托管Runner要求
 
 1. Windows x64，标签：`self-hosted`、`windows`、`x64`、`legal-corpus`。
-2. Python 3.11、Node.js 22由Actions安装；Git、GitHub CLI（`gh`）和PowerShell必须可用。
-3. Runner账户对源工作区、正式目录和仓库`workspace/`具有读写权限。
-4. 仓库签出设置为`clean: false`，保留被Git忽略的断点、候选和工程记录。
+2. Python 3.11、Node.js 22由Actions安装；Git、GitHub CLI（`gh`）和PowerShell 7（`pwsh`）必须可用。Windows PowerShell 5.1不能可靠解析Actions生成的UTF-8无BOM中文脚本。
+3. Runner进程环境设置`PSExecutionPolicyPreference=Bypass`，仅放宽该进程及其子进程，供Actions内部PowerShell脚本执行；不得修改仓库或系统级策略文件。
+4. Runner账户对源工作区、正式目录和仓库`workspace/`具有读写权限。
+5. 仓库签出设置为`clean: false`，保留被Git忽略的断点、候选和工程记录。
 
 ## Repository variables
 
