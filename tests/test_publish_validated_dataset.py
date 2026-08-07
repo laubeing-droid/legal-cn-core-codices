@@ -62,6 +62,7 @@ class PublishDatasetContractTest(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "LEGACY_FORMAL_WRAPPER"):
                 PUBLISHER.assert_candidate_boundary(candidate)
 
+    @unittest.skipUnless(os.name == "nt", "Windows extended-length path contract")
     def test_copy_candidate_tree_supports_windows_long_paths(self) -> None:
         root = Path(tempfile.mkdtemp())
         try:
