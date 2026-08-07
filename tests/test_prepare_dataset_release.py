@@ -64,6 +64,7 @@ class PrepareDatasetReleaseTests(unittest.TestCase):
             engineering_batch="batch_20260807",
             commit_sha="b" * 40,
             run_id="12345",
+            release_tag="dataset-latest",
         )
 
     def test_release_contains_nine_payloads_and_two_metadata_assets(self) -> None:
@@ -94,7 +95,8 @@ class PrepareDatasetReleaseTests(unittest.TestCase):
         self.assertEqual(len(manifest["files"]), 9)
         self.assertEqual(manifest["dataset"]["tree_sha256"], "a" * 64)
         self.assertNotIn(str(self.root), json.dumps(manifest, ensure_ascii=False))
-        self.assertEqual(result["tag"], "dataset-" + "a" * 16)
+        self.assertEqual(result["tag"], "dataset-latest")
+        self.assertEqual(manifest["release"]["tag"], "dataset-latest")
 
     def test_large_csv_zip_is_deterministic_and_extracts_original(self) -> None:
         first = self.prepare("release-one")

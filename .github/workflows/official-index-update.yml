@@ -2,7 +2,7 @@ name: Official index update
 
 on:
   schedule:
-    - cron: "30 18 * * *"
+    - cron: "30 18 */3 * *"
   workflow_dispatch:
 
 permissions:

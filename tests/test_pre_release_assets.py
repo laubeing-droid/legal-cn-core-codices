@@ -104,6 +104,34 @@ class PreReleaseAssetTests(unittest.TestCase):
         self.assertIn("shell: pwsh", workflow)
         self.assertNotRegex(workflow, r"[A-Za-z]:[\\/]")
 
+    def test_dataset_release_schedule_and_retention_contract(self) -> None:
+        index = (ROOT / ".github" / "workflows" / "official-index-update.yml").read_text(
+            encoding="utf-8"
+        )
+        fulltext = (ROOT / ".github" / "workflows" / "official-fulltext-ingest.yml").read_text(
+            encoding="utf-8"
+        )
+        quarterly = (ROOT / ".github" / "workflows" / "quarterly-dataset-archive.yml").read_text(
+            encoding="utf-8"
+        )
+        manual = (ROOT / ".github" / "workflows" / "dataset-release.yml").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn('cron: "30 18 */3 * *"', index)
+        self.assertIn('cron: "30 18 */3 * *"', fulltext)
+        self.assertIn('cron: "45 18 1 1,4,7,10 *"', quarterly)
+        self.assertIn("--release-mode quarterly", quarterly)
+        self.assertNotIn("--latest", quarterly)
+        for workflow in (fulltext, manual):
+            self.assertIn("dataset-snapshot-${{ github.run_id }}", workflow)
+            self.assertIn("steps.release.outputs.snapshot_required == 'true'", workflow)
+            self.assertIn("retention-days: 15", workflow)
+            self.assertIn("--result-path", workflow)
+        self.assertIn("release_mode:", manual)
+        self.assertIn("milestone_name:", manual)
+        self.assertIn("milestone_confirm:", manual)
+        self.assertIn("CREATE_IMMUTABLE_RELEASE", manual)
+
 
 if __name__ == "__main__":
     unittest.main()

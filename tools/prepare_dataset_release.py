@@ -108,6 +108,7 @@ def prepare_release(
     engineering_batch: str,
     commit_sha: str,
     run_id: str,
+    release_tag: str,
 ) -> dict[str, object]:
     candidate = candidate.resolve()
     validation_report_path = validation_report_path.resolve()
@@ -118,13 +119,14 @@ def prepare_release(
         raise ValueError("RELEASE_OUTPUT_ALREADY_EXISTS")
     assert_safe_identifier(engineering_batch, "ENGINEERING_BATCH")
     assert_safe_identifier(run_id, "RUN_ID")
+    assert_safe_identifier(release_tag, "RELEASE_TAG")
     commit_sha = commit_sha.lower()
     if not HEX_40.fullmatch(commit_sha):
         raise ValueError("COMMIT_SHA_INVALID")
 
     report = load_validation_report(validation_report_path)
     tree_sha256 = str(report["artifact_tree_sha256"]).lower()
-    tag = f"dataset-{tree_sha256[:16]}"
+    tag = release_tag
     source_checksums_path = candidate / "SHA256SUMS"
     if not source_checksums_path.is_file():
         raise ValueError("SOURCE_SHA256SUMS_MISSING")
@@ -249,6 +251,7 @@ def main() -> int:
     parser.add_argument("--engineering-batch", required=True)
     parser.add_argument("--commit-sha", required=True)
     parser.add_argument("--run-id", required=True)
+    parser.add_argument("--release-tag", required=True)
     args = parser.parse_args()
     result = prepare_release(
         candidate=args.candidate,
@@ -257,6 +260,7 @@ def main() -> int:
         engineering_batch=args.engineering_batch,
         commit_sha=args.commit_sha,
         run_id=args.run_id,
+        release_tag=args.release_tag,
     )
     print(json.dumps(result, ensure_ascii=False))
     return 0

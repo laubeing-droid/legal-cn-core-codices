@@ -1,0 +1,83 @@
+name: Quarterly dataset archive
+
+on:
+  schedule:
+    - cron: "45 18 1 1,4,7,10 *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: legal-corpus-dataset-release
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    permissions:
+      contents: write
+    runs-on: [self-hosted, windows, x64, legal-corpus]
+    timeout-minutes: 360
+    defaults:
+      run:
+        shell: pwsh
+    env:
+      LEGAL_SOURCE_ROOT: ${{ vars.LEGAL_SOURCE_ROOT }}
+      LEGAL_FORMAL_ROOT: ${{ vars.LEGAL_FORMAL_ROOT }}
+      LEGAL_DEPRECATED_PATH: ${{ vars.LEGAL_DEPRECATED_PATH }}
+      LEGAL_CURRENT_ENGINEERING_ROOT: ${{ vars.LEGAL_CURRENT_ENGINEERING_ROOT }}
+    steps:
+      - name: Enable Windows long paths
+        run: git config --global core.longpaths true
+      - uses: actions/checkout@v4
+        with:
+          clean: false
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate and archive current formal dataset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $statePointer = 'workspace/runtime/current_engineering_root.txt'
+          $engineering = $env:LEGAL_CURRENT_ENGINEERING_ROOT
+          if (Test-Path -LiteralPath $statePointer) {
+            $engineering = (Get-Content -LiteralPath $statePointer -Raw).Trim()
+          }
+          if ([string]::IsNullOrWhiteSpace($engineering)) {
+            throw 'CURRENT_ENGINEERING_ROOT_NOT_CONFIGURED'
+          }
+          python tools/validate_dataset.py $env:LEGAL_FORMAL_ROOT `
+            --engineering-root $engineering `
+            --source-root $env:LEGAL_SOURCE_ROOT `
+            --deprecated-path $env:LEGAL_DEPRECATED_PATH
+          if ($LASTEXITCODE -ne 0) { throw "FORMAL_VALIDATION_FAILED:$LASTEXITCODE" }
+          New-Item -ItemType Directory -Force -Path 'workspace/runtime' | Out-Null
+          $releaseDirectory = Join-Path (Resolve-Path workspace/runtime).Path `
+            'quarterly-${{ github.run_id }}-${{ github.run_attempt }}'
+          $resultPath = Join-Path (Resolve-Path workspace/runtime).Path `
+            'quarterly-result-${{ github.run_id }}-${{ github.run_attempt }}.json'
+          $now = [DateTime]::UtcNow
+          $period = '{0}Q{1}' -f $now.Year, ([Math]::Floor(($now.Month - 1) / 3) + 1)
+          python tools/publish_dataset_release.py `
+            --release-mode quarterly `
+            --archive-period $period `
+            --result-path $resultPath `
+            --candidate $env:LEGAL_FORMAL_ROOT `
+            --engineering-root $engineering `
+            --release-directory $releaseDirectory `
+            --target $env:LEGAL_FORMAL_ROOT `
+            --current-engineering-root $engineering `
+            --source-root $env:LEGAL_SOURCE_ROOT `
+            --deprecated-path $env:LEGAL_DEPRECATED_PATH `
+            --state-pointer $statePointer `
+            --repository '${{ github.repository }}' `
+            --commit-sha '${{ github.sha }}' `
+            --run-id '${{ github.run_id }}.${{ github.run_attempt }}'
+          if ($LASTEXITCODE -ne 0) { throw "QUARTERLY_RELEASE_FAILED:$LASTEXITCODE" }
+          $result = Get-Content -LiteralPath $resultPath -Raw | ConvertFrom-Json
+          if ($result.status -ne 'QUARTERLY_ARCHIVED') {
+            throw "QUARTERLY_STATUS_INVALID:$($result.status)"
+          }

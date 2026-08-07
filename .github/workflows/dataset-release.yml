@@ -11,6 +11,24 @@ on:
         description: Batch directory name under workspace/工程记录
         required: true
         type: string
+      release_mode:
+        description: Overwrite dataset-latest or also publish an immutable milestone
+        required: true
+        default: latest
+        type: choice
+        options:
+          - latest
+          - milestone
+      milestone_name:
+        description: Required only for milestone; letters, digits, dot, underscore and hyphen
+        required: false
+        default: ""
+        type: string
+      milestone_confirm:
+        description: For milestone, type CREATE_IMMUTABLE_RELEASE exactly
+        required: false
+        default: ""
+        type: string
 
 permissions:
   contents: read
@@ -68,6 +86,7 @@ jobs:
           "engineering=$engineering" >> $env:GITHUB_OUTPUT
 
       - name: Publish verified dataset and GitHub Release
+        id: release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -82,7 +101,13 @@ jobs:
           New-Item -ItemType Directory -Force -Path 'workspace/runtime' | Out-Null
           $releaseDirectory = Join-Path (Resolve-Path workspace/runtime).Path `
             'release-${{ github.run_id }}-${{ github.run_attempt }}'
+          $resultPath = Join-Path (Resolve-Path workspace/runtime).Path `
+            'release-result-${{ github.run_id }}-${{ github.run_attempt }}.json'
           python tools/publish_dataset_release.py `
+            --release-mode '${{ inputs.release_mode }}' `
+            --milestone-name '${{ inputs.milestone_name }}' `
+            --milestone-confirm '${{ inputs.milestone_confirm }}' `
+            --result-path $resultPath `
             --candidate '${{ steps.batch.outputs.candidate }}' `
             --engineering-root '${{ steps.batch.outputs.engineering }}' `
             --release-directory $releaseDirectory `
@@ -95,3 +120,27 @@ jobs:
             --commit-sha '${{ github.sha }}' `
             --run-id '${{ github.run_id }}.${{ github.run_attempt }}'
           if ($LASTEXITCODE -ne 0) { throw "DATASET_RELEASE_FAILED:$LASTEXITCODE" }
+          $result = Get-Content -LiteralPath $resultPath -Raw | ConvertFrom-Json
+          "status=$($result.status)" >> $env:GITHUB_OUTPUT
+          "snapshot_required=$($result.snapshot_required.ToString().ToLowerInvariant())" >> $env:GITHUB_OUTPUT
+          "release_directory=$($result.release_directory)" >> $env:GITHUB_OUTPUT
+
+      - name: Upload changed dataset snapshot
+        if: steps.release.outputs.snapshot_required == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: dataset-snapshot-${{ github.run_id }}
+          path: |
+            ${{ steps.release.outputs.release_directory }}/legal_contents.csv.zip
+            ${{ steps.release.outputs.release_directory }}/legal_documents.csv.zip
+            ${{ steps.release.outputs.release_directory }}/case_holdings.csv
+            ${{ steps.release.outputs.release_directory }}/case_legal_references.csv
+            ${{ steps.release.outputs.release_directory }}/cases.csv
+            ${{ steps.release.outputs.release_directory }}/practice_references.csv
+            ${{ steps.release.outputs.release_directory }}/legal_relations.csv
+            ${{ steps.release.outputs.release_directory }}/legal_sources.csv
+            ${{ steps.release.outputs.release_directory }}/SHA256SUMS
+            ${{ steps.release.outputs.release_directory }}/dataset-manifest.json
+            ${{ steps.release.outputs.release_directory }}/release-SHA256SUMS
+          if-no-files-found: error
+          retention-days: 15

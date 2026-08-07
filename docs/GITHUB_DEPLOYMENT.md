@@ -2,9 +2,10 @@
 
 ## 运行边界
 
-- `official-index-update.yml`：GitHub托管Runner执行无令牌官方索引更新，只上传候选证据。
-- `official-fulltext-ingest.yml`：带`legal-corpus`标签的Windows自托管Runner执行索引、单页全文、物化、全量重建、验证、GitHub Release和原子入库。
-- `dataset-release.yml`：人工批准候选与工程批次使用同一两阶段发布入口。
+- `official-index-update.yml`：GitHub托管Runner每三日执行无令牌官方索引更新，只上传候选证据。
+- `official-fulltext-ingest.yml`：带`legal-corpus`标签的Windows自托管Runner每三日执行索引、单页全文、物化、全量重建、验证、滚动Release和原子入库。
+- `dataset-release.yml`：人工批准候选与工程批次使用同一发布入口；默认`latest`，永久里程碑必须显式确认。
+- `quarterly-dataset-archive.yml`：每年1、4、7、10月UTC 1日18:45归档当前正式树。
 - `release-audit.yml`：执行供应链、脱敏、语义和运行时四层发布门禁。
 - 人民法院案例库、微信公众号人工批次、司法部案例库候选能力不进入无人值守工作流。
 
@@ -37,14 +38,17 @@
 3. 手工运行`Official fulltext ingest`。
 4. 首批发布成功后，工作流把新工程批次写入被Git忽略的`workspace/runtime/current_engineering_root.txt`，后续运行自动使用。
 5. 检查Artifact中的索引、原始字节哈希、物化清单、构建报告和全量验证报告。
-6. 检查对应`dataset-<树哈希前16位>` Release为Latest，11个资产的GitHub `digest`与`release-SHA256SUMS`一致。
+6. 检查`dataset-latest`为GitHub Latest，11个资产的GitHub `digest`与`release-SHA256SUMS`一致；相同批次重跑必须返回`LATEST_UNCHANGED`。
 
 ## Release资产合同
 
 - 9个数据载荷：`legal_contents.csv.zip`、`legal_documents.csv.zip`、其余6张正式CSV、`SHA256SUMS`。
 - 2个校验载荷：`dataset-manifest.json`、`release-SHA256SUMS`。
 - ZIP固定成员名、时间戳、权限和压缩级别；同一候选重复打包必须产生相同SHA-256。
-- Release标签由全树SHA-256确定；已公开同标签只允许哈希完全一致的幂等确认，禁止覆盖。
+- 普通发布固定覆盖`dataset-latest`；新资产以`next-<run-id>--`暂存并核验，切换失败按资产ID回滚。
+- 季度标签为`dataset-YYYYQn-<树哈希前16位>`；Schema与人工里程碑使用独立不可变标签，已公开同标签禁止覆盖。
+- 数据树实际变化时另存15天Actions Artifact；工程证据Artifact保留30天。无变化不上传完整快照。
+- `dataset-5aac0b2c57ba9fc6`及既有legacy归档永久保留，不被滚动发布器删除或覆盖。
 - GitHub Token仅注入发布步骤，工作流其他步骤保持只读权限语义。
 
 ## 编码基线更新
@@ -66,6 +70,7 @@ python tools/build_accepted_coding_baseline.py `
 - 无新增单页全文：正常结束，不触发全量重建。
 - 旧正式树无法用匹配工程批次复验：停止原子替换。
 - 外部站点阻断：保留工程证据，不把索引命中写成全文核验。
-- Release打包、草稿上传或资产SHA-256不一致：正式目录不变。
-- 本地原子发布失败：保留草稿Release，修复后按同一候选重试。
-- 本地发布成功但Release公开失败：工程批次指针已更新，草稿保留；重试时再次核验草稿资产和正式树后公开。
+- Release打包、暂存上传或资产SHA-256不一致：正式目录不变。
+- 本地原子发布失败：保留已核验暂存资产，按同一候选重试。
+- 资产切换失败：恢复旧正式资产名；回滚也失败时阻断并保留`next`/`previous`资产供确定性恢复。
+- Schema或人工里程碑草稿在`dataset-latest`成功后才公开；中断后复用同名草稿继续。

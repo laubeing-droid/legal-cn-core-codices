@@ -1,5 +1,13 @@
 # 项目记忆
 
+## 2026-08-08 三日滚动Release与季度不可变归档
+
+- 【修改位置】`publish_dataset_release.py`、三个既有发布/索引workflow及新增`quarterly-dataset-archive.yml`。【修改内容】普通发布固定更新`dataset-latest`；官方索引与全文改为`30 18 */3 * *`；季度归档为`45 18 1 1,4,7,10 *`；人工里程碑必须安全名称及`CREATE_IMMUTABLE_RELEASE`硬确认。【修改原因】每次数据更新创建永久Release会无界增长，也无法兼顾短期回看与长期基线。
+- `latest`资产切换冻结为：上传`next-<run-id>--`11资产并核验→原子发布正式树→旧资产改名`previous-<run-id>--`→next改正式名→复验→删除previous；切换异常回滚旧资产名，回滚异常则保留现场并阻断。首次`dataset-latest`草稿可复用恢复。
+- 数据树不变时返回`LATEST_UNCHANGED`，仅核验9个数据资产、11资产集合、远端manifest、正式树、Latest标签及标签目标，不重写资产、不上传快照；变化时返回`LATEST_UPDATED`并上传15天完整Actions Artifact。工程证据Artifact继续保留30天。
+- 季度归档标签为`dataset-YYYYQn-<tree16>`；人工里程碑为`dataset-milestone-<name>-<tree16>`；Schema变化自动准备`dataset-schema-<version>-<tree16>`草稿，latest成功后公开。不可变归档重跑忽略run-id导致的元数据差异，但锁死9数据资产、树哈希、Schema、源校验和及11资产集合，禁止覆盖。
+- 现有`dataset-5aac0b2c57ba9fc6`继续作为首版/Q3基线，legacy归档同样保留；滚动发布器没有删除既有不可变Release的路径。
+
 ## 2026-08-07 九文件GitHub Release两阶段发布
 
 - 【修改位置】`official-fulltext-ingest.yml`、新增人工批次workflow及Release打包/发布工具。【修改内容】8张正式CSV与`SHA256SUMS`随每次正式发布生成不可变GitHub Release；两个超大CSV分别确定性ZIP压缩，其余文件保持原样，并附`dataset-manifest.json`、`release-SHA256SUMS`。【修改原因】此前工作流只原子替换本地正式树，README虽声明大表应走Release，但没有代码、远端配置或在线运行证据。
