@@ -12,6 +12,8 @@ jobs:
   test:
     runs-on: windows-latest
     timeout-minutes: 30
+    env:
+      PYTHONUTF8: "1"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -36,8 +38,10 @@ jobs:
           python tests/test_pre_release_assets.py
           python tests/test_publish_validated_dataset.py
           python tests/test_validate_dataset.py
+          python tests/test_prepare_dataset_release.py
+          python tests/test_publish_dataset_release.py
           node --test tests/test_build_local_csv.mjs
-          node --test tools/test/standard_pipeline.test.mjs
+          node --test tools/test/component_context.test.mjs tools/test/formal_text.test.mjs tools/test/legal_document_body.test.mjs tools/test/legal_structure.test.mjs
       - name: Run multi-source verifier tests
         run: |
           $env:PYTHONPATH = (Resolve-Path tools/verification_system).Path
