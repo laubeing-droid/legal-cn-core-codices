@@ -85,6 +85,8 @@ class PreReleaseAssetTests(unittest.TestCase):
         self.assertIn("GH_TOKEN: ${{ github.token }}", workflow)
         self.assertIn("persist-credentials: false", workflow)
         self.assertIn("git config --global core.longpaths true", workflow)
+        self.assertIn("-ExecutionPolicy Bypass", workflow)
+        self.assertNotIn("shell: pwsh", workflow)
         self.assertNotIn("Atomically publish validated candidate", workflow)
 
     def test_manual_batches_use_the_same_dataset_release_entrypoint(self) -> None:
@@ -98,6 +100,8 @@ class PreReleaseAssetTests(unittest.TestCase):
         self.assertIn("permissions:\n      contents: write", workflow)
         self.assertIn("persist-credentials: false", workflow)
         self.assertIn("git config --global core.longpaths true", workflow)
+        self.assertIn("-ExecutionPolicy Bypass", workflow)
+        self.assertNotIn("shell: pwsh", workflow)
         self.assertNotRegex(workflow, r"[A-Za-z]:[\\/]")
 
 

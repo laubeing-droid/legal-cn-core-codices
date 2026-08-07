@@ -18,6 +18,9 @@ jobs:
       contents: write
     runs-on: [self-hosted, windows, x64, legal-corpus]
     timeout-minutes: 360
+    defaults:
+      run:
+        shell: powershell -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command ". '{0}'"
     env:
       LEGAL_SOURCE_ROOT: ${{ vars.LEGAL_SOURCE_ROOT }}
       LEGAL_FORMAL_ROOT: ${{ vars.LEGAL_FORMAL_ROOT }}
@@ -43,7 +46,6 @@ jobs:
         run: python -m pip install -r official-source-updater/requirements.txt
 
       - name: Validate deployment configuration
-        shell: pwsh
         run: |
           $required = @(
             'LEGAL_SOURCE_ROOT',
@@ -64,7 +66,6 @@ jobs:
           python official-source-updater/updater.py validate --database-root $env:LEGAL_FORMAL_ROOT
 
       - name: Refresh registered automatic indexes
-        shell: pwsh
         run: |
           $sources = @(
             'npc_flk',
@@ -84,7 +85,6 @@ jobs:
 
       - name: Select and fetch bounded single-page fulltext
         id: fulltext
-        shell: pwsh
         run: |
           $run = Get-ChildItem -LiteralPath official-source-updater/runs -Directory |
             Where-Object Name -Match '^\d{8}_\d{6}$' |
@@ -126,7 +126,6 @@ jobs:
       - name: Materialize, build and validate candidate
         if: steps.fulltext.outputs.selected != '0'
         id: candidate
-        shell: pwsh
         run: |
           $runtime = '${{ steps.fulltext.outputs.runtime }}'
           python official-source-updater/scripts/materialize_fulltext.py `
@@ -157,7 +156,6 @@ jobs:
 
       - name: Publish verified dataset and GitHub Release
         if: steps.fulltext.outputs.selected != '0'
-        shell: pwsh
         env:
           GH_TOKEN: ${{ github.token }}
         run: |

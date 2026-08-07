@@ -25,6 +25,9 @@ jobs:
       contents: write
     runs-on: [self-hosted, windows, x64, legal-corpus]
     timeout-minutes: 360
+    defaults:
+      run:
+        shell: powershell -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command ". '{0}'"
     env:
       LEGAL_SOURCE_ROOT: ${{ vars.LEGAL_SOURCE_ROOT }}
       LEGAL_FORMAL_ROOT: ${{ vars.LEGAL_FORMAL_ROOT }}
@@ -43,7 +46,6 @@ jobs:
 
       - name: Resolve validated local batch
         id: batch
-        shell: pwsh
         run: |
           $candidateBatch = '${{ inputs.candidate_batch }}'
           $engineeringBatch = '${{ inputs.engineering_batch }}'
@@ -64,7 +66,6 @@ jobs:
           "engineering=$engineering" >> $env:GITHUB_OUTPUT
 
       - name: Publish verified dataset and GitHub Release
-        shell: pwsh
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
