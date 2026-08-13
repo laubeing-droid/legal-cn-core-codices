@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-14-ningxia28-5",
+  "version": "2026-08-14-haiguan-241-43",
   "entries": [
     {
       "agency_code": "1100003000",
@@ -2270,6 +2270,651 @@
       "evidence_path": "single_17_6400003000_20101104_0028_evidence.json",
       "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/201105/t20110519_138728.html",
       "source_sha256": "440cb77dbeacc06079665f5f6bd4ee9d8d992f49019493f9644301c3e220b7fd"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "出境竹木草制品检疫管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "fbc85c16826de02c7b922eb34c3d4c52ab2a38e990536378ffb5a00590c34e4d"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "出入境检疫处理单位和人员管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "6a5ceeb1b109c7aa71fef4404aa62503abb8a1ee8f304292dcfd9168b5d470d3"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "出入境快件检验检疫管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "a13933c89257f14e0b2a6d823e914f0c1d8422751f91014db596ac32b90e790e"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "出入境尸体骸骨卫生检疫管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "acc3de2378de0cf5ec7cf996a61b3caf20cc6abb5350af343d5aca41a766f484"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "出入境邮轮检疫管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_05_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "ebc4b6c72cdb01e516921aa11ab16960c2f667ee063cee53ecb58f8d876e7755"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "供港澳活牛检验检疫管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_06_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "b47fa5b3c0cd3b5c0c554ad88760935a7b560257ce508cb1e11a290817528712"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "供港澳活禽检验检疫管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_07_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "4ab366e1cd861fd75c8c669864a7afaadbfd3a0b66273da9b28762499512347d"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "供港澳活羊检验检疫管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_08_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "29fe04c373c2f2353e5b2d55ccc67ecaf012db74fa4daa55468b556f80b1ce61"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "供港澳活猪检验检疫管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_09_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "4a1b69818f813e9b949446a5800f49094ce97c40131a53b28bb6952a23449246"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "供港澳蔬菜检验检疫监督管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_10_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "7c2538efdac88b7c41f0dde8225bb67e593ee4d1fd4cecd8c3572c84a811a045"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "国际航行船舶出入境检验检疫管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_11_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "fab1100a03ef91a685c8fc75a00e9caa8f77bd34aa05e7be1f7137bcee3f313a"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "国境口岸食品卫生监督管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_12_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "45d6257ee4487eaa4ae3cfd28aedf8bb62fe8d90e38d1f84cae3a82341b32f57"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "国境口岸卫生许可管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_13_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "ab7f39d6ad6a35c677064037fc4a7005b0cb0e2cbaab04c41b7efd3dcf2bdde4"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "海南出入境游艇检疫管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_14_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "d0be747141120c190cf8a92efc7760fd9d76d47481c7e7bf3860be83edbc1194"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "进出境非食用动物产品检验检疫监督管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_15_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "5bf5306af45119bc23f6f2b5e18cddec89198c837e28198a2625fd7388fff0a6"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "进出口商品复验办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_16_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "0f86c85cea13f5132e30898109fca203a96596c9d42fd3398ab4a0648fe58be8"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "进出口商品免验办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_17_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "bb20a7ec567bee474577852ba04a3db520f7cd4b2399ae75bb5c6da7f2aa854f"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "进出口商品数量重量检验鉴定管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_18_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "a3411342e979569f79eb1832aeaa37476e8f3a14f91ecb38886deccb89a1f355"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "进境动物遗传物质检疫管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_19_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "79fde9e91a5df19743c4fc8c6da19d845453e0264ee04377fabc42cf9e1e30d1"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "进境动植物检疫审批管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_20_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "004e904e21fa01848efe93223488c2da1476bb4685cc79f7b53adeeae10cda0b"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "进境植物繁殖材料检疫管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_21_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "b555141db2f77f3a23fe1a201f66a57d4f60463f7c60254fa44d367fde6a0eae"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "进口棉花检验监督管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_22_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "9ea7408262a68366946bd7b3d35371b24ec60c09053c3891777651f461c60090"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "沙头角边境特别管理区进出物品检验检疫管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_23_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "e8438ae4b4b4fb595149baaf60c4393a545663c9f52373111a94b2b6a30f9cfd"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国非优惠原产地证书签证管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_24_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "f4f0262128ebadff4eeb1632f8860cbca76e00d374c09434be7507006f64c64a"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关保税核查办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_25_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "0249eef0dd7502ffae1162e225a098bd97776b2c373fddd511f58c0f703466cc"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关对保税仓库及所存货物的管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_26_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "eca2802097b11c8d703bdd9c8fe90989edcf6e73dad917bff0d48354fc0a30dc"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关对常驻机构进出境公用物品监管办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_27_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "6a18b2ed2e0b266e64adb8d4437cd883bcf1e750f0e62cd2a607e04954cc9c59"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关对非居民长期旅客进出境自用物品监管办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_28_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "844eb20c48f0e10facd70aa14af565e0a321b33ce448aad4be4d8fcdd72d08cf"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关对进出境快件监管办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_29_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "72658b20124496a6770042431a6b11073b8010665469da60b7560cfa38feb745"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关对免税商店及免税品监管办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_30_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "3f6da062adc253f31c578f4b4643027fdabf6603753f7629c642456679949975"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关对上海钻石交易所监管办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_31_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "42711096f36b668115585f3abc0915318c25708eb86928251647485c45e2fc89"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关对外国驻中国使馆和使馆人员进出境物品监管办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_32_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "7334f47479df31a5e177a52e17765f5afea264ff48f6e6babf7f029e9f09af4b"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关对用于装载海关监管货物的集装箱和集装箱式货车车厢的监管办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_33_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "f8f5e4f9cf30bcc68aee68093ed933faa04a92e0856a624b811df506e887514d"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关关于境内公路承运海关监管货物的运输企业及其车辆的管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_34_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "b725807f18146c41b6100af3fb1a53150903442e2beb215a2dc19257a7c231dc"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关关于境外登山团体和个人进出境物品管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_35_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "29b3db3f7c9c14c69aeb3acb83a1d61e33add3ad840ae0f70af3bdbe3febb107"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关关于来往香港、澳门公路货运企业及其车辆的管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_36_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "23d24bfad96d425b22a319251f05b47f689d16de69d3e4b43dc9c9c7275ba82e"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关关于中华人民共和国知识产权海关保护条例的实施办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_37_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "a0d7737721ef8475cdb7068cbf3d8f1dae2529248ceb13eb0fcf1915b445807f"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关关于转关货物监管办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_38_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "7002e34c9fb26c3f2708ff4dcb7fe25db61236cee10501e24b46f85f39c6d566"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关进出境运输工具舱单管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_39_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "244dd7c9872f80ca2074c353a5e480fde2a86a63c2451b7bea92d744a417172a"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关进出境运输工具监管办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_40_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "25f5353884bef1e973ea2b3840b6fa614898bea7db0205f058406ae2a7ad392f"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关进出口货物征税管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_41_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "80b85a287cc8e022f4a3958fdd3750c0c7d8faed830a23522a1c777a56e48b27"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关行政许可听证办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_42_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "a9bd49551f74fa8809f22e785b60df90a382c73d5a5a4cf2dbf8492f0d2121cd"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20180529",
+      "sequence_code": "0241",
+      "decision_title": "海关总署关于废止部分规章的决定（2018年5月29日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关征收进口货物滞报金办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20180529_0241_43_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
+      "source_sha256": "284b15d57064cc62887d1072596b21cea905ba27bcdce67d120f9c50b7aebf55"
     }
   ]
 }
