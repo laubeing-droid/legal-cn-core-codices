@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-14-batch13-22",
+  "version": "2026-08-14-batch23-32",
   "entries": [
     {
       "agency_code": "1100003000",
@@ -7505,6 +7505,1386 @@
       "evidence_path": "decision_1300003000_20230120_0001_11_evidence.json",
       "official_url": "http://legal.qcc.com/regulation/placeholder",
       "source_sha256": "5f1ea7294b412d34ec52a7ae69afb28e2199aa886ee965d6cbd21abe298d0976"
+    },
+    {
+      "agency_code": "1100003000",
+      "promulgation_date": "20101127",
+      "sequence_code": "0226",
+      "decision_title": "北京市人民政府关于修改废止部分市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "北京市产权交易管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_1100003000_20101127_0226_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "73412c90b1da9b1d242fa7983c4ea47e2c942c05c4b43c70f02b1e4bd59f7d89"
+    },
+    {
+      "agency_code": "1100003000",
+      "promulgation_date": "20101127",
+      "sequence_code": "0226",
+      "decision_title": "北京市人民政府关于修改废止部分市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "北京市城镇住宅合作社管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_1100003000_20101127_0226_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "ebc1444c689b5a0ad96dd3bf068e376c0bc63d0a133b4632d97cefe9056d83b8"
+    },
+    {
+      "agency_code": "1100003000",
+      "promulgation_date": "20101127",
+      "sequence_code": "0226",
+      "decision_title": "北京市人民政府关于修改废止部分市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "北京市出租汽车治安管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_1100003000_20101127_0226_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "b2e4ac752f23187d2f344620713cb8c0589fe62cb031e98a2338cd9bef4b7e9b"
+    },
+    {
+      "agency_code": "1100003000",
+      "promulgation_date": "20101127",
+      "sequence_code": "0226",
+      "decision_title": "北京市人民政府关于修改废止部分市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "北京市大型社会活动安全检查办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_1100003000_20101127_0226_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "fffeda9bd4a470e068ad4bbd60f2fdeebc8b8a495585277d1e13ea3f4291c7c8"
+    },
+    {
+      "agency_code": "1100003000",
+      "promulgation_date": "20101127",
+      "sequence_code": "0226",
+      "decision_title": "北京市人民政府关于修改废止部分市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "北京市非机动车停车管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_1100003000_20101127_0226_05_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "156df27352c8f0b939c7e24f3d26897fbbd66c82294e9e575032c6ef07d20c50"
+    },
+    {
+      "agency_code": "1100003000",
+      "promulgation_date": "20101127",
+      "sequence_code": "0226",
+      "decision_title": "北京市人民政府关于修改废止部分市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "北京市人民防空工程建设与使用管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_1100003000_20101127_0226_06_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "8fc4e545fa35641aac37f82cb59ba93848d8057d328d01e790ec7e6b16b37e4f"
+    },
+    {
+      "agency_code": "1100003000",
+      "promulgation_date": "20101127",
+      "sequence_code": "0226",
+      "decision_title": "北京市人民政府关于修改废止部分市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "北京市文物保护单位巡视检查报告制度暂行规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_1100003000_20101127_0226_07_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "3560d03a04b098a8cec77924a9fb4f1b241f67250a99f4596f7d45cae3097239"
+    },
+    {
+      "agency_code": "1100003000",
+      "promulgation_date": "20101127",
+      "sequence_code": "0226",
+      "decision_title": "北京市人民政府关于修改废止部分市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "北京市用水单位水量平衡测试管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_1100003000_20101127_0226_08_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "4bcbade9477346e1926926fff5a235cbafead3a93e4f0e45174583b2b9f0d542"
+    },
+    {
+      "agency_code": "1100003000",
+      "promulgation_date": "20101127",
+      "sequence_code": "0226",
+      "decision_title": "北京市人民政府关于修改废止部分市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "北京市中水设施建设管理试行办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_1100003000_20101127_0226_09_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "649a8253204dea9a03c148b6fcca9bb6d229a72c4c25d6ce4d48d6edb84b81f9"
+    },
+    {
+      "agency_code": "1100003000",
+      "promulgation_date": "20101127",
+      "sequence_code": "0226",
+      "decision_title": "北京市人民政府关于修改废止部分市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "关于划定郊区主要河道保护范围的规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_1100003000_20101127_0226_10_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "ac50b49e731953867b3359b4fcb7dd88fcdd5fcd022dfdafc8be5b3e82a817b7"
+    },
+    {
+      "agency_code": "2102003000",
+      "promulgation_date": "20180723",
+      "sequence_code": "0154",
+      "decision_title": "大连市人民政府关于修改废止部分市政府规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "大连港港口治安管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2102003000_20180723_0154_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "77358f0e0bd65d685e575044ec8d167437cf3a13bd87e2addac2619e8f633a95"
+    },
+    {
+      "agency_code": "2102003000",
+      "promulgation_date": "20180723",
+      "sequence_code": "0154",
+      "decision_title": "大连市人民政府关于修改废止部分市政府规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "大连口岸特资转运管理暂行规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2102003000_20180723_0154_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "ddfae2ce0545578076a3ef98c6914f588bff9e27d67f1504c3620eda20d77219"
+    },
+    {
+      "agency_code": "2102003000",
+      "promulgation_date": "20180723",
+      "sequence_code": "0154",
+      "decision_title": "大连市人民政府关于修改废止部分市政府规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "大连市城市废弃物管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2102003000_20180723_0154_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "704b43cef6058a276c2cdbadd785ffefe02b207f81109271905885b7e662b6d1"
+    },
+    {
+      "agency_code": "2102003000",
+      "promulgation_date": "20180723",
+      "sequence_code": "0154",
+      "decision_title": "大连市人民政府关于修改废止部分市政府规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "大连市城市公园管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2102003000_20180723_0154_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "c5b356da88d757d6027cc42bb0eb19f91563b37609d7f47d8ccc2d23731e8e65"
+    },
+    {
+      "agency_code": "2102003000",
+      "promulgation_date": "20180723",
+      "sequence_code": "0154",
+      "decision_title": "大连市人民政府关于修改废止部分市政府规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "大连市城镇危险房屋管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2102003000_20180723_0154_05_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "19fd80384f03f73e47401dd4d150a78226391e249d11944316cad214ec81a920"
+    },
+    {
+      "agency_code": "2102003000",
+      "promulgation_date": "20180723",
+      "sequence_code": "0154",
+      "decision_title": "大连市人民政府关于修改废止部分市政府规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "大连市档案管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2102003000_20180723_0154_06_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "8d8a4f485e8f8be1664cf5c9d44d1cf36d03d4d74eaa11b3906fc1516486cf6c"
+    },
+    {
+      "agency_code": "2102003000",
+      "promulgation_date": "20180723",
+      "sequence_code": "0154",
+      "decision_title": "大连市人民政府关于修改废止部分市政府规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "大连市防御雷电灾害管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2102003000_20180723_0154_07_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "7b0008a18847480b72d91f2a9aa8c1f9a39dac9aaa06b07d44b0173e8e794678"
+    },
+    {
+      "agency_code": "2102003000",
+      "promulgation_date": "20180723",
+      "sequence_code": "0154",
+      "decision_title": "大连市人民政府关于修改废止部分市政府规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "大连市关于加快电网建设的规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2102003000_20180723_0154_08_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "6117d0ca43e3f525830e5355a7aa2cf96d54c03966c7cdc561e67bcd07e10e9f"
+    },
+    {
+      "agency_code": "2102003000",
+      "promulgation_date": "20180723",
+      "sequence_code": "0154",
+      "decision_title": "大连市人民政府关于修改废止部分市政府规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "大连市事业单位聘用合同规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2102003000_20180723_0154_09_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "86e008740f272aa4e7c8d17332da4b14a622c46da5bac578f9826e3e1c06e96a"
+    },
+    {
+      "agency_code": "2102003000",
+      "promulgation_date": "20180723",
+      "sequence_code": "0154",
+      "decision_title": "大连市人民政府关于修改废止部分市政府规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "大连市天津街商业步行街管理暂行规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2102003000_20180723_0154_10_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "66d0ab4911a70f56080a7e6b509c267a63ade8f0ee56fd7bad10e571959de0db"
+    },
+    {
+      "agency_code": "4401001001",
+      "promulgation_date": "20200820",
+      "sequence_code": "0059",
+      "decision_title": "广州市人民代表大会常务委员会关于修改部分地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "广州市安全生产条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401001001_20200820_0059_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "8a4f06c258383c323b4b5b82993e417ff1bcf8af3f03ea8205d04b7af797013b"
+    },
+    {
+      "agency_code": "4401001001",
+      "promulgation_date": "20200820",
+      "sequence_code": "0059",
+      "decision_title": "广州市人民代表大会常务委员会关于修改部分地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "广州市城市快速路路政管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401001001_20200820_0059_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "1493975b740fe5bbbab75c9652dc24bd3449917e462f36d294c23e519803a427"
+    },
+    {
+      "agency_code": "4401001001",
+      "promulgation_date": "20200820",
+      "sequence_code": "0059",
+      "decision_title": "广州市人民代表大会常务委员会关于修改部分地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "广州市妇女权益保障规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401001001_20200820_0059_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "5369e51d74e229b90afcb0f44d7f095acf66565c8e98ae766f38e484a83a5533"
+    },
+    {
+      "agency_code": "4401001001",
+      "promulgation_date": "20200820",
+      "sequence_code": "0059",
+      "decision_title": "广州市人民代表大会常务委员会关于修改部分地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "广州市公园条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401001001_20200820_0059_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "5ac7f9fbf49f0ec7db39a6f91e2c547ac7ceb5c8c81205ed813965b559ea3262"
+    },
+    {
+      "agency_code": "4401001001",
+      "promulgation_date": "20200820",
+      "sequence_code": "0059",
+      "decision_title": "广州市人民代表大会常务委员会关于修改部分地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "广州市奖励和保护见义勇为人员条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401001001_20200820_0059_05_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "ad86e6c016149caa23d49820ec3ab95142f5d12c784070a8762d4d133a9c710d"
+    },
+    {
+      "agency_code": "4401001001",
+      "promulgation_date": "20200820",
+      "sequence_code": "0059",
+      "decision_title": "广州市人民代表大会常务委员会关于修改部分地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "广州市全民健身条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401001001_20200820_0059_06_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "aab8612de333b60698d8443f25fdb3e9712a50571efa58cf96de0ba070ef8d24"
+    },
+    {
+      "agency_code": "4401001001",
+      "promulgation_date": "20200820",
+      "sequence_code": "0059",
+      "decision_title": "广州市人民代表大会常务委员会关于修改部分地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "广州市森林公园管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401001001_20200820_0059_07_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "9c95c774509f6c39da2a1f13739a5658f171a3dc8c00c39720bcac80c3ad6574"
+    },
+    {
+      "agency_code": "4401001001",
+      "promulgation_date": "20200820",
+      "sequence_code": "0059",
+      "decision_title": "广州市人民代表大会常务委员会关于修改部分地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "广州市湿地保护规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401001001_20200820_0059_08_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "6d7d46439fecee6e19505f7c1870fca8917558c61f9689b3b8c659ce6c75b132"
+    },
+    {
+      "agency_code": "4401001001",
+      "promulgation_date": "20200820",
+      "sequence_code": "0059",
+      "decision_title": "广州市人民代表大会常务委员会关于修改部分地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "广州市邮政管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401001001_20200820_0059_09_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "ccf7900f58b02d3e27bebf7a3cca057d00ba4303d5c784b136f8d01c7ef48bda"
+    },
+    {
+      "agency_code": "6101001001",
+      "promulgation_date": "20170509",
+      "sequence_code": "0006",
+      "decision_title": "西安市人民代表大会常务委员会关于修改部分地方性法规的决定（2017）",
+      "ordered_titles": [
+        {
+          "title": "西安市城市房屋租赁条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6101001001_20170509_0006_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "f65a247bee89763b6b40eccc3d87bece5f527426c3746be3fb61e99f66ce31df"
+    },
+    {
+      "agency_code": "6101001001",
+      "promulgation_date": "20170509",
+      "sequence_code": "0006",
+      "decision_title": "西安市人民代表大会常务委员会关于修改部分地方性法规的决定（2017）",
+      "ordered_titles": [
+        {
+          "title": "西安市城市市容和环境卫生管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6101001001_20170509_0006_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "06d15616d16777dc5344953abd39db6913198769ef38aeb306f8091b2238b216"
+    },
+    {
+      "agency_code": "6101001001",
+      "promulgation_date": "20170509",
+      "sequence_code": "0006",
+      "decision_title": "西安市人民代表大会常务委员会关于修改部分地方性法规的决定（2017）",
+      "ordered_titles": [
+        {
+          "title": "西安市城市污水处理和再生水利用条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6101001001_20170509_0006_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "33b6ae2b221b063328260b1dcab5dfd225b126fe0613a57da774aa4382560744"
+    },
+    {
+      "agency_code": "6101001001",
+      "promulgation_date": "20170509",
+      "sequence_code": "0006",
+      "decision_title": "西安市人民代表大会常务委员会关于修改部分地方性法规的决定（2017）",
+      "ordered_titles": [
+        {
+          "title": "西安市城乡建设档案管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6101001001_20170509_0006_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "514c787c8fd25bed6824b66eb3a8ce74da4fca1cfce6b76332e5f364b4e2cb5e"
+    },
+    {
+      "agency_code": "6101001001",
+      "promulgation_date": "20170509",
+      "sequence_code": "0006",
+      "decision_title": "西安市人民代表大会常务委员会关于修改部分地方性法规的决定（2017）",
+      "ordered_titles": [
+        {
+          "title": "西安市改革创新促进条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6101001001_20170509_0006_05_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "a81d1176ad493c9bcaee724fc8eb2abce2348434011e0993d522e46dcbfd8188"
+    },
+    {
+      "agency_code": "6101001001",
+      "promulgation_date": "20170509",
+      "sequence_code": "0006",
+      "decision_title": "西安市人民代表大会常务委员会关于修改部分地方性法规的决定（2017）",
+      "ordered_titles": [
+        {
+          "title": "西安市经纪人条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6101001001_20170509_0006_06_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "822a78f322f7141b2129c986c27a6c9abe70feae18bb2f7a2e2ad829df2ae893"
+    },
+    {
+      "agency_code": "6101001001",
+      "promulgation_date": "20170509",
+      "sequence_code": "0006",
+      "decision_title": "西安市人民代表大会常务委员会关于修改部分地方性法规的决定（2017）",
+      "ordered_titles": [
+        {
+          "title": "西安市涉案物品价格鉴证条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6101001001_20170509_0006_07_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "63e32c8b12963dcb6bf320da8be12ae5e7908d8c33d80df8df3f0f8d3d670b3f"
+    },
+    {
+      "agency_code": "6101001001",
+      "promulgation_date": "20170509",
+      "sequence_code": "0006",
+      "decision_title": "西安市人民代表大会常务委员会关于修改部分地方性法规的决定（2017）",
+      "ordered_titles": [
+        {
+          "title": "西安市统计管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6101001001_20170509_0006_08_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "9bc022229fd1310ec2703cc01298aff698fc023ff412e6c8ad5bffc2ae9fb406"
+    },
+    {
+      "agency_code": "6101001001",
+      "promulgation_date": "20170509",
+      "sequence_code": "0006",
+      "decision_title": "西安市人民代表大会常务委员会关于修改部分地方性法规的决定（2017）",
+      "ordered_titles": [
+        {
+          "title": "西安市周丰镐、秦阿房宫、汉长安城和唐大明宫遗址保护管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6101001001_20170509_0006_09_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "06f436a04b9c163e2c0344373e914ae47a35fea52437d88d9d44262a39d8abe7"
+    },
+    {
+      "agency_code": "0000003332",
+      "promulgation_date": "20110126",
+      "sequence_code": "0009",
+      "decision_title": "住房和城乡建设部关于修改部分规章的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "城市地下空间开发利用管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003332_20110126_0009_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "3b0b33e86daf2e8c85eabb9badb1f26721c3a439d45c878edd4dbfe055eb3482"
+    },
+    {
+      "agency_code": "0000003332",
+      "promulgation_date": "20110126",
+      "sequence_code": "0009",
+      "decision_title": "住房和城乡建设部关于修改部分规章的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "城市动物园管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003332_20110126_0009_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "bf85e38ff5cc67a0f4ac6fe204c899f62ecb1e9b273a0fb54f77831912db7593"
+    },
+    {
+      "agency_code": "0000003332",
+      "promulgation_date": "20110126",
+      "sequence_code": "0009",
+      "decision_title": "住房和城乡建设部关于修改部分规章的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "城市国有土地使用权出让转让规划管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003332_20110126_0009_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "5c71e33fc7454aa1b1bbeb0897d2191b8636af732ba8f99a759b5fb1ffdba82b"
+    },
+    {
+      "agency_code": "0000003332",
+      "promulgation_date": "20110126",
+      "sequence_code": "0009",
+      "decision_title": "住房和城乡建设部关于修改部分规章的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "城市黄线管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003332_20110126_0009_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "85b40d99e45e5e04c8060e15e7bffe1dcad2f94365fd0d6f342a3448467c6cb6"
+    },
+    {
+      "agency_code": "0000003332",
+      "promulgation_date": "20110126",
+      "sequence_code": "0009",
+      "decision_title": "住房和城乡建设部关于修改部分规章的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "城市蓝线管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003332_20110126_0009_05_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "d15324ef6efc7f8f28349a35fe2f8f6c08d7470f70ca6b30444f03d2195115f7"
+    },
+    {
+      "agency_code": "0000003332",
+      "promulgation_date": "20110126",
+      "sequence_code": "0009",
+      "decision_title": "住房和城乡建设部关于修改部分规章的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "城市绿线管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003332_20110126_0009_06_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "42f75aff8ca561278716beeddee7e27998f4fcdd5817ca31aa3460eb70f4eae6"
+    },
+    {
+      "agency_code": "0000003332",
+      "promulgation_date": "20110126",
+      "sequence_code": "0009",
+      "decision_title": "住房和城乡建设部关于修改部分规章的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "城市紫线管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003332_20110126_0009_07_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "778fa6eed437973ddbb6b20d4f728be22541e09041b3a793b7a04de3030d86a5"
+    },
+    {
+      "agency_code": "0000003332",
+      "promulgation_date": "20110126",
+      "sequence_code": "0009",
+      "decision_title": "住房和城乡建设部关于修改部分规章的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "建制镇规划建设管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003332_20110126_0009_08_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "2b95220c00c2448bb5f65221fd05c4346fa734e81752704f5f309175832113a8"
+    },
+    {
+      "agency_code": "0000003332",
+      "promulgation_date": "20110126",
+      "sequence_code": "0009",
+      "decision_title": "住房和城乡建设部关于修改部分规章的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "住宅室内装饰装修管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003332_20110126_0009_09_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "297b04b800fd5d803483f8cb8c01ec0e3ad320847b5273f2ca64f70cbff84d44"
+    },
+    {
+      "agency_code": "3301003000",
+      "promulgation_date": "20191231",
+      "sequence_code": "0320",
+      "decision_title": "杭州市人民政府关于修改废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "杭州市城市管理相对集中行政处罚权实施办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3301003000_20191231_0320_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "8adca75e539c525fcdf09b37e2efe64aa284ef64449565fcd0957af1c291d4fd"
+    },
+    {
+      "agency_code": "3301003000",
+      "promulgation_date": "20191231",
+      "sequence_code": "0320",
+      "decision_title": "杭州市人民政府关于修改废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "杭州市城市河道保护管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3301003000_20191231_0320_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "acc309ec6b3ee2d9adcc5f0532f467bdee0bae24bf687e098d1e26a14d5b30fb"
+    },
+    {
+      "agency_code": "3301003000",
+      "promulgation_date": "20191231",
+      "sequence_code": "0320",
+      "decision_title": "杭州市人民政府关于修改废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "杭州市城市绿化管理条例实施细则",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3301003000_20191231_0320_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "fad2141ef7fe3ecc83f2de4e7fcf401ff72bd49fcbb804949157b928796eba7f"
+    },
+    {
+      "agency_code": "3301003000",
+      "promulgation_date": "20191231",
+      "sequence_code": "0320",
+      "decision_title": "杭州市人民政府关于修改废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "杭州市城市扬尘污染防治管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3301003000_20191231_0320_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "2d6f1033595d00ff0f635db43c006ff42ce46c90573b12efa75d38c9642d3e1c"
+    },
+    {
+      "agency_code": "3301003000",
+      "promulgation_date": "20191231",
+      "sequence_code": "0320",
+      "decision_title": "杭州市人民政府关于修改废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "杭州市服务外包知识产权保护若干规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3301003000_20191231_0320_05_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "76f2a2614f7fede45ef01c4c53698c6807db8a846a7b0a1f2bf18dea39df6515"
+    },
+    {
+      "agency_code": "3301003000",
+      "promulgation_date": "20191231",
+      "sequence_code": "0320",
+      "decision_title": "杭州市人民政府关于修改废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "杭州市建设工程文明施工管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3301003000_20191231_0320_06_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "d463f8e6f6f98601f55126469736c14f6771e1addc5506015546946d20bfd558"
+    },
+    {
+      "agency_code": "3301003000",
+      "promulgation_date": "20191231",
+      "sequence_code": "0320",
+      "decision_title": "杭州市人民政府关于修改废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "杭州市钱塘江防潮安全管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3301003000_20191231_0320_07_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "0ae7ea4790aee07777d9844aee96e8d9d719320d74cd9c93bc4ccff1d79abed2"
+    },
+    {
+      "agency_code": "3301003000",
+      "promulgation_date": "20191231",
+      "sequence_code": "0320",
+      "decision_title": "杭州市人民政府关于修改废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "杭州市突发气象灾害预警信号发布与传播管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3301003000_20191231_0320_08_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "7da64c78398b400c682da044ec30328b4dfda04bdf830b43e8f6501e69be5af7"
+    },
+    {
+      "agency_code": "3301003000",
+      "promulgation_date": "20191231",
+      "sequence_code": "0320",
+      "decision_title": "杭州市人民政府关于修改废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "杭州市危害食品安全行为举报奖励办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3301003000_20191231_0320_09_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "ff53b7da6c163a0c979aada2eaeab04dc2b6e4d8c7c5596bd8fff77bf4ebe1cc"
+    },
+    {
+      "agency_code": "3502003000",
+      "promulgation_date": "20151230",
+      "sequence_code": "0161",
+      "decision_title": "厦门市人民政府关于修改废止部分市政府规章的决定（2015）",
+      "ordered_titles": [
+        {
+          "title": "厦门经济特区外国人“特区旅游签证”管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3502003000_20151230_0161_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "18c1747900471e883f2af9ea1211f661d417f5a065d2ae3649ed9f5efb12d041"
+    },
+    {
+      "agency_code": "3502003000",
+      "promulgation_date": "20151230",
+      "sequence_code": "0161",
+      "decision_title": "厦门市人民政府关于修改废止部分市政府规章的决定（2015）",
+      "ordered_titles": [
+        {
+          "title": "厦门市测绘管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3502003000_20151230_0161_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "391500e2b45377639a7963420cacc94971cd3fbbd05513f2117700b3ae56938b"
+    },
+    {
+      "agency_code": "3502003000",
+      "promulgation_date": "20151230",
+      "sequence_code": "0161",
+      "decision_title": "厦门市人民政府关于修改废止部分市政府规章的决定（2015）",
+      "ordered_titles": [
+        {
+          "title": "厦门市城市社区建设若干规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3502003000_20151230_0161_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "5b9ba09cedda5344f93eac1a27f85a3631dc105fa9275b57bcc30114543cadb0"
+    },
+    {
+      "agency_code": "3502003000",
+      "promulgation_date": "20151230",
+      "sequence_code": "0161",
+      "decision_title": "厦门市人民政府关于修改废止部分市政府规章的决定（2015）",
+      "ordered_titles": [
+        {
+          "title": "厦门市地方预算执行情况审计监督办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3502003000_20151230_0161_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "1318398807c136cafb89e1f642408bc324e2644e3685ec24a7f5c9780e6f9cdb"
+    },
+    {
+      "agency_code": "3502003000",
+      "promulgation_date": "20151230",
+      "sequence_code": "0161",
+      "decision_title": "厦门市人民政府关于修改废止部分市政府规章的决定（2015）",
+      "ordered_titles": [
+        {
+          "title": "厦门市建设工程监理管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3502003000_20151230_0161_05_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "be473a6fb6bb9ec8b9489cc00e123e6f44c704d0fb3a930ffa1185c96c89b469"
+    },
+    {
+      "agency_code": "3502003000",
+      "promulgation_date": "20151230",
+      "sequence_code": "0161",
+      "decision_title": "厦门市人民政府关于修改废止部分市政府规章的决定（2015）",
+      "ordered_titles": [
+        {
+          "title": "厦门市建设工程抗震设防管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3502003000_20151230_0161_06_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "3745293402526771db7f14b78fd0ab4b75774894b00587b7bbe641f1bbef0068"
+    },
+    {
+      "agency_code": "3502003000",
+      "promulgation_date": "20151230",
+      "sequence_code": "0161",
+      "decision_title": "厦门市人民政府关于修改废止部分市政府规章的决定（2015）",
+      "ordered_titles": [
+        {
+          "title": "厦门市建设工程设计招标投标管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3502003000_20151230_0161_07_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "7fba0b7b70ec565c7a187522344c5d30e5ba4ad12db05e22352d71ce39ca355d"
+    },
+    {
+      "agency_code": "3502003000",
+      "promulgation_date": "20151230",
+      "sequence_code": "0161",
+      "decision_title": "厦门市人民政府关于修改废止部分市政府规章的决定（2015）",
+      "ordered_titles": [
+        {
+          "title": "厦门市建设工程造价管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3502003000_20151230_0161_08_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "e2af68e06e9825d8bb508fc624ee7507fc5b6d9171e620a8c766b9d1871b0ea8"
+    },
+    {
+      "agency_code": "3502003000",
+      "promulgation_date": "20151230",
+      "sequence_code": "0161",
+      "decision_title": "厦门市人民政府关于修改废止部分市政府规章的决定（2015）",
+      "ordered_titles": [
+        {
+          "title": "厦门市行政执法证件管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3502003000_20151230_0161_09_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "08ce8e182e332f719ea712c4d0369abb064909778d102ef1aacfd4ac916cb5ac"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20150930",
+      "sequence_code": "0132",
+      "decision_title": "广州市人民政府关于修改废止部分市政府规章的决定（2015）",
+      "ordered_titles": [
+        {
+          "title": "广州市城市管理综合执法细则",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20150930_0132_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "a81cde7c1862902ccab54fa465c0ca82d75f6d1888c7079ca2e79abe89bc0f4b"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20150930",
+      "sequence_code": "0132",
+      "decision_title": "广州市人民政府关于修改废止部分市政府规章的决定（2015）",
+      "ordered_titles": [
+        {
+          "title": "广州市档案管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20150930_0132_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "6063177887da3cc4c748fea2a760fd13e3fc39e3a326f57c93db7ff376fa1dec"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20150930",
+      "sequence_code": "0132",
+      "decision_title": "广州市人民政府关于修改废止部分市政府规章的决定（2015）",
+      "ordered_titles": [
+        {
+          "title": "广州市非税收入管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20150930_0132_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "436165c819c59521aae4ef49dee7ef75938a388e18956711851d6d9e94ea8b45"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20150930",
+      "sequence_code": "0132",
+      "decision_title": "广州市人民政府关于修改废止部分市政府规章的决定（2015）",
+      "ordered_titles": [
+        {
+          "title": "广州市街道办事处工作规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20150930_0132_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "ab8807400f80fe8e70bf63d3024daf7dc4e5d825d857a1000ad72d26de4d92eb"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20150930",
+      "sequence_code": "0132",
+      "decision_title": "广州市人民政府关于修改废止部分市政府规章的决定（2015）",
+      "ordered_titles": [
+        {
+          "title": "广州市区分所有建筑物消防安全管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20150930_0132_05_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "69bc250998df17f5b795726c22b1f0767bd5bb93866fe19108f77fa3f5501ad8"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20150930",
+      "sequence_code": "0132",
+      "decision_title": "广州市人民政府关于修改废止部分市政府规章的决定（2015）",
+      "ordered_titles": [
+        {
+          "title": "广州市社会组织管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20150930_0132_06_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "be5948e70073e3d0395d0bd7fe6491452287406db1f6b361b759b2ed1e983c12"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20150930",
+      "sequence_code": "0132",
+      "decision_title": "广州市人民政府关于修改废止部分市政府规章的决定（2015）",
+      "ordered_titles": [
+        {
+          "title": "广州市突发事件危险源和危险区域管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20150930_0132_07_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "5551e614a37cbd7d72983e520cd3d0113adf8ff51c85a943eaf628c7f1d4d3c5"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20150930",
+      "sequence_code": "0132",
+      "decision_title": "广州市人民政府关于修改废止部分市政府规章的决定（2015）",
+      "ordered_titles": [
+        {
+          "title": "广州市行政执法责任追究办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20150930_0132_08_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "995ce6bf40b7c3f9bab8e8499c2a044b6eb11a928aeb8c3a08026f9b9c315933"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20150930",
+      "sequence_code": "0132",
+      "decision_title": "广州市人民政府关于修改废止部分市政府规章的决定（2015）",
+      "ordered_titles": [
+        {
+          "title": "广州市专利行政执法办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20150930_0132_09_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "9cf57f8cb8cac91641cae2a0a9574e1cd1636d6aa82147ee5c207c4f36512f79"
+    },
+    {
+      "agency_code": "4500003000",
+      "promulgation_date": "20160926",
+      "sequence_code": "0112",
+      "decision_title": "广西壮族自治区人民政府关于修改废止部分政府规章的决定（2016）",
+      "ordered_titles": [
+        {
+          "title": "广西壮族自治区道路交通安全责任制规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4500003000_20160926_0112_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "b846ff93e0fab380f13acc196beea28eca5f5b499077950b138be1fe2859b1c3"
+    },
+    {
+      "agency_code": "4500003000",
+      "promulgation_date": "20160926",
+      "sequence_code": "0112",
+      "decision_title": "广西壮族自治区人民政府关于修改废止部分政府规章的决定（2016）",
+      "ordered_titles": [
+        {
+          "title": "广西壮族自治区道路旅客运输安全管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4500003000_20160926_0112_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "0deaaa1181c3e31bf70672e068e8cd4628a7441a1da7f953ca55d5e691644f34"
+    },
+    {
+      "agency_code": "4500003000",
+      "promulgation_date": "20160926",
+      "sequence_code": "0112",
+      "decision_title": "广西壮族自治区人民政府关于修改废止部分政府规章的决定（2016）",
+      "ordered_titles": [
+        {
+          "title": "广西壮族自治区供电用电办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4500003000_20160926_0112_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "c9662b3919ddddf9a0b432bf5d9dd1031d074e8b6d210d001591cd0642be8e96"
+    },
+    {
+      "agency_code": "4500003000",
+      "promulgation_date": "20160926",
+      "sequence_code": "0112",
+      "decision_title": "广西壮族自治区人民政府关于修改废止部分政府规章的决定（2016）",
+      "ordered_titles": [
+        {
+          "title": "广西壮族自治区机动车排气污染防治办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4500003000_20160926_0112_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "c4138718e45df8169704a4152b9249aadadc4c202be6470c7a7ece99dce99883"
+    },
+    {
+      "agency_code": "4500003000",
+      "promulgation_date": "20160926",
+      "sequence_code": "0112",
+      "decision_title": "广西壮族自治区人民政府关于修改废止部分政府规章的决定（2016）",
+      "ordered_titles": [
+        {
+          "title": "广西壮族自治区实施国防交通条例办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4500003000_20160926_0112_05_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "0f735348dc675de9762300816ee218e05dd86e1a09e8ab74066d3e6c5512d63e"
+    },
+    {
+      "agency_code": "4500003000",
+      "promulgation_date": "20160926",
+      "sequence_code": "0112",
+      "decision_title": "广西壮族自治区人民政府关于修改废止部分政府规章的决定（2016）",
+      "ordered_titles": [
+        {
+          "title": "广西壮族自治区树蔸树木采挖流通管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4500003000_20160926_0112_06_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "d3c00e1a0d6c145e1036b80fce2d723f2a6b7be0bc640b01fa2dd7e9637d3a8b"
+    },
+    {
+      "agency_code": "4500003000",
+      "promulgation_date": "20160926",
+      "sequence_code": "0112",
+      "decision_title": "广西壮族自治区人民政府关于修改废止部分政府规章的决定（2016）",
+      "ordered_titles": [
+        {
+          "title": "广西壮族自治区突发公共卫生事件应急办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4500003000_20160926_0112_07_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "f4059d3ed7ff97dc3410a1f35578dd6c69ea2f7ff18d9b098a91aa8eadd2a2a9"
+    },
+    {
+      "agency_code": "4500003000",
+      "promulgation_date": "20160926",
+      "sequence_code": "0112",
+      "decision_title": "广西壮族自治区人民政府关于修改废止部分政府规章的决定（2016）",
+      "ordered_titles": [
+        {
+          "title": "广西壮族自治区行业协会商会管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4500003000_20160926_0112_08_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "7ae0485ea8ea2d77a50541f3e9ce08f7e82592ce207bb6021edbce795e994396"
+    },
+    {
+      "agency_code": "4500003000",
+      "promulgation_date": "20160926",
+      "sequence_code": "0112",
+      "decision_title": "广西壮族自治区人民政府关于修改废止部分政府规章的决定（2016）",
+      "ordered_titles": [
+        {
+          "title": "广西壮族自治区野生植物保护办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4500003000_20160926_0112_09_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "f0d1d1a8adf6c1fc89d8099b5549c2a91b5a75a97d94e972e2f8aec27855b89f"
+    },
+    {
+      "agency_code": "6401003000",
+      "promulgation_date": "20200313",
+      "sequence_code": "0001",
+      "decision_title": "银川市人民政府关于修改部分市政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "银川市殡葬管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6401003000_20200313_0001_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "82d82860bf66b7b0d4284ae1ec74ada31bfa80a0e4a4244296aea5455fe5ae2b"
+    },
+    {
+      "agency_code": "6401003000",
+      "promulgation_date": "20200313",
+      "sequence_code": "0001",
+      "decision_title": "银川市人民政府关于修改部分市政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "银川市城市扬尘污染防治管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6401003000_20200313_0001_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "6e08728cda86d87351debbe06be58e7864bd9862d7c0c3fe83ce2621d2f70d8d"
+    },
+    {
+      "agency_code": "6401003000",
+      "promulgation_date": "20200313",
+      "sequence_code": "0001",
+      "decision_title": "银川市人民政府关于修改部分市政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "银川市道路货物运输站场管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6401003000_20200313_0001_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "268e079467b17e5431f0625feb8309bf3b9bebc29de0a308a4bd6b051235c946"
+    },
+    {
+      "agency_code": "6401003000",
+      "promulgation_date": "20200313",
+      "sequence_code": "0001",
+      "decision_title": "银川市人民政府关于修改部分市政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "银川市商品房预售管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6401003000_20200313_0001_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "b7afcc793bc67f2f8451c17d9cbeaaaec79fd52989bb497b663093507c836484"
+    },
+    {
+      "agency_code": "6401003000",
+      "promulgation_date": "20200313",
+      "sequence_code": "0001",
+      "decision_title": "银川市人民政府关于修改部分市政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "银川市实施中华人民共和国水土保持法办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6401003000_20200313_0001_05_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "f9648a636df6b89bc7aaa3d1672103813f5445c19be8a44ce15eef9619f86642"
+    },
+    {
+      "agency_code": "6401003000",
+      "promulgation_date": "20200313",
+      "sequence_code": "0001",
+      "decision_title": "银川市人民政府关于修改部分市政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "银川市停车场规划建设和车辆停放管理条例实施办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6401003000_20200313_0001_06_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "0ca8d8a25adf80a0aed759d8cda66b5bfa188723e7c49304c207e8e2757ba1a3"
+    },
+    {
+      "agency_code": "6401003000",
+      "promulgation_date": "20200313",
+      "sequence_code": "0001",
+      "decision_title": "银川市人民政府关于修改部分市政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "银川市污水处理费征收使用管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6401003000_20200313_0001_07_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "12dda95bc6f7d1e2e6f6cb92494e05a121559724cabb6251fbe3d010f2e81b07"
+    },
+    {
+      "agency_code": "6401003000",
+      "promulgation_date": "20200313",
+      "sequence_code": "0001",
+      "decision_title": "银川市人民政府关于修改部分市政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "银川市无障碍设施建设管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6401003000_20200313_0001_08_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "e8e677cffe1c0eccf50e3f75525a3586a885145e6d2a4e3e31cf3117628e1a45"
+    },
+    {
+      "agency_code": "6401003000",
+      "promulgation_date": "20200313",
+      "sequence_code": "0001",
+      "decision_title": "银川市人民政府关于修改部分市政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "银川市饮用水水源保护区污染防治管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6401003000_20200313_0001_09_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "b28f8db9b5da5b4880bc0af038d83c131247a50b7dac7f385c8f203db0a23db8"
     }
   ]
 }
