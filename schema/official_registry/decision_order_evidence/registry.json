@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-14-jiangxi-43-26",
+  "version": "2026-08-14-guowuyuan-588-20",
   "entries": [
     {
       "agency_code": "1100003000",
@@ -4640,6 +4640,306 @@
       "evidence_path": "decision_3600001001_20190928_0043_26_evidence.json",
       "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
       "source_sha256": "e2819e35231ce7649661b9b9880e943079ac556c62437afefa68fa43b7878581"
+    },
+    {
+      "agency_code": "0000003000",
+      "promulgation_date": "20110108",
+      "sequence_code": "0588",
+      "decision_title": "国务院关于废止和修改部分行政法规的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "电力设施保护条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003000_20110108_0588_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/3da040368170bb43df261742c866ae07",
+      "source_sha256": "7e955cabaa6dc81b5c536c1e834c32a0ba2010abd396614e6818452fbac3fc58"
+    },
+    {
+      "agency_code": "0000003000",
+      "promulgation_date": "20110108",
+      "sequence_code": "0588",
+      "decision_title": "国务院关于废止和修改部分行政法规的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "关于骗购外汇、非法套汇、逃汇、非法买卖外汇等违反外汇管理规定行为的行政处分或者纪律处分暂行规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003000_20110108_0588_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/3da040368170bb43df261742c866ae07",
+      "source_sha256": "2d48db3609b9b2ccf352861088ee9e56f3d4dbef444596b7dc96f9c1406e7963"
+    },
+    {
+      "agency_code": "0000003000",
+      "promulgation_date": "20110108",
+      "sequence_code": "0588",
+      "decision_title": "国务院关于废止和修改部分行政法规的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "产品质量监督试行办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003000_20110108_0588_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/3da040368170bb43df261742c866ae07",
+      "source_sha256": "b62aa793884efe02efd73d3bf279ac0a4d89822eb022c99b1acbbbd6a8f52a31"
+    },
+    {
+      "agency_code": "0000003000",
+      "promulgation_date": "20110108",
+      "sequence_code": "0588",
+      "decision_title": "国务院关于废止和修改部分行政法规的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "开发建设晋陕蒙接壤地区水土保持规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003000_20110108_0588_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/3da040368170bb43df261742c866ae07",
+      "source_sha256": "acf584db902a2ba102605cef4684473ea1d2058336d957b7bcfd1fac87ba0893"
+    },
+    {
+      "agency_code": "0000003000",
+      "promulgation_date": "20110108",
+      "sequence_code": "0588",
+      "decision_title": "国务院关于废止和修改部分行政法规的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "全民所有制工业企业厂长工作条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003000_20110108_0588_05_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/3da040368170bb43df261742c866ae07",
+      "source_sha256": "880576d2f909375685afb31c8ba29d12f343e188c57629791c2bae2f4a8dc753"
+    },
+    {
+      "agency_code": "0000003000",
+      "promulgation_date": "20110108",
+      "sequence_code": "0588",
+      "decision_title": "国务院关于废止和修改部分行政法规的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "全民所有制工业企业承包经营责任制暂行条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003000_20110108_0588_06_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/3da040368170bb43df261742c866ae07",
+      "source_sha256": "7d1905fe9ff1422431d2734296d76ffa32b23a1f78381a68ea671e44407618df"
+    },
+    {
+      "agency_code": "0000003000",
+      "promulgation_date": "20110108",
+      "sequence_code": "0588",
+      "decision_title": "国务院关于废止和修改部分行政法规的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "水路货物运输合同实施细则",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003000_20110108_0588_07_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/3da040368170bb43df261742c866ae07",
+      "source_sha256": "e5142a8f632f960a958f4edfbcce95432f6895ca5f072bbaeb1a870b8616dd9b"
+    },
+    {
+      "agency_code": "0000003000",
+      "promulgation_date": "20110108",
+      "sequence_code": "0588",
+      "decision_title": "国务院关于废止和修改部分行政法规的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "铁路货物运输合同实施细则",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003000_20110108_0588_08_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/3da040368170bb43df261742c866ae07",
+      "source_sha256": "2012e0132ee4ebe08289a09f1daba3156052d41608daee2d53052e940bd91d16"
+    },
+    {
+      "agency_code": "0000003000",
+      "promulgation_date": "20110108",
+      "sequence_code": "0588",
+      "decision_title": "国务院关于废止和修改部分行政法规的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "外国公司船舶运输收入征税办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003000_20110108_0588_09_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/3da040368170bb43df261742c866ae07",
+      "source_sha256": "458d486b3c69d2a7a3436c5dc20a704a428e04364619b59d22291becc8382272"
+    },
+    {
+      "agency_code": "0000003000",
+      "promulgation_date": "20110108",
+      "sequence_code": "0588",
+      "decision_title": "国务院关于废止和修改部分行政法规的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国城市维护建设税暂行条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003000_20110108_0588_10_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/3da040368170bb43df261742c866ae07",
+      "source_sha256": "f8f4354b67c7494053ab7eb8763daa9921a5ea66551a598b4f267d5fe113b0f9"
+    },
+    {
+      "agency_code": "0000003000",
+      "promulgation_date": "20110108",
+      "sequence_code": "0588",
+      "decision_title": "国务院关于废止和修改部分行政法规的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国公民出境入境管理法实施细则",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003000_20110108_0588_11_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/3da040368170bb43df261742c866ae07",
+      "source_sha256": "b07dc6b3c40db583f204463b7dd81464e899c82ca1ffc5c2c0cd94a8e8f48990"
+    },
+    {
+      "agency_code": "0000003000",
+      "promulgation_date": "20110108",
+      "sequence_code": "0588",
+      "decision_title": "国务院关于废止和修改部分行政法规的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "中外合资经营企业合营期限暂行规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003000_20110108_0588_12_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/3da040368170bb43df261742c866ae07",
+      "source_sha256": "d29ae94545120e9693d042852d34a9611044d50d4999317692d1e7aca531eafd"
+    },
+    {
+      "agency_code": "0000003000",
+      "promulgation_date": "20110108",
+      "sequence_code": "0588",
+      "decision_title": "国务院关于废止和修改部分行政法规的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "国家重点建设项目管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003000_20110108_0588_13_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/3da040368170bb43df261742c866ae07",
+      "source_sha256": "2c788ec760f102abce020f756ddbfc69376ebc1ca56b43c347c8af35c53e509d"
+    },
+    {
+      "agency_code": "0000003000",
+      "promulgation_date": "20110108",
+      "sequence_code": "0588",
+      "decision_title": "国务院关于废止和修改部分行政法规的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "海关工作人员使用武器和警械的规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003000_20110108_0588_14_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/3da040368170bb43df261742c866ae07",
+      "source_sha256": "f389282e516704844f628161cff3b994f74d38c09e2a5d7a552eb28fffd1f5a2"
+    },
+    {
+      "agency_code": "0000003000",
+      "promulgation_date": "20110108",
+      "sequence_code": "0588",
+      "decision_title": "国务院关于废止和修改部分行政法规的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "旅馆业治安管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003000_20110108_0588_15_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/3da040368170bb43df261742c866ae07",
+      "source_sha256": "3667c1069abe5db927b1ae7ccd4794ff73a28d8a449d4c9c2015c3b4cc96d3bd"
+    },
+    {
+      "agency_code": "0000003000",
+      "promulgation_date": "20110108",
+      "sequence_code": "0588",
+      "decision_title": "国务院关于废止和修改部分行政法规的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "森林采伐更新管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003000_20110108_0588_16_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/3da040368170bb43df261742c866ae07",
+      "source_sha256": "8db832895940dd5aa09d5638e913f8f3f74dce92aac397bfa45bda8f25ad6a99"
+    },
+    {
+      "agency_code": "0000003000",
+      "promulgation_date": "20110108",
+      "sequence_code": "0588",
+      "decision_title": "国务院关于废止和修改部分行政法规的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "渔业资源增殖保护费征收使用办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003000_20110108_0588_17_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/3da040368170bb43df261742c866ae07",
+      "source_sha256": "866db063b193f774b05eb5d50c8b15fd444214cd4b916527dc0742377f0695e8"
+    },
+    {
+      "agency_code": "0000003000",
+      "promulgation_date": "20110108",
+      "sequence_code": "0588",
+      "decision_title": "国务院关于废止和修改部分行政法规的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国房产税暂行条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003000_20110108_0588_18_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/3da040368170bb43df261742c866ae07",
+      "source_sha256": "92f065fd695fc910c6c1aee3d8a9730c272fc64b9cc941da6966ed8363cdc164"
+    },
+    {
+      "agency_code": "0000003000",
+      "promulgation_date": "20110108",
+      "sequence_code": "0588",
+      "decision_title": "国务院关于废止和修改部分行政法规的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关总署关于外国驻中国使馆和使馆人员进出境物品的规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003000_20110108_0588_19_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/3da040368170bb43df261742c866ae07",
+      "source_sha256": "a35b41073e6a690b34bd154804f55fd13a1ca305a2746468aba29daab6a4336f"
+    },
+    {
+      "agency_code": "0000003000",
+      "promulgation_date": "20110108",
+      "sequence_code": "0588",
+      "decision_title": "国务院关于废止和修改部分行政法规的决定（2011）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国金银管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003000_20110108_0588_20_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/3da040368170bb43df261742c866ae07",
+      "source_sha256": "338fbcb5060d863db02414c857011cad41e1f5adbe0149ac2b0e6fa87e27efc1"
     }
   ]
 }
