@@ -13,6 +13,7 @@ import hashlib
 import json
 import os
 import re
+import shutil
 import subprocess
 import time
 import unicodedata
@@ -294,7 +295,7 @@ class FlkClient:
         for attempt in range(attempts):
             try:
                 command = [
-                    "curl.exe",
+                    shutil.which("curl") or "curl.exe",
                     "--fail-with-body",
                     "--location",
                     "--silent",

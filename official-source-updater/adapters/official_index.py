@@ -10,6 +10,7 @@ import html
 import io
 import json
 import re
+import shutil
 import subprocess
 import sys
 import time
@@ -620,7 +621,7 @@ def state_council_index(kind: str, max_pages: int) -> tuple[list[dict], dict]:
 def central_ministry_websites(max_pages: int) -> tuple[list[dict], dict]:
     endpoint = "https://zfwzzc.www.gov.cn/check_web/downloadTemp_downFile.action"
     command = [
-        "curl.exe",
+        shutil.which("curl") or "curl.exe",
         "-sS",
         "-L",
         "--max-time",
