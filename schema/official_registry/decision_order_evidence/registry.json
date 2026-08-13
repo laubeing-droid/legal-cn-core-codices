@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-14-guowuyuan-588-20",
+  "version": "2026-08-14-guiyang-04-17",
   "entries": [
     {
       "agency_code": "1100003000",
@@ -4940,6 +4940,261 @@
       "evidence_path": "decision_0000003000_20110108_0588_20_evidence.json",
       "official_url": "http://legal.qcc.com/regulation/3da040368170bb43df261742c866ae07",
       "source_sha256": "338fbcb5060d863db02414c857011cad41e1f5adbe0149ac2b0e6fa87e27efc1"
+    },
+    {
+      "agency_code": "5201001001",
+      "promulgation_date": "20210607",
+      "sequence_code": "0004",
+      "decision_title": "贵阳市人民代表大会常务委员会关于修改和废止部分地方性法规的决定（2021）",
+      "ordered_titles": [
+        {
+          "title": "贵阳市农村公路养护管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5201001001_20210607_0004_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/48335280433da8714aacb5aebc0217cf",
+      "source_sha256": "e99a7250c8ac52f963738973031a4f658d1f5ba43dc78ec0585659cbaa2cd944"
+    },
+    {
+      "agency_code": "5201001001",
+      "promulgation_date": "20210607",
+      "sequence_code": "0004",
+      "decision_title": "贵阳市人民代表大会常务委员会关于修改和废止部分地方性法规的决定（2021）",
+      "ordered_titles": [
+        {
+          "title": "贵阳市城市供水用水规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5201001001_20210607_0004_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/48335280433da8714aacb5aebc0217cf",
+      "source_sha256": "600e66a9ba99dc208ce131536e299eb963e98b041402c1bd932691162c54dfa3"
+    },
+    {
+      "agency_code": "5201001001",
+      "promulgation_date": "20210607",
+      "sequence_code": "0004",
+      "decision_title": "贵阳市人民代表大会常务委员会关于修改和废止部分地方性法规的决定（2021）",
+      "ordered_titles": [
+        {
+          "title": "贵阳市城市轨道交通条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5201001001_20210607_0004_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/48335280433da8714aacb5aebc0217cf",
+      "source_sha256": "a755f361aa4208a9b8668b0c4a94eef940813aee9179dba3953ad1c25d277d14"
+    },
+    {
+      "agency_code": "5201001001",
+      "promulgation_date": "20210607",
+      "sequence_code": "0004",
+      "decision_title": "贵阳市人民代表大会常务委员会关于修改和废止部分地方性法规的决定（2021）",
+      "ordered_titles": [
+        {
+          "title": "贵阳市城市市容和环境卫生管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5201001001_20210607_0004_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/48335280433da8714aacb5aebc0217cf",
+      "source_sha256": "ab2ede83597215833742a94ad305ba557e7d2533574cd5e6e8679c7324cbee81"
+    },
+    {
+      "agency_code": "5201001001",
+      "promulgation_date": "20210607",
+      "sequence_code": "0004",
+      "decision_title": "贵阳市人民代表大会常务委员会关于修改和废止部分地方性法规的决定（2021）",
+      "ordered_titles": [
+        {
+          "title": "贵阳市大气污染防治办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5201001001_20210607_0004_05_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/48335280433da8714aacb5aebc0217cf",
+      "source_sha256": "1c1ff69859f702e6644eccfc8c85f694228db8a807ed8507000d77d9f93b45d4"
+    },
+    {
+      "agency_code": "5201001001",
+      "promulgation_date": "20210607",
+      "sequence_code": "0004",
+      "decision_title": "贵阳市人民代表大会常务委员会关于修改和废止部分地方性法规的决定（2021）",
+      "ordered_titles": [
+        {
+          "title": "贵阳市大数据安全管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5201001001_20210607_0004_06_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/48335280433da8714aacb5aebc0217cf",
+      "source_sha256": "cfbaf5e35c507e132e46056778cd2749e13e2e8d81f1bddd4d4d688b0a7a66c7"
+    },
+    {
+      "agency_code": "5201001001",
+      "promulgation_date": "20210607",
+      "sequence_code": "0004",
+      "decision_title": "贵阳市人民代表大会常务委员会关于修改和废止部分地方性法规的决定（2021）",
+      "ordered_titles": [
+        {
+          "title": "贵阳市档案管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5201001001_20210607_0004_07_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/48335280433da8714aacb5aebc0217cf",
+      "source_sha256": "02ee0f0dd05b23380a045a3ed6196fbee6b2869fd1428fb5c70bc23f7cf60583"
+    },
+    {
+      "agency_code": "5201001001",
+      "promulgation_date": "20210607",
+      "sequence_code": "0004",
+      "decision_title": "贵阳市人民代表大会常务委员会关于修改和废止部分地方性法规的决定（2021）",
+      "ordered_titles": [
+        {
+          "title": "贵阳市建设工程安全生产管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5201001001_20210607_0004_08_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/48335280433da8714aacb5aebc0217cf",
+      "source_sha256": "598b2728cf864543101210649955e0fa74328bb2a5540a6c24227de2f04f9bee"
+    },
+    {
+      "agency_code": "5201001001",
+      "promulgation_date": "20210607",
+      "sequence_code": "0004",
+      "decision_title": "贵阳市人民代表大会常务委员会关于修改和废止部分地方性法规的决定（2021）",
+      "ordered_titles": [
+        {
+          "title": "贵阳市建设工程抗震管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5201001001_20210607_0004_09_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/48335280433da8714aacb5aebc0217cf",
+      "source_sha256": "66be27a6c3fe4bed891e03d7781a06ba2a426b3ecc09e806ba3aa00e0f7e322c"
+    },
+    {
+      "agency_code": "5201001001",
+      "promulgation_date": "20210607",
+      "sequence_code": "0004",
+      "decision_title": "贵阳市人民代表大会常务委员会关于修改和废止部分地方性法规的决定（2021）",
+      "ordered_titles": [
+        {
+          "title": "贵阳市禁止生产销售使用含磷洗涤剂规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5201001001_20210607_0004_10_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/48335280433da8714aacb5aebc0217cf",
+      "source_sha256": "7b332bf8a6112eb2c8bcf23d4bd9f41ef7293731d55a2e8d7f9c75e40c971b3d"
+    },
+    {
+      "agency_code": "5201001001",
+      "promulgation_date": "20210607",
+      "sequence_code": "0004",
+      "decision_title": "贵阳市人民代表大会常务委员会关于修改和废止部分地方性法规的决定（2021）",
+      "ordered_titles": [
+        {
+          "title": "贵阳市民用建筑节能条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5201001001_20210607_0004_11_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/48335280433da8714aacb5aebc0217cf",
+      "source_sha256": "d02848535059a921193e43ffff8ed09490414520177a6ad7429c8346e0e33515"
+    },
+    {
+      "agency_code": "5201001001",
+      "promulgation_date": "20210607",
+      "sequence_code": "0004",
+      "decision_title": "贵阳市人民代表大会常务委员会关于修改和废止部分地方性法规的决定（2021）",
+      "ordered_titles": [
+        {
+          "title": "贵阳市燃气管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5201001001_20210607_0004_12_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/48335280433da8714aacb5aebc0217cf",
+      "source_sha256": "4a71bd238da3eb7d76316a1be6c89e82f5ae084cdd6d7747570488d8698e7c7f"
+    },
+    {
+      "agency_code": "5201001001",
+      "promulgation_date": "20210607",
+      "sequence_code": "0004",
+      "decision_title": "贵阳市人民代表大会常务委员会关于修改和废止部分地方性法规的决定（2021）",
+      "ordered_titles": [
+        {
+          "title": "贵阳市人民防空工程建设管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5201001001_20210607_0004_13_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/48335280433da8714aacb5aebc0217cf",
+      "source_sha256": "247ed839f84cd8328e37e6dc00e49367e2b3694e0ed6967d97c921e92a8fa5e8"
+    },
+    {
+      "agency_code": "5201001001",
+      "promulgation_date": "20210607",
+      "sequence_code": "0004",
+      "decision_title": "贵阳市人民代表大会常务委员会关于修改和废止部分地方性法规的决定（2021）",
+      "ordered_titles": [
+        {
+          "title": "贵阳市社区戒毒康复条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5201001001_20210607_0004_14_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/48335280433da8714aacb5aebc0217cf",
+      "source_sha256": "e744912bdb708d2b4470e9b74563fd8497dc90860636531bbe74d082eb6a05a2"
+    },
+    {
+      "agency_code": "5201001001",
+      "promulgation_date": "20210607",
+      "sequence_code": "0004",
+      "decision_title": "贵阳市人民代表大会常务委员会关于修改和废止部分地方性法规的决定（2021）",
+      "ordered_titles": [
+        {
+          "title": "贵阳市生态公益林补偿办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5201001001_20210607_0004_15_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/48335280433da8714aacb5aebc0217cf",
+      "source_sha256": "8139e014c75c8992da55aede2047f30a899aef9255a36457cc828c402bc145de"
+    },
+    {
+      "agency_code": "5201001001",
+      "promulgation_date": "20210607",
+      "sequence_code": "0004",
+      "decision_title": "贵阳市人民代表大会常务委员会关于修改和废止部分地方性法规的决定（2021）",
+      "ordered_titles": [
+        {
+          "title": "贵阳市实施中华人民共和国国家通用语言文字法办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5201001001_20210607_0004_16_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/48335280433da8714aacb5aebc0217cf",
+      "source_sha256": "87d6a0df80955e08dc95cb64fe3dfc7f21e918a86ffc63557a8f2fa427558a14"
+    },
+    {
+      "agency_code": "5201001001",
+      "promulgation_date": "20210607",
+      "sequence_code": "0004",
+      "decision_title": "贵阳市人民代表大会常务委员会关于修改和废止部分地方性法规的决定（2021）",
+      "ordered_titles": [
+        {
+          "title": "贵阳市烟花爆竹安全管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5201001001_20210607_0004_17_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/48335280433da8714aacb5aebc0217cf",
+      "source_sha256": "cb0e506c59fe826db381425564e4759f6521f5771af5554f3add5b09775eee72"
     }
   ]
 }
