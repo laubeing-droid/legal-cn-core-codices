@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-14-guiyang-04-17",
+  "version": "2026-08-14-qinghai-28-17",
   "entries": [
     {
       "agency_code": "1100003000",
@@ -5195,6 +5195,261 @@
       "evidence_path": "decision_5201001001_20210607_0004_17_evidence.json",
       "official_url": "http://legal.qcc.com/regulation/48335280433da8714aacb5aebc0217cf",
       "source_sha256": "cb0e506c59fe826db381425564e4759f6521f5771af5554f3add5b09775eee72"
+    },
+    {
+      "agency_code": "6300001001",
+      "promulgation_date": "20200722",
+      "sequence_code": "0028",
+      "decision_title": "青海省人民代表大会常务委员会关于修改《青海省预算管理条例》等五十四部地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省市政公用事业特许经营管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300001001_20200722_0028_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f62ffd3d9d84f7077734d2e339f7a606",
+      "source_sha256": "423c67991cad63fb9ea547cb4c21794bbe393f6f921e694efcb93b0162b90de8"
+    },
+    {
+      "agency_code": "6300001001",
+      "promulgation_date": "20200722",
+      "sequence_code": "0028",
+      "decision_title": "青海省人民代表大会常务委员会关于修改《青海省预算管理条例》等五十四部地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海湖景区管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300001001_20200722_0028_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f62ffd3d9d84f7077734d2e339f7a606",
+      "source_sha256": "2961325be5ec2c0800f9fad502d9527b7dd0bcfbc66169d69bf81b8688a09e36"
+    },
+    {
+      "agency_code": "6300001001",
+      "promulgation_date": "20200722",
+      "sequence_code": "0028",
+      "decision_title": "青海省人民代表大会常务委员会关于修改《青海省预算管理条例》等五十四部地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省村民委员会选举办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300001001_20200722_0028_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f62ffd3d9d84f7077734d2e339f7a606",
+      "source_sha256": "5c5e0d9852b01838bbcd2e2b1bba9d7db2d3408c955551ab89c82609f8fe22fb"
+    },
+    {
+      "agency_code": "6300001001",
+      "promulgation_date": "20200722",
+      "sequence_code": "0028",
+      "decision_title": "青海省人民代表大会常务委员会关于修改《青海省预算管理条例》等五十四部地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省地震安全性评价管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300001001_20200722_0028_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f62ffd3d9d84f7077734d2e339f7a606",
+      "source_sha256": "c199663bb08ab906a7d3ea778d09060af680aca4c1a73f4bd1cf409e3e7eb497"
+    },
+    {
+      "agency_code": "6300001001",
+      "promulgation_date": "20200722",
+      "sequence_code": "0028",
+      "decision_title": "青海省人民代表大会常务委员会关于修改《青海省预算管理条例》等五十四部地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省儿童计划免疫条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300001001_20200722_0028_05_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f62ffd3d9d84f7077734d2e339f7a606",
+      "source_sha256": "c9af9fbe669f4e8d411e502107f1599c4a7150e61fb95895864f0371d936b1d8"
+    },
+    {
+      "agency_code": "6300001001",
+      "promulgation_date": "20200722",
+      "sequence_code": "0028",
+      "decision_title": "青海省人民代表大会常务委员会关于修改《青海省预算管理条例》等五十四部地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省科学技术进步条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300001001_20200722_0028_06_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f62ffd3d9d84f7077734d2e339f7a606",
+      "source_sha256": "209e54286781f901b9c7213181af65afd8f2ad68ee9dd0887d355ef45a73d030"
+    },
+    {
+      "agency_code": "6300001001",
+      "promulgation_date": "20200722",
+      "sequence_code": "0028",
+      "decision_title": "青海省人民代表大会常务委员会关于修改《青海省预算管理条例》等五十四部地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省科学技术普及条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300001001_20200722_0028_07_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f62ffd3d9d84f7077734d2e339f7a606",
+      "source_sha256": "3cc1da15d2b2bfe117442b573086d88e7e9086d84213a5773364329b13c25203"
+    },
+    {
+      "agency_code": "6300001001",
+      "promulgation_date": "20200722",
+      "sequence_code": "0028",
+      "decision_title": "青海省人民代表大会常务委员会关于修改《青海省预算管理条例》等五十四部地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省湿地保护条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300001001_20200722_0028_08_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f62ffd3d9d84f7077734d2e339f7a606",
+      "source_sha256": "316956c32443b4edc572eae0c42312dd0e5a9e9860cb66222a31a0b2176ccdf6"
+    },
+    {
+      "agency_code": "6300001001",
+      "promulgation_date": "20200722",
+      "sequence_code": "0028",
+      "decision_title": "青海省人民代表大会常务委员会关于修改《青海省预算管理条例》等五十四部地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省实施中华人民共和国产品质量法办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300001001_20200722_0028_09_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f62ffd3d9d84f7077734d2e339f7a606",
+      "source_sha256": "8afe98e9c01b805cdf944ffb2725cfbcc2dcc9ea71a8b278768bcae80f8f48cb"
+    },
+    {
+      "agency_code": "6300001001",
+      "promulgation_date": "20200722",
+      "sequence_code": "0028",
+      "decision_title": "青海省人民代表大会常务委员会关于修改《青海省预算管理条例》等五十四部地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省实施中华人民共和国城市居民委员会组织法办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300001001_20200722_0028_10_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f62ffd3d9d84f7077734d2e339f7a606",
+      "source_sha256": "09f85ee8a49b092a79ef3f6c81e6f6cb09bfe81ccb3da7d3cd50e116eda1cd27"
+    },
+    {
+      "agency_code": "6300001001",
+      "promulgation_date": "20200722",
+      "sequence_code": "0028",
+      "decision_title": "青海省人民代表大会常务委员会关于修改《青海省预算管理条例》等五十四部地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省实施中华人民共和国城乡规划法办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300001001_20200722_0028_11_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f62ffd3d9d84f7077734d2e339f7a606",
+      "source_sha256": "f14cc319b69136c07ececcd5e84a920d4b397f4b9636ee3a43e6262e17578d3c"
+    },
+    {
+      "agency_code": "6300001001",
+      "promulgation_date": "20200722",
+      "sequence_code": "0028",
+      "decision_title": "青海省人民代表大会常务委员会关于修改《青海省预算管理条例》等五十四部地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省实施中华人民共和国节约能源法办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300001001_20200722_0028_12_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f62ffd3d9d84f7077734d2e339f7a606",
+      "source_sha256": "424282d83a54761b6fbe09e12311d9aa76e1dc7dc2273745eb8b34a7a9c7f453"
+    },
+    {
+      "agency_code": "6300001001",
+      "promulgation_date": "20200722",
+      "sequence_code": "0028",
+      "decision_title": "青海省人民代表大会常务委员会关于修改《青海省预算管理条例》等五十四部地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省实施中华人民共和国水法办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300001001_20200722_0028_13_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f62ffd3d9d84f7077734d2e339f7a606",
+      "source_sha256": "e799fdeaaec404d65de9ccee569c7107390158be914bbdf90e2b756908a22cd3"
+    },
+    {
+      "agency_code": "6300001001",
+      "promulgation_date": "20200722",
+      "sequence_code": "0028",
+      "decision_title": "青海省人民代表大会常务委员会关于修改《青海省预算管理条例》等五十四部地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省实施中华人民共和国水土保持法办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300001001_20200722_0028_14_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f62ffd3d9d84f7077734d2e339f7a606",
+      "source_sha256": "48778a417d82a447baf912508599b14130f2758ad38815a8e670133ae9f3b7d1"
+    },
+    {
+      "agency_code": "6300001001",
+      "promulgation_date": "20200722",
+      "sequence_code": "0028",
+      "decision_title": "青海省人民代表大会常务委员会关于修改《青海省预算管理条例》等五十四部地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省实施中华人民共和国文物保护法办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300001001_20200722_0028_15_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f62ffd3d9d84f7077734d2e339f7a606",
+      "source_sha256": "821e283be3bf26b0c1f9d7af7b004e91008e5afa5815fe3bd86523e44247dabd"
+    },
+    {
+      "agency_code": "6300001001",
+      "promulgation_date": "20200722",
+      "sequence_code": "0028",
+      "decision_title": "青海省人民代表大会常务委员会关于修改《青海省预算管理条例》等五十四部地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省实施中华人民共和国义务教育法办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300001001_20200722_0028_16_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f62ffd3d9d84f7077734d2e339f7a606",
+      "source_sha256": "d3e09fc59603cf0c7f166bd9b8e43e869c9e35e30f75543ffab9a5bda8b3b143"
+    },
+    {
+      "agency_code": "6300001001",
+      "promulgation_date": "20200722",
+      "sequence_code": "0028",
+      "decision_title": "青海省人民代表大会常务委员会关于修改《青海省预算管理条例》等五十四部地方性法规的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省食品生产加工小作坊和食品摊贩管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300001001_20200722_0028_17_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/f62ffd3d9d84f7077734d2e339f7a606",
+      "source_sha256": "517abcd9aef42bca77ac6489576898d37a21d73324ad9c3bf30366af809bf4ce"
     }
   ]
 }
