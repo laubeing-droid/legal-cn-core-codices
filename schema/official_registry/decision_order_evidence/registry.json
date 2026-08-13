@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-14-batch113-132",
+  "version": "2026-08-14-batch153-172",
   "entries": [
     {
       "agency_code": "1100003000",
@@ -14960,6 +14960,1206 @@
       "evidence_path": "decision_3500001001_20160801_0024_04_evidence.json",
       "official_url": "http://legal.qcc.com/regulation/placeholder",
       "source_sha256": "3318177a0084ccdab2c65a0734b5c8c245594edf51bc6100e47425f0bfeb19b0"
+    },
+    {
+      "agency_code": "3500001001",
+      "promulgation_date": "20171124",
+      "sequence_code": "0032",
+      "decision_title": "福建省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "福建省促进科技成果转化条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3500001001_20171124_0032_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "c9030c074758402375792822c42a5d3ec0fa8e19c86895215910981e330a85d4"
+    },
+    {
+      "agency_code": "3500001001",
+      "promulgation_date": "20171124",
+      "sequence_code": "0032",
+      "decision_title": "福建省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "福建省多元化解纠纷条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3500001001_20171124_0032_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "c72135845adb64a50f424a87313e09ec1bfe4789869f6ebd3aae9ba01a494e99"
+    },
+    {
+      "agency_code": "3500001001",
+      "promulgation_date": "20171124",
+      "sequence_code": "0032",
+      "decision_title": "福建省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "福建省法治宣传教育条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3500001001_20171124_0032_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "efe0002f693a3fd43c02412925b992a839c948fdefbc7a723dd48c37860920fc"
+    },
+    {
+      "agency_code": "3500001001",
+      "promulgation_date": "20171124",
+      "sequence_code": "0032",
+      "decision_title": "福建省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "福建省违法建设处置若干规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3500001001_20171124_0032_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "2c865737b57889834b033aaa710ea315f4f7e9d0cf821525e1871df7e1808325"
+    },
+    {
+      "agency_code": "3702001001",
+      "promulgation_date": "20181130",
+      "sequence_code": "0014",
+      "decision_title": "青岛市人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "青岛市海洋环境保护规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3702001001_20181130_0014_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "e5e273f808d78896caf069c03cb790f061ec5e440b394fd9b1967a0017574d2f"
+    },
+    {
+      "agency_code": "3702001001",
+      "promulgation_date": "20181130",
+      "sequence_code": "0014",
+      "decision_title": "青岛市人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "青岛市价格条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3702001001_20181130_0014_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "34ca1f76cb1b92c388e48bdd59fead446569bd82928b4ba1c17c27d0f758aa9c"
+    },
+    {
+      "agency_code": "3702001001",
+      "promulgation_date": "20181130",
+      "sequence_code": "0014",
+      "decision_title": "青岛市人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "青岛市全民义务植树条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3702001001_20181130_0014_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "75339af028576abe2886cff1bd97374e56d6e724778817a5982dd02c39e8e786"
+    },
+    {
+      "agency_code": "3702001001",
+      "promulgation_date": "20181130",
+      "sequence_code": "0014",
+      "decision_title": "青岛市人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "青岛市养老服务促进条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3702001001_20181130_0014_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "68891dc73ca45d1463f2ad82270753656710611c1887e2d8b7496c83ef3d618b"
+    },
+    {
+      "agency_code": "4400001001",
+      "promulgation_date": "20191129",
+      "sequence_code": "0050",
+      "decision_title": "广东省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "广东省社会力量参与救灾促进条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4400001001_20191129_0050_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "855ff5a9f5c24bfe2b4a27ff8ac2f09003f4f8e0132e56f7070a9bf6bfac20ec"
+    },
+    {
+      "agency_code": "4400001001",
+      "promulgation_date": "20191129",
+      "sequence_code": "0050",
+      "decision_title": "广东省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "广东省实验动物管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4400001001_20191129_0050_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "e797d628a6167eeaa19e88b85cc75278fe2403dda901985e3822e5590d466081"
+    },
+    {
+      "agency_code": "4400001001",
+      "promulgation_date": "20191129",
+      "sequence_code": "0050",
+      "decision_title": "广东省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "广东省外商投资企业与来料加工企业直通港澳自货自运厂车行政许可规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4400001001_20191129_0050_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "5e887709711bc08aedc03d390de8cde4a4e221deca53fbb9fa78ae445f2f34d6"
+    },
+    {
+      "agency_code": "4400001001",
+      "promulgation_date": "20191129",
+      "sequence_code": "0050",
+      "decision_title": "广东省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "广东省文化设施条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4400001001_20191129_0050_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "a59566cd2baea1706fb4a68467e5394a9ee0f00e037e019a989218e733182d1a"
+    },
+    {
+      "agency_code": "4400001001",
+      "promulgation_date": "20200929",
+      "sequence_code": "0066",
+      "decision_title": "广东省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "广东省老年人权益保障条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4400001001_20200929_0066_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "da3d053b904ea44a2bd37ca8880ddcba7f74936703a58bc5d8aab83aabfc14d1"
+    },
+    {
+      "agency_code": "4400001001",
+      "promulgation_date": "20200929",
+      "sequence_code": "0066",
+      "decision_title": "广东省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "广东省旅游条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4400001001_20200929_0066_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "a93d45c905bc002c11c56877b05a57c87a61773911d296296a67b0bf0582dc93"
+    },
+    {
+      "agency_code": "4400001001",
+      "promulgation_date": "20200929",
+      "sequence_code": "0066",
+      "decision_title": "广东省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "广东省社会救助条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4400001001_20200929_0066_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "cb63feea29fbe494560b68d2f4a17fa3a2e71f92519b5133566af53585a166dd"
+    },
+    {
+      "agency_code": "4400001001",
+      "promulgation_date": "20200929",
+      "sequence_code": "0066",
+      "decision_title": "广东省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "广东省技术市场条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4400001001_20200929_0066_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "ecd7d779d878d0aa4fa29bb83e44864ed2f59795a135faf3ff4511ea1eeafb26"
+    },
+    {
+      "agency_code": "4401001001",
+      "promulgation_date": "20151223",
+      "sequence_code": "0073",
+      "decision_title": "广州市人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "广州市妇女权益保障规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401001001_20151223_0073_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "0af8317f58949cd2de8361f3d38fc6404b453613e01147885e19d15a14a560c7"
+    },
+    {
+      "agency_code": "4401001001",
+      "promulgation_date": "20151223",
+      "sequence_code": "0073",
+      "decision_title": "广州市人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "广州市全民健身条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401001001_20151223_0073_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "bcf60011f34e613ba807101c15815e58b19b4aa0744a05b5f1f749eaaa1ded72"
+    },
+    {
+      "agency_code": "4401001001",
+      "promulgation_date": "20151223",
+      "sequence_code": "0073",
+      "decision_title": "广州市人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "广州市违法建设查处条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401001001_20151223_0073_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "b79b8c3899ba54422727e5dda066948e92bac0f703fd549b5044fdace787e7ff"
+    },
+    {
+      "agency_code": "4401001001",
+      "promulgation_date": "20151223",
+      "sequence_code": "0073",
+      "decision_title": "广州市人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "广州市销售燃放烟花爆竹管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401001001_20151223_0073_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "176045f464da02eee5143a5ecbe61282e24db7e5413bda24ea29c826d13cec72"
+    },
+    {
+      "agency_code": "4500001001",
+      "promulgation_date": "20180930",
+      "sequence_code": "0007",
+      "decision_title": "广西壮族自治区人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "广西壮族自治区防震减灾条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4500001001_20180930_0007_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "9ae3986320ac740baac147770eb7db3cfe103085fa412376fd1d54fd3e7824a6"
+    },
+    {
+      "agency_code": "4500001001",
+      "promulgation_date": "20180930",
+      "sequence_code": "0007",
+      "decision_title": "广西壮族自治区人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "广西壮族自治区河道管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4500001001_20180930_0007_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "bf1d076cf51a5cc1f9c626b6f5a57d2572eab361c7a8f695a2e2e7415ff3fb61"
+    },
+    {
+      "agency_code": "4500001001",
+      "promulgation_date": "20180930",
+      "sequence_code": "0007",
+      "decision_title": "广西壮族自治区人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "广西壮族自治区气象条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4500001001_20180930_0007_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "508fc6bfd5731577ec9c4e3c0a0d166f52d16b90168c86e1522df641564b0bda"
+    },
+    {
+      "agency_code": "4500001001",
+      "promulgation_date": "20180930",
+      "sequence_code": "0007",
+      "decision_title": "广西壮族自治区人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "广西壮族自治区气象灾害防御条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4500001001_20180930_0007_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "0c4b1daa7f6e7b72adf911e110b54c56d30481ad461a614e92645c6b303be337"
+    },
+    {
+      "agency_code": "5000001001",
+      "promulgation_date": "20250731",
+      "sequence_code": "0089",
+      "decision_title": "重庆市人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "重庆市建筑管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5000001001_20250731_0089_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "2fb6c63e8bb05d9e3ba0935567a28d8607363f1cf219904547d9a1875a6edda5"
+    },
+    {
+      "agency_code": "5000001001",
+      "promulgation_date": "20250731",
+      "sequence_code": "0089",
+      "decision_title": "重庆市人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "重庆市特种设备安全条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5000001001_20250731_0089_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "19cb74e49510f41b38cd21e7efac8de16857a703d420c23f7fcd0e1bdb85f6cc"
+    },
+    {
+      "agency_code": "5000001001",
+      "promulgation_date": "20250731",
+      "sequence_code": "0089",
+      "decision_title": "重庆市人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "重庆市志愿服务条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5000001001_20250731_0089_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "3b9d477451cdb8b7391e3b52c2079adebe0b61791c16e52734be3eab394600c0"
+    },
+    {
+      "agency_code": "5000001001",
+      "promulgation_date": "20250731",
+      "sequence_code": "0089",
+      "decision_title": "重庆市人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "重庆市专业技术人员继续教育条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5000001001_20250731_0089_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "f02e8c7eab172bfd271238e1a0b32d168bd20d4361262d87a938a21bbd06be0b"
+    },
+    {
+      "agency_code": "5101001001",
+      "promulgation_date": "20221025",
+      "sequence_code": "0038",
+      "decision_title": "成都市人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "成都市城镇排水与污水处理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5101001001_20221025_0038_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "3f9fba022a2bd5d5ca3762c6451701ba1f548d8a01514418a59b737083369608"
+    },
+    {
+      "agency_code": "5101001001",
+      "promulgation_date": "20221025",
+      "sequence_code": "0038",
+      "decision_title": "成都市人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "成都市公共场所控制吸烟条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5101001001_20221025_0038_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "c2a746ce719e908c6279a0c72378c3a0e9d8e09f5dd7e98131c9703045b80f5f"
+    },
+    {
+      "agency_code": "5101001001",
+      "promulgation_date": "20221025",
+      "sequence_code": "0038",
+      "decision_title": "成都市人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "成都市历史文化名镇名村和传统村落保护条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5101001001_20221025_0038_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "f66cc1300a50a7d71abe9ede18a10347f291af5b433b612d82ea48d23b20d51d"
+    },
+    {
+      "agency_code": "5101001001",
+      "promulgation_date": "20221025",
+      "sequence_code": "0038",
+      "decision_title": "成都市人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "成都市文明行为促进条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5101001001_20221025_0038_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "0f6ad526382aaf10c233b176040b56fd7f53c0de937da19fa3b5653199ebfdaf"
+    },
+    {
+      "agency_code": "5200001001",
+      "promulgation_date": "20171130",
+      "sequence_code": "0022",
+      "decision_title": "贵州省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "贵州省档案条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5200001001_20171130_0022_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "22d8fc71335c17320cc950306a9384c0546a9b41fde186ad8fd549cceeb01310"
+    },
+    {
+      "agency_code": "5200001001",
+      "promulgation_date": "20171130",
+      "sequence_code": "0022",
+      "decision_title": "贵州省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "贵州省防震减灾条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5200001001_20171130_0022_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "c9d257e2e087f5726c768a8aacf93ea5028489fe03cde761ec171bc5a888fe7c"
+    },
+    {
+      "agency_code": "5200001001",
+      "promulgation_date": "20171130",
+      "sequence_code": "0022",
+      "decision_title": "贵州省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "贵州省节约能源条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5200001001_20171130_0022_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "30b98a757e9349904907c73a121135cb9b0a75a5f7cab066bd86d65511e5688d"
+    },
+    {
+      "agency_code": "5200001001",
+      "promulgation_date": "20171130",
+      "sequence_code": "0022",
+      "decision_title": "贵州省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "贵州省森林公园管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_5200001001_20171130_0022_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "e3b2bbfd2d107e111683eb4b92c092f3c206333e0626f3222d3beaff895825a1"
+    },
+    {
+      "agency_code": "6100001001",
+      "promulgation_date": "20211126",
+      "sequence_code": "0029",
+      "decision_title": "陕西省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "陕西省防灾避险人员安全转移规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6100001001_20211126_0029_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "afe3fea33eb6b295d2116b673095b9f0c58d146fdc92187b0b358749f8a616d3"
+    },
+    {
+      "agency_code": "6100001001",
+      "promulgation_date": "20211126",
+      "sequence_code": "0029",
+      "decision_title": "陕西省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "陕西省秦腔艺术保护传承发展条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6100001001_20211126_0029_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "ee656b3162fa9bb199f4a3cbaac01c1cd802e99452f41d37f875ed9c7b58fe26"
+    },
+    {
+      "agency_code": "6100001001",
+      "promulgation_date": "20211126",
+      "sequence_code": "0029",
+      "decision_title": "陕西省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "陕西省社会信用条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6100001001_20211126_0029_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "5903e31a54d9bc318b7d277b69ad380a9492d9897eaf71487b908710cf57880a"
+    },
+    {
+      "agency_code": "6100001001",
+      "promulgation_date": "20211126",
+      "sequence_code": "0029",
+      "decision_title": "陕西省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "陕西省天然林保护修复条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6100001001_20211126_0029_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "861661b93c8afb4522142185a95435672c99ce46da45794df14c2cc38b410e00"
+    },
+    {
+      "agency_code": "6100001001",
+      "promulgation_date": "20251128",
+      "sequence_code": "0019",
+      "decision_title": "陕西省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "陕西省畜禽屠宰管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6100001001_20251128_0019_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "49812f339803810d36a039f66319ddf9ea0bf943a6ab0b7fa8090bc5c7b04e0f"
+    },
+    {
+      "agency_code": "6100001001",
+      "promulgation_date": "20251128",
+      "sequence_code": "0019",
+      "decision_title": "陕西省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "陕西省民生实事项目人大代表票决制规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6100001001_20251128_0019_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "021967af990240f9b19c3c4fcf9ad5c82357ea6bcb5ce711a8f1634f04f3bab2"
+    },
+    {
+      "agency_code": "6100001001",
+      "promulgation_date": "20251128",
+      "sequence_code": "0019",
+      "decision_title": "陕西省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "陕西省实施中华人民共和国预防未成年人犯罪法办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6100001001_20251128_0019_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "3beae109259680be85d7aaa4d0b6b720e76706def36f68afb5cab30fd86726ed"
+    },
+    {
+      "agency_code": "6100001001",
+      "promulgation_date": "20251128",
+      "sequence_code": "0019",
+      "decision_title": "陕西省人民代表大会常务委员会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "陕西省无线电管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6100001001_20251128_0019_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "b6219ba8f0a8fe2fd613d473aeb16184b7ebbf8f5ec6a23ab588aa602a2ecc16"
+    },
+    {
+      "agency_code": "6322001000",
+      "promulgation_date": "20180418",
+      "sequence_code": "0002",
+      "decision_title": "海北藏族自治州人民代表大会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "海北藏族自治州城镇绿化管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6322001000_20180418_0002_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "9ce9e8fffd0c2fe8d8e13c2763af56e2f2522a11abe0a521a66de1ba403a1726"
+    },
+    {
+      "agency_code": "6322001000",
+      "promulgation_date": "20180418",
+      "sequence_code": "0002",
+      "decision_title": "海北藏族自治州人民代表大会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "海北藏族自治州畜牧业基础设施管护条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6322001000_20180418_0002_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "39c9544989d695ae99c684f60443ae8858e8b5d45db234ec6a3c11935915e213"
+    },
+    {
+      "agency_code": "6322001000",
+      "promulgation_date": "20180418",
+      "sequence_code": "0002",
+      "decision_title": "海北藏族自治州人民代表大会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "海北藏族自治州档案管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6322001000_20180418_0002_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "b85bc8e9e951d042156c7b4bda221c4397d9af6154bfe81243213ff5130a6f22"
+    },
+    {
+      "agency_code": "6322001000",
+      "promulgation_date": "20180418",
+      "sequence_code": "0002",
+      "decision_title": "海北藏族自治州人民代表大会关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "海北藏族自治州森林管护条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6322001000_20180418_0002_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "063d498ad0b1d69e75ffc4471d3869b034fdaec5aef38c80332e43c1b9b02371"
+    },
+    {
+      "agency_code": "0000001610",
+      "promulgation_date": "20201229",
+      "sequence_code": "0021",
+      "decision_title": "最高人民法院关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "最高人民法院关于对林业行政机关依法作出具体行政行为申请人民法院强制执行问题的复函",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000001610_20201229_0021_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "7a75d5bc9e360228d39a5c7f995b5cc52cb8637220885318aee24349896e8f30"
+    },
+    {
+      "agency_code": "0000001610",
+      "promulgation_date": "20201229",
+      "sequence_code": "0021",
+      "decision_title": "最高人民法院关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "最高人民法院关于人民法院扣押铁路运输货物若干问题的规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000001610_20201229_0021_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "e6cbafd11ae0eb2591b2ea3f1e539004ef23c6b8cb369051dc5ade52dd1bda3d"
+    },
+    {
+      "agency_code": "0000001610",
+      "promulgation_date": "20201229",
+      "sequence_code": "0021",
+      "decision_title": "最高人民法院关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "最高人民法院关于人民法院民事执行中查封、扣押、冻结财产的规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000001610_20201229_0021_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "d8847ddc8e8785315a9e61f254afea28c0fdbbc8c226bca2ba524e8e115f709e"
+    },
+    {
+      "agency_code": "0000001610",
+      "promulgation_date": "20201229",
+      "sequence_code": "0021",
+      "decision_title": "最高人民法院关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "最高人民法院关于人民法院民事执行中拍卖、变卖财产的规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000001610_20201229_0021_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "968a56aafbbe7ca7b2f9788d2765986517ead5b0d082e11cea7ee4cb6fc70699"
+    },
+    {
+      "agency_code": "0000003332",
+      "promulgation_date": "20190313",
+      "sequence_code": "0047",
+      "decision_title": "住房和城乡建设部关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "城市地下管线工程档案管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003332_20190313_0047_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "2cde4e926a029a6caaa0f3c0535dac7953a1df2eba1ff56be4614cada8d3f3d6"
+    },
+    {
+      "agency_code": "0000003332",
+      "promulgation_date": "20190313",
+      "sequence_code": "0047",
+      "decision_title": "住房和城乡建设部关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "城市建设档案管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003332_20190313_0047_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "eb4450116fbdcef4751835d1f1d4a85aaa3086582073614f3ebbe837eee098c8"
+    },
+    {
+      "agency_code": "0000003332",
+      "promulgation_date": "20190313",
+      "sequence_code": "0047",
+      "decision_title": "住房和城乡建设部关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "房屋建筑和市政基础设施工程施工招标投标管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003332_20190313_0047_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "fbb573df65010859122cacfe1ef3dacb0ae0e3affd29e4dbcbf39501fb05cd52"
+    },
+    {
+      "agency_code": "0000003332",
+      "promulgation_date": "20190313",
+      "sequence_code": "0047",
+      "decision_title": "住房和城乡建设部关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "危险性较大的分部分项工程安全管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003332_20190313_0047_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "b77269ada186035a84d2c69f641a32e273f676e98479a5e2ec95e28fb8936caf"
+    },
+    {
+      "agency_code": "0000003481",
+      "promulgation_date": "20210811",
+      "sequence_code": "0000",
+      "decision_title": "交通运输部关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "超限运输车辆行驶公路管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003481_20210811_0000_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "4c5d70a4b6ce19b8703c9d64a5e19c39066db894cffa7f21dd0d2c81c5fee876"
+    },
+    {
+      "agency_code": "0000003481",
+      "promulgation_date": "20210811",
+      "sequence_code": "0000",
+      "decision_title": "交通运输部关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "出租汽车驾驶员从业资格管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003481_20210811_0000_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "5e710d3649910120118363fe596545167962d21e2bcb400a2a03ced4ed56ef06"
+    },
+    {
+      "agency_code": "0000003481",
+      "promulgation_date": "20210811",
+      "sequence_code": "0000",
+      "decision_title": "交通运输部关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "公路建设监督管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003481_20210811_0000_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "2dd443fbffbbb96d01da2d296bf369318bbeb458500b06cf63d59be6e4413e4e"
+    },
+    {
+      "agency_code": "0000003481",
+      "promulgation_date": "20210811",
+      "sequence_code": "0000",
+      "decision_title": "交通运输部关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "老旧运输船舶管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003481_20210811_0000_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "0984f38e1171fe774d6b231e4f9fb3c1a4ee24da3fea666203a230dc686f9c34"
+    },
+    {
+      "agency_code": "0000003710",
+      "promulgation_date": "20250715",
+      "sequence_code": "0003",
+      "decision_title": "农业农村部关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "非主要农作物品种登记办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003710_20250715_0003_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "f5e7d268cb4057e54d47e92abfcc9214cf7b6b80b69c36836e7360ff2f416f19"
+    },
+    {
+      "agency_code": "0000003710",
+      "promulgation_date": "20250715",
+      "sequence_code": "0003",
+      "decision_title": "农业农村部关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "农药登记管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003710_20250715_0003_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "5814ceb92089c456ad4b9227887bbd53eeb6670c094b1003a13c0e8ee3b1c86f"
+    },
+    {
+      "agency_code": "0000003710",
+      "promulgation_date": "20250715",
+      "sequence_code": "0003",
+      "decision_title": "农业农村部关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "农药登记试验管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003710_20250715_0003_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "acbe7a1f32eb890bc34118f20576f8156a7ffc8119eba3159786d26a88fa8605"
+    },
+    {
+      "agency_code": "0000003710",
+      "promulgation_date": "20250715",
+      "sequence_code": "0003",
+      "decision_title": "农业农村部关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "农药经营许可管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000003710_20250715_0003_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "af0f6119eed0a589821119e517cc833ab2f8479811d3935b5314110e1ff66d77"
+    },
+    {
+      "agency_code": "0000006320",
+      "promulgation_date": "20150828",
+      "sequence_code": "0003",
+      "decision_title": "国家新闻出版署关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "电子出版物出版管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000006320_20150828_0003_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "0975c0dea90b488a060f2ed96b9ca0237332c3802999161c497a2ba5ce46556a"
+    },
+    {
+      "agency_code": "0000006320",
+      "promulgation_date": "20150828",
+      "sequence_code": "0003",
+      "decision_title": "国家新闻出版署关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "复制管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000006320_20150828_0003_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "f66248cbf40602ddeed82284804e5df463be6b28f4de39372bc832ddfe70cd93"
+    },
+    {
+      "agency_code": "0000006320",
+      "promulgation_date": "20150828",
+      "sequence_code": "0003",
+      "decision_title": "国家新闻出版署关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "设立外商投资印刷企业暂行规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000006320_20150828_0003_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "486d7bcb49c3e034bb362d05a8eebe974927f1fbd949ad352827b8b1707e74d8"
+    },
+    {
+      "agency_code": "0000006320",
+      "promulgation_date": "20150828",
+      "sequence_code": "0003",
+      "decision_title": "国家新闻出版署关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "图书出版管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000006320_20150828_0003_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "6fb8b01b10515447351e4cd50608dc800c3e08cc16346e6f3346027f5d5226fa"
+    },
+    {
+      "agency_code": "0000006320",
+      "promulgation_date": "20171211",
+      "sequence_code": "0013",
+      "decision_title": "国家新闻出版署关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "期刊出版管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000006320_20171211_0013_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "8eabc784aa7b4b558355a2a8460912a52d702587c07c64430761d28ba2bd0ace"
+    },
+    {
+      "agency_code": "0000006320",
+      "promulgation_date": "20171211",
+      "sequence_code": "0013",
+      "decision_title": "国家新闻出版署关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "新闻出版许可证管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000006320_20171211_0013_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "ffdbf71c404b9a62c143ac18a052bcb43646e512103f026f29810a6cc9aeabec"
+    },
+    {
+      "agency_code": "0000006320",
+      "promulgation_date": "20171211",
+      "sequence_code": "0013",
+      "decision_title": "国家新闻出版署关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "音像制品出版管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000006320_20171211_0013_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "dfc54e74c9939530078579607df97cc54124725c5b16b8b3807c18669c0d8a8b"
+    },
+    {
+      "agency_code": "0000006320",
+      "promulgation_date": "20171211",
+      "sequence_code": "0013",
+      "decision_title": "国家新闻出版署关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "音像制品制作管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000006320_20171211_0013_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "5e01f24251d98ec1e2f38165c5514ccf21a488dab6e24e0d1b2db215527190e3"
+    },
+    {
+      "agency_code": "1300003000",
+      "promulgation_date": "20181006",
+      "sequence_code": "0004",
+      "decision_title": "河北省人民政府关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "河北省残疾人教育实施办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_1300003000_20181006_0004_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "a6664ef0796b3f9672d06b3c99e9baea0b64cdb808fca198e806fa7abacb8b24"
+    },
+    {
+      "agency_code": "1300003000",
+      "promulgation_date": "20181006",
+      "sequence_code": "0004",
+      "decision_title": "河北省人民政府关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "河北省城市建设档案管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_1300003000_20181006_0004_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "d3648058d5ae8cca7b24e5093118dcb73b84b77c3f539a13359c72aa7e996c86"
+    },
+    {
+      "agency_code": "1300003000",
+      "promulgation_date": "20181006",
+      "sequence_code": "0004",
+      "decision_title": "河北省人民政府关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "河北省水利建设基金筹集和使用管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_1300003000_20181006_0004_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "55d7cac41d2218c894a592f45d066ef7aee5b4a069e9cc14c19221c2e5d3235d"
+    },
+    {
+      "agency_code": "1300003000",
+      "promulgation_date": "20181006",
+      "sequence_code": "0004",
+      "decision_title": "河北省人民政府关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "河北省政府非税收入管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_1300003000_20181006_0004_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "97c30d10244cb52e5a11e56d9bde1215c0216369950967fcc88d00b799966b19"
+    },
+    {
+      "agency_code": "1300003000",
+      "promulgation_date": "20191228",
+      "sequence_code": "0011",
+      "decision_title": "河北省人民政府关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "河北省餐厨废弃物管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_1300003000_20191228_0011_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "5473559b9e59ca7be1c020b48c3afaee00148e3d6a0f6db78b3be5d9aa54d23c"
+    },
+    {
+      "agency_code": "1300003000",
+      "promulgation_date": "20191228",
+      "sequence_code": "0011",
+      "decision_title": "河北省人民政府关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "河北省港口岸线管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_1300003000_20191228_0011_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "f9b486bfa53f2f8febc7e920667fead3bdb128f2238c1282e5d8124505aa694e"
+    },
+    {
+      "agency_code": "1300003000",
+      "promulgation_date": "20191228",
+      "sequence_code": "0011",
+      "decision_title": "河北省人民政府关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "河北省口岸服务办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_1300003000_20191228_0011_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "7ad8dde90c64ec09c19d6285da9a43bd06e858bff03a26feab01e8b69f06cab9"
+    },
+    {
+      "agency_code": "1300003000",
+      "promulgation_date": "20191228",
+      "sequence_code": "0011",
+      "decision_title": "河北省人民政府关于修改废止部分法规规章的决定",
+      "ordered_titles": [
+        {
+          "title": "河北省专业技术人员继续教育规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_1300003000_20191228_0011_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/placeholder",
+      "source_sha256": "800d83ba699807a7dd45afbf84d7859cf4466293b5f00071ed8aca966d896ce5"
     }
   ]
 }
