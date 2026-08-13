@@ -620,19 +620,27 @@ def state_council_index(kind: str, max_pages: int) -> tuple[list[dict], dict]:
 
 def central_ministry_websites(max_pages: int) -> tuple[list[dict], dict]:
     endpoint = "https://zfwzzc.www.gov.cn/check_web/downloadTemp_downFile.action"
-    command = [
-        shutil.which("curl") or "curl.exe",
-        "-sS",
-        "-L",
-        "--max-time",
-        "60",
-        "-d",
-        "downames=bwmh",
-        endpoint,
-    ]
-    process = subprocess.run(command, capture_output=True, check=False)
-    if process.returncode or not process.stdout.startswith(b"PK"):
-        raise AccessBlocked("政府网站基本信息库CSV下载失败")
+    process = None
+    last_error = "未执行"
+    for attempt in range(3):
+        command = [
+            shutil.which("curl") or "curl.exe",
+            "-sS",
+            "-L",
+            "--max-time",
+            "60",
+            "-d",
+            "downames=bwmh",
+            endpoint,
+        ]
+        process = subprocess.run(command, capture_output=True, check=False)
+        if process.returncode == 0 and process.stdout.startswith(b"PK"):
+            break
+        last_error = f"curl 退出码 {process.returncode}"
+        if attempt + 1 < 3:
+            time.sleep(1.0 * (attempt + 1))
+    if process is None or process.returncode or not process.stdout.startswith(b"PK"):
+        raise AccessBlocked(f"政府网站基本信息库CSV下载失败（{last_error}）")
     rows: list[dict] = []
     with zipfile.ZipFile(io.BytesIO(process.stdout)) as archive:
         for name in archive.namelist():

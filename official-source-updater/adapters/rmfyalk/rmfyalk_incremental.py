@@ -47,12 +47,22 @@ def read_auth() -> tuple[str, str]:
 
 
 def request_json(session: requests.Session, url: str, payload: dict[str, Any]) -> dict[str, Any]:
-    response = session.post(url, json=payload, timeout=30)
-    response.raise_for_status()
-    data = response.json()
-    if str(data.get("code")) not in {"0", "200"}:
-        raise RuntimeError(f"API returned code={data.get('code')} msg={data.get('msg')}")
-    return data
+    last_error: Exception | None = None
+    for attempt in range(3):
+        try:
+            response = session.post(url, json=payload, timeout=30)
+            response.raise_for_status()
+            data = response.json()
+            if str(data.get("code")) not in {"0", "200"}:
+                raise RuntimeError(
+                    f"API returned code={data.get('code')} msg={data.get('msg')}"
+                )
+            return data
+        except (requests.Timeout, requests.ConnectionError, requests.HTTPError) as error:
+            last_error = error
+            if attempt + 1 < 3:
+                time.sleep(1.0 * (attempt + 1))
+    raise RuntimeError(f"请求失败：{url}（{last_error}）") from last_error
 
 
 def make_http_session(auth_type: str, auth_value: str) -> requests.Session:
