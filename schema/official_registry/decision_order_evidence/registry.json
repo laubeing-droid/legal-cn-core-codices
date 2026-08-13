@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-07-wjbs46-batch1-fixed",
+  "version": "2026-08-14-marriage-family-expl-2",
   "entries": [
     {
       "agency_code": "1100003000",
@@ -2180,6 +2180,21 @@
       "evidence_path": "decision_5300001001_20120331_0023_evidence.json",
       "official_url": "https://wb.flk.npc.gov.cn/dfxfg/PDF/dbda9bfc848441728742994b22a621ed.pdf",
       "source_sha256": "6eca89405e5482d2d12912f9cf3af87516d4b4c06c1f19b93d3db49e463c4f02"
+    },
+    {
+      "agency_code": "0000001610",
+      "promulgation_date": "20250115",
+      "sequence_code": "0001",
+      "decision_title": "最高人民法院关于适用《中华人民共和国民法典》婚姻家庭编的解释（二）",
+      "ordered_titles": [
+        {
+          "title": "最高人民法院关于适用《中华人民共和国民法典》婚姻家庭编的解释（二）",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000001610_20250115_0001_evidence.json",
+      "official_url": "https://flk.npc.gov.cn/detail?id=ff808181981cf0ec019831790a392ff0",
+      "source_sha256": "b0c171e732ff2ad22c991278cbfc1139b964432e59d476cfae041c331be2c038"
     }
   ]
 }
