@@ -473,6 +473,13 @@ def main() -> int:
     parser.add_argument("--flk-max-pages", type=int, default=0)
     parser.add_argument("--max-pages", type=int, default=0)
     args = parser.parse_args()
+    # --source 支持逗号分隔多来源（如 "a,b,c"），拆分并去空白；空值忽略
+    args.source = [
+        item
+        for group in args.source
+        for item in (part.strip() for part in group.split(","))
+        if item
+    ]
 
     registry = load_registry(args.config.resolve())
     database_root = args.database_root.resolve()
