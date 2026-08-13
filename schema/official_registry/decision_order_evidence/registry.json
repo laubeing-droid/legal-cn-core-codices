@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-14-heilongjiang-07-26",
+  "version": "2026-08-14-jiangxi-43-26",
   "entries": [
     {
       "agency_code": "1100003000",
@@ -4250,6 +4250,396 @@
       "evidence_path": "decision_2300001001_20180628_0007_26_evidence.json",
       "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
       "source_sha256": "82a0396ec45fd15abbfa9c119e50be8c1ee331d26f1c48e134241c15e0407d73"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省保护人民代表大会代表人身自由的规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "10157f9c052cead6c9aa09c02d485c4f661e33fffbd14f80bb177c4b44268711"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省保护性开采的特定矿种管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "83afa920bf92834df90d7e4f7e34fb62e9ad236e4d75affed0626d96421857ae"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省财政监督条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "97418807d7e6f1309f9720ff5c4efa5e319255b104fb35477471bf88a9f65e33"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省采石取土管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "4d80c86a0f3537027aed903cbe638b1f2143b45c97a63424e3a4e213ecf9f265"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省产品质量监督管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_05_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "218f414c317e563128adb963b8e5701ea5401945a04d8f698f81a1592ee0d907"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省反窃电办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_06_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "5fa3713831e8c5a1ab71b30adb9505aad6120f197fc823e42197de3d0e9562ea"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省古树名木保护条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_07_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "9c6635e060effb4a5918701170919213e07aebab1205f30416f238af04e7f7df"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省广播电视管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_08_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "7bd7fc12605667e794aa5379f9939a0c3d9ae68bf398a45fedd4472fa877cb68"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省河道采砂管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_09_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "53d5bdb9892f83085dbda4d9862746d668460658b56f31cf5419895da265fd04"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省家庭教育促进条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_10_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "11cb0c3b904c0541eb83255eecae76c9a1e83ac42924d938e249b72034f82ad8"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省林产品质量安全条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_11_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "df84182ff62564f6996ab561d322f61bfd5495377c4fae4aa1d806c536ee87b7"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省林业有害生物防治条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_12_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "8dd56623d37bebaeb1539db1a3e7e9a0d4522fa06c1bdb9feed7e9e65438953e"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省龙虎山和龟峰风景名胜区条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_13_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "5dc581dfe8e00b5ed7c8bc2132cf05e1979abc1627b2ebdc7fd94f700b884c0d"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省旅游条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_14_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "42636f263164fe79fe2704446cac311766aedbf49cdfcca988f4c501602ecf81"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省农民负担监督管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_15_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "0ab5194210d1509fedca712051f9245173608942b9a95044a4e53ed2ceeccc18"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省农民专业合作社条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_16_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "9becb6c9b529db66787bb2037adcdafd0816327f985d10223af0682f4fa38eba"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省森林资源转让条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_17_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "d1964bb07615eb3c2a370137653eca1b619b45a52ad9e843b8a1509b383a189f"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省湿地保护条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_18_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "c68ef607d8e3c4947e0d3b42cdc3716c53872f897b204be1e0945a1e43eeeeab"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省实施中华人民共和国老年人权益保障法办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_19_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "7e4ff1a65dfaef0d92f6cb3baee3bc91c2809d87e196f26236f0d2cc6bee76d7"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省实施中华人民共和国煤炭法办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_20_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "1741ddcc8c12e2e6303146601439811d08112a5f35e7ca8185af5322662fcbfb"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省水产种苗管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_21_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "cf305543d5e33e26935b7ec716b5fee4fbf83772fa2c305f312ee4ca0e466a89"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省水利工程条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_22_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "47e3e4c6a75a4b832e6a23ec65f384502c4c9d2cbef389ddab11b76022dd4296"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省水上治安管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_23_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "3a81b94218dfb47c36d89e7effe6555d02bb5e95ce8d8bbcc2d94eb914bdba90"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省特种设备安全条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_24_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "169c19e4c2f0c97d31c0cd6b9cf5974fdacb4ea7dd217a3f3e031f569f9f44e1"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省文物保护条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_25_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "fc500eac387819cde524f45a6103ac239f34ac3c18cd8cf84d6366e296858786"
+    },
+    {
+      "agency_code": "3600001001",
+      "promulgation_date": "20190928",
+      "sequence_code": "0043",
+      "decision_title": "江西省人民代表大会常务委员会关于废止1件和修改11件地方性法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "江西省植物保护条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3600001001_20190928_0043_26_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/ebf25182f4898d5660eabcad1a36f1de",
+      "source_sha256": "e2819e35231ce7649661b9b9880e943079ac556c62437afefa68fa43b7878581"
     }
   ]
 }
