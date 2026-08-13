@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-14-shanghai-53-34",
+  "version": "2026-08-14-haiguan-243-29",
   "entries": [
     {
       "agency_code": "1100003000",
@@ -3425,6 +3425,441 @@
       "evidence_path": "decision_3100003000_20101220_0053_34_evidence.json",
       "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
       "source_sha256": "3aa4deee2e836b656a211d3db1d380b754db661bdb78ebe0bf9b0b53aeffa019"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "保税区检验检疫监督管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "6de3774ad1cd9848f1476b43c02d511c99db7e24c84b2d41c7b36f55e4a58e4d"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "出境水生动物检验检疫监督管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "8efb9a2717547062627f5df862d8bbfe1233376bec30211a4db5dc89ca0af681"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "出入境检验检疫报检规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "6abddb9ec07cab65092e3013139ab141e1715a7bca86be79975ad6cf2834dd18"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "出入境人员携带物检疫管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "8a522b57a735f43cd487660760c199d96fa83d6b930b0e3fcee687196176a79d"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "出入境特殊物品卫生检疫管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_05_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "b0b6d11e2a399c3acb737e124e8302b9b5afa22f54b8418161f84ec12e531aed"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "进出境粮食检验检疫监督管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_06_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "f2878e632e4f5d1fb3ca76d7996a2f8d8549d3fa76eec13dec22578a3dbb3c09"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "进出境中药材检疫监督管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_07_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "e683eed0259f086e7f3d70a4052a02573a9c256825bb7368de8ce95993b887cc"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "进出境转基因产品检验检疫管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_08_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "3dd95ab8b062d7830957099914d3d357c71afc2b20528cdf4a4264b97f171e59"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "进出口化妆品检验检疫监督管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_09_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "08b42f3429b566a75eda65b4c6bd690ea69d4a2e25fda02d1807b4d851af9c85"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "进出口饲料和饲料添加剂检验检疫监督管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_10_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "c96ac9ac5976c5482531a2f4093e725d958775b03296efa77e197fb2f1c84458"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "进出口玩具检验监督管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_11_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "89e1cd992d08f6becbf21be86112fe8fc37cd540c86857d860430bd124c49897"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "进境动物隔离检疫场使用监督管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_12_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "347fbcd0b00e97b298a4ed637182221148ad488c4cc03d1bcb16789e6050989b"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "进境水生动物检验检疫监督管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_13_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "30fba5242d3a04c180fdd4518e7bb1513dca545aa3072cd22ded81b1cd711ac5"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "进口旧机电产品检验监督管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_14_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "d7122f9fbd126c74a12d363d02b0f83102ddd2ba527123efa69f3820985a84f7"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "进口可用作原料的固体废物检验检疫监督管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_15_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "cfbc022be1f31dbafc5e9b7ad5a3069e0c561911892f39699386a03570ee39bf"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关出口加工区货物出区深加工结转管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_16_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "466a6fb32aa8ba55a2a5b0a98d868a252206009a75a7d917de4357ffbbbbb69b"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关对保税物流中心(A型)的暂行管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_17_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "ce534656a6ad53973c094aec271422c49d7b25bea9758e2bd92670332f83e07b"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关对保税物流中心(B型)的暂行管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_18_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "96fb44b26d5642249c84a33a9ab75729879dec9f5945aec2e2007e51bad8323d"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关对出口监管仓库及所存货物的管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_19_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "5301735694edd4827dff570d4675a7d2ea492b1dfd3c212e79774b123dc2fabe"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关对横琴新区监管办法（试行）",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_20_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "3222d2c1813f6a2011773f49aad61a2810b222b17a1e0e694a4e4fddbc22c3e8"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关对平潭综合实验区监管办法（试行）",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_21_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "5e23edd60694ffe49cc23aad9361981bdc0ad45fe221202c8acc4a415eb62b68"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关关于超期未报关进口货物、误卸或者溢卸的进境货物和放弃进口货物的处理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_22_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "f9c28c7d3c300ae08e1336509fc0547b4bac196a050fa022b41bf35f0cd6695d"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关管道运输进口能源监管办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_23_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "9fddb88c7ad9fa81807debc2ffa9b166c58fc8e28ffaf2b382dccd27300b3cdb"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关加工贸易单耗管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_24_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "346031ebbe65a07501489b6b112d5a5a3cd624350de2ffc3e2e821b77c557296"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关进出境印刷品及音像制品监管办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_25_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "2296664f237670af42241614deb3b0155f7063037bab33e3790fc4780563073d"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关进出口货物集中申报管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_26_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "9021a168fe438b471037fcbc502f4a9420767003cfeca9a4f2dc410029d24524"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关进出口货物申报管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_27_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "f17f4d863018446b753bab186762a3d526fc84a1ce9f8f86d1052bd623c0c3be"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国海关珠澳跨境工业区珠海园区管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_28_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "04560a983265cccf5d9b3eafb9c4a320cd04a93167ff4e6e2d4d530e613ac523"
+    },
+    {
+      "agency_code": "0000004150",
+      "promulgation_date": "20181123",
+      "sequence_code": "0243",
+      "decision_title": "海关总署关于修改部分规章的决定（2018年11月23日）",
+      "ordered_titles": [
+        {
+          "title": "中华人民共和国实施金伯利进程国际证书制度管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000004150_20181123_0243_29_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
+      "source_sha256": "f64118202d0bd39c58d28e96434a03dc846c6581338695a28ea9b4e692c613b4"
     }
   ]
 }
