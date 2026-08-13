@@ -258,7 +258,7 @@
       "publisher": "最高人民检察院",
       "url": "https://www.spp.gov.cn/spp/index.shtml",
       "official_host": "www.spp.gov.cn",
-      "update_mode": "ci_auto",
+      "update_mode": "local_manual",
       "authentication": "none",
       "fulltext_capability": "index_only",
       "catalog_urls": [
