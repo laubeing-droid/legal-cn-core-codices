@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-07-l3-effect-merge",
+  "version": "2026-08-07-effect-final",
   "policy": "IDENTITY_VERIFIED_METADATA_ONLY; ambiguous combined effect states remain empty",
   "entries": [
     {
@@ -51679,7 +51679,9 @@
       "values": {
         "GBRQ": "20100929",
         "_promulgation_source": "PKULAW_VERIFIED",
-        "FWZH": "江苏省第十一届人民代表大会常务委员会公告第42号"
+        "FWZH": "江苏省第十一届人民代表大会常务委员会公告第42号",
+        "SXX": "03",
+        "_effect_source": "WEB_VERIFIED_2017二次修正吸收"
       },
       "evidence": {
         "type": "PKULAW_VERIFIED",
@@ -57627,7 +57629,6 @@
         "GBRQ": "20240528",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十四届人民代表大会常务委员会公告第31号"
       },
       "evidence": {
@@ -57647,7 +57648,6 @@
         "GBRQ": "20250929",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十四届人民代表大会常务委员会公告第69号"
       },
       "evidence": {
@@ -57667,7 +57667,6 @@
         "GBRQ": "20210331",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十三届人民代表大会常务委员会公告第78号"
       },
       "evidence": {
@@ -57687,7 +57686,6 @@
         "GBRQ": "20210729",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十三届人民代表大会常务委员会公告第88号"
       },
       "evidence": {
@@ -57707,7 +57705,6 @@
         "GBRQ": "20230530",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十四届人民代表大会常务委员会公告第5号"
       },
       "evidence": {
@@ -57747,7 +57744,6 @@
         "GBRQ": "20220527",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十三届人民代表大会常务委员会公告第118号"
       },
       "evidence": {
@@ -57766,7 +57762,9 @@
       "values": {
         "GBRQ": "19970629",
         "_promulgation_source": "PKULAW_VERIFIED",
-        "FWZH": "河北省第八届人民代表大会常务委员会公告第89号"
+        "FWZH": "河北省第八届人民代表大会常务委员会公告第89号",
+        "SXX": "03",
+        "_effect_source": "IMA_VERIFIED_2002决定取代1997决定"
       },
       "evidence": {
         "type": "PKULAW_VERIFIED",
@@ -57784,7 +57782,9 @@
       "values": {
         "GBRQ": "20020330",
         "_promulgation_source": "PKULAW_VERIFIED",
-        "FWZH": "河北省第九届人民代表大会常务委员会公告第70号"
+        "FWZH": "河北省第九届人民代表大会常务委员会公告第70号",
+        "SXX": "03",
+        "_effect_source": "IMA_VERIFIED_2002决定取代1997决定"
       },
       "evidence": {
         "type": "PKULAW_VERIFIED",
@@ -57802,7 +57802,9 @@
       "values": {
         "GBRQ": "19970629",
         "_promulgation_source": "PKULAW_VERIFIED",
-        "FWZH": "河北省第八届人民代表大会常务委员会公告第88号"
+        "FWZH": "河北省第八届人民代表大会常务委员会公告第88号",
+        "SXX": "03",
+        "_effect_source": "IMA_VERIFIED_2003决定取代1997决定"
       },
       "evidence": {
         "type": "PKULAW_VERIFIED",
@@ -57820,7 +57822,9 @@
       "values": {
         "GBRQ": "20021125",
         "_promulgation_source": "PKULAW_VERIFIED",
-        "FWZH": "河北省人民代表大会常务委员会公告第89号"
+        "FWZH": "河北省人民代表大会常务委员会公告第89号",
+        "SXX": "03",
+        "_effect_source": "推论_修改决定已并入条例现行文本(被后续年度修改决定吸收)"
       },
       "evidence": {
         "type": "PKULAW_VERIFIED",
@@ -57839,7 +57843,6 @@
         "GBRQ": "20240528",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十四届人民代表大会常务委员会公告第32号"
       },
       "evidence": {
@@ -57859,7 +57862,6 @@
         "GBRQ": "20250729",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十四届人民代表大会常务委员会公告第65号"
       },
       "evidence": {
@@ -57879,7 +57881,6 @@
         "GBRQ": "20200730",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十三届人民代表大会常务委员会公告第59号"
       },
       "evidence": {
@@ -57898,7 +57899,9 @@
       "values": {
         "GBRQ": "20021125",
         "_promulgation_source": "PKULAW_VERIFIED",
-        "FWZH": "河北省人民代表大会常务委员会公告第90号"
+        "FWZH": "河北省人民代表大会常务委员会公告第90号",
+        "SXX": "03",
+        "_effect_source": "WEB_VERIFIED_2015年8部法规修改决定取代2003决定"
       },
       "evidence": {
         "type": "PKULAW_VERIFIED",
@@ -57976,7 +57979,6 @@
         "GBRQ": "20180920",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十三届人民代表大会常务委员会公告第17号"
       },
       "evidence": {
@@ -57996,7 +57998,6 @@
         "GBRQ": "20190530",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十三届人民代表大会常务委员会公告第30号"
       },
       "evidence": {
@@ -58016,7 +58017,6 @@
         "GBRQ": "20190928",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十三届人民代表大会常务委员会公告第40号"
       },
       "evidence": {
@@ -58036,7 +58036,6 @@
         "GBRQ": "20200924",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十三届人民代表大会常务委员会公告第65号"
       },
       "evidence": {
@@ -58056,7 +58055,6 @@
         "GBRQ": "20200730",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十三届人民代表大会常务委员会公告第56号"
       },
       "evidence": {
@@ -58076,7 +58074,6 @@
         "GBRQ": "20200924",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十三届人民代表大会常务委员会公告第64号"
       },
       "evidence": {
@@ -58096,7 +58093,6 @@
         "GBRQ": "20220928",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十三届人民代表大会常务委员会公告第132号"
       },
       "evidence": {
@@ -58116,7 +58112,6 @@
         "GBRQ": "20171201",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十二届人民代表大会常务委员会公告第130号"
       },
       "evidence": {
@@ -58136,7 +58131,6 @@
         "GBRQ": "20241128",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十四届人民代表大会常务委员会公告第48号"
       },
       "evidence": {
@@ -58156,7 +58150,6 @@
         "GBRQ": "20240528",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十四届人民代表大会常务委员会公告第33号"
       },
       "evidence": {
@@ -58176,7 +58169,6 @@
         "GBRQ": "20250729",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十四届人民代表大会常务委员会公告第64号"
       },
       "evidence": {
@@ -58196,7 +58188,6 @@
         "GBRQ": "20231130",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十四届人民代表大会常务委员会公告第17号"
       },
       "evidence": {
@@ -58216,7 +58207,6 @@
         "GBRQ": "20190530",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十三届人民代表大会常务委员会公告第29号"
       },
       "evidence": {
@@ -58236,7 +58226,6 @@
         "GBRQ": "20141128",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十二届人民代表大会常务委员会公告第39号"
       },
       "evidence": {
@@ -58256,7 +58245,6 @@
         "GBRQ": "20160329",
         "_promulgation_source": "PKULAW_VERIFIED",
         "SXX": "01",
-        "_effect_source": "PKULAW_VERIFIED",
         "FWZH": "河北省第十二届人民代表大会常务委员会公告第78号"
       },
       "evidence": {
@@ -85241,7 +85229,9 @@
       "values": {
         "GBRQ": "20220810",
         "_promulgation_source": "PKULAW_VERIFIED",
-        "FWZH": "抚顺市人民代表大会常务委员会公告第115号"
+        "FWZH": "抚顺市人民代表大会常务委员会公告第115号",
+        "SXX": "03",
+        "_effect_source": "WEB_VERIFIED_2022修正吸收；条例拟废止(2024征求意见未正式)"
       },
       "evidence": {
         "type": "PKULAW_VERIFIED",
@@ -113195,7 +113185,9 @@
       "values": {
         "GBRQ": "20171128",
         "_promulgation_source": "PKULAW_VERIFIED",
-        "FWZH": "通化市人民政府令第2号"
+        "FWZH": "通化市人民政府令第2号",
+        "SXX": "04",
+        "_effect_source": "WEB_VERIFIED_2023政府令第1号废止"
       },
       "evidence": {
         "type": "PKULAW_VERIFIED",
@@ -127967,7 +127959,9 @@
       "values": {
         "GBRQ": "20210413",
         "_promulgation_source": "PKULAW_VERIFIED",
-        "FWZH": "法释〔2021〕8号"
+        "FWZH": "法释〔2021〕8号",
+        "SXX": "04",
+        "_effect_source": "WEB_VERIFIED_2025新解释第十二条明确废止法释〔2021〕8号"
       },
       "evidence": {
         "type": "PKULAW_VERIFIED",
@@ -129774,6 +129768,42 @@
         "verified_at": "2026-08-07",
         "source_sha256": "",
         "note": "商业法律数据库精确身份核验；作为本地元数据补证，不冒充制定机关签发。"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/山西/山西省高新技术产业发展条例_2011-11-26_未知_ima-markdown-c64c2bad.md",
+      "values": {
+        "SXX": "04",
+        "_effect_source": "WEB_VERIFIED_20250925_ABOLISHED_五部法规废止决定第二条"
+      },
+      "evidence": {
+        "type": "WEB_IMA_VERIFIED",
+        "note": "WEB_VERIFIED_20250925_ABOLISHED_五部法规废止决定第二条",
+        "verified_at": "2026-08-07"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/01_宪法、法律与全国人大规范性文件/全国人民代表大会常务委员会公告（中华人民共和国香港特别行政区基本法附件二香港特别行政区立法会的产生办法和表决程序修正案）_2010-08-28_未知_ff808081777d07c5017784460a42080a.md",
+      "values": {
+        "SXX": "04",
+        "_effect_source": "WEB_VERIFIED_20210330附件二修订后原版不再施行"
+      },
+      "evidence": {
+        "type": "WEB_VERIFIED",
+        "note": "2021-03-30全国人大常委会修订附件二，第九条：原附件二及有关修正案不再施行（gov.cn专访+人大网）",
+        "verified_at": "2026-08-07"
+      }
+    },
+    {
+      "relative_path": "01_立法与公开行政文件/03_地方立法/01_地方性法规/湖北/湖北省人民代表大会常务委员会关于集中修改部分省本级地方性法规的决定_2021-01-22_未知_ff808181818ea1a50181dbd3ac351f2c.md",
+      "values": {
+        "SXX": "01",
+        "_effect_source": "WEB_VERIFIED_湖北人大官网公告288号2021-01-22通过施行"
+      },
+      "evidence": {
+        "type": "WEB_VERIFIED",
+        "note": "WEB_VERIFIED_湖北人大官网公告288号2021-01-22通过施行",
+        "verified_at": "2026-08-07"
       }
     }
   ]

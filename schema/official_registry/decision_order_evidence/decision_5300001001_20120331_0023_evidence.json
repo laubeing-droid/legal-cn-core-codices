@@ -1,0 +1,18 @@
+{
+  "decision_title": "云南省人民代表大会常务委员会关于修改25件涉及行政强制的地方性法规的决定（2012）",
+  "agency_code": "5300001001",
+  "promulgation_date": "20120331",
+  "sequence_code": "0023",
+  "official_url": "https://wb.flk.npc.gov.cn/dfxfg/PDF/dbda9bfc848441728742994b22a621ed.pdf",
+  "ordered_titles": [
+    {
+      "title": "云南省民用运输机场保护条例",
+      "order": 24
+    },
+    {
+      "title": "云南省渔业条例",
+      "order": 25
+    }
+  ],
+  "evidence_note": "国家法律法规数据库官方PDF给出决定内逐件顺序：机场保护条例=第24件、渔业条例=第25件。此即WJBS所需内部决定顺序的官方证据。PDF为扫描件需人工核验。"
+}

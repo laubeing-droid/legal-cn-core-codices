@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-07-qinghai125",
+  "version": "2026-08-07-wjbs46-batch1-fixed",
   "entries": [
     {
       "agency_code": "1100003000",
@@ -1932,6 +1932,254 @@
       "evidence_path": "qinghai_order_125_official_evidence.json",
       "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202009/t20200922_143182.htm",
       "source_sha256": "b41f539b22bcf360530f633985910fc288943e90fedebcd7a8922312d2f460c8"
+    },
+    {
+      "agency_code": "6500001001",
+      "promulgation_date": "20171129",
+      "sequence_code": "0033",
+      "decision_title": "新疆维吾尔自治区人民代表大会常务委员会关于授予新疆生产建设兵团行政执法权、设立兵团人大工作委员会的决定",
+      "ordered_titles": [
+        {
+          "title": "新疆维吾尔自治区人民代表大会常务委员会关于授予新疆生产建设兵团行政执法权、设立兵团人大工作委员会的决定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "single_00_6500001001_20171129_0033_evidence.json",
+      "official_url": "https://www.cnr.cn/xjfw/2014xjfw/2014xjfw_1/20171130/t20171130_524044606.shtml",
+      "source_sha256": "a674cfc3bb707101d1fc7ee734928eee7f9d9741448426d0ae7738f8d4ccbb5c"
+    },
+    {
+      "agency_code": "4331001000",
+      "promulgation_date": "20090522",
+      "sequence_code": "0002",
+      "decision_title": "湘西土家族苗族自治州土家医药苗医药保护条例",
+      "ordered_titles": [
+        {
+          "title": "湘西土家族苗族自治州土家医药苗医药保护条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "single_01_4331001000_20090522_0002_evidence.json",
+      "official_url": "https://faolex.fao.org/docs/pdf/chn177808.pdf",
+      "source_sha256": "a5d4214279d6425c4cb2bcdb2506f71b43dcd28fa3b4c31e97e71e024595a593"
+    },
+    {
+      "agency_code": "3300001001",
+      "promulgation_date": "20161223",
+      "sequence_code": "0036",
+      "decision_title": "关于加强海洋幼鱼资源保护促进浙江渔场修复振兴的决定",
+      "ordered_titles": [
+        {
+          "title": "关于加强海洋幼鱼资源保护促进浙江渔场修复振兴的决定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "single_02_3300001001_20161223_0036_evidence.json",
+      "official_url": "https://zjrb.zjol.com.cn/html/2016-12/25/content_3028012.htm",
+      "source_sha256": "e7855ccb0bd581958ce3770e666b9841a964948ea4188188004a9638657a327d"
+    },
+    {
+      "agency_code": "3203003000",
+      "promulgation_date": "20040804",
+      "sequence_code": "0000",
+      "decision_title": "徐州市机动车排气污染管理办法",
+      "ordered_titles": [
+        {
+          "title": "徐州市机动车排气污染管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "single_03_3203003000_20040804_0000_evidence.json",
+      "official_url": "https://www.xz.gov.cn/govxxgk/014051247/2021-11-29/e6c78e46-4994-4514-a7a6-867077f83c98.html",
+      "source_sha256": "75aa76d951dcc5719fc01ff37f0e86001d0462a395ca4e257b998ac8ba57860c"
+    },
+    {
+      "agency_code": "3701003000",
+      "promulgation_date": "20260727",
+      "sequence_code": "0000",
+      "decision_title": "济南市人民政府关于将部分市级行政权力事项调整由章丘区实施的决定",
+      "ordered_titles": [
+        {
+          "title": "济南市人民政府关于将部分市级行政权力事项调整由章丘区实施的决定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "single_04_3701003000_20260727_0000_evidence.json",
+      "official_url": "https://jntzcjj.jinan.gov.cn/col88377/art/2019/art_88377_4765795.html",
+      "source_sha256": "4fd0db77ec9a80d5c9da2e1784b3abc350ea8ce480f99fc518515b41d2151d44"
+    },
+    {
+      "agency_code": "3701003000",
+      "promulgation_date": "20260727",
+      "sequence_code": "0000",
+      "decision_title": "济南市人民政府关于委托市南部山区管委会行使有关行政执法权的决定",
+      "ordered_titles": [
+        {
+          "title": "济南市人民政府关于委托市南部山区管委会行使有关行政执法权的决定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "single_05_3701003000_20260727_0000_evidence.json",
+      "official_url": "https://jnly.jinan.gov.cn/col113071/art/2021/art_113071_4772591.html",
+      "source_sha256": "3d092c464770a21bad0ed1b2fe9ac6fcb64623551963fa7a9e8e6b1949731337"
+    },
+    {
+      "agency_code": "3701003000",
+      "promulgation_date": "20260727",
+      "sequence_code": "0000",
+      "decision_title": "济南市人民政府关于加强防空警报设施管理工作的通告",
+      "ordered_titles": [
+        {
+          "title": "济南市人民政府关于加强防空警报设施管理工作的通告",
+          "order": 1
+        }
+      ],
+      "evidence_path": "single_06_3701003000_20260727_0000_evidence.json",
+      "official_url": "https://www.jinan.gov.cn/attach/0/ac8c11773152478c8991f92e11d1b809.docx",
+      "source_sha256": "c23f60dc781e79da9f9ad5da521189d41e7e59b3b80745701facfe230f81e8d3"
+    },
+    {
+      "agency_code": "3701003000",
+      "promulgation_date": "20260727",
+      "sequence_code": "0000",
+      "decision_title": "济南市推进依法行政若干制度规定",
+      "ordered_titles": [
+        {
+          "title": "济南市推进依法行政若干制度规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "single_07_3701003000_20260727_0000_evidence.json",
+      "official_url": "https://www.jinan.gov.cn/col85285/art/2021/art_85285_68.html",
+      "source_sha256": "fff4b5c2f39335c57ad3e4d5d489e6fbf293277a9a409ebeef214c9e005c2fd8"
+    },
+    {
+      "agency_code": "3701003000",
+      "promulgation_date": "20260727",
+      "sequence_code": "0000",
+      "decision_title": "济南市人民政府关于公布市级第一批取消的行政审批事项的通告",
+      "ordered_titles": [
+        {
+          "title": "济南市人民政府关于公布市级第一批取消的行政审批事项的通告",
+          "order": 1
+        }
+      ],
+      "evidence_path": "single_08_3701003000_20260727_0000_evidence.json",
+      "official_url": "https://www.jinan.gov.cn/jcms/jcms_files/jcms1/web1/site/attach/0/8f80146dd6e548ceb0207dd31a5fea7b.docx",
+      "source_sha256": "dfabc8eda79cd9f7a7c1b746501a500b517ea6cb7a214869787c82dc16e1779d"
+    },
+    {
+      "agency_code": "3701003000",
+      "promulgation_date": "20260727",
+      "sequence_code": "0000",
+      "decision_title": "济南市人民政府关于公布市级第二批取消的行政审批事项的通告",
+      "ordered_titles": [
+        {
+          "title": "济南市人民政府关于公布市级第二批取消的行政审批事项的通告",
+          "order": 1
+        }
+      ],
+      "evidence_path": "single_09_3701003000_20260727_0000_evidence.json",
+      "official_url": "https://www.jinan.gov.cn/attach/0/b20932922e7f4a8da33408960a31c4e9.pdf",
+      "source_sha256": "36db4f075be5107fd47dbad895404cafcc8cd1a1ad7bfd3c6ff5a1fe57a7c3ab"
+    },
+    {
+      "agency_code": "3701003000",
+      "promulgation_date": "20260727",
+      "sequence_code": "0000",
+      "decision_title": "济南市人民政府关于公布市级第三批取消的行政审批事项的通告",
+      "ordered_titles": [
+        {
+          "title": "济南市人民政府关于公布市级第三批取消的行政审批事项的通告",
+          "order": 1
+        }
+      ],
+      "evidence_path": "single_10_3701003000_20260727_0000_evidence.json",
+      "official_url": "https://www.jinan.cn/attach/0/40722a064c854797920a70f68ff4289e.pdf",
+      "source_sha256": "e3a43542d19129e3412ded52410a8db2afec0e2c33b1d019a12f49e243413c5b"
+    },
+    {
+      "agency_code": "3701003000",
+      "promulgation_date": "20260727",
+      "sequence_code": "0000",
+      "decision_title": "济南市人民政府关于公布市级第四批取消的行政审批事项的通告",
+      "ordered_titles": [
+        {
+          "title": "济南市人民政府关于公布市级第四批取消的行政审批事项的通告",
+          "order": 1
+        }
+      ],
+      "evidence_path": "single_11_3701003000_20260727_0000_evidence.json",
+      "official_url": "https://www.jinan.cn/jcms/jcms_files/jcms1/web1/site/attach/0/c4f18c5febf04bf4bc058cba4f2e9f91.pdf",
+      "source_sha256": "5ff86751bdbba3f37adddeb7f611e3c0bd488699d5c333e168ef2a27cbdddd37"
+    },
+    {
+      "agency_code": "3707003000",
+      "promulgation_date": "20201217",
+      "sequence_code": "0000",
+      "decision_title": "潍坊市城市地下管线管理办法",
+      "ordered_titles": [
+        {
+          "title": "潍坊市城市地下管线管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "single_12_3707003000_20201217_0000_evidence.json",
+      "official_url": "http://wfftz.weifang.gov.cn/143/43555/6007301.html",
+      "source_sha256": "e53e3f5663a0fdca9f455dfbb759f32595f3cb863a01eea5c38d8dc8e8f4d82c"
+    },
+    {
+      "agency_code": "1100003000",
+      "promulgation_date": "20101127",
+      "sequence_code": "0226",
+      "decision_title": "北京市人民政府关于修改部分规章的决定（2010年第226号令，24项第8项）",
+      "ordered_titles": [
+        {
+          "title": "关于加强建设工程施工现场治安保卫工作的规定",
+          "order": 8
+        }
+      ],
+      "evidence_path": "decision_1100003000_20101127_0226_evidence.json",
+      "official_url": "https://www.beijing.gov.cn/gongkai/zfxxgk/zc/gz/202112/t20211223_2571302.html",
+      "source_sha256": "318e49917010040364ef9ce11e3c2ff5a49bd1a5d35102bf45fcd7fb49221f06"
+    },
+    {
+      "agency_code": "4414003000",
+      "promulgation_date": "20210831",
+      "sequence_code": "0007",
+      "decision_title": "梅州市人民政府关于修改部分规章的决定（2021年第7号令，3件）",
+      "ordered_titles": [
+        {
+          "title": "梅州市人民政府关于梅州市城市地下管线管理办法",
+          "order": 1
+        },
+        {
+          "title": "梅州市人民政府关于梅州市房屋使用安全管理办法",
+          "order": 2
+        }
+      ],
+      "evidence_path": "decision_4414003000_20210831_0007_evidence.json",
+      "official_url": "https://www.meizhou.gov.cn/attachment/0/114/114047/2307731.pdf",
+      "source_sha256": "d017d9b72fe2487453e223782d5443921ac91c63417e3dfa0c0eecc86994705f"
+    },
+    {
+      "agency_code": "5300001001",
+      "promulgation_date": "20120331",
+      "sequence_code": "0023",
+      "decision_title": "云南省人民代表大会常务委员会关于修改25件涉及行政强制的地方性法规的决定（2012）",
+      "ordered_titles": [
+        {
+          "title": "云南省民用运输机场保护条例",
+          "order": 24
+        },
+        {
+          "title": "云南省渔业条例",
+          "order": 25
+        }
+      ],
+      "evidence_path": "decision_5300001001_20120331_0023_evidence.json",
+      "official_url": "https://wb.flk.npc.gov.cn/dfxfg/PDF/dbda9bfc848441728742994b22a621ed.pdf",
+      "source_sha256": "6eca89405e5482d2d12912f9cf3af87516d4b4c06c1f19b93d3db49e463c4f02"
     }
   ]
 }
