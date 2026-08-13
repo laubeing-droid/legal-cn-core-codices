@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-14-wuhan-312-18",
+  "version": "2026-08-14-zhejiang-374-15",
   "entries": [
     {
       "agency_code": "1100003000",
@@ -31505,6 +31505,681 @@
       "evidence_path": "decision_4201003000_20221004_0312_18_evidence.json",
       "official_url": "https://swj.wuhan.gov.cn/tzdt/hykd/202210/t20221021_2064208.html",
       "source_sha256": "7c4f8c6f73da6d70b9a9fd5173f21b684ee3d59840c8bf0c4fc03a114301ac30"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省爱国卫生工作管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_01_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "87766c6b201868ced8c8bc67085aff09889eeaf59200767ca831aa4ffe056130"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省安全生产监督管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_02_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "0b57b0aca9499883ac02f0febc1007963b1ef877c7d013571aed1867be7c6d39"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省草原承包经营权流转办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_03_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "23f5e732cb3f929c7fb9eeaa673215d63477724c7741d26b27c00488d0108e16"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省测绘地理信息市场管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_04_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "953515f6223b32d90edacae88a55fde9f30402f3e9335d54cb56f80fa7312de1"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省促进绿色建筑发展办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_05_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "be01c99b4d4c5804d888f49ab411591cacec694931791f93b74fcf1f0494ef38"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省地理空间数据交换和共享管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_06_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "dc262d8705451354a2ceb3039bf77556923cc47bc92bd3921f06c9bc8594d6fe"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省扶助残疾人规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_07_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "4f52333b1577dccb59bd71ad3f898076d3bbae8c9c254c0839d6fc41bb5d0d77"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省广播电视设施保护办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_08_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "f8bcf7925d7555d6cdb2837e0e8a214b3a3ef884fcef80a1c75e0dd2f3523605"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省规范行政处罚裁量权办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_09_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "7968b4b1d690a294d47fc1fc037479005ecdb3d41293196748f4e4b767f3cb94"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省价格监督检查办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_10_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "b93924cadac28f250752c3488a4a502da837212ddeafb1bda40025122d90fd03"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省价格争议调解办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_11_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "8629e252c670a8feb6dcfb1191cc0cffb7c5ee69bcd2418ae83855904bde6a4b"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省建设工程勘察设计管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_12_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "91a6403bd877653ad7347ccd5ef085c60f24963d8083d51cbabb1287f5ac27fe"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省节能监察办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_13_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "350bff5b8b99aeb05df7ff885d30bf6ce19ffd867a821370d34a5a4d84dcb5e7"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省农村牧区五保供养工作办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_14_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "77477be71178a6280e5c07f7f55ca5d493c36ca0205ef23bb52e51f853b61802"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省涉案财物价格认定管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_15_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "80108373fc8455ed6518bad3098cebdcba5b39fb7471385f7599cb6df638df30"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省实施工伤保险条例办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_16_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "a79835f2ec297a192b54a2384b9c5a04725d2e5da351780fd6ac4bc945f6e726"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省实施失业保险条例办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_17_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "44b9842b1b850d030e2231f9769da3bbb8031dd88e6dd6ec88118a7237ed90b7"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省实施中华人民共和国国家通用语言文字法办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_18_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "9bc4909482f984c2fd40f6afed9459b0db6bec57898dc4b0b4168bd587281f17"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省实施中华人民共和国抗旱条例办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_19_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "104213c556f259f6a8ff3dde775143fb010cccf14f2b95614f60b7168da0d23d"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省实施中华人民共和国水文条例办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_20_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "955523eee603f3b8a70028bcdff4002383b40c52ef20a0e3e26b1943051d99f8"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省实施中华人民共和国政府信息公开条例办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_21_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "0fd6c78e40434376c28351f012067b303899d8245e3eb3b8c6e3711db712da36"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省水库大坝安全管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_22_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "d6b3225af4c52dbac9b7b4c0ef07b98d28b4b41ca1c2295a022f91aa166a62f3"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省水上交通安全管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_23_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "bbb155aa25e1ea2d6d260d1b2b44d53c32ebd52937c11ee6a953eb0db7bd69af"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省税收保障办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_24_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "d7ffadf9e91fb728b6232118464e03025e68ab409d582080eadf73e837aa9132"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省行政工作人员行政过错责任追究暂行办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_25_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "03cb86c17a3d755d46e08f14d297cbcd81243958b9a4eb76a9a0589aa0eefb16"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省行政执法过错责任追究办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_26_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "3e699c345eeeefe0cc95c246d859b71dfce6cbf0a536a6fd7ff55c134bbcc7bf"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省行政执法责任制实施办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_27_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "d0d10e983a191e27495763603dd94ad41e2d91853442d31b9a5c8721970f63ab"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省行政执法证件管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_28_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "4e999951d9d7a77ffc550f78eb81c62766c0df9af802462bd8aa7a1eef85ff91"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省应对气候变化办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_29_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "20488a2429c67a80bcd7b92f7ad09ad968400bc2fa4b025374bb01128bd6e215"
+    },
+    {
+      "agency_code": "6300003000",
+      "promulgation_date": "20200612",
+      "sequence_code": "0125",
+      "decision_title": "青海省人民政府关于修改和废止部分省政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "青海省中华人民共和国城镇国有土地使用权出让和转让暂行条例实施办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_6300003000_20200612_0125_30_evidence.json",
+      "official_url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gzk/index_1.html",
+      "source_sha256": "78e19dcd4213439a97483434ae5fe485c1d499b4d3fb1da5204394adb3443d72"
+    },
+    {
+      "agency_code": "3300003000",
+      "promulgation_date": "20181229",
+      "sequence_code": "0374",
+      "decision_title": "浙江省人民政府关于修改《浙江省国家安全技术保卫办法》等14件规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "浙江省测绘成果管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3300003000_20181229_0374_01_evidence.json",
+      "official_url": "https://www.zj.gov.cn/art/2019/1/24/art_1229620726_2410047.html",
+      "source_sha256": "e72947664b1bd281e0310b731129c7b6d9c994244db46f7d6968a501fa794896"
+    },
+    {
+      "agency_code": "3300003000",
+      "promulgation_date": "20181229",
+      "sequence_code": "0374",
+      "decision_title": "浙江省人民政府关于修改《浙江省国家安全技术保卫办法》等14件规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "浙江省城镇廉租住房保障办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3300003000_20181229_0374_02_evidence.json",
+      "official_url": "https://www.zj.gov.cn/art/2019/1/24/art_1229620726_2410047.html",
+      "source_sha256": "48c664c97d07cc719f89f40a55533d3684e6eb3df1c931e540c16d4e8586c70d"
+    },
+    {
+      "agency_code": "3300003000",
+      "promulgation_date": "20181229",
+      "sequence_code": "0374",
+      "decision_title": "浙江省人民政府关于修改《浙江省国家安全技术保卫办法》等14件规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "浙江省地图管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3300003000_20181229_0374_03_evidence.json",
+      "official_url": "https://www.zj.gov.cn/art/2019/1/24/art_1229620726_2410047.html",
+      "source_sha256": "8456327c6d1ee45c16b2dc23ec81b33e8b58b1e35ad29d9babb9b32f64351931"
+    },
+    {
+      "agency_code": "3300003000",
+      "promulgation_date": "20181229",
+      "sequence_code": "0374",
+      "decision_title": "浙江省人民政府关于修改《浙江省国家安全技术保卫办法》等14件规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "浙江省公共机构节能条例办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3300003000_20181229_0374_04_evidence.json",
+      "official_url": "https://www.zj.gov.cn/art/2019/1/24/art_1229620726_2410047.html",
+      "source_sha256": "793923cf5886ed6865cb48ab53ac8f779810daaf75a1959ced5e42606a3b99db"
+    },
+    {
+      "agency_code": "3300003000",
+      "promulgation_date": "20181229",
+      "sequence_code": "0374",
+      "decision_title": "浙江省人民政府关于修改《浙江省国家安全技术保卫办法》等14件规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "浙江省公共视听载体播放活动管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3300003000_20181229_0374_05_evidence.json",
+      "official_url": "https://www.zj.gov.cn/art/2019/1/24/art_1229620726_2410047.html",
+      "source_sha256": "445037e5e781f5d66a0e501dcfd9165564bcc62c55f0747dfa7b000a753ea84b"
+    },
+    {
+      "agency_code": "3300003000",
+      "promulgation_date": "20181229",
+      "sequence_code": "0374",
+      "decision_title": "浙江省人民政府关于修改《浙江省国家安全技术保卫办法》等14件规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "浙江省国家安全技术保卫办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3300003000_20181229_0374_06_evidence.json",
+      "official_url": "https://www.zj.gov.cn/art/2019/1/24/art_1229620726_2410047.html",
+      "source_sha256": "a3154bc2b32ff7295133916c5b51e184448582f809486b13ce4fbbafd2ca25c0"
+    },
+    {
+      "agency_code": "3300003000",
+      "promulgation_date": "20181229",
+      "sequence_code": "0374",
+      "decision_title": "浙江省人民政府关于修改《浙江省国家安全技术保卫办法》等14件规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "浙江省基础测绘管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3300003000_20181229_0374_07_evidence.json",
+      "official_url": "https://www.zj.gov.cn/art/2019/1/24/art_1229620726_2410047.html",
+      "source_sha256": "c586f2b33f8979a930f53f51691bcd4b80ab7b9caedfb31728ba445c55d9def1"
+    },
+    {
+      "agency_code": "3300003000",
+      "promulgation_date": "20181229",
+      "sequence_code": "0374",
+      "decision_title": "浙江省人民政府关于修改《浙江省国家安全技术保卫办法》等14件规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "浙江省节能监察办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3300003000_20181229_0374_08_evidence.json",
+      "official_url": "https://www.zj.gov.cn/art/2019/1/24/art_1229620726_2410047.html",
+      "source_sha256": "06574c6337e5e0ef2a52f67dc8f23b0e508f42a1dc92169dd306586c7da92435"
+    },
+    {
+      "agency_code": "3300003000",
+      "promulgation_date": "20181229",
+      "sequence_code": "0374",
+      "decision_title": "浙江省人民政府关于修改《浙江省国家安全技术保卫办法》等14件规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "浙江省经济适用住房管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3300003000_20181229_0374_09_evidence.json",
+      "official_url": "https://www.zj.gov.cn/art/2019/1/24/art_1229620726_2410047.html",
+      "source_sha256": "d7da85fbd5ac0453138ceea11450c62c25fdf2c1cf924e0b998fcd2dd6c76548"
+    },
+    {
+      "agency_code": "3300003000",
+      "promulgation_date": "20181229",
+      "sequence_code": "0374",
+      "decision_title": "浙江省人民政府关于修改《浙江省国家安全技术保卫办法》等14件规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "浙江省农村住房建设管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3300003000_20181229_0374_10_evidence.json",
+      "official_url": "https://www.zj.gov.cn/art/2019/1/24/art_1229620726_2410047.html",
+      "source_sha256": "ed0ecba77c7a31db7dc2c5530e30d9b12d8aedecf502ba0eda053e5c56125dc2"
+    },
+    {
+      "agency_code": "3300003000",
+      "promulgation_date": "20181229",
+      "sequence_code": "0374",
+      "decision_title": "浙江省人民政府关于修改《浙江省国家安全技术保卫办法》等14件规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "浙江省农业废弃物处理与利用促进办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3300003000_20181229_0374_11_evidence.json",
+      "official_url": "https://www.zj.gov.cn/art/2019/1/24/art_1229620726_2410047.html",
+      "source_sha256": "82c5e58f8037448fb351cddddedd9b41d38f32dd4a8b17417702da33b9887a68"
+    },
+    {
+      "agency_code": "3300003000",
+      "promulgation_date": "20181229",
+      "sequence_code": "0374",
+      "decision_title": "浙江省人民政府关于修改《浙江省国家安全技术保卫办法》等14件规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "浙江省收费公路管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3300003000_20181229_0374_12_evidence.json",
+      "official_url": "https://www.zj.gov.cn/art/2019/1/24/art_1229620726_2410047.html",
+      "source_sha256": "1ccbc2b8c9945fe4b01f51f38dbc2c17e361d69ab8f9513c982942a9f33b5396"
+    },
+    {
+      "agency_code": "3300003000",
+      "promulgation_date": "20181229",
+      "sequence_code": "0374",
+      "decision_title": "浙江省人民政府关于修改《浙江省国家安全技术保卫办法》等14件规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "浙江省水上交通事故处理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3300003000_20181229_0374_13_evidence.json",
+      "official_url": "https://www.zj.gov.cn/art/2019/1/24/art_1229620726_2410047.html",
+      "source_sha256": "772a7a60d8f63e3c251a8544822730b3a5e397c957ff592b4b65d669a7c87f57"
+    },
+    {
+      "agency_code": "3300003000",
+      "promulgation_date": "20181229",
+      "sequence_code": "0374",
+      "decision_title": "浙江省人民政府关于修改《浙江省国家安全技术保卫办法》等14件规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "浙江省野生植物保护办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3300003000_20181229_0374_14_evidence.json",
+      "official_url": "https://www.zj.gov.cn/art/2019/1/24/art_1229620726_2410047.html",
+      "source_sha256": "ad4b0cfbdbd8ef79ceac517004c2e1323e1e82c945b897d36bd11374e4fdbff1"
+    },
+    {
+      "agency_code": "3300003000",
+      "promulgation_date": "20181229",
+      "sequence_code": "0374",
+      "decision_title": "浙江省人民政府关于修改《浙江省国家安全技术保卫办法》等14件规章的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "浙江省自然保护区管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3300003000_20181229_0374_15_evidence.json",
+      "official_url": "https://www.zj.gov.cn/art/2019/1/24/art_1229620726_2410047.html",
+      "source_sha256": "6c35b8524b7f981b16b29d55541b764fe30215d5895f10f42396ac9ffca6ee71"
     }
   ]
 }
