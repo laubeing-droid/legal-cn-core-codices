@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-14-haiguan-241-43",
+  "version": "2026-08-14-shanghai-53-34",
   "entries": [
     {
       "agency_code": "1100003000",
@@ -2915,6 +2915,516 @@
       "evidence_path": "decision_0000004150_20180529_0241_43_evidence.json",
       "official_url": "http://legal.qcc.com/regulation/f6e74d1976a554693776e6ee1e700135",
       "source_sha256": "284b15d57064cc62887d1072596b21cea905ba27bcdce67d120f9c50b7aebf55"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "关于出售公有住房的暂行办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "23fa490299ae346f86d8e7dd1ea5e4fc65f06b61fbf7cfdb67b8e1b6e7b38895"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市艾滋病防治办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "3b864ad19f85959ee56f7db29aec73fbaa817b07be6b0bfe585498833d8ebf78"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市测绘成果管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "c4f8225e6c8964dedd2759f1485301565ce2518953aaf00a8ebd38a3d2659ba4"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市城市雕塑建设管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "480b01a1524f0b8d434fbfddc7f313a541579bb91fa4ee98a8ef121cb4cb27e0"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市城市规划管理技术规定（土地使用建筑管理）",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_05_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "61c490367bee73aa13b7d4452de9565e1f20074499c2c8c22ebd044fc3dae551"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市城镇环境卫生设施设置规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_06_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "ccfebe2138e3a4b305c309655f113c1485d7f79877488f778ad23a8e07c210e2"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市档案馆设置管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_07_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "fcba0d35e3133bb5fcab79dc1b5e1f42b7fd6ce9b07b4bf0fc12021f81447b8c"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市房地产转让办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_08_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "ff0017463e3f32dd5c4393e1abfb352de6b38cd4d914523d3d6feaabc2d94f97"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市公共信息系统安全测评管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_09_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "cd686835fc5cd76988f6b5a90e2b218e3ab373dc68b4c1160bed994d1c2a92fa"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市股份合作制企业暂行办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_10_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "0f6a8af7ab7ed12633d329dd7d94e035500bfd75f30d7ad5e4508df5f0731be4"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市国有土地租赁暂行办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_11_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "8a1f0de71bfc31ed51c9706ee42b96f78e04d085eac1c220589335a3ab49c9be"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市环城绿带管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_12_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "d801335f032b35f1293bbf1a1935e9aabd7f9a819ce2ef6183a83e33a2e12a30"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市黄浦江防汛墙保护办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_13_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "f85a4394ba2d459a7f163def8af8537be594d183b1d8c90b86794a883e7ff096"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市基本农田保护的若干规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_14_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "2537813cbe28c3f041fddada6845293200afca276edb06911493081735affd7e"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市集体用餐配送监督管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_15_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "7c5f7f359e851554c2631ef5002142ecb855df25effbdc15f156dcb97572222f"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市技术合同登记管理暂行办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_16_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "a141f47af804761bc7205456727c26323558fb886a12d88de5c7a34babf369d7"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市建设工程施工安全监督管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_17_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "0545bc7c52603cd9be6395874ab68d7ea64a9d448c80690fa09c74c28e42903f"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市金山三岛海洋生态自然保护区管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_18_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "203b643814ac99182a989b1813b4b3ec9e705507fb1fcf2d40088b105f69e18c"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市空调设备安装使用管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_19_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "981b5c12007bee01bb306273b662e4afb066a788c84dcf4dbb632b70369b7aea"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市陆家嘴金融贸易中心区综合管理暂行规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_20_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "85392ddd56505f9afa61f8e3666efe05704b9f347715b2fceed90bec189cd5c5"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市露天仓库消防安全管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_21_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "7308201fb8409f05c3dabdc1c410cfce9d58b935bf8f7b12bce7ab0970eb1b52"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市民用机场航空油料管线保护办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_22_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "b13b0ec526593d546998dfc518f6a421c5e727264865ea817844b99182b16833"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市女职工劳动保护办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_23_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "b409ab52cf6ee28e659d78f29de5c62e9f89476ea4f62452691ba08855219df1"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市人民广场地区综合管理暂行规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_24_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "e4950272a8044b3d38382f69a6a13a928cb42bc1b2ca15f900d33809c5bdcc87"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市商品条码管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_25_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "7e24be6a1c398737b301713fc09a826d0bf1fedf9466321bbececadf05110e6a"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市商品住宅专项维修资金管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_26_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "42c622f80640bc45be761c042b5b00642cae1fbbc8bfe0a3e7429b2c4c448aee"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市社会公共安全技术防范管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_27_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "13710974a8e100f1a82d610e217b9c279a08b6151871f16d2a5fe0136f45287d"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市实施劳动保障监察条例若干规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_28_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "5145309f38896faec8b4739cf8fdb15fc8972afc42197b69b7d5e58fa2049326"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市水上消防监督管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_29_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "00045b1834aae92df0d59bdee534b385c5693b43c56e459a672d0168fdcd1240"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市土地储备办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_30_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "ad6ce50073505b05999e9cc57ba98b40afa97716c5d8a4c29a850109eafac73c"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市医疗机构管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_31_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "a340d29d5581d73ad68334b3cde9cd332cc3c47108b6601d6e0fbbf1e59b90b7"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市幼儿园管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_32_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "914580d04368b04c21e450cedccb9339c8bcbeb0dc63d2fcd203e3aec9af8898"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市植物检疫实施办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_33_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "06d42d3e8c1b5ad7099148f71841c299562c25ec40b65c49e0aba3254dcb855d"
+    },
+    {
+      "agency_code": "3100003000",
+      "promulgation_date": "20101220",
+      "sequence_code": "0053",
+      "decision_title": "上海市人民政府关于废止《上海市有线电视管理办法》等27件市政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "上海市中小学教师进修规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_3100003000_20101220_0053_34_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/4dec0164fbd739ed6e079fc0358e2e91",
+      "source_sha256": "3aa4deee2e836b656a211d3db1d380b754db661bdb78ebe0bf9b0b53aeffa019"
     }
   ]
 }
