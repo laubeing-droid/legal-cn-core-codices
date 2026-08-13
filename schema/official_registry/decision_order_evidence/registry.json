@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-14-marriage-family-expl-2",
+  "version": "2026-08-14-ningxia28-5",
   "entries": [
     {
       "agency_code": "1100003000",
@@ -2195,6 +2195,81 @@
       "evidence_path": "decision_0000001610_20250115_0001_evidence.json",
       "official_url": "https://flk.npc.gov.cn/detail?id=ff808181981cf0ec019831790a392ff0",
       "source_sha256": "b0c171e732ff2ad22c991278cbfc1139b964432e59d476cfae041c331be2c038"
+    },
+    {
+      "agency_code": "6400003000",
+      "promulgation_date": "20101104",
+      "sequence_code": "0028",
+      "decision_title": "宁夏回族自治区人民政府关于修改部分自治区人民政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "宁夏回族自治区地方预算执行情况审计监督办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "single_13_6400003000_20101104_0028_evidence.json",
+      "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/201105/t20110519_138728.html",
+      "source_sha256": "61fa83e9eb2c911d16618a8ab1dcc294f094a059cb83257f2c59d1db327dcd55"
+    },
+    {
+      "agency_code": "6400003000",
+      "promulgation_date": "20101104",
+      "sequence_code": "0028",
+      "decision_title": "宁夏回族自治区人民政府关于修改部分自治区人民政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "宁夏回族自治区地震灾情上报规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "single_14_6400003000_20101104_0028_evidence.json",
+      "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/201105/t20110519_138728.html",
+      "source_sha256": "d2276136f418265f6b934882c37196e85c8bbff4f93ebb8efee68f5a9a329f71"
+    },
+    {
+      "agency_code": "6400003000",
+      "promulgation_date": "20101104",
+      "sequence_code": "0028",
+      "decision_title": "宁夏回族自治区人民政府关于修改部分自治区人民政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "宁夏回族自治区国有企业档案工作规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "single_15_6400003000_20101104_0028_evidence.json",
+      "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/201105/t20110519_138728.html",
+      "source_sha256": "f4ba1b16bad4ec951d60c3e5c909fe27330dc0016b0bf57b166dac8adca24def"
+    },
+    {
+      "agency_code": "6400003000",
+      "promulgation_date": "20101104",
+      "sequence_code": "0028",
+      "decision_title": "宁夏回族自治区人民政府关于修改部分自治区人民政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "宁夏回族自治区科学技术保密细则",
+          "order": 1
+        }
+      ],
+      "evidence_path": "single_16_6400003000_20101104_0028_evidence.json",
+      "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/201105/t20110519_138728.html",
+      "source_sha256": "3ccc1930fee937a36c9321ff09cc88d8a6deb0032b502f9447f8e1c6a2af6f23"
+    },
+    {
+      "agency_code": "6400003000",
+      "promulgation_date": "20101104",
+      "sequence_code": "0028",
+      "decision_title": "宁夏回族自治区人民政府关于修改部分自治区人民政府规章的决定（2010）",
+      "ordered_titles": [
+        {
+          "title": "宁夏回族自治区民兵预备役部队训练基地（中心）管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "single_17_6400003000_20101104_0028_evidence.json",
+      "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/201105/t20110519_138728.html",
+      "source_sha256": "440cb77dbeacc06079665f5f6bd4ee9d8d992f49019493f9644301c3e220b7fd"
     }
   ]
 }
