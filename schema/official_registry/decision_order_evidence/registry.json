@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-14-final-all-remaining",
+  "version": "2026-08-14-wuhan-312-18",
   "entries": [
     {
       "agency_code": "1100003000",
@@ -29945,6 +29945,1566 @@
       "evidence_path": "decision_6400003000_20211223_0000_01_evidence.json",
       "official_url": "http://legal.qcc.com/regulation/placeholder",
       "source_sha256": "aa08928729bf11991eed843f86fabba9fbf52a08a3adcd841d418a89c4d1f6f3"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市保税监管区域管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_01_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "700458a581a8d226f1718abe534691adc52f44545799eb4f24a6b4aafbd2247a"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市城市道路临时占用管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_02_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "7ff33dcb36bd8057e51dc270026cf80498953f2ab73c90e3df3b79ffcd134f04"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市城乡规划程序规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_03_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "a9cc7e1150ca44345b425924fe44272db6ba0703f7409e0da7f7df7de7023018"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市城乡规划技术规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_04_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "cd0ddeb8e57cbf7323ec79fac9bd27620b57f2f272097738f58af9af5308f2b5"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市城乡照明管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_05_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "9c3ab946a8a5490d2d9a29162f5004cd9a69c8ab7ada673ca2352d6e789e26f1"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市大型群众性活动安全管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_06_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "426f9e062752594ad9538f4f4c1fa4f0f7a9847cfb0045f6b9b4bdefce5c8628"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市地下管线管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_07_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "2605cfa3d3900cb23c5714171e57e8d086fb814810d80ad72be412fc469be9f7"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市地下空间开发利用管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_08_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "4cfba1dc84e956a8ff331fed932683cf678017600d29b6e3a126f1949e822ad2"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市发展应用新型墙体材料管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_09_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "6a69ea505510b0b1188c6722acb59fc19c8d5f8261a14e37d01ab6c5c6f5e2f5"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市公共信息标志标准化管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_10_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "dda27d9fa07735956c13d5ce5daa2d042c9ddb3a359a6786b6d1a3daa3425cf8"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市供电与用电管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_11_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "9fa676039e5d6ba80b0032a6bcf24b3afa75c7dcaa9d0eb29d43e4eb46595924"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市鼓励留学人员来穗工作规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_12_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "c44b518e8b27ad0e66d7f8aa02fcab9750d82f0ba12f3dc65c9286f50632ea01"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市规范行政执法自由裁量权规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_13_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "fa24b55b93cf8be1af42087026a67ee20e4e0cf2efb411273a569ddad5911657"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市海上丝绸之路史迹保护规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_14_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "2ae432f95e2032ab2cd04edee65f8edbc7e6f9321e23982c08b02be081b45e76"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市建设项目雨水径流控制办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_15_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "4cfe5f562c0b31cabfcd51af04998bb39861a7899d0c922b39f03ccb0c30c951"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市建设项目占用水域管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_16_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "5d5c6b14df10db10b39aa835ddde7c35b093d747efec71375750c1eb7d5419ba"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市建筑玻璃幕墙管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_17_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "825c41707c2b8e12d3b4697de78a5a189aaac0536c6ac305e7b3261df868ab4a"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市居住区配套公共服务设施管理暂行规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_18_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "5414a0446c25ceafee4a1c0c6b5e7e5b3493d83b9771f745b20628d11ab9e899"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市临近保质期和超过保质期食品管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_19_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "4dfb683c6e04b5c67e4ec62c26fb19da96614354d4020feafaa1777472be1948"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市门楼号牌管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_20_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "24c25f343b6be58b26f2256862f73d58f3c609032aca503abff7fbbe02f68713"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市商事登记暂行办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_21_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "f72b15e25362f2b9d8891fa06c608cb5399de849241a1d0824982b360818f681"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市石油天然气管道保护规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_22_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "e662e8eb4798494c623ea76ae0231771730a3b57f11f77dd43210dc437da6c06"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市实施中华人民共和国行政许可法若干规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_23_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "7bc772a78427e04d305ca36bf2990342ba0a1f18d6475cf37034c99fb56da402"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市随军家属就业安置规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_24_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "b4422cc8fd16e75d8f92117be79884b77e7cc09776262901070c0b2c243002f7"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市网络预约出租汽车经营服务管理暂行办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_25_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "de95cdd0100e4d1cb3459b5c62ce66ec8ff831cc653bf8104ac7aaa4d86fbe40"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市危险化学品安全管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_26_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "546c02649d435f2d216bf38d8d94322a106c4893b6d73387f07710afa8406ea3"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市行政执法协调规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_27_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "b4d1ca9cacefcb20f14c594500cca34c94ccc9ad044f62c5d0dc47114de79682"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市压力管道安全管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_28_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "0bff23072c73c6ebbc04eac2187cc967bbff9a338124aa4cc7bbbaf4c11ad40d"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市亚洲运动会知识产权保护规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_29_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "a76bb6c1ad1d6deb18a95d4e70d511160b52640fe2b96c870e43d696dacafc6f"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市医疗器械经营和使用监督管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_30_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "ed2abe1d6a2a144dd27b7fdbbd1c5626ac14df50eb4341c4a98dab4861b7943b"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市已购公有住房上市规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_31_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "59487d2c3dde8e8bd3f1d056c1110fe807e7303c66c70e042451840a7d01ddbe"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市展会知识产权保护办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_32_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "a39ed184299caa153720d6c47698587c7bcf2c5ff29fd7dbb515a20e85fbc4d1"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市职业卫生监督管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_33_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "3c0aa2783bdbfccb8a460bb9c1fce92766228a02dd67c4b795451ae9f46c899d"
+    },
+    {
+      "agency_code": "4401003000",
+      "promulgation_date": "20191114",
+      "sequence_code": "0168",
+      "decision_title": "广州市人民政府关于修改和废止部分市政府规章的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "广州市重点建设项目管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4401003000_20191114_0168_34_evidence.json",
+      "official_url": "https://www.gz.gov.cn/gzzcwjk/detail.html?id=151422",
+      "source_sha256": "2c65613fd30b3c5d23f4bc31c147f7f5506ae116209b672e2e01e4dfa95c2987"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州高新技术产业开发区暂行规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_01_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "f3dee6d47e34e60400a97805beeed79a0a28d4d1ec4f9539982c981ebebf355d"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州黄河湿地自然保护区管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_02_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "bfd3238bdddee20f907bbc6d084e1f51a31669ab8e94e91620c7be05ab5e0b39"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市餐厨废弃物管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_03_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "09471f1498cef0fa9ecf30bcf61c335016fa9acd2c37903b5afb9be889d54fc2"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市城市地下管线管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_04_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "a8983d2384f068f3aff87339f0b8c7305abbb3dac9707c57dc29f5c0391fe05a"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市城市雕塑管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_05_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "972911c06b72c2ea655a89919ab83642bbe24a22cb93c432d08ace9f95e6adae"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市城市供水管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_06_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "97f5d02cd223867d1d335a84074a7847e64afee5a8efeb16551bf1afe8e6f826"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市城市管理综合执法办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_07_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "a57bee826bce92f4c3a247a7ada288005f3891c344cb95f8599f9c7c96d56e92"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市城市照明管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_08_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "c8583a7685e51016b492ed1288b924a4f184044fb85563ef9e703b2cde8e7289"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市城乡建设档案管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_09_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "bd697bc88578190c3c718f97689b4139d938d3141e6acaa2de89c4834b0aec33"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市大型科学仪器设施共享促进办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_10_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "90b858982ca17cc2ed0bf83942e624d9628feded97bd88ef67a712555b6f170f"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市房屋专项维修资金管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_11_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "57bbe8be84a58fa612e34512369dd1c2dce1849a1e7169d2fd1f8024347b627d"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市公墓管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_12_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "b0e8559015e89978a7f353cc11b3081d7c6a5431b88f4a757bb3ac884736c1d1"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市环境噪声污染防治办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_13_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "97049515dc11c4d266893d44c9a413a4eb9e25cc8d1952b9c01de183199b6582"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市建设工程造价管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_14_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "0850d9f42448d92d43c9174472b20c0b61ff1df9768df5c64f9039b12dd47285"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市禁止燃放烟花爆竹规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_15_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "2ce15ed8494405e31db93fe5ba118bfdaebea028d3265713d4cf8667390aafb4"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市经济适用住房管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_16_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "2739fa0070aa0a0f6d7979097204bbc6be7a0a88bbfaeffd8d29ca34ea3daa4e"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市龙湖水域保护管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_17_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "fcc4b4351aca647d5ea3d4936821c4d86435b7c9d4b24b66915df392c09b6fd8"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市民用建筑节能管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_18_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "6e55a38764dd1620ff46695221561bce1147fba1421f834510e89cf83eb3559a"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市散装水泥和预拌混凝土管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_19_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "52c37aef08132c0207c968b8587763b210a9903daaeae52e1f3af49970ef785c"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市商品房销售管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_20_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "8046556356335aa6162569729895978e061271ce237d158663b273ad397d0a1e"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市社会保险稽查办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_21_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "33f71b2e4d7bddc5655cf8a6959f4d7242f55eb9fafef7df16d350db4c44c65f"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市市区暂住人口登记办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_22_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "c587d9419626a34498e560be1c43853621c395e5e6b5d10eb82e6ef5783d04cd"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市土地储备实施办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_23_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "a55d3da1ddf03327819cd6b6f481b846c2491c384190beb78feba0e746e364df"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市行政执法投诉受理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_24_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "7a3b1ba2ead18be6b5de4c87cf2c15fc67a89e6f263b0043dcd652c7e1a41772"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市医疗纠纷预防与处理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_25_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "b225c436a0634c001d54babd6522b29c49b31e9c2a9022f47cd630fa9efebb77"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市依法行政监督实施办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_26_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "28bcea2ac6f9ef033a389a4ed9f50efcc4126cb3c1effa2e87f78666ed94b504"
+    },
+    {
+      "agency_code": "4101003000",
+      "promulgation_date": "20200117",
+      "sequence_code": "0237",
+      "decision_title": "郑州市人民政府关于修改部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "郑州市政府信息资源共享管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4101003000_20200117_0237_27_evidence.json",
+      "official_url": "https://public.zhengzhou.gov.cn/interpret/320483.jhtml",
+      "source_sha256": "d155106374230e8331b91dee5605add169a7b7b12a09347c220e0cca9e719ee2"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市殡葬管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_01_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "01210edfcd721fa8f44772e6921412eaacaf2c9e7b6846e09d6484a4914e0570"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市城市管理相对集中行政处罚权暂行规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_02_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "dbdbf9b5640c7f62286b848c1288cc9dca97fb2cee91dabef14ae0a623ea9035"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市城市基础设施配套费征收管理暂行办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_03_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "ddd9b03005e6b3052736e163f54bc11175fe7fb61ea7a8d82c2c354f2d289561"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市城市桥梁管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_04_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "04ce105904244a3a775d56261e79dba1148b3e3f35423ef69709d9afc100d306"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市城市清除冰雪管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_05_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "bba6fcea2881b4beb4b0cda86cf2aae994a80cdc3425dfede36bb3d21ecd7bca"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市发展应用新型墙体材料管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_06_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "8a368b21a3b0c12a73322e7349714956e1c4d0a3347faca6211d5844b372ee22"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市防雷减灾管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_07_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "ae5ee0738605967ea9469dfddf77946173c93cd6f6c6fe7629d2250378cd9ecf"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市房地产开发企业信用评价暂行办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_08_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "79d6b62b81887aa7e7e851d87007d6490786abce93c4e8c60a347349e12ab89a"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市房地产开发项目资本金监督管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_09_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "45c2fe313f4bd95ba42512211dfbf72774316a73b6287e0baf556ffc53f434ce"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市公共餐饮具集中消毒监督管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_10_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "927f2172999ab21755d18238e867963aa084b5f4a2b56b30ab43fd8fc6ac8b25"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市古树名木保护管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_11_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "556c65f421e529a5386ff99dd66eeb196744b6f38351b03da857f46bf43067a2"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市规范行政处罚自由裁量权实施办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_12_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "deecedf013d22b0159a409ddcde3acc0f1f729b3bbf50257ad0896a1eb27a2ba"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市规范性文件监督办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_13_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "d6c7bbd01bac42a292adeebb8f73cc63b1d44da6cf7d1f8651642505330d236c"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市火车站地区管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_14_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "bbb842d051947bb76790b4d2287fdc27b9b4526b05b6de899fd6345e0af711fa"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市机动车和非道路移动机械排气污染防治管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_15_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "3df165780dbb6b6c440a3ca407aac9d09e104c4b87fabf9a75b3cdafcb41e2f8"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市机动三轮车管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_16_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "31ad791b7439bea959c95421c884da0254a0df33ec3aedff176f809560f21fba"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市农村消防管理规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_17_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "5c7bfb4986eef3158cb27e548e4ce03dc835ab9f9d169ad9c49e43c236fa3c64"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市汽车租赁管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_18_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "0472dcf625e3b82c2b0a7d77e96554dd629de721ca4c37a32375eca1fd9e57cc"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市人民政府地方性法规草案和规章制定程序规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_19_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "eec62324d295ffb5ceb168cc7361edf77960ca2eaaf9c6cba0440596d80b3bdd"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市人民政府关于实施中华人民共和国人民防空法若干规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_20_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "fa9991cd77b4387159df5cb8bb0441f18bad922c1caceb378439416f8862ba4c"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市商品房预售资金监督管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_21_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "a0faea19de777a45b8164f9de11f282aed37985809419cb48b876c5d55e38dbe"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市污染源自动监控管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_22_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "1dd7482560f6c1ba5828a489f8c1080f0e66c7b5b6978b344eeb15285095c783"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市物业专项维修资金管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_23_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "7c405d60f072edd689b215e90b4b5bf3585d28994b520a5fad627ba30f28ea54"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市行政执法责任追究办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_24_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "3b1e873548a220ec0f72be5364a071f995b241eaad374fdbed64a738ca633fea"
+    },
+    {
+      "agency_code": "2201003000",
+      "promulgation_date": "20201021",
+      "sequence_code": "0082",
+      "decision_title": "长春市人民政府关于修改和废止部分政府规章的决定（2020）",
+      "ordered_titles": [
+        {
+          "title": "长春市政府投资建设项目审计监督办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2201003000_20201021_0082_25_evidence.json",
+      "official_url": "http://js.changchun.gov.cn/szf_3410/bgtxxgkml/202011/t20201118_2536177.html",
+      "source_sha256": "c11bd26864b9c90cef3ae84ee7075611125279ab40019f11af0150d0594f0f2d"
+    },
+    {
+      "agency_code": "4201003000",
+      "promulgation_date": "20221004",
+      "sequence_code": "0312",
+      "decision_title": "武汉市人民政府关于修改和废止部分规章的决定（2022）",
+      "ordered_titles": [
+        {
+          "title": "武汉市餐厨废弃物管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4201003000_20221004_0312_01_evidence.json",
+      "official_url": "https://swj.wuhan.gov.cn/tzdt/hykd/202210/t20221021_2064208.html",
+      "source_sha256": "5d0d4f98b99c286fee5824db6bdc19a064226d2db00636393721f5b6e29a2fe3"
+    },
+    {
+      "agency_code": "4201003000",
+      "promulgation_date": "20221004",
+      "sequence_code": "0312",
+      "decision_title": "武汉市人民政府关于修改和废止部分规章的决定（2022）",
+      "ordered_titles": [
+        {
+          "title": "武汉市城市建设档案管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4201003000_20221004_0312_02_evidence.json",
+      "official_url": "https://swj.wuhan.gov.cn/tzdt/hykd/202210/t20221021_2064208.html",
+      "source_sha256": "28fe3880d43f9a08fb680231af7e6f4ffaa6ab96cdfd3746ad99a4980b52f649"
+    },
+    {
+      "agency_code": "4201003000",
+      "promulgation_date": "20221004",
+      "sequence_code": "0312",
+      "decision_title": "武汉市人民政府关于修改和废止部分规章的决定（2022）",
+      "ordered_titles": [
+        {
+          "title": "武汉市地下空间开发利用管理暂行规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4201003000_20221004_0312_03_evidence.json",
+      "official_url": "https://swj.wuhan.gov.cn/tzdt/hykd/202210/t20221021_2064208.html",
+      "source_sha256": "5b655e1b9fcbb176337b944f0a9bf25c818929f293687cc3de5ee5cbcbde62e6"
+    },
+    {
+      "agency_code": "4201003000",
+      "promulgation_date": "20221004",
+      "sequence_code": "0312",
+      "decision_title": "武汉市人民政府关于修改和废止部分规章的决定（2022）",
+      "ordered_titles": [
+        {
+          "title": "武汉市地下水管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4201003000_20221004_0312_04_evidence.json",
+      "official_url": "https://swj.wuhan.gov.cn/tzdt/hykd/202210/t20221021_2064208.html",
+      "source_sha256": "5cbafd66ab42497c4faac608dfdb337e4888fd0ca85df9556443ffa768ee892e"
+    },
+    {
+      "agency_code": "4201003000",
+      "promulgation_date": "20221004",
+      "sequence_code": "0312",
+      "decision_title": "武汉市人民政府关于修改和废止部分规章的决定（2022）",
+      "ordered_titles": [
+        {
+          "title": "武汉市房屋租赁管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4201003000_20221004_0312_05_evidence.json",
+      "official_url": "https://swj.wuhan.gov.cn/tzdt/hykd/202210/t20221021_2064208.html",
+      "source_sha256": "146ca3467f291331dc6ad7498831ba5e9ac93c2916f17b16f14c190f6a5a65b6"
+    },
+    {
+      "agency_code": "4201003000",
+      "promulgation_date": "20221004",
+      "sequence_code": "0312",
+      "decision_title": "武汉市人民政府关于修改和废止部分规章的决定（2022）",
+      "ordered_titles": [
+        {
+          "title": "武汉市非机动车管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4201003000_20221004_0312_06_evidence.json",
+      "official_url": "https://swj.wuhan.gov.cn/tzdt/hykd/202210/t20221021_2064208.html",
+      "source_sha256": "8fd06655db2bcdd578eee3a3b0818016509a2e83090ef56a61d5824688c48af3"
+    },
+    {
+      "agency_code": "4201003000",
+      "promulgation_date": "20221004",
+      "sequence_code": "0312",
+      "decision_title": "武汉市人民政府关于修改和废止部分规章的决定（2022）",
+      "ordered_titles": [
+        {
+          "title": "武汉市湖泊整治管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4201003000_20221004_0312_07_evidence.json",
+      "official_url": "https://swj.wuhan.gov.cn/tzdt/hykd/202210/t20221021_2064208.html",
+      "source_sha256": "35b7eed243963e58c614bc3b23cf4e936a6062f681d273ef5ad23d1afac6ac6e"
+    },
+    {
+      "agency_code": "4201003000",
+      "promulgation_date": "20221004",
+      "sequence_code": "0312",
+      "decision_title": "武汉市人民政府关于修改和废止部分规章的决定（2022）",
+      "ordered_titles": [
+        {
+          "title": "武汉市机动车道路临时停放管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4201003000_20221004_0312_08_evidence.json",
+      "official_url": "https://swj.wuhan.gov.cn/tzdt/hykd/202210/t20221021_2064208.html",
+      "source_sha256": "90c05d0944260027bc92311c032e05abacc8e1060234601a31d7550c5d87d164"
+    },
+    {
+      "agency_code": "4201003000",
+      "promulgation_date": "20221004",
+      "sequence_code": "0312",
+      "decision_title": "武汉市人民政府关于修改和废止部分规章的决定（2022）",
+      "ordered_titles": [
+        {
+          "title": "武汉市建设工程安全生产管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4201003000_20221004_0312_09_evidence.json",
+      "official_url": "https://swj.wuhan.gov.cn/tzdt/hykd/202210/t20221021_2064208.html",
+      "source_sha256": "05ea71396ca3f882ed164356d7ae2a31c2417cbd396f190f14d62bc5ff6f54cf"
+    },
+    {
+      "agency_code": "4201003000",
+      "promulgation_date": "20221004",
+      "sequence_code": "0312",
+      "decision_title": "武汉市人民政府关于修改和废止部分规章的决定（2022）",
+      "ordered_titles": [
+        {
+          "title": "武汉市人民防空警报设施管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4201003000_20221004_0312_10_evidence.json",
+      "official_url": "https://swj.wuhan.gov.cn/tzdt/hykd/202210/t20221021_2064208.html",
+      "source_sha256": "bcaabfffc21deaa5a85794984b6d1a993bc2a40ad392e628276e80ddddfcb91f"
+    },
+    {
+      "agency_code": "4201003000",
+      "promulgation_date": "20221004",
+      "sequence_code": "0312",
+      "decision_title": "武汉市人民政府关于修改和废止部分规章的决定（2022）",
+      "ordered_titles": [
+        {
+          "title": "武汉市生活垃圾分类管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4201003000_20221004_0312_11_evidence.json",
+      "official_url": "https://swj.wuhan.gov.cn/tzdt/hykd/202210/t20221021_2064208.html",
+      "source_sha256": "0fd3fb8e293d5e2325bfa8c2c42456d6d21b5159c183224b38e7cc1067308510"
+    },
+    {
+      "agency_code": "4201003000",
+      "promulgation_date": "20221004",
+      "sequence_code": "0312",
+      "decision_title": "武汉市人民政府关于修改和废止部分规章的决定（2022）",
+      "ordered_titles": [
+        {
+          "title": "武汉市天然气高压管道设施保护办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4201003000_20221004_0312_12_evidence.json",
+      "official_url": "https://swj.wuhan.gov.cn/tzdt/hykd/202210/t20221021_2064208.html",
+      "source_sha256": "f98367afdb5099577c5b8d4ac576dbd27b3fe29db91265f110595d8065d60963"
+    },
+    {
+      "agency_code": "4201003000",
+      "promulgation_date": "20221004",
+      "sequence_code": "0312",
+      "decision_title": "武汉市人民政府关于修改和废止部分规章的决定（2022）",
+      "ordered_titles": [
+        {
+          "title": "武汉市统计管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4201003000_20221004_0312_13_evidence.json",
+      "official_url": "https://swj.wuhan.gov.cn/tzdt/hykd/202210/t20221021_2064208.html",
+      "source_sha256": "99ab8cdb547811aa616dd46a47b41d62c293bb3b819c27bfc88991059a804779"
+    },
+    {
+      "agency_code": "4201003000",
+      "promulgation_date": "20221004",
+      "sequence_code": "0312",
+      "decision_title": "武汉市人民政府关于修改和废止部分规章的决定（2022）",
+      "ordered_titles": [
+        {
+          "title": "武汉市无障碍建设和管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4201003000_20221004_0312_14_evidence.json",
+      "official_url": "https://swj.wuhan.gov.cn/tzdt/hykd/202210/t20221021_2064208.html",
+      "source_sha256": "0f9e7a3e20152288ca30d2875fb0987ebe4e3f8696a756cba23ab5e2c1387fe1"
+    },
+    {
+      "agency_code": "4201003000",
+      "promulgation_date": "20221004",
+      "sequence_code": "0312",
+      "decision_title": "武汉市人民政府关于修改和废止部分规章的决定（2022）",
+      "ordered_titles": [
+        {
+          "title": "武汉市行政处罚委托办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4201003000_20221004_0312_15_evidence.json",
+      "official_url": "https://swj.wuhan.gov.cn/tzdt/hykd/202210/t20221021_2064208.html",
+      "source_sha256": "25d35f5ae01e9ab6460db536b34df0af47a0b31b82814feb6080d51c526f707b"
+    },
+    {
+      "agency_code": "4201003000",
+      "promulgation_date": "20221004",
+      "sequence_code": "0312",
+      "decision_title": "武汉市人民政府关于修改和废止部分规章的决定（2022）",
+      "ordered_titles": [
+        {
+          "title": "武汉市学前教育管理办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4201003000_20221004_0312_16_evidence.json",
+      "official_url": "https://swj.wuhan.gov.cn/tzdt/hykd/202210/t20221021_2064208.html",
+      "source_sha256": "9c0711f181a2be31b3301c64b8b740058fee809217011f42360b97968fb0a961"
+    },
+    {
+      "agency_code": "4201003000",
+      "promulgation_date": "20221004",
+      "sequence_code": "0312",
+      "decision_title": "武汉市人民政府关于修改和废止部分规章的决定（2022）",
+      "ordered_titles": [
+        {
+          "title": "武汉市长江隧道管理暂行办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4201003000_20221004_0312_17_evidence.json",
+      "official_url": "https://swj.wuhan.gov.cn/tzdt/hykd/202210/t20221021_2064208.html",
+      "source_sha256": "78be672b397ee7f68fce9be03c74e492a81a65ece294e9ca0a778d3ff588fd1b"
+    },
+    {
+      "agency_code": "4201003000",
+      "promulgation_date": "20221004",
+      "sequence_code": "0312",
+      "decision_title": "武汉市人民政府关于修改和废止部分规章的决定（2022）",
+      "ordered_titles": [
+        {
+          "title": "武汉市职工生育保险办法",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4201003000_20221004_0312_18_evidence.json",
+      "official_url": "https://swj.wuhan.gov.cn/tzdt/hykd/202210/t20221021_2064208.html",
+      "source_sha256": "7c4f8c6f73da6d70b9a9fd5173f21b684ee3d59840c8bf0c4fc03a114301ac30"
     }
   ]
 }
