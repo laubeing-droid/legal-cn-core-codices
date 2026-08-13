@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-14-haiguan-243-29",
+  "version": "2026-08-14-heilongjiang-07-26",
   "entries": [
     {
       "agency_code": "1100003000",
@@ -3860,6 +3860,396 @@
       "evidence_path": "decision_0000004150_20181123_0243_29_evidence.json",
       "official_url": "http://legal.qcc.com/regulation/5643a5ff665e3ce093c86f9dba287852",
       "source_sha256": "f64118202d0bd39c58d28e96434a03dc846c6581338695a28ea9b4e692c613b4"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江挠力河国家级自然保护区管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "e55df25aaaaf926d8597f842b1a94b18d8012161ee2e32fbd6aa59f0188f9b6a"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省草原条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "83e1ca589589285c9da4b8208abfdb3bef742f13b89a4d924480349a5dd195d0"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省产品质量条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "ff0a9cd51a21c199711da9cede2b61e0bbf6abe27c9be81e903e28c758e74f43"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省城市清除冰雪条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "daa4ac6a12192b5885a879d710b99c441f9b7442c98af6337122e2aa25aa4d45"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省城市市容和环境卫生管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_05_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "a79fe89905e652aa4549c56adeab46b0792d5c07e4f2711d0f59b7c617738165"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省城乡规划条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_06_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "450a1994d18f85c778bf783b86e3a5f5498224f22db230ea718a01c592be2c65"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省城镇燃气管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_07_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "13914a8ecfb3094a9620dcc220c4a8e2c5900c46c4e8812062b1acb844c5d670"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省促进散装水泥发展条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_08_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "5ffd570364e56ec18a92687aafab17fbdbfd240039929e71ef0444d7d6cfcdd9"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省反窃电条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_09_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "a3b16ecfabaad6eecbcad312770f335deda65ae6b20e68e7813cd8b3bd29b648"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省防沙治沙条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_10_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "2557bc92cd1324d7c9ba42adc2554c196758ac5a1753e88ba64b6414e3d73734"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省防震减灾条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_11_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "e500ec667abbb66171522aa4780f83c3ce7dcd08d76875e8b57d33a8257c82ea"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省建设工程勘察设计条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_12_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "559de31f726b28cb0dd8a2999518e3a3e3f4b96555a5f89c428164debe315db4"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省建设工程质量监督管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_13_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "74fc55df3f0580945a9b6b113eae02aab2d22bb3e6751c0badd66f92a9bfd4a8"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省节约能源条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_14_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "7be6c278cbeecf668801a4e6ac0bbf66b6ec751612ead0d1a440b7207577a91d"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省劳动保障监察条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_15_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "03bd6634da288055f84bd9238584fcafc4704eddc0ddfcfdff836e73be671f4e"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省农村公路条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_16_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "5ddf07a5eddad9f789da782d88b5e3eb5e1b0618a3d0400ff288e5bd81419d61"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省农田水利条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_17_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "5a165055898cf740eb2e4c8c77a1c579ff4770d006df258070063912560d3fcf"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省农业环境保护管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_18_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "0125077d9b42d158492b4c72b3a8b3d78a961af613c8f0551e27a1d984cc9b2e"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省气象灾害防御条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_19_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "f477579de3f7b62e7395a676f15132cb33764e597deae7b4c095c72a07bbc282"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省森林防火条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_20_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "2e5a9626cefa6e15f3b431fb39dfcef207094bd4eea21089456f42881d4157f2"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省森林公园管理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_21_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "c0b3b3f881d6e7e9f68c33058191c475885b86441d27e824d795d48d41bb21e2"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省涉案物价格鉴证条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_22_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "2ea5c265e69ade5f2ed579b80e442e1059eac2954d89231f4dd6a76fada058a6"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省湿地保护条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_23_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "bd5874c2d875da08f7896c0b3c15d20594a1ac173800a611f0c80027a1bc4347"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省石油天然气田治安保卫条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_24_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "7f94257ef5f6e33c53ff6973198a59747b7051e1102a37fe3b82ef57795b230a"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省学校安全条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_25_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "f02babb040a70bf3798ee979cd0ee079c0a0de7db3d9eaa91c288fb90f6068fd"
+    },
+    {
+      "agency_code": "2300001001",
+      "promulgation_date": "20180628",
+      "sequence_code": "0007",
+      "decision_title": "黑龙江省人民代表大会常务委员会关于废止和修改等63部地方性法规的决定（2018）",
+      "ordered_titles": [
+        {
+          "title": "黑龙江省职业教育条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_2300001001_20180628_0007_26_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/07409037a5321471905716de3e10aed5",
+      "source_sha256": "82a0396ec45fd15abbfa9c119e50be8c1ee331d26f1c48e134241c15e0407d73"
     }
   ]
 }
