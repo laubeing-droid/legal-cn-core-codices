@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-14-qinghai-28-17",
+  "version": "2026-08-14-shenzhen-167-15",
   "entries": [
     {
       "agency_code": "1100003000",
@@ -5450,6 +5450,231 @@
       "evidence_path": "decision_6300001001_20200722_0028_17_evidence.json",
       "official_url": "http://legal.qcc.com/regulation/f62ffd3d9d84f7077734d2e339f7a606",
       "source_sha256": "517abcd9aef42bca77ac6489576898d37a21d73324ad9c3bf30366af809bf4ce"
+    },
+    {
+      "agency_code": "4403001001",
+      "promulgation_date": "20191113",
+      "sequence_code": "0167",
+      "decision_title": "深圳市人民代表大会常务委员会关于修改《深圳经济特区人体器官捐献移植条例》等四十五项法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "深圳经济特区处理历史遗留生产经营性违法建筑若干规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4403001001_20191113_0167_01_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/baeaf11226bf62cf6d293806aec15a6a",
+      "source_sha256": "1399653ba154bdc4aaa8a239f2af46ab58234a25bc1791fa1bf6fb61a2dc5556"
+    },
+    {
+      "agency_code": "4403001001",
+      "promulgation_date": "20191113",
+      "sequence_code": "0167",
+      "decision_title": "深圳市人民代表大会常务委员会关于修改《深圳经济特区人体器官捐献移植条例》等四十五项法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "深圳经济特区处理历史遗留违法私房若干规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4403001001_20191113_0167_02_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/baeaf11226bf62cf6d293806aec15a6a",
+      "source_sha256": "38c8e1f6ea373666de58791d0624a66ee6730be43e514b693b9efc8e3cdc7bdb"
+    },
+    {
+      "agency_code": "4403001001",
+      "promulgation_date": "20191113",
+      "sequence_code": "0167",
+      "decision_title": "深圳市人民代表大会常务委员会关于修改《深圳经济特区人体器官捐献移植条例》等四十五项法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "深圳经济特区反走私综合治理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4403001001_20191113_0167_03_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/baeaf11226bf62cf6d293806aec15a6a",
+      "source_sha256": "2a28daf90ea1cedb90d59717da73882577c60ac5ae43a9b06e9d86f2eb86007e"
+    },
+    {
+      "agency_code": "4403001001",
+      "promulgation_date": "20191113",
+      "sequence_code": "0167",
+      "decision_title": "深圳市人民代表大会常务委员会关于修改《深圳经济特区人体器官捐献移植条例》等四十五项法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "深圳经济特区房地产转让条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4403001001_20191113_0167_04_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/baeaf11226bf62cf6d293806aec15a6a",
+      "source_sha256": "298bdabe135ca8fafa1ec4efda064bbd932920e028fb51f5232914c6ff7a3c47"
+    },
+    {
+      "agency_code": "4403001001",
+      "promulgation_date": "20191113",
+      "sequence_code": "0167",
+      "decision_title": "深圳市人民代表大会常务委员会关于修改《深圳经济特区人体器官捐献移植条例》等四十五项法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "深圳经济特区改革创新促进条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4403001001_20191113_0167_05_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/baeaf11226bf62cf6d293806aec15a6a",
+      "source_sha256": "060094dac3a450ec9ac1cece3d4c082b53306f78174b74b561ccf41acc963035"
+    },
+    {
+      "agency_code": "4403001001",
+      "promulgation_date": "20191113",
+      "sequence_code": "0167",
+      "decision_title": "深圳市人民代表大会常务委员会关于修改《深圳经济特区人体器官捐献移植条例》等四十五项法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "深圳经济特区高新技术产业园区条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4403001001_20191113_0167_06_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/baeaf11226bf62cf6d293806aec15a6a",
+      "source_sha256": "616cf7f8808fefac644b4b30db4f32916a278c08fd276a96e38b64be51519969"
+    },
+    {
+      "agency_code": "4403001001",
+      "promulgation_date": "20191113",
+      "sequence_code": "0167",
+      "decision_title": "深圳市人民代表大会常务委员会关于修改《深圳经济特区人体器官捐献移植条例》等四十五项法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "深圳经济特区加快经济发展方式转变促进条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4403001001_20191113_0167_07_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/baeaf11226bf62cf6d293806aec15a6a",
+      "source_sha256": "78e425a633bc07189ce4cf1755867998c375a82cf3a208c17b818a29544504ab"
+    },
+    {
+      "agency_code": "4403001001",
+      "promulgation_date": "20191113",
+      "sequence_code": "0167",
+      "decision_title": "深圳市人民代表大会常务委员会关于修改《深圳经济特区人体器官捐献移植条例》等四十五项法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "深圳经济特区家庭服务业条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4403001001_20191113_0167_08_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/baeaf11226bf62cf6d293806aec15a6a",
+      "source_sha256": "3824a8b60856c70fec14120af2ffcc25bccfff9e9546d2e414728796c9bd1b84"
+    },
+    {
+      "agency_code": "4403001001",
+      "promulgation_date": "20191113",
+      "sequence_code": "0167",
+      "decision_title": "深圳市人民代表大会常务委员会关于修改《深圳经济特区人体器官捐献移植条例》等四十五项法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "深圳经济特区建设工程监理条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4403001001_20191113_0167_09_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/baeaf11226bf62cf6d293806aec15a6a",
+      "source_sha256": "8f9978c78a87530411e9525c1d73509f0f25415eeac1e41119238e14382e87ec"
+    },
+    {
+      "agency_code": "4403001001",
+      "promulgation_date": "20191113",
+      "sequence_code": "0167",
+      "decision_title": "深圳市人民代表大会常务委员会关于修改《深圳经济特区人体器官捐献移植条例》等四十五项法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "深圳经济特区企业技术秘密保护条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4403001001_20191113_0167_10_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/baeaf11226bf62cf6d293806aec15a6a",
+      "source_sha256": "06455bd02d0aca20faae7e31ca27c5ef36c14ed755f12c1d2598d29c0e454211"
+    },
+    {
+      "agency_code": "4403001001",
+      "promulgation_date": "20191113",
+      "sequence_code": "0167",
+      "decision_title": "深圳市人民代表大会常务委员会关于修改《深圳经济特区人体器官捐献移植条例》等四十五项法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "深圳经济特区人才市场条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4403001001_20191113_0167_11_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/baeaf11226bf62cf6d293806aec15a6a",
+      "source_sha256": "3fe264107dbeeba9e2ec80ff50464ec311a71de949e4c4e33ed446487fe59d70"
+    },
+    {
+      "agency_code": "4403001001",
+      "promulgation_date": "20191113",
+      "sequence_code": "0167",
+      "decision_title": "深圳市人民代表大会常务委员会关于修改《深圳经济特区人体器官捐献移植条例》等四十五项法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "深圳经济特区失业保险若干规定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4403001001_20191113_0167_12_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/baeaf11226bf62cf6d293806aec15a6a",
+      "source_sha256": "65d950ba9276b7b72836bac8d69dbe3fe326700674ec63c5687a04c6cb987fe1"
+    },
+    {
+      "agency_code": "4403001001",
+      "promulgation_date": "20191113",
+      "sequence_code": "0167",
+      "decision_title": "深圳市人民代表大会常务委员会关于修改《深圳经济特区人体器官捐献移植条例》等四十五项法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "深圳经济特区循环经济促进条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4403001001_20191113_0167_13_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/baeaf11226bf62cf6d293806aec15a6a",
+      "source_sha256": "3fdff68f687958c522fa494ceff127c7652d922feb5aad6820edc1019b1bf2e1"
+    },
+    {
+      "agency_code": "4403001001",
+      "promulgation_date": "20191113",
+      "sequence_code": "0167",
+      "decision_title": "深圳市人民代表大会常务委员会关于修改《深圳经济特区人体器官捐献移植条例》等四十五项法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "深圳经济特区严厉打击生产、销售假冒、伪劣商品违法行为条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4403001001_20191113_0167_14_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/baeaf11226bf62cf6d293806aec15a6a",
+      "source_sha256": "33c0f311c801e884144d77aafe059a0bb7664fabf554e3cefc15d62a70236fd3"
+    },
+    {
+      "agency_code": "4403001001",
+      "promulgation_date": "20191113",
+      "sequence_code": "0167",
+      "decision_title": "深圳市人民代表大会常务委员会关于修改《深圳经济特区人体器官捐献移植条例》等四十五项法规的决定（2019）",
+      "ordered_titles": [
+        {
+          "title": "深圳经济特区中小企业发展促进条例",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_4403001001_20191113_0167_15_evidence.json",
+      "official_url": "http://legal.qcc.com/regulation/baeaf11226bf62cf6d293806aec15a6a",
+      "source_sha256": "bc6c01c644a52513f32d69aac0b6b3f3ccb03bb272575c026787214b2e40901a"
     }
   ]
 }
