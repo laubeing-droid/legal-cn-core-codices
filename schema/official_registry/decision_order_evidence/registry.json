@@ -22,7 +22,7 @@
       ],
       "evidence_path": "beijing_1994_jingzhengfa_5_expression_order_evidence.md",
       "official_url": "https://www.beijing.gov.cn/zhengce/zfwj/zfwj/szfwj/201905/t20190523_72415.html",
-      "source_sha256": "d8568998db7a3db9163cc1b0ab2cda2267bd416c76b0dbb1a4f461fa7061648e"
+      "source_sha256": "ac815fb809e1b6b3c020af09b8feeff0eda22810acf4c20b34d207794b7d628b"
     },
     {
       "agency_code": "2100003000",
@@ -49,7 +49,7 @@
       ],
       "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/200505/t20050531_135424.html",
       "evidence_path": "liaoning_order_171_official_evidence.md",
-      "source_sha256": "9f6e1f9a0ee335d98c74cee8338b5a9486222c6d491827c542308255c9a65a8a"
+      "source_sha256": "7637dfb7d18455a130b3861188bcf16bf52b93ff282336147c0623e19aa93dfe"
     },
     {
       "agency_code": "2100003000",
@@ -68,7 +68,7 @@
       ],
       "official_url": "https://www.ln.gov.cn/web/zwgkx/zfwj/szfl/zfwj2011/343BD3B3E1534254B4F03D1BBC4F2505/index.shtml",
       "evidence_path": "liaoning_orders_269_286_305_311_324_official_evidence.md",
-      "source_sha256": "9299c465027c917871a29b4281f4ba9c7a55a5bd5fae04ca36bda2a313bc65f1"
+      "source_sha256": "3c51907356ad8efa0514a59e474003e0df7b5ad8a52fab5a8d75d8cac39371e4"
     },
     {
       "agency_code": "2100003000",
@@ -87,7 +87,7 @@
       ],
       "official_url": "https://www.ln.gov.cn/web/zwgkx/zfwj/szfl/zfwj2011/B7F6E91DA1294134979102FA0E3923E9/index.shtml",
       "evidence_path": "liaoning_orders_269_286_305_311_324_official_evidence.md",
-      "source_sha256": "9299c465027c917871a29b4281f4ba9c7a55a5bd5fae04ca36bda2a313bc65f1"
+      "source_sha256": "42421309b39806226601fcce8a4f6f138417bfbe084cf088725201b59bb6e022"
     },
     {
       "agency_code": "2100003000",
@@ -106,7 +106,7 @@
       ],
       "official_url": "https://www.ln.gov.cn/web/zwgkx/zfwj/szfl/zfwj2011_111253/3272DE98711E45FFA49F5643E07B96A1/index.shtml",
       "evidence_path": "liaoning_orders_269_286_305_311_324_official_evidence.md",
-      "source_sha256": "9299c465027c917871a29b4281f4ba9c7a55a5bd5fae04ca36bda2a313bc65f1"
+      "source_sha256": "7e1b22cafdc92204f16467cc1bea8d2a2008eca9cf29f6b41f89d5cf73c12938"
     },
     {
       "agency_code": "2100003000",
@@ -125,7 +125,7 @@
       ],
       "official_url": "https://www.ln.gov.cn/web/zwgkx/zfwj/szfl/zfwj2011_119231/B4348F90CFC542D2B157AAC3C362BB31/index.shtml",
       "evidence_path": "liaoning_orders_269_286_305_311_324_official_evidence.md",
-      "source_sha256": "9299c465027c917871a29b4281f4ba9c7a55a5bd5fae04ca36bda2a313bc65f1"
+      "source_sha256": "4081d106385f074a03baa718fe1a52973fe6bd486ef89ebd5f5c8081969ec0e8"
     },
     {
       "agency_code": "2100003000",
@@ -144,7 +144,7 @@
       ],
       "official_url": "https://www.ln.gov.cn/web/zwgkx/lnsrmzfgb/2018n/zk/zk18/710C4B7144654B0A934CCD9DA258274A/index.shtml",
       "evidence_path": "liaoning_orders_269_286_305_311_324_official_evidence.md",
-      "source_sha256": "9299c465027c917871a29b4281f4ba9c7a55a5bd5fae04ca36bda2a313bc65f1"
+      "source_sha256": "f2528a96bf06499954ea375cc3fe11a85aa33d3d021098cd1b534b151484986e"
     },
     {
       "agency_code": "0000004970",
@@ -167,7 +167,7 @@
       ],
       "official_url": "https://www.csrc.gov.cn/csrc/c101950/c1048008/1048008/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E3%80%8A%E5%85%B3%E4%BA%8E%E4%BF%AE%E6%94%B9%E9%83%A8%E5%88%86%E8%AF%81%E5%88%B8%E6%9C%9F%E8%B4%A7%E8%A7%84%E7%AB%A0%E7%9A%84%E5%86%B3%E5%AE%9A%E3%80%8B.pdf",
       "evidence_path": "csrc_order_166_decision.pdf",
-      "source_sha256": "4bc704d2836f0168d86314daf5caab909960a61a1979a840d46186b53c32d04e"
+      "source_sha256": "4ae633c97835208177ecb0216609769098a1dc904c856d254171b86acb603abb"
     },
     {
       "agency_code": "0000004970",
@@ -181,7 +181,7 @@
       ],
       "official_url": "https://www.csrc.gov.cn/csrc/c101950/c1047976/1047976/files/%E9%99%84%E4%BB%B61%20%E4%B8%AD%E5%9B%BD%E8%AF%81%E7%9B%91%E4%BC%9A%E5%86%B3%E5%AE%9A%E4%BF%AE%E6%94%B9%E7%9A%84%E8%A7%84%E7%AB%A0.pdf",
       "evidence_path": "csrc_order_177_attachment1.pdf",
-      "source_sha256": "bc2e4b1625abccdeeb2025cce9ebd9aeb8069e861bdc91d4875e76c86f951dec"
+      "source_sha256": "4b7c0b05fd13ef199e1d1dfa0760430e73535afff6fe5f56eb7fc49541062b48"
     },
     {
       "agency_code": "2100003000",
@@ -199,7 +199,7 @@
       ],
       "official_url": "https://zjt.ln.gov.cn/zjt/tftz/2ED94F7049814500B19D1AD3D1ED7F8C/index.shtml",
       "evidence_path": "liaoning_order_308_decision.html",
-      "source_sha256": "abe09a8c80f20bd285807846342b57fa008c0e9e94598a6a99ef2f7e7e936375"
+      "source_sha256": "ad861398c44db1c8cbff62696b60aefc218e752091ea77fb89e7ab7edcc88908"
     },
     {
       "agency_code": "2100003000",
@@ -215,7 +215,7 @@
       ],
       "official_url": "https://www.ln.gov.cn/web/zwgkx/lnsrmzfgb/2020n/qk/2020n_dessq95/szfwj/1AB396E2CEFD47D58009903540457526/index.shtml",
       "evidence_path": "liaoning_order_333_decision.html",
-      "source_sha256": "5198230fa4fce1f5475c67711139251632100b4c45b83a71398d0ebf265caee5"
+      "source_sha256": "7852d14cfca6a714830c1b11a34f929c20c83a7d62072733227a3a960fddede7"
     },
     {
       "agency_code": "2100003000",
@@ -266,7 +266,7 @@
       ],
       "official_url": "https://www.ln.gov.cn/web/zwgkx/zfwj/szfl/zfwj2011_148485/7773B056118D401EB3F068D657807CEB/index.shtml",
       "evidence_path": "liaoning_order_341_decision.html",
-      "source_sha256": "e847bb9acb6b585a35ee2f68bc90d390350b8d02f2f5675f4a0825d8c12282c5"
+      "source_sha256": "5b36b2a6fd84fe80507c843970191084986cb8a1f953d6bc6628e6d2f25e8a81"
     },
     {
       "agency_code": "0000004010",
@@ -306,7 +306,7 @@
       ],
       "official_url": "https://scjg.sjz.gov.cn/columns/f4b845cb-41b2-45c3-9bf2-3ab0c653efc9/202011/04/c42c78de-ddd3-479e-9850-d896d69eb933.html",
       "evidence_path": "samr_order_31_shijiazhuang_official_repost.html",
-      "source_sha256": "d30fdbb587ff734e20a479181b7a61645eb73f61c990fc6175bbcdd32f12fd9a"
+      "source_sha256": "e10dc28489c0806046bdb969981039d47e9c92b099cd190795a52b8929414f47"
     },
     {
       "agency_code": "0000003710",
@@ -345,7 +345,7 @@
       ],
       "official_url": "https://www.moa.gov.cn/nybgb/2022/202202/202204/P020220401365957599038.pdf",
       "evidence_path": "moa_order_2022_1_gazette.pdf",
-      "source_sha256": "3b2c30f940d398292315483f266aa0721f051043b8befc29e8d0c9d2125a3101"
+      "source_sha256": "8aebc26a79ec39656e9b2d597ca9a9ac056f5e15d7ca14d49b454c4aa4ce2420"
     },
     {
       "agency_code": "1100003000",
@@ -381,7 +381,7 @@
       ],
       "official_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/201905/t20190522_60899.html",
       "evidence_path": "beijing_order_277_decision.html",
-      "source_sha256": "bd2e6e01cec0d0e7896e2a45a056a3f61ba5b9ff25940a2f69b83ed784d645e0"
+      "source_sha256": "4bdfd542d578baa74a932f68ef007322aabab4f240216554e3019b345f8ca63b"
     },
     {
       "agency_code": "1100003000",
@@ -407,7 +407,7 @@
       ],
       "official_url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202201/t20220125_2599751.html",
       "evidence_path": "beijing_order_302_decisions.html",
-      "source_sha256": "e34b845e94f756964435370c823b3ccfdee95094fb3791746e78e4cd8fb3d28b"
+      "source_sha256": "086ccec4f1182de77708b7673fe7261ad90520e42d8fc104684aa3db609b70e5"
     },
     {
       "agency_code": "0000003000",
@@ -442,7 +442,7 @@
       ],
       "official_url": "https://app.www.gov.cn/govdata/gov/202412/13/522682/articleNew.html",
       "evidence_path": "state_council_order_797_decision.html",
-      "source_sha256": "c3f90d7889bea2a7ea4a015cfcc0c1898d48a04ffa536627f80d8466a7997ec5"
+      "source_sha256": "018201de28ce40a5814dbebb8ed332c839bd37c4620053b28e72bbc92dd2b3fd"
     },
     {
       "agency_code": "2100003000",
@@ -664,7 +664,7 @@
       ],
       "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/201105/t20110519_138800.html",
       "evidence_path": "anhui_order_230_decision.html",
-      "source_sha256": "cb794ba56ea726a19292b54c7594c6b4c5d4128c4434cae2ab03e742b56bcd3d"
+      "source_sha256": "774848344798394c0e5d65f63a571b2a09c170a6f89454351475ebca68ac6e00"
     },
     {
       "agency_code": "3400003000",
@@ -678,7 +678,7 @@
       ],
       "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202305/t20230530_479824.html",
       "evidence_path": "anhui_order_307_decision.html",
-      "source_sha256": "c1dd9227cc7a4843689c22e68a409389ee3a6512e371ae7c19dd854eb4cce4c7"
+      "source_sha256": "2592bfad5f82b3c814ff8ad3845db3de1b89032d455157a5432503755d8685df"
     },
     {
       "agency_code": "1200003000",
@@ -704,7 +704,7 @@
       ],
       "official_url": "https://www.tj.gov.cn/zwgk/szfwj/tjsrmzf/202005/t20200519_2365902.html",
       "evidence_path": "tianjin_order_29_2018_decision.html",
-      "source_sha256": "715b13feb8cb6722bcebc033f22818057aeda95b4d42c8bbbd3b83e313ba4720"
+      "source_sha256": "348ed0a7d95efc3d35b41be757acb9bf14b3f42f3f2ce9f7f6fae3cb9832d32c"
     },
     {
       "agency_code": "3100003000",
@@ -719,7 +719,7 @@
       ],
       "official_url": "https://www.shanghai.gov.cn/nw26170/20200820/0001-26170_27236.html",
       "evidence_path": "same_title_version_event_evidence.md",
-      "source_sha256": "dfb21be512e01ff16b45889cfd054aa7ea2e948d7ad4a787e53d5ee4c612113f"
+      "source_sha256": "d0b4d787c773559ddba0506e33651073bb5874d253f35cba9d845e26673516c8"
     },
     {
       "agency_code": "3100003000",
@@ -734,7 +734,7 @@
       ],
       "official_url": "https://www.shanghai.gov.cn/cmsres/54/54740c8575b94ac5b9243d68c12a4b99/f0a8b9c5a0ee24f64f6861d7a9ae2041.pdf",
       "evidence_path": "shanghai_order_13_2024_decision.pdf",
-      "source_sha256": "e9557800e22ea8d0f8079b8c955edc2b3b3ddf4b8ca83107a92eb0b8b9944f7d"
+      "source_sha256": "51813e7b8d8b50108381ee3982c18f4ca1d9f1be9fa15b9ee00b5385df399c44"
     },
     {
       "agency_code": "3100003000",
@@ -788,7 +788,7 @@
       ],
       "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/201903/t20190313_142427.html",
       "evidence_path": "guangxi_order_128_decision.html",
-      "source_sha256": "4496fa874843f052cbb9a1db6b80676d9cf3e70c2037a0b0ae9411066da40865"
+      "source_sha256": "b133d9ad3ce3d0cf8fe47d75783a79888b5706dc3dbd02094833273f96c81483"
     },
     {
       "agency_code": "6400003000",
@@ -846,7 +846,7 @@
       ],
       "official_url": "https://www.nx.gov.cn/zwgk/qzfwj/201912/t20191216_1887278.html",
       "evidence_path": "ningxia_order_108_decision.html",
-      "source_sha256": "f6c8a58b4c0d2590150c4fc638a562351bdfc983a03bf1a959dc42a8072f1e28"
+      "source_sha256": "ef27567b5733e3ed5c7c1dc571728c27362598a7340055d2844cca60145c15fe"
     },
     {
       "agency_code": "6400003000",
@@ -862,7 +862,7 @@
       ],
       "official_url": "https://www.nx.gov.cn/zwgk/qzfwj/202411/t20241119_4731185.html",
       "evidence_path": "ningxia_order_133_attachment_2.doc",
-      "source_sha256": "b2242f7a70aad9b784defdbd4755d97b2c5d26c8476b9c7e065be3cc80c40cd2"
+      "source_sha256": "405c69f70ff7f152adab0e1ea79f51e25a77d29974f291376a317cdc3b031151"
     },
     {
       "agency_code": "0000004970",
@@ -893,7 +893,7 @@
       ],
       "official_url": "https://www.csrc.gov.cn/csrc/c101953/c7547341/content.shtml",
       "evidence_path": "csrc_order_227_decision.pdf",
-      "source_sha256": "d1c76abf1f42aead268f008e36a794d07d6d95e3b98eebae074f536a41d3b2bc"
+      "source_sha256": "108218b69e36eeeaa2d810bd33cb0a869505a86b77d39313b3fe89935afcee77"
     },
     {
       "agency_code": "3300003000",
@@ -926,7 +926,7 @@
       ],
       "official_url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3096/site/attach/0/1602220935220921651.pdf",
       "evidence_path": "zhejiang_order_341_gazette.pdf",
-      "source_sha256": "0cd4a8e2040401d35dc307dda43aeab3f2c96c7e0aead0b92a40efafb0b7b2d8"
+      "source_sha256": "aa1fb049aacac01f1a4e6bc20886b1d2ec6918dded542ed88ae057944cf7e757"
     },
     {
       "agency_code": "3300003000",
@@ -954,7 +954,7 @@
       ],
       "official_url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3096/site/attach/0/0f17cbd852a04fc1b7628778f2e445fb.pdf",
       "evidence_path": "zhejiang_order_284_gazette.pdf",
-      "source_sha256": "460c570d3c352490e9e7057e09648635e666b5555f9648abfc72f58d24b7c92d"
+      "source_sha256": "f6555d79d34b7a3244d212469b6aa443c83232c6ec97ffa4ffc77b7e425a7604"
     },
     {
       "agency_code": "3300003000",
@@ -968,7 +968,7 @@
       ],
       "official_url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3241/site/attach/0/72a5ae30dc8b4c158501dadd836b91fc.pdf",
       "evidence_path": "zhejiang_order_402_gazette.pdf",
-      "source_sha256": "3d0e21be55f89f83bb7f309045835b1b5fd3e93fade8c63c3ade5e6a05e75297"
+      "source_sha256": "446d03398347b0e48fbe0d959f8eff57c53e9d3a9b1521d5c4d2b3b391673943"
     },
     {
       "agency_code": "3400003000",
@@ -983,7 +983,7 @@
       ],
       "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202009/t20200924_142727.html",
       "evidence_path": "anhui_order_288_moj.html",
-      "source_sha256": "be3b01dad64edb7784e6b762066fe209c2fd3bf5b8c386f11ab49f27b2f5b38a"
+      "source_sha256": "f2e3299b461b7f5f9e4530972b536e12c51839ae05496f3fb84f172e09c41dbe"
     },
     {
       "agency_code": "1300001001",
@@ -1008,7 +1008,7 @@
       ],
       "official_url": "https://www.hbrd.gov.cn/system/2021/09/30/100782577.shtml",
       "evidence_path": "hebei_announcement_94_decision.html",
-      "source_sha256": "e4fbab1f1beb2d60925d73b6830677a1d18d92bb3f729e16dedcb9a2c5ac5862"
+      "source_sha256": "074282517e4e93896c622d630c278316c5c0e7f3f7285f57cc1b68fd3a10c003"
     },
     {
       "agency_code": "1300003000",
@@ -1047,7 +1047,7 @@
       ],
       "official_url": "https://www.hebei.gov.cn/columns/d4c3d1c6-3910-4041-8c76-1e68e83691af/202502/11/6e881e7c-e159-42b2-a003-21d8123c1b41.html",
       "evidence_path": "hebei_order_2024_7.html",
-      "source_sha256": "9dd1cec85a6fd34f845e920cb0136fe1636f9e462f4ec10b25c77970252bf1f5"
+      "source_sha256": "fa4fe1e0fc18cda94097934489ff1cff8b8268ec723b6445a2f2fe8178e05661"
     },
     {
       "agency_code": "4200001001",
@@ -1068,7 +1068,7 @@
       ],
       "official_url": "https://www.moj.gov.cn/pub/sfbgw/jgsz/jgszzsdw/zsdwflyzzx/flyzzxzcxx/zcxxzcfg/zcfgdfxfggf/202006/t20200624_188850.html",
       "evidence_path": "hubei_announcement_268_decision_moj.html",
-      "source_sha256": "a809f276a35d0fbcbbb06c97b3fb162250fec64fdab14377c5ad73c5225967f2"
+      "source_sha256": "a7492c5f46d46fd983470a2b3c84fec3df4d8d9cc4e675376aaa8cd8348c4cb2"
     },
     {
       "agency_code": "0000003221",
@@ -1089,7 +1089,7 @@
       ],
       "official_url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=9203",
       "evidence_path": "mofcom_order_2001_8.html",
-      "source_sha256": "84400ac0a883881596120c91ed27036e394dbb6b7fc553551a098e090145fb36"
+      "source_sha256": "f6469ce3e6ee26a3c00c258d77bd9853b432d5a3b8018945237b0a57d178fd66"
     },
     {
       "agency_code": "0000003660",
@@ -1110,7 +1110,7 @@
       ],
       "official_url": "https://www.gov.cn/zhengce/2009-06/22/content_5712432.htm",
       "evidence_path": "mofcom_order_2009_6_gov_cn_text.html",
-      "source_sha256": "821f007c1aee350f837ba3db119b1e16e2e699e3f6dc89041e3a3ea2bc84ad82"
+      "source_sha256": "503588283b4bac32fe74514f44508f112d5cc530e0e1c808d48af6c3c44ff8aa"
     },
     {
       "agency_code": "0000003660",
@@ -1166,7 +1166,7 @@
       ],
       "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/201506/t20150625_145604.html",
       "evidence_path": "miit_order_2014_28_moj.html",
-      "source_sha256": "16e4b7e643b10b2010b8e4fca2a842e7931c6bc6b382c2bb8a7be9761c435605"
+      "source_sha256": "82ce54c7d2e03e6927c3d2a09ce707b79068ac68e0f5d96abfa713774578ada5"
     },
     {
       "agency_code": "0000003720",
@@ -1182,7 +1182,7 @@
       ],
       "official_url": "https://zwgk.mct.gov.cn/zfxxgkml/zcfg/bmgz/202012/t20201204_905336.html",
       "evidence_path": "mct_order_2017_57.html",
-      "source_sha256": "389a96c611817be312e1d3f930f245c1b5d9a463183d8a730c5434aeb3f9cdb3"
+      "source_sha256": "43ecb92a42aae43c3bf415322a08f2a0d955be6cfe20e515a1a65f45a8508746"
     },
     {
       "agency_code": "0000004970",
@@ -1197,7 +1197,7 @@
       ],
       "official_url": "https://www.csrc.gov.cn/csrc/c101950/c1416969/1416969/files/%E9%99%84%E4%BB%B61-1%EF%BC%9A%E4%B8%AD%E5%9B%BD%E8%AF%81%E7%9B%91%E4%BC%9A%E5%86%B3%E5%AE%9A%E4%BF%AE%E6%94%B9%E7%9A%84%E8%A7%84%E7%AB%A0.pdf",
       "evidence_path": "csrc_order_2021_179_modified_rules.pdf",
-      "source_sha256": "c533ebe32a7c02cd00011eaf64d4a978eef9ffeeeb7a530111b47d1cd6bd6bc7"
+      "source_sha256": "c0785ce9684f8ee5b93266c92ce7c9030164cc85c97f57a7d79e54660a61aa37"
     },
     {
       "agency_code": "0000003392",
@@ -1210,7 +1210,7 @@
       ],
       "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/201508/t20150817_145632.html",
       "evidence_path": "miit_order_2015_29_moj.html",
-      "source_sha256": "f282208e26b1537c0a0a0989a8b5489c4c8f74fbd5811aa979d558a46b6fb082"
+      "source_sha256": "bd440ee7b070cc809385476530d5518c10f6cd04af6b995ff422ff48c02f6968"
     },
     {
       "agency_code": "0000003032",
@@ -1255,7 +1255,7 @@
       ],
       "official_url": "https://www.gov.cn/gbgl/f5482d40ed58499b952660d1ae7ce493/files/d2b04320928a49d1bb4fd7e388560c4e.pdf",
       "evidence_path": "hrss_order_2019_43_gov_pdf.pdf",
-      "source_sha256": "656fdad7abc4d1c0148add286a7bb0ccf8b0ab3158611d2d33e6cab563387fca"
+      "source_sha256": "d9ec0389c1fc68d495fce80257154b2f1dc94e4371cbedfe57a4a3b1c9124d48"
     },
     {
       "agency_code": "0000003561",
@@ -1273,7 +1273,7 @@
       ],
       "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/201506/t20150624_145554.html",
       "evidence_path": "hrss_order_2015_24_moj.html",
-      "source_sha256": "27cc2e13f47fd84000747db2dd5bb7de7633975bbf669e40a02dbf60f2a11ef7"
+      "source_sha256": "d9ec0389c1fc68d495fce80257154b2f1dc94e4371cbedfe57a4a3b1c9124d48"
     },
     {
       "agency_code": "0000003260",
@@ -1353,7 +1353,7 @@
       ],
       "official_url": "https://www.csrc.gov.cn/csrc/c101799/c38ba93146b3a439eb141f24c5e4c3c76/content.shtml",
       "evidence_path": "csrc_order_2021_184_decision.pdf",
-      "source_sha256": "23ff4cbeb484ab08ace343fe9e5dc8971b9b644bb75328eedecd4bea542f74c3"
+      "source_sha256": "f6df36a5b9725d785ae77aa61fad90744b90eed16f0b3185b93bf85a007280ab"
     },
     {
       "agency_code": "0000003032",
@@ -1370,7 +1370,7 @@
       ],
       "official_url": "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20223",
       "evidence_path": "ndrc_order_2023_1_investment_rules.html",
-      "source_sha256": "6c8a9a9c5224df4427eddab23e1ba4d285d3e0292d93344cabe07d118386325e"
+      "source_sha256": "04dab3a39c5cf746f3f25044352d0df75d5d8167aa403a57c61d006682de13f1"
     },
     {
       "agency_code": "0000003391",
@@ -1383,7 +1383,7 @@
       ],
       "official_url": "https://www.hengqin.gov.cn/lab/flfg/bmgz/content/post_3734087.html",
       "evidence_path": "miit_order_2002_22_hengqin.html",
-      "source_sha256": "8176d28dc266bae2adfc948c6b65c0bb0b13230c246920825c33c6037cbcdb5e"
+      "source_sha256": "a9cfb6a8fc7b117404122708cccca6f70ff35ab079de85ba2bd8065aa28140d6"
     },
     {
       "agency_code": "0000003120",
@@ -1411,7 +1411,7 @@
       ],
       "official_url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=9478",
       "evidence_path": "mofcom_joint_order_2002_24.html",
-      "source_sha256": "2ea3567404a9ea38bb86aa9951517568fae09592eb7414c6ba3b0f5a46c75d74"
+      "source_sha256": "e117acc9bb12190ff1ad5d8332c596c705e753962abb2d7f8ecd6d249f6e477b"
     },
     {
       "agency_code": "0000004970",
@@ -1423,7 +1423,7 @@
       ],
       "official_url": "https://www.csrc.gov.cn/csrc/c101953/c7606204/content.shtml",
       "evidence_path": "csrc_order232_commitment.html",
-      "source_sha256": "a6f3061c78ba4b634acd2147c1a9ea6d244d3ca6c906a294a6bb4775e847e2aa"
+      "source_sha256": "b1487733e13c0c71eed8f191e2fcb9b0d3b9d216eb2ce2a7fe51bda2404fb42d"
     },
     {
       "agency_code": "3100003000",
@@ -1450,7 +1450,7 @@
       ],
       "official_url": "https://www.shanghai.gov.cn/202603szfgz/20260210/79c5b6ea59664e05bfcd30682b19676a.html",
       "evidence_path": "shanghai_order_2025_24.html",
-      "source_sha256": "a81da6753315c2d97ee114859bb9bbbd1d45c78f58035ff8aeb40f2eb675b972"
+      "source_sha256": "0dec66d16c287f97d67dcd5fef4bf8e722ac584a51ea78c8cc855c534eec2b94"
     },
     {
       "agency_code": "2100003000",
@@ -1491,7 +1491,7 @@
       ],
       "official_url": "https://www.beijing.gov.cn/zhengce/zfwj/zfwj2016/szfl/201905/t20190522_58077.html",
       "evidence_path": "beijing_order_2014_259.html",
-      "source_sha256": "23cd24b94754c4a324b0b6bd739441c755f00b75552067f27cfc98693f752cec"
+      "source_sha256": "d3db649a0ec97475554acc4a6a35df481fc37c2a8532362443f3ee787c69d34f"
     },
     {
       "agency_code": "3400003000",
@@ -1514,7 +1514,7 @@
       ],
       "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/200506/t20050602_135600.html",
       "evidence_path": "anhui_legacy_targeted_decision_evidence.md",
-      "source_sha256": "f9e67bd3e7b8eaff1a9a6bacb351f5def6a17af8e08af1b1bf17a11f5f21aa84"
+      "source_sha256": "4137cdbb05ece7919df01185493fda73add89637bb6192abc2fcbac819599692"
     },
     {
       "agency_code": "3400003000",
@@ -1541,7 +1541,7 @@
       ],
       "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/201802/t20180205_142148.html",
       "evidence_path": "anhui_legacy_targeted_decision_evidence.md",
-      "source_sha256": "f9e67bd3e7b8eaff1a9a6bacb351f5def6a17af8e08af1b1bf17a11f5f21aa84"
+      "source_sha256": "9de84a1c2350730b12e1bd4c711c51afa9931720b1716a64bc5f2695270b9919"
     },
     {
       "agency_code": "3401003000",
@@ -1555,7 +1555,7 @@
       ],
       "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202009/t20200922_143021.html",
       "evidence_path": "hefei_order_206_official_evidence.md",
-      "source_sha256": "08c5d3b072070442e781c20ace0198dfd91041750f4eca68669338e24f0f0b83"
+      "source_sha256": "762b0da3f667f839d45ff47aa8fcdb383999a16017360bd46ae558f4b0176e42"
     },
     {
       "agency_code": "3100003000",
@@ -1569,7 +1569,7 @@
       ],
       "official_url": "https://www.shanghai.gov.cn/nw12344/20210526/f85f6e3c00954be6b83625887ea857f3.html",
       "evidence_path": "shanghai_order_49_official_evidence.md",
-      "source_sha256": "d84e39e7d5966f666f86bdfc5a650e9989455f4f44c2f68731247e20200e500e"
+      "source_sha256": "280fbaa8938163dde4b93d77e6ce0f944868e2654339a70d32417ab51442714c"
     },
     {
       "agency_code": "2103003000",
@@ -1586,7 +1586,7 @@
       ],
       "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/201805/t20180515_142377.html",
       "evidence_path": "anshan_order_190_official_evidence.md",
-      "source_sha256": "396cad1aaabc21ef8c964fd8a9ae5754152ab64ccdb60cbe64c9bcb9ecf4bdb0"
+      "source_sha256": "31051b905d9c8ee26665c5be12d5c659cda6b2e7979cac98cad345e1618f6aeb"
     },
     {
       "agency_code": "3600003000",
@@ -1640,7 +1640,7 @@
       ],
       "official_url": "https://www.moj.gov.cn/pub/sfbgw/fzgz/fzgzxzlf/fzgzbagz/202104/t20210414_354525.html",
       "evidence_path": "jiangxi_order_241_crosscheck_evidence.md",
-      "source_sha256": "14f7b509db71260fe3a231afe58aafdc3ccc8602fc45c772d09097a09c015467"
+      "source_sha256": "4a89a8efffb3bdd6d2378e550f6520bd83f55815276ae11f56ad05d0569fba5e"
     },
     {
       "agency_code": "6400003000",
@@ -1662,7 +1662,7 @@
       ],
       "official_url": "https://www.nx.gov.cn/zwgk/qzfwj/202108/t20210830_2996708.html",
       "evidence_path": "ningxia_order_117_official_evidence.md",
-      "source_sha256": "d843c602e3b642b866bd00f4033f00ec3186644a56fb9fec6084edeb6c3f1e1a"
+      "source_sha256": "92b1d7d3688337f84d9e34cc4c2d30945f1bb31306d3f0d0957a540734a0ae31"
     },
     {
       "agency_code": "0000003000",
@@ -1677,7 +1677,7 @@
       ],
       "official_url": "https://www.gov.cn/xinwen/2020-12/25/5573435/files/195171fdee024615933c10d57f141171.pdf",
       "evidence_path": "antimonopoly_guides_2019_order_official_evidence.md",
-      "source_sha256": "b93457a14b30c691369aa223e6066f201cf65949c746be4b09a96351c2b569d5"
+      "source_sha256": "f533bd48e59ffb0d78236e710b587b752d65775685b36b738d2fb7caf2ff8b0c"
     },
     {
       "agency_code": "4200003000",
@@ -1718,7 +1718,7 @@
       ],
       "official_url": "https://www.suzhou.gov.cn/szsrmzf/szfzfgz/202004/6a400d2b3bd1491cb9eef36f4580418e/files/cd79086d3b084555995f4e3ee2cb55fa.pdf",
       "evidence_path": "suzhou_order_153_official.pdf",
-      "source_sha256": "af9abe6b138b8b787c767373bd5249ee87e9e690d25434cec26f1a6594a76a76"
+      "source_sha256": "a3e034fb5e630c47da2990b9f417f2a1a60fc924554afb43db7277df91b994bc"
     },
     {
       "agency_code": "6400003000",
@@ -1737,7 +1737,7 @@
       ],
       "official_url": "https://www.nx.gov.cn/zwgk/qzfwj/201801/t20180115_668486.html",
       "evidence_path": "ningxia_order_83_official.html",
-      "source_sha256": "4a9bc97ad20c0f82bebc6f7e82f9c0323eebd04f3b668f9d3f60b2897529d779"
+      "source_sha256": "a913ed9b0508318b93c67217447d0117f73c35376c98a905a048225d926fc216"
     },
     {
       "agency_code": "3300003000",
@@ -1756,7 +1756,7 @@
       ],
       "official_url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3096/site/attach/zfgb/973%EF%BC%8D974.pdf",
       "evidence_path": "zhejiang_order_293_gazette_evidence.md",
-      "source_sha256": "252003619eacb18183f0893a36f79bdea6a2001287e37c50ab4a076d8c0baf4b"
+      "source_sha256": "2b42ddfae126e58ef56a77f46e5f2ea96ddb6dee9bcbaab5843aec2e09ec376c"
     },
     {
       "agency_code": "3300003000",
@@ -1779,7 +1779,7 @@
       ],
       "official_url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3096/site/attach/0/1701131139249286642.pdf",
       "evidence_path": "zhejiang_order_350_gazette_evidence.md",
-      "source_sha256": "648e7a5abc61e4fdddc73dcf8baee67e5ef1f09b47854215df229cf4cafa6613"
+      "source_sha256": "759cbba6126e3768e53bb2f46d641ed120fbeca1de2f5fef095c53c90c5f402e"
     },
     {
       "agency_code": "4400003000",
@@ -1802,7 +1802,7 @@
       ],
       "official_url": "https://www.gdwc.gov.cn/zfxxgk/zjswcskgmhxxhj/content/post_1080017.html",
       "evidence_path": "guangdong_order_269_official_republication.html",
-      "source_sha256": "072f22fbf7000962d4d7cd248451c9bdca8b9afaa3f031d8ddd2411c2b3c3f86"
+      "source_sha256": "83264240864f9d156b8fa3f693c778a5ce0f0b872eb32ffe4b09f10956f5d6db"
     },
     {
       "agency_code": "5300001001",
@@ -1892,7 +1892,7 @@
       ],
       "evidence_path": "../npc_flk_decision_order_targeted_20260805/run_v3/raw/0b0fca198c6d43f9a9cd2b8acf5f1bdb.docx",
       "official_url": "https://flk.npc.gov.cn/detail?id=0b0fca198c6d43f9a9cd2b8acf5f1bdb",
-      "source_sha256": "dae501d7423e6a480c94fbe1da09970feffbc1709ebb818d1d20768c03f3ab3b"
+      "source_sha256": "1bb5da3e59a1f7f8cc9fd5199f2bf6df42fdd9fe9df40657e0fc83447345f4a1"
     },
     {
       "agency_code": "6300003000",
@@ -1931,7 +1931,7 @@
       ],
       "evidence_path": "qinghai_order_125_official_evidence.json",
       "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202009/t20200922_143182.htm",
-      "source_sha256": "b41f539b22bcf360530f633985910fc288943e90fedebcd7a8922312d2f460c8"
+      "source_sha256": "0c92388f4b6975c7e6905cf0b3dec43998109214536be4b1b46c2ba6f7ebd8e1"
     },
     {
       "agency_code": "6500001001",
@@ -1946,7 +1946,7 @@
       ],
       "evidence_path": "single_00_6500001001_20171129_0033_evidence.json",
       "official_url": "https://www.cnr.cn/xjfw/2014xjfw/2014xjfw_1/20171130/t20171130_524044606.shtml",
-      "source_sha256": "a674cfc3bb707101d1fc7ee734928eee7f9d9741448426d0ae7738f8d4ccbb5c"
+      "source_sha256": "540aa064e288cf269ecb2aaedcb6d0b335d38a675c1a302768efcd1241bfd353"
     },
     {
       "agency_code": "4331001000",
@@ -1961,7 +1961,7 @@
       ],
       "evidence_path": "single_01_4331001000_20090522_0002_evidence.json",
       "official_url": "https://faolex.fao.org/docs/pdf/chn177808.pdf",
-      "source_sha256": "a5d4214279d6425c4cb2bcdb2506f71b43dcd28fa3b4c31e97e71e024595a593"
+      "source_sha256": "aa715e08960fc977b3721f596fb89f85e1788f0f58db8be7127399d03a914db6"
     },
     {
       "agency_code": "3300001001",
@@ -1976,7 +1976,7 @@
       ],
       "evidence_path": "single_02_3300001001_20161223_0036_evidence.json",
       "official_url": "https://zjrb.zjol.com.cn/html/2016-12/25/content_3028012.htm",
-      "source_sha256": "e7855ccb0bd581958ce3770e666b9841a964948ea4188188004a9638657a327d"
+      "source_sha256": "b39469ce36fccb78888d4718b772728c38514f1d4f830386e3c275959f532cc7"
     },
     {
       "agency_code": "3203003000",
@@ -1991,7 +1991,7 @@
       ],
       "evidence_path": "single_03_3203003000_20040804_0000_evidence.json",
       "official_url": "https://www.xz.gov.cn/govxxgk/014051247/2021-11-29/e6c78e46-4994-4514-a7a6-867077f83c98.html",
-      "source_sha256": "75aa76d951dcc5719fc01ff37f0e86001d0462a395ca4e257b998ac8ba57860c"
+      "source_sha256": "e30dbd74b89f7b6e23935ca99b0615c13c2ead89ed6554fcbd2d830715855207"
     },
     {
       "agency_code": "3701003000",
@@ -2006,7 +2006,7 @@
       ],
       "evidence_path": "single_04_3701003000_20260727_0000_evidence.json",
       "official_url": "https://jntzcjj.jinan.gov.cn/col88377/art/2019/art_88377_4765795.html",
-      "source_sha256": "4fd0db77ec9a80d5c9da2e1784b3abc350ea8ce480f99fc518515b41d2151d44"
+      "source_sha256": "d1beabed5f745ff961b13a9364e2a65eec0092b33a0e6e571d21c065bab8ebbe"
     },
     {
       "agency_code": "3701003000",
@@ -2021,7 +2021,7 @@
       ],
       "evidence_path": "single_05_3701003000_20260727_0000_evidence.json",
       "official_url": "https://jnly.jinan.gov.cn/col113071/art/2021/art_113071_4772591.html",
-      "source_sha256": "3d092c464770a21bad0ed1b2fe9ac6fcb64623551963fa7a9e8e6b1949731337"
+      "source_sha256": "4d77b4c9aac7a17c59e62c828d4eae0318c2871e0c970516c0c0f3c11c63b19b"
     },
     {
       "agency_code": "3701003000",
@@ -2036,7 +2036,7 @@
       ],
       "evidence_path": "single_06_3701003000_20260727_0000_evidence.json",
       "official_url": "https://www.jinan.gov.cn/attach/0/ac8c11773152478c8991f92e11d1b809.docx",
-      "source_sha256": "c23f60dc781e79da9f9ad5da521189d41e7e59b3b80745701facfe230f81e8d3"
+      "source_sha256": "698898cd378e7fb083dec3dc0e2c7103fcd474a37f3182f7feaf166318f10f3a"
     },
     {
       "agency_code": "3701003000",
@@ -2051,7 +2051,7 @@
       ],
       "evidence_path": "single_07_3701003000_20260727_0000_evidence.json",
       "official_url": "https://www.jinan.gov.cn/col85285/art/2021/art_85285_68.html",
-      "source_sha256": "fff4b5c2f39335c57ad3e4d5d489e6fbf293277a9a409ebeef214c9e005c2fd8"
+      "source_sha256": "671e8728b4c919a492fab92633481db867db8f6dd925b9b5836116f6636ee6e5"
     },
     {
       "agency_code": "3701003000",
@@ -2066,7 +2066,7 @@
       ],
       "evidence_path": "single_08_3701003000_20260727_0000_evidence.json",
       "official_url": "https://www.jinan.gov.cn/jcms/jcms_files/jcms1/web1/site/attach/0/8f80146dd6e548ceb0207dd31a5fea7b.docx",
-      "source_sha256": "dfabc8eda79cd9f7a7c1b746501a500b517ea6cb7a214869787c82dc16e1779d"
+      "source_sha256": "8f7c388bc04f1b733e82cfa68628d8b15c1dcb82b49e06b04c9f529a8d76628d"
     },
     {
       "agency_code": "3701003000",
@@ -2081,7 +2081,7 @@
       ],
       "evidence_path": "single_09_3701003000_20260727_0000_evidence.json",
       "official_url": "https://www.jinan.gov.cn/attach/0/b20932922e7f4a8da33408960a31c4e9.pdf",
-      "source_sha256": "36db4f075be5107fd47dbad895404cafcc8cd1a1ad7bfd3c6ff5a1fe57a7c3ab"
+      "source_sha256": "8f7c388bc04f1b733e82cfa68628d8b15c1dcb82b49e06b04c9f529a8d76628d"
     },
     {
       "agency_code": "3701003000",
@@ -2096,7 +2096,7 @@
       ],
       "evidence_path": "single_10_3701003000_20260727_0000_evidence.json",
       "official_url": "https://www.jinan.cn/attach/0/40722a064c854797920a70f68ff4289e.pdf",
-      "source_sha256": "e3a43542d19129e3412ded52410a8db2afec0e2c33b1d019a12f49e243413c5b"
+      "source_sha256": "8f7c388bc04f1b733e82cfa68628d8b15c1dcb82b49e06b04c9f529a8d76628d"
     },
     {
       "agency_code": "3701003000",
@@ -2111,7 +2111,7 @@
       ],
       "evidence_path": "single_11_3701003000_20260727_0000_evidence.json",
       "official_url": "https://www.jinan.cn/jcms/jcms_files/jcms1/web1/site/attach/0/c4f18c5febf04bf4bc058cba4f2e9f91.pdf",
-      "source_sha256": "5ff86751bdbba3f37adddeb7f611e3c0bd488699d5c333e168ef2a27cbdddd37"
+      "source_sha256": "8f7c388bc04f1b733e82cfa68628d8b15c1dcb82b49e06b04c9f529a8d76628d"
     },
     {
       "agency_code": "3707003000",
@@ -2126,7 +2126,7 @@
       ],
       "evidence_path": "single_12_3707003000_20201217_0000_evidence.json",
       "official_url": "http://wfftz.weifang.gov.cn/143/43555/6007301.html",
-      "source_sha256": "e53e3f5663a0fdca9f455dfbb759f32595f3cb863a01eea5c38d8dc8e8f4d82c"
+      "source_sha256": "56015f1c4bbe608dbe62c7a0385bbefc8f15f3e97bfc2f2abc102de2b9bf930e"
     },
     {
       "agency_code": "1100003000",
@@ -2141,7 +2141,7 @@
       ],
       "evidence_path": "decision_1100003000_20101127_0226_evidence.json",
       "official_url": "https://www.beijing.gov.cn/gongkai/zfxxgk/zc/gz/202112/t20211223_2571302.html",
-      "source_sha256": "318e49917010040364ef9ce11e3c2ff5a49bd1a5d35102bf45fcd7fb49221f06"
+      "source_sha256": "107eeafd77c00b45f8c677961985bf1934585782b64ac260f2c489bd11f59a23"
     },
     {
       "agency_code": "4414003000",
@@ -2160,7 +2160,7 @@
       ],
       "evidence_path": "decision_4414003000_20210831_0007_evidence.json",
       "official_url": "https://www.meizhou.gov.cn/attachment/0/114/114047/2307731.pdf",
-      "source_sha256": "d017d9b72fe2487453e223782d5443921ac91c63417e3dfa0c0eecc86994705f"
+      "source_sha256": "3491e89030c1207ef0e636e75603ae88b0d3a04079c8a57d6665e86a24cc2abe"
     },
     {
       "agency_code": "5300001001",
@@ -2179,7 +2179,7 @@
       ],
       "evidence_path": "decision_5300001001_20120331_0023_evidence.json",
       "official_url": "https://wb.flk.npc.gov.cn/dfxfg/PDF/dbda9bfc848441728742994b22a621ed.pdf",
-      "source_sha256": "6eca89405e5482d2d12912f9cf3af87516d4b4c06c1f19b93d3db49e463c4f02"
+      "source_sha256": "7afdf195bc1dfdc7e80fc111b990af03ab81bf06f2ad3d13bf96f8a63ba27546"
     },
     {
       "agency_code": "0000001610",
