@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-14-zhejiang-374-15",
+  "version": "2026-08-14-jinan-order272",
   "entries": [
     {
       "agency_code": "1100003000",
@@ -32208,6 +32208,36 @@
       "evidence_path": "decision_3300003000_20181229_0374_15_evidence.json",
       "official_url": "https://www.zj.gov.cn/art/2019/1/24/art_1229620726_2410047.html",
       "source_sha256": "6c35b8524b7f981b16b29d55541b764fe30215d5895f10f42396ac9ffca6ee71"
+    },
+    {
+      "agency_code": "0000001610",
+      "promulgation_date": "20250115",
+      "sequence_code": "0001",
+      "decision_title": "最高人民法院、最高人民检察院关于办理袭警刑事案件适用法律若干问题的解释",
+      "ordered_titles": [
+        {
+          "title": "最高人民法院、最高人民检察院关于办理袭警刑事案件适用法律若干问题的解释",
+          "order": 1
+        }
+      ],
+      "evidence_path": "decision_0000001610_20250115_0001_xijing_evidence.json",
+      "official_url": "https://flk.npc.gov.cn/detail?id=ff808181927f12760195603406d16626",
+      "source_sha256": "9c6f6eb4c0b0cc9f05b785e37134a7058c04346a24e42947e9d8c87cab9ecf4f"
+    },
+    {
+      "agency_code": "3701003000",
+      "promulgation_date": "20201218",
+      "sequence_code": "0000",
+      "decision_title": "济南市人民政府关于调整实施部分市级行政权力事项的决定",
+      "ordered_titles": [
+        {
+          "title": "济南市人民政府关于调整实施部分市级行政权力事项的决定",
+          "order": 1
+        }
+      ],
+      "evidence_path": "single_jinan_order272_20201218_decision_evidence.json",
+      "official_url": "http://www.jinan.gov.cn/art/2021/12/7/art_85285_42.html",
+      "source_sha256": "fd9c70610ade5768703e6347c693b56aa59239d2a9794d994cdd0db86c9c8d32"
     }
   ]
 }
