@@ -3,7 +3,6 @@ import fsp from "node:fs/promises";
 import path from "node:path";
 import crypto from "node:crypto";
 import { fileURLToPath } from "node:url";
-import { Workbook } from "@oai/artifact-tool";
 import {
   STANDARD_CODE_SETS,
   build47277FileCode,
@@ -908,20 +907,30 @@ async function attachmentReferences(body, sourcePath) {
 }
 
 async function validateCsvWithArtifactTool(csvPath, expectedRows) {
-  const workbook = await Workbook.fromCSV(csvPath, {
-    delimiter: ",",
-    header: true,
-    encoding: "utf-8",
-  });
-  const sheet = workbook.worksheets.getItemAt(0);
-  const inspection = workbook.inspect({
-    kind: "table",
-    range: `${sheet.name}!A1:B${Math.min(expectedRows + 1, 6)}`,
-    include: "values",
-    table_max_rows: 6,
-    table_max_cols: 2,
-  });
-  return { ok: true, sheet: sheet.name, inspection };
+  // 纯 Node 实现的 CSV 自检（替代 @oai/artifact-tool 的 Workbook.fromCSV + inspect）：
+  // 原实现仅检查前 min(expectedRows+1, 6) 行的 A1:B 值；本实现更严格——
+  // 验证文件可读、表头非空、非空数据行数 ≥ expectedRows，确保写出与记录一致。
+  const raw = await fsp.readFile(csvPath, "utf8");
+  const text = raw.replace(/^\uFEFF/, "");
+  const lines = text.split(/\r?\n/).filter((line) => line.trim() !== "");
+  if (lines.length < 2) {
+    throw new Error(
+      `CSV 行数不足（期望至少 ${expectedRows} 行数据，实际 ${Math.max(0, lines.length - 1)} 行）: ${csvPath}`,
+    );
+  }
+  const header = lines[0];
+  if (!header || header.trim() === "") {
+    throw new Error(`CSV 缺少表头: ${csvPath}`);
+  }
+  const dataRows = lines.length - 1;
+  if (dataRows < expectedRows) {
+    throw new Error(`CSV 数据行数 ${dataRows} 少于期望 ${expectedRows}: ${csvPath}`);
+  }
+  return {
+    ok: true,
+    sheet: path.basename(csvPath),
+    inspection: { header_cells: header.split(",").length, data_rows: dataRows },
+  };
 }
 
 async function main() {
