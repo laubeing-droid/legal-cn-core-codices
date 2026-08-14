@@ -183,7 +183,8 @@ async function writeVersionedManifest(manifest) {
 }
 
 function extractAgencyRows(text) {
-  const start = text.indexOf("附  录 B");
+  const matchIndex = text.search(/附\s*录\s*B/);
+  const start = matchIndex >= 0 ? matchIndex : text.indexOf("附  录 B");
   if (start < 0) throw new Error("未定位 GB/T 47277 附录B");
   const lines = text.slice(start).split(/\r?\n/);
   const rows = [];
@@ -227,6 +228,44 @@ function extractAgencyRows(text) {
     unique.set(row.agency_code_suffix, row);
   }
   return [...unique.values()];
+}
+
+// 人工复核补录（发布版已含，国标PDF附录B无或名称不同）：
+// 重新提取生成时必须保护，不得因重新生成而丢失或回退。
+const MANUAL_AGENCY_OVERRIDES = [
+  {
+    agency_code_suffix: "3000",
+    agency_name: "国务院反垄断委员会",
+    status: "历史",
+    note: "国务院设立的议事协调机构；证据 antimonopoly_committee_agency_code_evidence.md SHA-256 3f598d377b062bb08867d94b7eea19c99c94232713fe40e520460a484cbe86b7",
+    source_standard: "GB/T 47229.2—2026 A.2.3(a)及表B.3",
+  },
+  {
+    agency_code_suffix: "3000",
+    agency_name: "国务院反垄断反不正当竞争委员会",
+    status: "现行",
+    note: "国务院设立的议事协调机构；证据 antimonopoly_committee_agency_code_evidence.md SHA-256 3f598d377b062bb08867d94b7eea19c99c94232713fe40e520460a484cbe86b7",
+    source_standard: "GB/T 47229.2—2026 A.2.3(a)及表B.3",
+  },
+  {
+    agency_code_suffix: "4040",
+    agency_name: "国家医疗保障局",
+    status: "现行",
+    note: "司法部公开行业标准PDF表B.1复核",
+    source_standard: "GB/T 47277—2026 附录B表B.1",
+  },
+];
+
+function applyAgencyOverrides(rows) {
+  const result = [...rows];
+  const existing = new Set(rows.map((r) => `${r.agency_code_suffix}|${r.agency_name}`));
+  for (const override of MANUAL_AGENCY_OVERRIDES) {
+    const key = `${override.agency_code_suffix}|${override.agency_name}`;
+    if (!existing.has(key)) {
+      result.push({ ...override });
+    }
+  }
+  return result.sort((a, b) => a.agency_code_suffix.localeCompare(b.agency_code_suffix));
 }
 
 async function main() {
@@ -275,7 +314,7 @@ async function main() {
   );
 
   const agencyText = await fs.readFile(path.join(extractedDir, "47277.txt"), "utf8");
-  const agencies = extractAgencyRows(agencyText);
+  const agencies = applyAgencyOverrides(extractAgencyRows(agencyText));
   const agencyColumns = [
     "agency_code_suffix",
     "agency_name",
@@ -298,7 +337,7 @@ async function main() {
 
 | GB/T 47229.2短名 | GB/T 47277数据元 | 语义 |
 | --- | --- | --- |
-| WJBS | 不映射 | 制定机关生成的电子文件标识；不得写入01001 |
+| WJBS | 不映射 | 电子文件标识；来源分为\`AUTHORITY_ISSUED\`和\`STANDARD_DERIVED_LOCAL\`，不得写入01001 |
 | FLFGDZWJFLDM | 01004 | 分类代码 |
 | BT | 01002 | 标题映射为“全称（公布年份）” |
 | TZ | 01003 | 题注 |
@@ -319,7 +358,7 @@ async function main() {
 | 文件类型代码 | 01020 | GB/T 47277文件类型代码 |
 | 文本出处 | 01021 | 获取渠道名称，不写本机路径 |
 
-工程哈希、抓取状态、冲突和人工队列只写工程记录。GB/T 47229.2附录A.3要求WJBS由制定机关生成；本库派生组合只可进入编码候选清单。
+工程哈希、抓取状态、冲突和人工队列只写工程记录。官方未签发WJBS时，允许在组成要素证据完整、算法确定且通过校验的前提下，按GB/T 47229.2—2026附录A生成\`STANDARD_DERIVED_LOCAL\`并进入正式数据；不得以本库流水号、日期、哈希或猜测值替代编码要素。无法确定组成要素的记录进入阻断清单，不生成伪码。
 `;
   await fs.writeFile(path.join(schemaDir, "标准字段映射表.md"), mapping, "utf8");
   process.stdout.write(JSON.stringify({
