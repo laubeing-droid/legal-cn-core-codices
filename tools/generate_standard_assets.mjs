@@ -81,6 +81,107 @@ async function buildStandardsManifest() {
   return manifest;
 }
 
+// 人工入库轻量方案：standards_manifest.json 携带 version + change_log，
+// 内容未变仅刷新审计时间戳；内容变更时版本次号 +1 并追加一条变更记录。
+function diffStandards(previous, next) {
+  const prevById = new Map(previous.map((s) => [s.standard_id, s]));
+  const nextById = new Map(next.map((s) => [s.standard_id, s]));
+  const added = next
+    .filter((s) => !prevById.has(s.standard_id))
+    .map((s) => s.standard_id);
+  const removed = previous
+    .filter((s) => !nextById.has(s.standard_id))
+    .map((s) => s.standard_id);
+  const changed = next
+    .filter((s) => {
+      const prev = prevById.get(s.standard_id);
+      return prev && JSON.stringify(prev) !== JSON.stringify(s);
+    })
+    .map((s) => s.standard_id);
+  return { added, removed, changed };
+}
+
+async function writeVersionedManifest(manifest) {
+  const manifestPath = path.join(schemaDir, "standards_manifest.json");
+  const today = new Date().toISOString().slice(0, 10);
+  let previous = null;
+  try {
+    const raw = await fs.readFile(manifestPath, "utf8");
+    const parsed = JSON.parse(raw.replace(/^\uFEFF/, ""));
+    // 兼容旧格式：裸数组视为尚无版本元数据
+    previous = Array.isArray(parsed)
+      ? { version: "0.0.0", change_log: [], standards: parsed }
+      : parsed;
+  } catch {
+    previous = null;
+  }
+
+  if (!previous) {
+    const payload = {
+      version: "1.0.0",
+      updated_at: today,
+      change_log: [
+        {
+          version: "1.0.0",
+          date: today,
+          action: "INIT",
+          items: manifest.map((s) => s.standard_id),
+        },
+      ],
+      standards: manifest,
+    };
+    await fs.writeFile(manifestPath, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
+    return { changed: true, version: "1.0.0" };
+  }
+
+  if (JSON.stringify(previous.standards) === JSON.stringify(manifest)) {
+    // 旧格式迁移（尚无版本元数据）时，即使内容相同也要 INIT 一次；
+    // 已是版本化格式则仅刷新审计时间戳。
+    const needsInit = !Array.isArray(previous.change_log) || previous.change_log.length === 0;
+    const payload = needsInit
+      ? {
+          version: "1.0.0",
+          updated_at: today,
+          change_log: [
+            {
+              version: "1.0.0",
+              date: today,
+              action: "INIT",
+              items: manifest.map((s) => s.standard_id),
+            },
+          ],
+          standards: manifest,
+        }
+      : { ...previous, updated_at: today };
+    await fs.writeFile(manifestPath, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
+    return { changed: needsInit, version: payload.version };
+  }
+
+  const { added, removed, changed } = diffStandards(previous.standards, manifest);
+  const [major, minor] = previous.version.split(".").map((n) => Number(n) || 0);
+  const nextVersion = `${major}.${minor + 1}.0`;
+  const items = [...added, ...changed, ...removed.map((id) => `${id}(移除)`)];
+  await fs.writeFile(
+    manifestPath,
+    `${JSON.stringify(
+      {
+        ...previous,
+        version: nextVersion,
+        updated_at: today,
+        change_log: [
+          ...(previous.change_log ?? []),
+          { version: nextVersion, date: today, action: "UPDATE", items },
+        ],
+        standards: manifest,
+      },
+      null,
+      2,
+    )}\n`,
+    "utf8",
+  );
+  return { changed: true, version: nextVersion };
+}
+
 function extractAgencyRows(text) {
   const start = text.indexOf("附  录 B");
   if (start < 0) throw new Error("未定位 GB/T 47277 附录B");
@@ -132,7 +233,7 @@ async function main() {
   await fs.mkdir(schemaDir, { recursive: true });
   const standardsManifest = await buildStandardsManifest();
   const registry = {
-    version: "2.0.0",
+    version: "2.3.0",
     generated_from: standardsManifest.map((item) => ({
       standard_id: item.standard_id,
       source_sha256: item.source_sha256,
@@ -151,15 +252,22 @@ async function main() {
     wjbs_rule: {
       oid: "1.2.156.3005.6",
       body_length: 31,
-      authority_issued_required: true,
+      authority_issued_required: false,
+      allowed_source_types: [
+        "AUTHORITY_ISSUED",
+        "STANDARD_DERIVED_LOCAL",
+      ],
+      standard_derived_local_requirements: [
+        "全部组成要素有来源证据",
+        "严格按GB/T 47229.2—2026附录A确定性生成",
+        "顺序码缺失时使用标准规定的0000",
+        "内部顺序码仅在组成要素可唯一确定时生成",
+        "不得使用本库流水号、日期、哈希或猜测值代替编码要素",
+      ],
     },
     content_structure_segments: [2, 2, 2, 2, 4, 2, 2, 2],
   };
-  await fs.writeFile(
-    path.join(schemaDir, "standards_manifest.json"),
-    `${JSON.stringify(standardsManifest, null, 2)}\n`,
-    "utf8",
-  );
+  const versioned = await writeVersionedManifest(standardsManifest);
   await fs.writeFile(
     path.join(schemaDir, "standard_registry.json"),
     `${JSON.stringify(registry, null, 2)}\n`,
@@ -217,6 +325,8 @@ async function main() {
   process.stdout.write(JSON.stringify({
     standards: standardsManifest.length,
     agency_codes: agencies.length,
+    manifest_version: versioned.version,
+    manifest_changed: versioned.changed,
   }));
 }
 
