@@ -1537,6 +1537,14 @@
         {
           "title": "安徽省实施《军人抚恤优待条例》办法",
           "order": 11
+        },
+        {
+          "title": "安徽省工资支付规定",
+          "order": 9
+        },
+        {
+          "title": "安徽省著作权管理办法",
+          "order": 7
         }
       ],
       "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/201802/t20180205_142148.html",
@@ -1927,6 +1935,22 @@
         {
           "title": "青海省地震重点监视防御区管理办法",
           "order": 29
+        },
+        {
+          "title": "青海省女职工劳动保护实施办法",
+          "order": 1
+        },
+        {
+          "title": "青海省农业环境保护办法",
+          "order": 3
+        },
+        {
+          "title": "青海省建设工程造价管理办法",
+          "order": 32
+        },
+        {
+          "title": "青海省流动人口服务管理办法",
+          "order": 33
         }
       ],
       "evidence_path": "qinghai_order_125_official_evidence.json",
@@ -2156,6 +2180,10 @@
         {
           "title": "梅州市人民政府关于梅州市房屋使用安全管理办法",
           "order": 2
+        },
+        {
+          "title": "梅州市电力设施管理办法",
+          "order": 3
         }
       ],
       "evidence_path": "decision_4414003000_20210831_0007_evidence.json",
