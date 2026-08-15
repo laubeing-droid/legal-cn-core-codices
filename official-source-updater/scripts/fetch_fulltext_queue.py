@@ -140,11 +140,54 @@ def normalize_body_text(value: str) -> str:
     return "\n".join(compact).strip()
 
 
+def strip_page_footer(body: str) -> str:
+    """截断页脚导航/链接栏残留（gov.cn/法院/检察详情页尾部）。"""
+    cut = re.search(
+        r"(扫一扫在手机打开当前页|链接：|友情链接|全国人大|全国政协|国家监察委员会|"
+        r"返回顶部|版权所有|京ICP备|网站地图|联系我们|政府网站找错|关于我们|网站声明|"
+        r"国务院部门网站|中央人民政府门户网站|设为首页|加入收藏)",
+        body,
+    )
+    if cut:
+        body = body[: cut.start()]
+    return body.strip()
+
+
 def extract_official_body(html: str) -> str:
     parser = OfficialBodyParser()
     parser.feed(html)
     parser.close()
-    return max(parser.completed, key=len, default="")
+    body = max(parser.completed, key=len, default="")
+    if len(body) < MINIMUM_BODY_LENGTH:
+        body = _extract_legacy_detail_page(html)
+    return strip_page_footer(body)
+
+
+def _extract_legacy_detail_page(html: str) -> str:
+    """老版 gov.cn 详情页：正文是裸 <p> 段落（无正文容器 class）。
+
+    官方更新器原提取器只认容器（TRS_Editor 等），老版详情页提取为空。
+    此处兜底：定位'附件'/'现予公布'等正文起点标记后提取全部 p 标签。
+    页脚截断由 extract_official_body 统一处理（strip_page_footer）。
+    """
+    start = 0
+    for marker in ["附件：", "附件:", "附件\n", ">附件<", "现予公布", "现予发布"]:
+        idx = html.find(marker)
+        if idx > 0:
+            start = idx
+            break
+    seg = html[start:]
+    paras = re.findall(r"<p[^>]*>(.*?)</p>", seg, re.S)
+    out = []
+    for p in paras:
+        t = re.sub(r"<[^>]+>", "", p)
+        t = t.replace("&nbsp;", " ").replace("\u3000", " ")
+        t = re.sub(r"[ \t]+", " ", t)
+        t = t.strip()
+        if len(t) >= 3:
+            out.append(t)
+    body = "\n".join(out)
+    return re.sub(r"\n{3,}", "\n\n", body).strip()
 
 
 def decode_response(raw: bytes, response: requests.Response) -> str:
