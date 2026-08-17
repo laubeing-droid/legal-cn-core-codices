@@ -70,7 +70,7 @@ function normalizedSourcePath(relativePath) {
 export function sanitizeFilenamePart(value, fallback = "未命名") {
   const cleaned = String(value ?? "")
     .normalize("NFKC")
-    .replace(/[<>:"/\\|?*\u0000-\u001F]/g, " ")
+    .replace(/[<>:"/\\|?*\u0000-\u001F\u200b\u200c\u200d\ufeff\u00a0]/g, " ")
     .replace(/\s+/g, " ")
     .replace(/[. ]+$/g, "")
     .trim();
