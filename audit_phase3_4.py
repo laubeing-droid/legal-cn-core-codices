@@ -3,16 +3,19 @@
 audit_phase3_4.py — Phase 3 (构建器审计) + Phase 4 (文档/测试审计)
 一次性执行，输出报告。
 """
-import csv, hashlib, json, os, re, subprocess, sys, time
+import csv, hashlib, json, os, re, shutil, subprocess, sys, time
 from collections import Counter
 from datetime import datetime
 from pathlib import Path
 
-BASE = Path(r"D:\Codex\1.法律工作区\legal-cn-core-codices开发区")
+# 路径全部可移植化：基于脚本位置推导工作区，工具链优先取环境变量/PATH，
+# 去除硬编码本机绝对路径（pre-release 审计会拦截 C:\Users\being 泄漏）
+SCRIPT_DIR = Path(__file__).resolve().parent
+BASE = SCRIPT_DIR.parent
 REPO = BASE / "legal-cn-core-codices-repo"
 FORMAL = BASE / "legal-cn-core-codices"
-NODE = r"C:\Users\being\.workbuddy\binaries\node\versions\22.22.2\node.exe"
-PYTHON = r"C:\Users\being\.workbuddy\binaries\python\versions\3.13.12\python.exe"
+NODE = os.environ.get("NODE") or shutil.which("node") or "node"
+PYTHON = os.environ.get("PYTHON") or sys.executable
 ENGINEERING = REPO / "workspace" / "工程记录" / "final_acceptance_20260807_121000_v5"
 MANIFEST = ENGINEERING / "批次清单" / "标准编码生成清单.csv"
 SOURCE = REPO / "workspace" / "source" / "legal-references"
@@ -116,7 +119,6 @@ if MANIFEST.exists():
         out("⚠️ 构建失败，跳过幂等性比对")
 
     # 清理测试输出
-    import shutil
     for d in ["_test_output", "_test_output2"]:
         p = REPO / d
         if p.exists():
