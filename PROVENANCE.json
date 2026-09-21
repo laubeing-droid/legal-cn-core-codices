@@ -1,9 +1,6 @@
 {
-  "role": "正式产物镜像仓：法律语料 md 树；工程与源材料见 legal-cn-core-codices-repo",
-  "built_at": "2026-09-12T18:04:33.465985+00:00",
-  "built_from_commit": "0b595d72e",
-  "validation": "LOCAL_FULLY_VALIDATED (schema 2.3.0, blocking=0)",
-  "markdown_files": 40864,
-  "md_tree_sha256": "8235f34a7ef68e10fa2e1b5574784107a32c896d390e45d32c9a2586c2563000",
-  "csv_dataset": "见 Releases（legal_documents/cases 等 8 表）"
+  "built_from_commit": "365f0b3b7b13ea35f3dbc548b75198f29bfff382",
+  "built_at": "2026-09-21T14:20:37.4025226Z",
+  "run_id": "35609386523.1",
+  "note": "本仓为正式产物镜像；工程与源材料见 legal-cn-core-codices-repo"
 }
